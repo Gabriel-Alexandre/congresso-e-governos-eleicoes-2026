@@ -1,7 +1,7 @@
-limiar,votos_necessarios,direita_sozinha,falta_a_direita,direita_mais_centro_direita,falta_com_centro_direita,direita_centro_direita_e_centro,esquerda_e_centro_esquerda,falta_a_esquerda
-1/3: abrir CPI (art. 58 §3º),171,101,70,250,0,385,128,43
-bloquear uma PEC (mais de 2/5),206,101,105,250,0,385,128,78
-barrar a autorização de impeachment do Presidente (mais de 1/3),172,101,71,250,0,385,128,44
-"maioria absoluta: lei complementar, cassação, eleger o presidente da Câmara, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º; RICD art. 7º)",257,101,156,250,7,385,128,129
-3/5: aprovar PEC (art. 60 §2º),308,101,207,250,58,385,128,180
-"2/3: autorizar processo contra o Presidente (art. 51, I)",342,101,241,250,92,385,128,214
+limiar,votos_necessarios,direita,falta_a_direita,dos_quais_pl_novo_missao,centro,direita_e_centro,esquerda,falta_a_esquerda
+1/3: abrir CPI (art. 58 §3º),171,250,0,101,135,385,128,43
+bloquear uma PEC (mais de 2/5),206,250,0,101,135,385,128,78
+barrar a autorização de impeachment do Presidente (mais de 1/3),172,250,0,101,135,385,128,44
+"maioria absoluta: lei complementar, cassação, eleger o presidente da Câmara, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º; RICD art. 7º)",257,250,7,101,135,385,128,129
+3/5: aprovar PEC (art. 60 §2º),308,250,58,101,135,385,128,180
+"2/3: autorizar processo contra o Presidente (art. 51, I)",342,250,92,101,135,385,128,214

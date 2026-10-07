@@ -31,6 +31,7 @@ blocos = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(blocos)
 grupo = blocos.grupo
 GRUPOS = blocos.GRUPOS
+em_tres = blocos.em_tres
 
 OUT = RES / "figuras" / "video"
 ANI = RES / "animacao"
@@ -100,9 +101,9 @@ def desenhar_hemiciclo(assentos, titulo, sub, nome, total_txt, legenda, nota_rod
     ax.set_aspect("equal"); ax.axis("off"); ax.set_xlim(-2.4, 2.4); ax.set_ylim(-0.1, 2.35)
     x = 0.05
     for rot, cor in legenda:
-        fig.text(x, 0.09, "●", color=cor, fontsize=30, va="center")
-        fig.text(x + 0.022, 0.09, rot, fontsize=19, va="center")
-        x += 0.022 + 0.0085 * len(rot) + 0.02
+        fig.text(x, 0.09, "●", color=cor, fontsize=26, va="center")
+        fig.text(x + 0.019, 0.09, rot, fontsize=17, va="center")
+        x += 0.019 + 0.0072 * len(rot) + 0.016
     fig.text(0.05, 0.02, nota_rodape or FONTE, fontsize=14, color="#555")
     fig.savefig(OUT / f"{nome}.png")
     plt.close(fig)
@@ -110,11 +111,11 @@ def desenhar_hemiciclo(assentos, titulo, sub, nome, total_txt, legenda, nota_rod
 
 def legenda_grupos(contagem, pl):
     lg = [(f"PL {pl}", PL_COR)]
+    rotulos = {"direita": "Novo e Missão", "centro-direita": "centro-direita", "centro": "centro", "centro-esquerda": "centro-esquerda", "esquerda": "PT, PSOL, PCdoB e PV"}
     for g in ("direita", "centro-direita", "centro", "centro-esquerda", "esquerda"):
         n = contagem.get(g, 0) - (pl if g == "direita" else 0)
-        rot = "outros de direita" if g == "direita" else g
         if n > 0:
-            lg.append((f"{rot} {n}", COR_GRUPO[g] if g != "direita" else TONS["direita"][0]))
+            lg.append((f"{rotulos[g]} {n}", COR_GRUPO[g] if g != "direita" else TONS["direita"][0]))
     return lg
 
 
@@ -138,11 +139,12 @@ def camara():
         cont = pd.Series([a["grupo"] for a in assentos]).value_counts().to_dict()
         saida[ano] = {"total": len(assentos), "contagem_por_grupo": cont,
                       "ordem_dos_partidos": [{"partido": p, "cadeiras": int(c[p]), "grupo": grupo(p), "cor": cor[p]} for p in ordem], "assentos": assentos}
-        dc = cont.get("direita", 0) + cont.get("centro-direita", 0)
-        desenhar_hemiciclo(assentos, f"Câmara eleita em {ano}: 513 cadeiras",
-                           f"Direita {cont.get('direita', 0)} · centro-direita {cont.get('centro-direita', 0)} · centro {cont.get('centro', 0)} · centro-esquerda {cont.get('centro-esquerda', 0)} · esquerda {cont.get('esquerda', 0)}",
+        c3 = em_tres(cont)
+        titulo = "Câmara eleita em 2022: 513 cadeiras" if ano == "2022" else "Câmara que toma posse em 2027: 513 cadeiras"
+        desenhar_hemiciclo(assentos, titulo,
+                           f"Direita {c3['direita']} (com a centro-direita) · centro {c3['centro']} · esquerda {c3['esquerda']} (com a centro-esquerda)",
                            f"{15 if ano == '2022' else 16}_camara_cadeiras_{ano}", f"PL {int(c.get('PL', 0))}", legenda_grupos(cont, int(c.get("PL", 0))))
-        saida[ano]["direita_mais_centro_direita"] = dc
+        saida[ano]["em_3"] = c3
     saida["limiares"] = {"CPI": 171, "bloquear_PEC": 206, "maioria_absoluta": 257, "PEC": 308, "impeachment_autorizar": 342}
     (ANI / "camara_2022_2026.json").write_text(json.dumps(saida, ensure_ascii=False, indent=1), encoding="utf-8")
 
@@ -161,10 +163,10 @@ def senado():
         assentos = [{"partido": r.sig, "uf": r.uf, "nome": r.nome, "grupo": grupo(r.sig), "cor": cor[r.sig], **({"origem": r.origem} if "origem" in df else {})} for r in df.itertuples()]
         cont = pd.Series([a["grupo"] for a in assentos]).value_counts().to_dict()
         pl = int((df.sig == "PL").sum())
-        dc = cont.get("direita", 0) + cont.get("centro-direita", 0)
-        out[rot] = {"total": len(assentos), "contagem_por_grupo": cont, "PL": pl, "direita_mais_centro_direita": dc, "assentos": assentos}
+        c3 = em_tres(cont)
+        out[rot] = {"total": len(assentos), "contagem_por_grupo": cont, "em_3": c3, "PL": pl, "assentos": assentos}
         desenhar_hemiciclo(assentos, titulo,
-                           f"Direita {cont.get('direita', 0)} · centro-direita {cont.get('centro-direita', 0)} · centro {cont.get('centro', 0)} · centro-esquerda {cont.get('centro-esquerda', 0)} · esquerda {cont.get('esquerda', 0)} · direita + centro-direita = {dc} (PEC 49, impeachment 54)",
+                           f"Direita {c3['direita']} (com a centro-direita) · centro {c3['centro']} · esquerda {c3['esquerda']} (com a centro-esquerda) · PEC exige 49, impeachment 54",
                            nome, f"PL {pl}", legenda_grupos(cont, pl))
     (ANI / "senado_hoje_e_2027.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     old = ANI / "senado_2027.json"
@@ -230,12 +232,11 @@ def governos():
             rot[r.uf] = r.uf
         dados[str(ano)] = lista
         dec = x[x.situacao != "2o turno em disputa"]
-        ct = dec.partido.map(grupo).value_counts()
+        ct = em_tres(dec.partido.map(grupo).value_counts().to_dict())
         npl = int((dec.partido == "PL").sum())
-        leg = [("PL", PL_COR), ("outros de direita", COR_GRUPO["direita"]), ("centro-direita", COR_GRUPO["centro-direita"]), ("centro", COR_GRUPO["centro"]),
-               ("centro-esquerda", COR_GRUPO["centro-esquerda"]), ("esquerda", COR_GRUPO["esquerda"])] + ([("2º turno em 25/out", "#E6E6E6")] if ano == 2026 else [])
-        sub = (f"{len(dec)} decididos: direita {ct.get('direita', 0)} (PL {npl}), centro-direita {ct.get('centro-direita', 0)}, centro {ct.get('centro', 0)}, "
-               f"centro-esquerda {ct.get('centro-esquerda', 0)}, esquerda {ct.get('esquerda', 0)}") + (f" · {int((x.situacao == '2o turno em disputa').sum())} em 2º turno" if ano == 2026 else "")
+        leg = [("direita: PL", PL_COR), ("direita: Novo", COR_GRUPO["direita"]), ("direita: centro-direita", COR_GRUPO["centro-direita"]), ("centro", COR_GRUPO["centro"]),
+               ("esquerda: centro-esquerda", COR_GRUPO["centro-esquerda"]), ("esquerda", COR_GRUPO["esquerda"])] + ([("2º turno em 25/out", "#E6E6E6")] if ano == 2026 else [])
+        sub = (f"{len(dec)} decididos: direita {ct['direita']} (PL {npl}), centro {ct['centro']}, esquerda {ct['esquerda']}") + (f" · {int((x.situacao == '2o turno em disputa').sum())} em 2º turno" if ano == 2026 else "")
         mapa_ufs(cores, f"Governos estaduais, {ano}" + (" (1º turno)" if ano == 2026 else ""), sub, f"{18 if ano == 2022 else 19}_mapa_governos_{ano}", leg, rot)
     (ANI / "governos_2022_2026.json").write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8")
 
@@ -246,15 +247,16 @@ def senado_por_uf():
     cores, rot, dados = {}, {}, {}
     for uf, x in e.groupby("uf"):
         npl = int((x.sig == "PL").sum())
-        gs = [grupo(s) for s in x.sig]
-        dir_ = sum(k == "direita" for k in gs)
-        esq = sum(k in ("esquerda", "centro-esquerda") for k in gs)
+        t3 = [blocos.tres(grupo(s)) for s in x.sig]
+        dir_, cen, esq = t3.count("direita"), t3.count("centro"), t3.count("esquerda")
         if npl == 2:
             c = PL_COR
-        elif dir_ >= 1:
+        elif dir_ == 2:
             c = COR_GRUPO["direita"]
-        elif esq == 0:
-            c = COR_GRUPO["centro-direita"] if any(k == "centro-direita" for k in gs) else COR_GRUPO["centro"]
+        elif dir_ == 1:
+            c = COR_GRUPO["centro-direita"]
+        elif cen == 2:
+            c = COR_GRUPO["centro"]
         elif esq == 1:
             c = "#CE93D8"
         else:
@@ -263,9 +265,9 @@ def senado_por_uf():
         rot[uf] = uf
         dados[uf] = [{"nome": r.nome, "partido": r.sig, "grupo": grupo(r.sig)} for r in x.itertuples()]
     (ANI / "senado_eleitos_por_uf_2026.json").write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8")
-    leg = [("2 do PL", PL_COR), ("1 de direita (PL ou Novo)", COR_GRUPO["direita"]), ("centro-direita, sem direita", COR_GRUPO["centro-direita"]), ("centro, sem direita", COR_GRUPO["centro"]),
-           ("1 de esquerda ou centro-esquerda", "#CE93D8"), ("2 de esquerda ou centro-esquerda", COR_GRUPO["esquerda"])]
-    mapa_ufs(cores, "Senado, 2026: quem levou as duas vagas de cada estado", f"PL {int((e.sig == 'PL').sum())} das 54 vagas · direita declarada {sum(grupo(s) == 'direita' for s in e.sig)}", "20_mapa_senado_2026", leg, rot)
+    leg = [("2 do PL", PL_COR), ("2 de direita", COR_GRUPO["direita"]), ("1 de direita", COR_GRUPO["centro-direita"]), ("2 de centro", COR_GRUPO["centro"]),
+           ("1 de esquerda, nenhum de direita", "#CE93D8"), ("2 de esquerda", COR_GRUPO["esquerda"])]
+    mapa_ufs(cores, "Senado, 2026: quem levou as duas vagas de cada estado", f"PL {int((e.sig == 'PL').sum())} das 54 vagas · direita (com a centro-direita) {sum(blocos.tres(grupo(s)) == 'direita' for s in e.sig)} · esquerda {sum(blocos.tres(grupo(s)) == 'esquerda' for s in e.sig)}", "20_mapa_senado_2026", leg, rot)
 
 
 def figura_barras(nome, titulo, sub, rodape):
@@ -301,11 +303,11 @@ def grafico_grupos_camara():
 
 
 def grafico_tres_grupos():
-    """Câmara eleita em 2022 x a que toma posse em 2027: direita, centro (com a fatia de centro-direita) e esquerda (com a centro-esquerda)."""
+    """Câmara eleita em 2022 x a que toma posse em 2027: direita (com a centro-direita), centro e esquerda (com a centro-esquerda)."""
     c = {int(a): v for a, v in R["e1"]["camara_cadeiras"].items()}
     fig, ax = figura_barras("27", "Câmara: a eleita em 2022 e a que toma posse em 2027", "Direita, centro e esquerda pelo jeito que cada partido se declara · 513 cadeiras",
-                            "Fonte: TSE. Centro inclui quem se declara de centro-direita; esquerda inclui quem se declara de centro-esquerda (Valor Econômico, ago/2026).")
-    grupos = [("direita", ["direita"], [COR_GRUPO["direita"]]), ("centro", ["centro-direita", "centro"], [COR_GRUPO["centro-direita"], COR_GRUPO["centro"]]),
+                            "Fonte: TSE. Direita inclui quem se declara de centro-direita; esquerda inclui quem se declara de centro-esquerda (Valor Econômico, ago/2026).")
+    grupos = [("direita", ["centro-direita", "direita"], [COR_GRUPO["centro-direita"], COR_GRUPO["direita"]]), ("centro", ["centro"], [COR_GRUPO["centro"]]),
               ("esquerda", ["centro-esquerda", "esquerda"], [COR_GRUPO["centro-esquerda"], COR_GRUPO["esquerda"]])]
     w = 0.36
     for gi, (nome, partes, cores) in enumerate(grupos):
@@ -315,7 +317,7 @@ def grafico_tres_grupos():
             for parte, cor in zip(partes, cores):
                 n = c[ano][parte]
                 ax.bar(x, n, w, bottom=base, color=cor, alpha=0.55 if ai == 0 else 1.0, edgecolor="white")
-                if nome == "centro" and parte == "centro-direita":
+                if nome == "direita" and parte == "centro-direita":
                     ax.text(x, base + n / 2, f"centro-\ndireita\n{n}", ha="center", va="center", fontsize=13, color="#0B2C6B")
                 base += n
             tot = base
@@ -332,15 +334,11 @@ def grafico_tres_grupos():
     plt.close(fig)
 
 
-def grafico_escada(nome, casa, tab, limiares, total, rodape, psdb=None):
+def grafico_escada(nome, casa, tab, limiares, total, rodape):
     t = pd.read_csv(RES / tab).iloc[0]
-    d, dc, dcc = int(t.direita_sozinha), int(t.direita_mais_centro_direita), int(t.direita_centro_direita_e_centro)
-    esq = int(t.esquerda_e_centro_esquerda)
-    fig, ax = figura_barras(nome, f"{casa}: até onde cada grupo chega se votar unido", f"{total} cadeiras · linhas = os votos que cada decisão exige", rodape)
-    linhas = [("direita (PL, Novo, Missão)", d, COR_GRUPO["direita"]), ("+ centro-direita", dc, COR_GRUPO["centro-direita"])]
-    if psdb:
-        linhas.append(("+ PSDB", dc + psdb, "#90A4AE"))
-    linhas += [("+ resto do centro", dcc, COR_GRUPO["centro"]), ("esquerda + centro-esquerda", esq, COR_GRUPO["esquerda"])]
+    fig, ax = figura_barras(nome, f"{casa}: até onde cada grupo chega se votar unido", f"{total} cadeiras · direita inclui a centro-direita, esquerda inclui a centro-esquerda", rodape)
+    linhas = [("direita", int(t.direita), COR_GRUPO["direita"]), ("direita + centro", int(t.direita_e_centro), COR_GRUPO["centro"]),
+              ("centro", int(t.centro), "#BDBDBD"), ("esquerda", int(t.esquerda), COR_GRUPO["esquerda"])]
     y = np.arange(len(linhas))[::-1]
     for (rot, v, c), yy in zip(linhas, y):
         ax.barh(yy, v, color=c, height=0.55)
@@ -418,8 +416,7 @@ if __name__ == "__main__":
     grafico_grupos_camara(); grafico_tres_grupos()
     grafico_escada("23_camara_limiares_2026", "Câmara 2026", "e2_camara_limiares_2026.csv",
                    [("abre CPI (171) e barra impeachment", 172), ("barra PEC", 206), ("maioria absoluta e veto", 257), ("PEC", 308), ("autoriza impeachment", 342)], 513,
-                   "Fonte: TSE; Constituição, arts. 51, 58, 60, 66 e 69. Derrubar veto exige também 41 senadores. Campo não é bloco de votação: é o teto de cada grupo votando unido.",
-                   psdb=R["e2"]["camara_2026_bloco"]["psdb"])
+                   "Fonte: TSE; Constituição, arts. 51, 58, 60, 66 e 69. Derrubar veto exige também 41 senadores. Campo não é bloco de votação: é o teto de cada grupo votando unido.")
     grafico_escada("24_senado_limiares_2027", "Senado a partir de 2027", "e3_senado_limiares_2027.csv",
                    [("CPI", 27), ("bloqueia\nPEC", 33), ("maioria\nabsoluta", 41), ("PEC", 49), ("condena no\nimpeachment", 54)], 81,
                    "Fonte: TSE e Senado; Constituição, arts. 52, 58 e 60. Campo não é bloco de votação: é o teto de cada grupo votando unido.")

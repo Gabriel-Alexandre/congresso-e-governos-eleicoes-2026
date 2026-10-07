@@ -1,6 +1,6 @@
-limiar,votos_necessarios,direita_sozinha,falta_a_direita,direita_mais_centro_direita,falta_com_centro_direita,direita_centro_direita_e_centro,esquerda_e_centro_esquerda,falta_a_esquerda
-1/3: abrir CPI (art. 58 §3º),27,15,12,32,0,63,17,10
-bloquear uma PEC (mais de 2/5),33,15,18,32,1,63,17,16
-"maioria absoluta: lei complementar, derrubar veto com a Câmara, aprovar autoridade com quórum qualificado",41,15,26,32,9,63,17,24
-3/5: aprovar PEC (art. 60 §2º),49,15,34,32,17,63,17,32
-"2/3: condenar no impeachment, de Presidente ou de ministro do STF (art. 52, parágrafo único)",54,15,39,32,22,63,17,37
+limiar,votos_necessarios,direita,falta_a_direita,dos_quais_pl_novo_missao,centro,direita_e_centro,esquerda,falta_a_esquerda
+1/3: abrir CPI (art. 58 §3º),27,32,0,15,31,63,17,10
+bloquear uma PEC (mais de 2/5),33,32,1,15,31,63,17,16
+"maioria absoluta: lei complementar, derrubar veto com a Câmara, aprovar autoridade com quórum qualificado",41,32,9,15,31,63,17,24
+3/5: aprovar PEC (art. 60 §2º),49,32,17,15,31,63,17,32
+"2/3: condenar no impeachment, de Presidente ou de ministro do STF (art. 52, parágrafo único)",54,32,22,15,31,63,17,37

@@ -16,8 +16,12 @@
    "centro-esquerda": 8,
    "sem partido": 1
   },
+  "em_3": {
+   "direita": 32,
+   "centro": 31,
+   "esquerda": 17
+  },
   "PL": 15,
-  "direita_mais_centro_direita": 32,
   "assentos": [
    {
     "partido": "PT",
@@ -598,8 +602,12 @@
    "centro-esquerda": 6,
    "sem partido": 1
   },
+  "em_3": {
+   "direita": 48,
+   "centro": 17,
+   "esquerda": 15
+  },
   "PL": 28,
-  "direita_mais_centro_direita": 48,
   "assentos": [
    {
     "partido": "PT",

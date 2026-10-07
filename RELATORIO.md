@@ -9,13 +9,38 @@
 1. **Casos e escândalos.** As séries de opinião capturadas (aprovação do governo, confiança no STF) têm poucos pontos por instituto. O teste pré-registrado de movimento da série perto de cada evento **não pôde ser rodado**. O que se mediu: o voto de cada deputado em duas votações de grande atenção contra o desempenho dele em 2026 (sem relação detectável) e a posição de candidatos ao Senado sobre o impeachment de ministros do STF (descritivo).
 2. **Emendas parlamentares e gasto de campanha** não foram analisados (a prestação de contas final não existe).
 3. **Pesquisas.** Só Datafolha e Quaest, só governador, só a última da véspera, com os números tirados de uma compilação de imprensa (conferida em SP contra outra fonte) e conferidos no registro do TSE. Não há 2022 para comparar, nem as pesquisas anteriores para separar mudança de última hora de erro. Pesquisas de Senado não foram coletadas.
-4. **O parâmetro de campo decide parte das respostas.** O principal, desde a emenda 21 (feita depois de ver os resultados, a pedido do autor), é a **autodeclaração de cada partido** (Valor Econômico, ago/2026): ele separa a direita declarada (PL, Novo, Missão) do centrão. R1 põe MDB, PSD, PSDB e Podemos na direita (notas 7,0 a 7,2). R3 não é comparável entre 2022 e 2026: em 2026 o PL concorreu sem coligação. **Campo não é bloco de votação**: as contas de limiar são o teto de cada grupo votando unido.
+4. **O parâmetro de campo decide parte das respostas.** O principal, desde a emenda 21 (feita depois de ver os resultados, a pedido do autor), é a **autodeclaração de cada partido** (Valor Econômico, ago/2026), com os grupos juntos em três do mesmo jeito dos dois lados (emenda 22): direita = direita e centro-direita; centro = só centro; esquerda = esquerda e centro-esquerda. R1 põe MDB, PSD, PSDB e Podemos na direita (notas 7,0 a 7,2). R3 não é comparável entre 2022 e 2026: em 2026 o PL concorreu sem coligação. **Campo não é bloco de votação**: as contas de limiar são o teto de cada grupo votando unido.
 5. **Falácia ecológica.** Toda relação com religião, renda, cor, idade ou Bolsa Família é entre municípios.
 6. **2º turno.** Sete estados estão "em disputa".
 
-## 0.1 O PL no centro: os grupos pela autodeclaração dos partidos (emenda 21)
+## 0.1 Direita, centro e esquerda pela autodeclaração dos partidos (emendas 21 e 22)
 
-Cada partido no grupo em que ele mesmo se declara (Valor Econômico, ago/2026): **direita** PL, Novo, Missão · **centro-direita** PP, Republicanos, União Brasil, PRD · **centro** MDB, PSD, Podemos, PSDB, Cidadania, Solidariedade, Avante e os que não se declaram no eixo · **centro-esquerda** PSB, PDT, Rede · **esquerda** PT, PCdoB, PV, PSOL. Sigla antiga vai para o partido que a herdou. Tabela: [`resultados/e0_grupos_por_autodeclaracao.csv`](resultados/e0_grupos_por_autodeclaracao.csv).
+Cada partido no grupo em que ele mesmo se declara (Valor Econômico, ago/2026), e os grupos juntos em três: **direita** = direita (PL, Novo, Missão) e centro-direita (PP, Republicanos, União Brasil, PRD) · **centro** = só centro (MDB, PSD, Podemos, PSDB, Cidadania, Solidariedade, Avante e os que não se declaram no eixo) · **esquerda** = esquerda (PT, PCdoB, PV, PSOL) e centro-esquerda (PSB, PDT, Rede). Sigla antiga vai para o partido que a herdou. Tabela: [`resultados/e0_grupos_por_autodeclaracao.csv`](resultados/e0_grupos_por_autodeclaracao.csv).
+
+**Câmara em três grupos, cadeiras e % de votos** ([`e1_camara_em_3.csv`](resultados/e1_camara_em_3.csv)):
+
+| ano | direita | centro | esquerda | pct_votos_direita | pct_votos_centro | pct_votos_esquerda |
+|---|---|---|---|---|---|---|
+| 2018 | 207 | 165 | 141 | 39,4 | 32,9 | 27,5 |
+| 2022 | 250 | 135 | 128 | 44,3 | 29,1 | 26,5 |
+| 2026 | 265 | 124 | 124 | 48,0 | 25,7 | 26,3 |
+
+**Senado em três grupos** ([`e3_senado_em_3.csv`](resultados/e3_senado_em_3.csv)):
+
+| composicao | direita | centro | esquerda | sem partido |
+|---|---|---|---|---|
+| hoje (out/2026, partido atual) | 32 | 31 | 17 | 1 |
+| a partir de fev/2027 | 48 | 17 | 15 | 1 |
+
+**Governos em três grupos** ([`e4_governos_em_3.csv`](resultados/e4_governos_em_3.csv)):
+
+| ano | direita | centro | esquerda | em 2o turno |
+|---|---|---|---|---|
+| 2018 | 7 | 11 | 9 | 0 |
+| 2022 | 11 | 9 | 7 | 0 |
+| 2026 | 10 | 7 | 3 | 7 |
+
+Os cinco grupos, para ver o que há dentro de cada um:
 
 **Câmara, cadeiras e votos por grupo** ([`e1_camara_por_grupo.csv`](resultados/e1_camara_por_grupo.csv)):
 
@@ -29,26 +54,26 @@ Cada partido no grupo em que ele mesmo se declara (Valor Econômico, ago/2026): 
 
 **Câmara 2026, o que cada grupo alcança se votar unido** ([`e2_camara_limiares_2026.csv`](resultados/e2_camara_limiares_2026.csv)):
 
-| limiar | votos_necessarios | direita_sozinha | direita_mais_centro_direita | falta_com_centro_direita | esquerda_e_centro_esquerda |
-|---|---|---|---|---|---|
-| 1/3: abrir CPI (art. 58 §3º) | 171 | 132 | 265 | 0 | 124 |
-| bloquear uma PEC (mais de 2/5) | 206 | 132 | 265 | 0 | 124 |
-| barrar a autorização de impeachment do Presidente (mais de 1/3) | 172 | 132 | 265 | 0 | 124 |
-| maioria absoluta: lei complementar, cassação, eleger o presidente da Câmara, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º; RICD art. 7º) | 257 | 132 | 265 | 0 | 124 |
-| 3/5: aprovar PEC (art. 60 §2º) | 308 | 132 | 265 | 43 | 124 |
-| 2/3: autorizar processo contra o Presidente (art. 51, I) | 342 | 132 | 265 | 77 | 124 |
+| limiar | votos_necessarios | direita | falta_a_direita | centro | esquerda | falta_a_esquerda |
+|---|---|---|---|---|---|---|
+| 1/3: abrir CPI (art. 58 §3º) | 171 | 265 | 0 | 124 | 124 | 47 |
+| bloquear uma PEC (mais de 2/5) | 206 | 265 | 0 | 124 | 124 | 82 |
+| barrar a autorização de impeachment do Presidente (mais de 1/3) | 172 | 265 | 0 | 124 | 124 | 48 |
+| maioria absoluta: lei complementar, cassação, eleger o presidente da Câmara, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º; RICD art. 7º) | 257 | 265 | 0 | 124 | 124 | 133 |
+| 3/5: aprovar PEC (art. 60 §2º) | 308 | 265 | 43 | 124 | 124 | 184 |
+| 2/3: autorizar processo contra o Presidente (art. 51, I) | 342 | 265 | 77 | 124 | 124 | 218 |
 
 **Senado** ([`e3_senado_por_grupo.csv`](resultados/e3_senado_por_grupo.csv)): em exercício hoje (partido atual) centro 31, centro-direita 17, centro-esquerda 8, direita 15, esquerda 9; a partir de fev/2027 centro 17, centro-direita 17, centro-esquerda 6, direita 31, esquerda 9.
 
-| limiar | votos_necessarios | direita_sozinha | direita_mais_centro_direita | falta_com_centro_direita | esquerda_e_centro_esquerda |
-|---|---|---|---|---|---|
-| 1/3: abrir CPI (art. 58 §3º) | 27 | 31 | 48 | 0 | 15 |
-| bloquear uma PEC (mais de 2/5) | 33 | 31 | 48 | 0 | 15 |
-| maioria absoluta: lei complementar, derrubar veto com a Câmara, aprovar autoridade com quórum qualificado | 41 | 31 | 48 | 0 | 15 |
-| 3/5: aprovar PEC (art. 60 §2º) | 49 | 31 | 48 | 1 | 15 |
-| 2/3: condenar no impeachment, de Presidente ou de ministro do STF (art. 52, parágrafo único) | 54 | 31 | 48 | 6 | 15 |
+| limiar | votos_necessarios | direita | falta_a_direita | centro | esquerda | falta_a_esquerda |
+|---|---|---|---|---|---|---|
+| 1/3: abrir CPI (art. 58 §3º) | 27 | 48 | 0 | 17 | 15 | 12 |
+| bloquear uma PEC (mais de 2/5) | 33 | 48 | 0 | 17 | 15 | 18 |
+| maioria absoluta: lei complementar, derrubar veto com a Câmara, aprovar autoridade com quórum qualificado | 41 | 48 | 0 | 17 | 15 | 26 |
+| 3/5: aprovar PEC (art. 60 §2º) | 49 | 48 | 1 | 17 | 15 | 34 |
+| 2/3: condenar no impeachment, de Presidente ou de ministro do STF (art. 52, parágrafo único) | 54 | 48 | 6 | 17 | 15 | 39 |
 
-**Conferência com o Poder360** (`e7` no RESUMO.json): a lista de partidos do Poder360 (05/out) aplicada às nossas cadeiras dá 276 / 113 / 124 na Câmara de 2026, igual ao publicado; no Senado, o Poder360 classificou cada senador (49 / 27 / 5), o que este projeto não refaz.
+**Conferência com o Poder360** (`e7` no RESUMO.json): a lista de partidos do Poder360 (05/out) aplicada às nossas cadeiras dá 276 / 113 / 124 na Câmara de 2026, igual ao publicado; a diferença para a nossa conta é só o PSDB, que ele põe na direita; no Senado, o Poder360 classificou cada senador (49 / 27 / 5), o que este projeto não refaz.
 
 **Governos** ([`e4_governos_por_grupo.csv`](resultados/e4_governos_por_grupo.csv)):
 
@@ -280,8 +305,8 @@ Mapa: [`resultados/figuras/video/08_mapa_variacao_voto_direita_deputado_federal.
 
 | id | nome | status | confianca | onde |
 |---|---|---|---|---|
-| H1 | Virada do eleitorado da esquerda para a direita | inconsistente | média | esquerda e centro-esquerda somadas: 26,5% → 26,3% dos votos para deputado; pela R1, direita 72,0% → 72,3% |
-| H9 | Do centro para a direita declarada (PL e Novo) | consistente | alta | direita declarada 17,9% → 26,4% dos votos e 101 → 132 deputados; centro-direita e centro 55,5% → 47,3% |
+| H1 | Virada do eleitorado da esquerda para a direita | inconsistente | média | esquerda (com a centro-esquerda): 26,5% → 26,3% dos votos para deputado; pela R1, direita 72,0% → 72,3% |
+| H9 | Do centro para a direita, e dentro da direita para o PL | consistente | alta | direita (com a centro-direita) 44,3% → 48,0% dos votos e 250 → 265 deputados; centro 29,1% → 25,7%; PL 16,6% → 22,7% |
 | H2 | Referendo sobre o governo | não testável | baixa | só há uma aprovação capturada (Quaest, jul/2026, 48 × 47); sem série |
 | H3 | Anti-incumbência (cansaço de quem está no cargo) | inconsistente | média | deputados reeleitos: 57,5% contra 55,6% em 2022 |
 | H4 | Estrutura e eficiência (listas, federações, puxadores) | consistente | alta | bônus de cadeiras da direita: −0,1 → +2,1 → +3,3 pp; puxadores |

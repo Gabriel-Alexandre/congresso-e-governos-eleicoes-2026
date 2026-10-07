@@ -108,12 +108,12 @@ def test_autodeclaracao_e_herdeiros():
     assert b.grupo("PR") == "direita"  # herdeiro: PL
     assert b.grupo("MDB") == "centro" and b.grupo("PSD") == "centro"
     assert b.grupo("PSB") == "centro-esquerda" and b.grupo("PT") == "esquerda"
-    assert b.tres("centro-esquerda") == "esquerda" and b.tres("centro-direita") == "centro"
+    assert b.tres("centro-esquerda") == "esquerda" and b.tres("centro-direita") == "direita" and b.tres("centro") == "centro"
 
 
 def test_escada_de_limiares():
     b = _blocos()
     t = b.escada({"direita": 31, "centro-direita": 17, "centro": 17, "centro-esquerda": 6, "esquerda": 9}, b.LIMIARES_SENADO).set_index("votos_necessarios")
-    assert t.loc[49, "falta_com_centro_direita"] == 1
-    assert t.loc[54, "falta_com_centro_direita"] == 6
-    assert t.loc[33, "esquerda_e_centro_esquerda"] == 15
+    assert t.loc[49, "direita"] == 48 and t.loc[49, "falta_a_direita"] == 1
+    assert t.loc[54, "falta_a_direita"] == 6
+    assert t.loc[33, "esquerda"] == 15 and t.loc[33, "centro"] == 17

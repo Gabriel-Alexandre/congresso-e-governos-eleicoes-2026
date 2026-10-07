@@ -4,14 +4,14 @@
   "nome": "Virada do eleitorado da esquerda para a direita",
   "status": "inconsistente",
   "confianca": "média",
-  "onde": "esquerda e centro-esquerda somadas: 26,5% → 26,3% dos votos para deputado; pela R1, direita 72,0% → 72,3%"
+  "onde": "esquerda (com a centro-esquerda): 26,5% → 26,3% dos votos para deputado; pela R1, direita 72,0% → 72,3%"
  },
  {
   "id": "H9",
-  "nome": "Do centro para a direita declarada (PL e Novo)",
+  "nome": "Do centro para a direita, e dentro da direita para o PL",
   "status": "consistente",
   "confianca": "alta",
-  "onde": "direita declarada 17,9% → 26,4% dos votos e 101 → 132 deputados; centro-direita e centro 55,5% → 47,3%"
+  "onde": "direita (com a centro-direita) 44,3% → 48,0% dos votos e 250 → 265 deputados; centro 29,1% → 25,7%; PL 16,6% → 22,7%"
  },
  {
   "id": "H2",

@@ -5,7 +5,7 @@ Análise aberta do resultado do 1º turno das eleições brasileiras de 2026 na 
 O projeto mede o que mudou, testa explicações concorrentes contra o dado, mede onde as pesquisas erraram e se o erro teve direção, e registra a leitura de uma IA sobre cada resultado, **marcada como opinião**. Os critérios foram gravados em commit antes das análises.
 
 
-> 🆕 **07/out, emenda 21:** o parâmetro principal de campo é a **autodeclaração de cada partido** (Valor Econômico, ago/2026), com o PL no centro da análise. Feito **depois** de ver os resultados, a pedido do autor; a escala de especialistas (R1), o voto no plenário (R2) e a coligação (R3) continuam calculados. Ver `docs/LEITURA_DA_IA.md`, seção "O parâmetro principal", e `RELATORIO.md` §0.1.
+> 🆕 **07/out, emendas 21 e 22:** o parâmetro principal de campo é a **autodeclaração de cada partido** (Valor Econômico, ago/2026), com o PL no centro da análise, e os grupos se somam em três: **direita = direita + centro-direita, centro = só centro, esquerda = esquerda + centro-esquerda**. Feito **depois** de ver os resultados, a pedido do autor; a escala de especialistas (R1), o voto no plenário (R2) e a coligação (R3) continuam calculados. Ver `docs/LEITURA_DA_IA.md`, seção "O parâmetro principal", e `RELATORIO.md` §0.1.
 ## Como ler os resultados (do mais curto ao mais completo)
 
 1. [`RESUMO_SIMPLES.md`](RESUMO_SIMPLES.md): uma página.

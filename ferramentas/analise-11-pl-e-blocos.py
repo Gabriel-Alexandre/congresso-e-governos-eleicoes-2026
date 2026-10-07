@@ -10,7 +10,10 @@ cada partido no grupo em que ele mesmo se declara (Valor Economico, ago/2026, ca
   esquerda           PT, PCdoB, PV, PSOL, PCB, PSTU, UP, PCO
 Sigla antiga entra no grupo do partido que a herdou (PSL e DEM -> Uniao; PTB e Patriota -> PRD; PR -> PL; PSC -> Podemos ...).
 
-Saidas: resultados/e*_*.csv e chaves e1..e7 em RESUMO.json.
+Agrupamento em 3 (emenda 22, 07/out, definido pelo autor): direita = direita + centro-direita; centro = só centro;
+esquerda = esquerda + centro-esquerda. Os 5 grupos continuam nas tabelas para mostrar o que há dentro de cada um.
+
+Saidas: resultados/e*_*.csv e chaves e0..e7 em RESUMO.json.
 """
 from __future__ import annotations
 
@@ -54,9 +57,22 @@ def grupo(sigla: str) -> str:
     return AUTO.get(s, "sem partido")
 
 
+TRES = ["direita", "centro", "esquerda"]
+
+
 def tres(g: str) -> str:
-    """O agrupamento em 3 que o autor pediu: direita = quem se declara de direita; esquerda = esquerda + centro-esquerda; centro = o resto."""
-    return {"direita": "direita", "centro-direita": "centro", "centro": "centro", "centro-esquerda": "esquerda", "esquerda": "esquerda"}.get(g, "centro")
+    """O agrupamento em 3 que o autor definiu em 07/out (emenda 22): direita = direita + centro-direita; centro = só centro;
+    esquerda = esquerda + centro-esquerda. Simétrico."""
+    return {"direita": "direita", "centro-direita": "direita", "centro": "centro", "centro-esquerda": "esquerda", "esquerda": "esquerda"}.get(g, "sem partido")
+
+
+def em_tres(cont: dict) -> dict:
+    out = {k: 0 for k in TRES}
+    for g_, n in cont.items():
+        k = tres(g_)
+        if k in out:
+            out[k] += int(n)
+    return out
 
 
 def nome_norm(s) -> str:
@@ -123,18 +139,16 @@ LIMIARES_SENADO = [
 
 
 def escada(cont: dict, limiares) -> pd.DataFrame:
-    d = cont.get("direita", 0)
-    dc = d + cont.get("centro-direita", 0)
-    dcc = dc + cont.get("centro", 0)
-    esq = cont.get("esquerda", 0) + cont.get("centro-esquerda", 0)
+    """Cada limiar contra os três grupos (direita = direita + centro-direita; esquerda = esquerda + centro-esquerda)."""
+    c3 = em_tres(cont)
     linhas = []
     for nome, n in limiares:
         linhas.append({
             "limiar": nome, "votos_necessarios": n,
-            "direita_sozinha": d, "falta_a_direita": max(n - d, 0),
-            "direita_mais_centro_direita": dc, "falta_com_centro_direita": max(n - dc, 0),
-            "direita_centro_direita_e_centro": dcc,
-            "esquerda_e_centro_esquerda": esq, "falta_a_esquerda": max(n - esq, 0),
+            "direita": c3["direita"], "falta_a_direita": max(n - c3["direita"], 0),
+            "dos_quais_pl_novo_missao": cont.get("direita", 0),
+            "centro": c3["centro"], "direita_e_centro": c3["direita"] + c3["centro"],
+            "esquerda": c3["esquerda"], "falta_a_esquerda": max(n - c3["esquerda"], 0),
         })
     return pd.DataFrame(linhas)
 
@@ -159,7 +173,15 @@ def main() -> None:
     tabela("e1_camara_por_grupo", e1)
     registrar("e1.camara_cadeiras", por_ano)
     registrar("e1.camara_pct_votos", {int(a): dict(zip(x.grupo, x.pct_votos)) for a, x in e1.groupby("ano")})
-    registrar("e1.camara_em_3", {a: {t: sum(n for g_, n in c.items() if tres(g_) == t) for t in ("direita", "centro", "esquerda")} for a, c in por_ano.items()})
+    registrar("e1.camara_em_3", {a: em_tres(c) for a, c in por_ano.items()})
+    votos3 = {}
+    for a, x in e1.groupby("ano"):
+        v3 = {k: 0.0 for k in TRES}
+        for g_, pv3 in zip(x.grupo, x.pct_votos):
+            v3[tres(g_)] += pv3
+        votos3[int(a)] = {k: round(v, 2) for k, v in v3.items()}
+    registrar("e1.camara_votos_em_3", votos3)
+    tabela("e1_camara_em_3", pd.DataFrame([{"ano": a, **em_tres(c), **{f"pct_votos_{k}": v for k, v in votos3[a].items()}} for a, c in por_ano.items()]))
     # o partido de Bolsonaro em cada eleicao (PSL em 2018, PL em 2022 e 2026)
     registrar("e1.partido_de_bolsonaro", {"2018 (PSL)": int(cad.loc["PSL", "2018"]), "2022 (PL)": int(cad.loc["PL", "2022"]), "2026 (PL)": int(cad.loc["PL", "2026"])})
 
@@ -169,15 +191,14 @@ def main() -> None:
         tabela(f"e2_camara_limiares_{ano}", t)
         registrar(f"e2.camara_{ano}", t.to_dict("records"))
 
-    # o bloco de direita com o PSDB (o PSDB se declara "centro-democrático"; muita gente, e a lista do Poder360, o põe na direita)
+    # o que a direita (direita + centro-direita) e a esquerda (esquerda + centro-esquerda) alcançam em 2027
+    c3_26 = em_tres(por_ano[2026])
+    bloco = c3_26["direita"]
     psdb = int(cad.loc["PSDB", "2026"]) if "PSDB" in cad.index else 0
-    bloco = por_ano[2026]["direita"] + por_ano[2026]["centro-direita"]
-    registrar("e2.camara_2026_bloco", {"direita": por_ano[2026]["direita"], "direita_mais_centro_direita": bloco, "psdb": psdb, "com_psdb": bloco + psdb,
-                                       "falta_pec_sem_psdb": 308 - bloco, "falta_pec_com_psdb": 308 - bloco - psdb,
-                                       "falta_impeachment_sem_psdb": 342 - bloco, "falta_impeachment_com_psdb": 342 - bloco - psdb,
-                                       "esquerda_e_centro_esquerda": por_ano[2026]["esquerda"] + por_ano[2026]["centro-esquerda"],
-                                       "falta_esquerda_barrar_pec": 206 - (por_ano[2026]["esquerda"] + por_ano[2026]["centro-esquerda"]),
-                                       "falta_esquerda_barrar_impeachment": 172 - (por_ano[2026]["esquerda"] + por_ano[2026]["centro-esquerda"])})
+    registrar("e2.camara_2026_bloco", {"direita": bloco, "dos_quais_pl_novo_missao": por_ano[2026]["direita"], "centro": c3_26["centro"], "esquerda": c3_26["esquerda"],
+                                       "falta_pec": 308 - bloco, "falta_impeachment": 342 - bloco,
+                                       "falta_esquerda_barrar_pec": 206 - c3_26["esquerda"], "falta_esquerda_barrar_impeachment": 172 - c3_26["esquerda"],
+                                       "referencia_com_psdb_como_o_poder360": bloco + psdb})
 
     # ---------------- E3: Senado, 2023 e 2027 ----------------
     sen = pd.read_csv(RES / "a2_senadores_eleitos_por_partido.csv").set_index("partido")
@@ -198,6 +219,7 @@ def main() -> None:
         t = escada({k: int(c.get(k, 0)) for k in GRUPOS}, LIMIARES_SENADO)
         tabela(f"e3_senado_limiares_{nome}", t)
         registrar(f"e3.senado_limiares_{nome}", t.to_dict("records"))
+    registrar("e3.senado_2027_em_3", {**em_tres(c27), "sem partido": int(c27.get("sem partido", 0))})
     tabela("e3_senado_por_grupo", pd.DataFrame([{"composicao": "fev/2023 (legenda eleita)", **{k: int(c23.get(k, 0)) for k in GRUPOS}},
                                                 {"composicao": "fev/2027 (legenda eleita)", **{k: int(c27_eleicao.get(k, 0)) for k in GRUPOS}},
                                                 {"composicao": "fev/2027 (partido atual dos 27 que ficam)", **{k: int(c27.get(k, 0)) for k in GRUPOS}}]))
@@ -209,6 +231,9 @@ def main() -> None:
     hoje_s = pd.Series([grupo(p["IdentificacaoParlamentar"].get("SiglaPartidoParlamentar", "")) for p in api]).value_counts().to_dict()
     pl_hoje_s = sum(1 for p in api if campos.sigla(p["IdentificacaoParlamentar"].get("SiglaPartidoParlamentar", "")) == "PL")
     registrar("e3.senado_em_exercicio_out2026", {"total": len(api), "PL": pl_hoje_s, **{k: int(hoje_s.get(k, 0)) for k in GRUPOS + ["sem partido"]}})
+    registrar("e3.senado_hoje_em_3", {**em_tres(hoje_s), "sem partido": int(hoje_s.get("sem partido", 0))})
+    tabela("e3_senado_em_3", pd.DataFrame([{"composicao": "hoje (out/2026, partido atual)", **em_tres(hoje_s), "sem partido": int(hoje_s.get("sem partido", 0))},
+                                           {"composicao": "a partir de fev/2027", **em_tres(c27), "sem partido": int(c27.get("sem partido", 0))}]))
     t = escada({k: int(hoje_s.get(k, 0)) for k in GRUPOS}, LIMIARES_SENADO)
     tabela("e3_senado_limiares_em_exercicio_out2026", t)
     # Camara na vespera da eleicao (deputados em exercicio em 30/09/2026), partido da vespera
@@ -236,6 +261,13 @@ def main() -> None:
     registrar("e4.governos_por_grupo", e4.to_dict("records"))
     share = (g26.groupby("grupo")["aptos"].sum() / g26["aptos"].sum() * 100).round(1).to_dict()
     registrar("e4.pct_eleitorado_governado_2026", share)
+    g3 = {}
+    for r_ in linhas:
+        g3[r_["ano"]] = {**em_tres({k: r_[k] for k in GRUPOS}), "em 2o turno": r_["em 2o turno"]}
+    registrar("e4.governos_em_3", g3)
+    tabela("e4_governos_em_3", pd.DataFrame([{"ano": a, **v} for a, v in g3.items()]))
+    g26["tres"] = g26["grupo"].map(lambda x: tres(x) if x != "em 2o turno" else x)
+    registrar("e4.pct_eleitorado_governado_2026_em_3", (g26.groupby("tres")["aptos"].sum() / g26["aptos"].sum() * 100).round(1).to_dict())
     registrar("e4.pl_governos", {"2018": int(((gov.ano == 2018) & (gov.partido.isin(["PL", "PR"]))).sum()), "2022": int(((gov.ano == 2022) & (gov.partido == "PL")).sum()),
                                  "2026": int(((gov.ano == 2026) & (gov.partido == "PL")).sum())})
     apo = pd.read_csv(RAIZ / "dados" / "apoios_declarados.csv")
@@ -393,6 +425,10 @@ def main() -> None:
     fora = e6[(e6.resultado_2026 == "não eleito") & e6.grupo_2022.isin(["esquerda", "centro-esquerda"])].sort_values("votos_2022", ascending=False)
     tabela("e6_esquerda_que_disputou_e_nao_se_elegeu", fora)
     registrar("e6.resultado_por_grupo_2022", {g: x["resultado_2026"].value_counts().to_dict() for g, x in e6.groupby("grupo_2022")})
+    e6["tres_2022"] = e6["grupo_2022"].map(tres)
+    registrar("e6.resultado_em_3_2022", {g: {"eleitos_2022": int(len(x)), "nao_eleitos": int((x.resultado_2026 == "não eleito").sum()),
+                                             "eleitos": int((x.resultado_2026 == "eleito").sum()), "nao_disputaram": int((x.resultado_2026 == "não disputou").sum())}
+                                         for g, x in e6.groupby("tres_2022") if g in TRES})
     # Senado 2026: candidatos de esquerda e centro-esquerda mais votados que nao se elegeram
     c5 = vc[(vc.cargo == 5) & (vc.ano == 2026)].groupby(["uf", "sq", "nome", "partido", "sit"], as_index=False)["votos"].sum()
     c5["grupo"] = c5["partido"].map(grupo)
@@ -419,8 +455,8 @@ def main() -> None:
                                                  "fonte": "captura poder360-senado-dominado-direita (04/out/2026): 'considerando a orientação ideológica de cada político, separadamente'"})
     # derrubar veto (art. 66 §4º): maioria absoluta das duas Casas, 257 deputados E 41 senadores
     lim27 = {r["votos_necessarios"]: r for r in escada({k: int(c27.get(k, 0)) for k in GRUPOS}, LIMIARES_SENADO).to_dict("records")}
-    registrar("e2.derrubar_veto_2027", {"camara_bloco": bloco, "camara_precisa": 257, "senado_bloco_por_partido": lim27[41]["direita_mais_centro_direita"], "senado_precisa": 41,
-                                        "senado_poder360_por_senador": 49, "consegue_se_votar_unido": bool(bloco >= 257 and lim27[41]["direita_mais_centro_direita"] >= 41)})
+    registrar("e2.derrubar_veto_2027", {"camara_direita": bloco, "camara_precisa": 257, "senado_direita_por_partido": lim27[41]["direita"], "senado_precisa": 41,
+                                        "senado_poder360_por_senador": 49, "consegue_se_votar_unido": bool(bloco >= 257 and lim27[41]["direita"] >= 41)})
     print("ok E")
 
 

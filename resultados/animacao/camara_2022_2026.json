@@ -2715,7 +2715,11 @@
     "cor": "#0B2C6B"
    }
   ],
-  "direita_mais_centro_direita": 250
+  "em_3": {
+   "direita": 250,
+   "centro": 135,
+   "esquerda": 128
+  }
  },
  "2026": {
   "total": 513,
@@ -5415,7 +5419,11 @@
     "cor": "#0B2C6B"
    }
   ],
-  "direita_mais_centro_direita": 265
+  "em_3": {
+   "direita": 265,
+   "centro": 124,
+   "esquerda": 124
+  }
  },
  "limiares": {
   "CPI": 171,

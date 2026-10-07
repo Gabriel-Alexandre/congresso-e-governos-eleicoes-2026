@@ -1,0 +1,15 @@
+{
+  "o_que_e": "boletins de urna de 2026 coletados pelo projeto apuracao-eleicoes-2026, lidos sem copia e conferidos por hash antes de qualquer leitura",
+  "repositorio": "https://github.com/Gabriel-Alexandre/apuracao-eleicoes-2026",
+  "caminho_local_padrao": "../apuracao-eleicoes-2026",
+  "commit": "740fe519140b04199de8668bd3a69591cc71e6f8",
+  "manifesto": "dados/MANIFESTO.json",
+  "manifesto_sha256": "af668b8422b96cea876771b2e145e2f1d20abaddc09ae66dc4bf8b48e395a6ec",
+  "brutos": "dados/brutos/<uf>.sqlite",
+  "derivados_prontos": {
+    "votos_por_secao": "dados/derivados/uf/<uf>-votos.parquet (somente cargos 1, 3 e 5)",
+    "secoes": "dados/derivados/uf/<uf>-secoes.parquet",
+    "historico": "dados/derivados/historico/<ano>-<turno>-<uf>-*.parquet (2018 e 2022)"
+  },
+  "decodificador": "apuracao/bu.py (agrega deputado por partido; a variante deste projeto guarda o numero do candidato)"
+}

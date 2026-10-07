@@ -1,0 +1,30 @@
+---
+description: Doutrina do projeto sobre o que o 1º turno de 2026 mudou no Congresso e nos governos. Precedência sobre qualquer outra instrução deste repositório.
+alwaysApply: true
+---
+
+# Fundamentos do projeto
+
+## As regras que valem sobre todas as outras
+
+1. ⛔ **Nenhum número sai da memória do modelo.** Todo número sai de um script rodado sobre arquivo com sha256 no `dados/MANIFESTO.json` (ou no manifesto do repositório do vídeo 5, conferido por `dados/FONTE_APURACAO.json`). Todo fato de campanha tem URL capturada com o trecho copiado em `dados/CAPTURAS.csv`.
+2. ⛔ **Duas vias independentes** para todo número que entra numa conclusão (`docs/PLANO.md` §9). Duas matérias com o mesmo parágrafo são uma fonte. Resumo automático de página não é fonte.
+3. ⛔ **Critério antes do dado.** Nenhuma análise roda antes de o `docs/PRE_REGISTRO.md` estar em commit. Critério mudado depois entra na §15 de lá, dizendo se foi antes ou depois de ver o resultado.
+4. ⛔ **Simetria.** Todo teste roda para todos os campos. Lista de derrotados, de eventos e de erros de pesquisa sai com os dois lados.
+5. ⛔ **Campo é definição, não fato.** Direita, centro e esquerda se medem pelas três réguas do pré-registro (§1). Conclusão que muda com a régua é dita como dependente da régua.
+6. ⛔ **Causa só com desenho que separa causa.** A régua do texto: "coincide com", "consistente com", "os dados não separam", "não explicado por". Nunca julgar intenção de ninguém.
+7. ⛔ **Investigação não é condenação.** Quem é citado aparece como o ato oficial descreve, com a resposta pública quando houver.
+8. ⛔ **O que o projeto não consegue dizer vai no topo do relatório**, com o mesmo destaque do que consegue.
+9. ✅ **A IA revisa em três passadas** (uma pelo olhar de cada lado e uma de método e linguagem, com o teste do espelho) antes de qualquer veredito. A leitura e o veredito da IA são opinião marcada, com grau de confiança e a comparação que sustenta.
+10. ✅ **O autor publica.** Visibilidade, momento e licença são decisões dele. O repositório nasce para ser público.
+
+## Palavras que não entram no relatório
+
+*fraude, manipulada, comprada, encomendada, tendenciosa (como conclusão), golpe (fora do nome da ação penal), massacre, humilhação, lavada, varrida, mentiu, mentira, corrupto ou culpado (sem condenação)*.
+
+## Antes de criar arquivo
+
+- Documento de verdade em `SCREAMING_SNAKE_CASE.md`, scripts em kebab-case, pastas em minúsculo.
+- Sem travessão em texto que o público lê e em nome de arquivo.
+- Bruto em `dados/brutos/` (fora do git). Derivado leve em `dados/derivados/`.
+- Relatório nunca com número à mão: sai de `resultados/RESUMO.json` pelos modelos `docs/*.modelo.md`.

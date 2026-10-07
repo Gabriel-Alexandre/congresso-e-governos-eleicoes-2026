@@ -2427,5 +2427,585 @@
    "outra (neutro, reforma ou outra)": 18,
    "sem posicao": 78
   }
+ },
+ "e0": {
+  "parametro": {
+   "fonte": "Valor Economico, ago/2026 (como cada partido se define), capturado em dados/brutos/capturas/outroladodahistoria-autodeclaracao.html",
+   "grupos": {
+    "centro": [
+     "AGIR",
+     "AVANTE",
+     "CIDADANIA",
+     "DC",
+     "DEMOCRATA",
+     "MDB",
+     "MOBILIZA",
+     "PODE",
+     "PRTB",
+     "PSD",
+     "PSDB",
+     "SOLIDARIEDADE"
+    ],
+    "centro-direita": [
+     "PP",
+     "PRD",
+     "REPUBLICANOS",
+     "UNIAO"
+    ],
+    "centro-esquerda": [
+     "PDT",
+     "PSB",
+     "REDE"
+    ],
+    "direita": [
+     "MISSAO",
+     "NOVO",
+     "PL"
+    ],
+    "esquerda": [
+     "PCB",
+     "PCDOB",
+     "PCO",
+     "PSOL",
+     "PSTU",
+     "PT",
+     "PV",
+     "UP"
+    ]
+   },
+   "herdeiros": {
+    "DEM": "UNIAO",
+    "PAN": "PRD",
+    "PATRI": "PRD",
+    "PATRIOTA": "PRD",
+    "PC DO B": "PCDOB",
+    "PEN": "PRD",
+    "PFL": "UNIAO",
+    "PHS": "PODE",
+    "PMDB": "MDB",
+    "PMN": "MOBILIZA",
+    "PODEMOS": "PODE",
+    "PPB": "PP",
+    "PPL": "PCDOB",
+    "PPS": "CIDADANIA",
+    "PR": "PL",
+    "PRB": "REPUBLICANOS",
+    "PRONA": "PL",
+    "PROS": "SOLIDARIEDADE",
+    "PRP": "PRD",
+    "PSC": "PODE",
+    "PSDC": "DC",
+    "PSL": "UNIAO",
+    "PT DO B": "AVANTE",
+    "PTB": "PRD",
+    "PTC": "AGIR",
+    "PTN": "PODE",
+    "SD": "SOLIDARIEDADE"
+   },
+   "nome": "autodeclaracao do partido"
+  }
+ },
+ "e1": {
+  "camara_cadeiras": {
+   "2018": {
+    "centro": 165,
+    "centro-direita": 166,
+    "centro-esquerda": 61,
+    "direita": 41,
+    "esquerda": 80
+   },
+   "2022": {
+    "centro": 135,
+    "centro-direita": 149,
+    "centro-esquerda": 33,
+    "direita": 101,
+    "esquerda": 95
+   },
+   "2026": {
+    "centro": 124,
+    "centro-direita": 133,
+    "centro-esquerda": 22,
+    "direita": 132,
+    "esquerda": 102
+   }
+  },
+  "camara_em_3": {
+   "2018": {
+    "centro": 331,
+    "direita": 41,
+    "esquerda": 141
+   },
+   "2022": {
+    "centro": 284,
+    "direita": 101,
+    "esquerda": 128
+   },
+   "2026": {
+    "centro": 257,
+    "direita": 132,
+    "esquerda": 124
+   }
+  },
+  "camara_na_vespera_set2026": {
+   "PL": 98,
+   "centro": 146,
+   "centro-direita": 146,
+   "centro-esquerda": 29,
+   "direita": 104,
+   "esquerda": 95,
+   "sem partido": 0,
+   "total": 520
+  },
+  "camara_pct_votos": {
+   "2018": {
+    "centro": 32.85,
+    "centro-direita": 31.26,
+    "centro-esquerda": 11.01,
+    "direita": 8.13,
+    "esquerda": 16.51
+   },
+   "2022": {
+    "centro": 29.08,
+    "centro-direita": 26.4,
+    "centro-esquerda": 8.16,
+    "direita": 17.93,
+    "esquerda": 18.36
+   },
+   "2026": {
+    "centro": 25.71,
+    "centro-direita": 21.62,
+    "centro-esquerda": 6.28,
+    "direita": 26.36,
+    "esquerda": 20.04
+   }
+  },
+  "partido_de_bolsonaro": {
+   "2018 (PSL)": 52,
+   "2022 (PL)": 98,
+   "2026 (PL)": 121
+  }
+ },
+ "e2": {
+  "camara_2022": [
+   {
+    "direita_centro_direita_e_centro": 385,
+    "direita_mais_centro_direita": 250,
+    "direita_sozinha": 101,
+    "esquerda_e_centro_esquerda": 128,
+    "falta_a_direita": 70,
+    "falta_a_esquerda": 43,
+    "falta_com_centro_direita": 0,
+    "limiar": "1/3: abrir CPI (art. 58 §3º)",
+    "votos_necessarios": 171
+   },
+   {
+    "direita_centro_direita_e_centro": 385,
+    "direita_mais_centro_direita": 250,
+    "direita_sozinha": 101,
+    "esquerda_e_centro_esquerda": 128,
+    "falta_a_direita": 105,
+    "falta_a_esquerda": 78,
+    "falta_com_centro_direita": 0,
+    "limiar": "bloquear uma PEC (mais de 2/5)",
+    "votos_necessarios": 206
+   },
+   {
+    "direita_centro_direita_e_centro": 385,
+    "direita_mais_centro_direita": 250,
+    "direita_sozinha": 101,
+    "esquerda_e_centro_esquerda": 128,
+    "falta_a_direita": 156,
+    "falta_a_esquerda": 129,
+    "falta_com_centro_direita": 7,
+    "limiar": "maioria absoluta: lei complementar, cassação, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º)",
+    "votos_necessarios": 257
+   },
+   {
+    "direita_centro_direita_e_centro": 385,
+    "direita_mais_centro_direita": 250,
+    "direita_sozinha": 101,
+    "esquerda_e_centro_esquerda": 128,
+    "falta_a_direita": 207,
+    "falta_a_esquerda": 180,
+    "falta_com_centro_direita": 58,
+    "limiar": "3/5: aprovar PEC (art. 60 §2º)",
+    "votos_necessarios": 308
+   },
+   {
+    "direita_centro_direita_e_centro": 385,
+    "direita_mais_centro_direita": 250,
+    "direita_sozinha": 101,
+    "esquerda_e_centro_esquerda": 128,
+    "falta_a_direita": 241,
+    "falta_a_esquerda": 214,
+    "falta_com_centro_direita": 92,
+    "limiar": "2/3: autorizar processo contra o Presidente (art. 51, I)",
+    "votos_necessarios": 342
+   }
+  ],
+  "camara_2026": [
+   {
+    "direita_centro_direita_e_centro": 389,
+    "direita_mais_centro_direita": 265,
+    "direita_sozinha": 132,
+    "esquerda_e_centro_esquerda": 124,
+    "falta_a_direita": 39,
+    "falta_a_esquerda": 47,
+    "falta_com_centro_direita": 0,
+    "limiar": "1/3: abrir CPI (art. 58 §3º)",
+    "votos_necessarios": 171
+   },
+   {
+    "direita_centro_direita_e_centro": 389,
+    "direita_mais_centro_direita": 265,
+    "direita_sozinha": 132,
+    "esquerda_e_centro_esquerda": 124,
+    "falta_a_direita": 74,
+    "falta_a_esquerda": 82,
+    "falta_com_centro_direita": 0,
+    "limiar": "bloquear uma PEC (mais de 2/5)",
+    "votos_necessarios": 206
+   },
+   {
+    "direita_centro_direita_e_centro": 389,
+    "direita_mais_centro_direita": 265,
+    "direita_sozinha": 132,
+    "esquerda_e_centro_esquerda": 124,
+    "falta_a_direita": 125,
+    "falta_a_esquerda": 133,
+    "falta_com_centro_direita": 0,
+    "limiar": "maioria absoluta: lei complementar, cassação, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º)",
+    "votos_necessarios": 257
+   },
+   {
+    "direita_centro_direita_e_centro": 389,
+    "direita_mais_centro_direita": 265,
+    "direita_sozinha": 132,
+    "esquerda_e_centro_esquerda": 124,
+    "falta_a_direita": 176,
+    "falta_a_esquerda": 184,
+    "falta_com_centro_direita": 43,
+    "limiar": "3/5: aprovar PEC (art. 60 §2º)",
+    "votos_necessarios": 308
+   },
+   {
+    "direita_centro_direita_e_centro": 389,
+    "direita_mais_centro_direita": 265,
+    "direita_sozinha": 132,
+    "esquerda_e_centro_esquerda": 124,
+    "falta_a_direita": 210,
+    "falta_a_esquerda": 218,
+    "falta_com_centro_direita": 77,
+    "limiar": "2/3: autorizar processo contra o Presidente (art. 51, I)",
+    "votos_necessarios": 342
+   }
+  ]
+ },
+ "e3": {
+  "senado_2023_pela_legenda_eleita": {
+   "centro": 28,
+   "centro-direita": 26,
+   "centro-esquerda": 10,
+   "direita": 9,
+   "esquerda": 8
+  },
+  "senado_2027_partido_atual": {
+   "centro": 17,
+   "centro-direita": 17,
+   "centro-esquerda": 6,
+   "direita": 31,
+   "esquerda": 9,
+   "sem partido": 1
+  },
+  "senado_2027_pela_legenda_eleita": {
+   "centro": 17,
+   "centro-direita": 18,
+   "centro-esquerda": 6,
+   "direita": 30,
+   "esquerda": 10
+  },
+  "senado_eleitos_por_grupo": {
+   "2018": {
+    "centro": 24,
+    "centro-direita": 16,
+    "centro-esquerda": 9,
+    "direita": 1,
+    "esquerda": 4
+   },
+   "2022": {
+    "centro": 4,
+    "centro-direita": 10,
+    "centro-esquerda": 1,
+    "direita": 8,
+    "esquerda": 4
+   },
+   "2026": {
+    "centro": 13,
+    "centro-direita": 8,
+    "centro-esquerda": 5,
+    "direita": 22,
+    "esquerda": 6
+   }
+  },
+  "senado_em_exercicio_out2026": {
+   "PL": 15,
+   "centro": 31,
+   "centro-direita": 17,
+   "centro-esquerda": 8,
+   "direita": 15,
+   "esquerda": 9,
+   "sem partido": 1,
+   "total": 81
+  },
+  "senado_limiares_2023": [
+   {
+    "direita_centro_direita_e_centro": 63,
+    "direita_mais_centro_direita": 35,
+    "direita_sozinha": 9,
+    "esquerda_e_centro_esquerda": 18,
+    "falta_a_direita": 18,
+    "falta_a_esquerda": 9,
+    "falta_com_centro_direita": 0,
+    "limiar": "1/3: abrir CPI (art. 58 §3º)",
+    "votos_necessarios": 27
+   },
+   {
+    "direita_centro_direita_e_centro": 63,
+    "direita_mais_centro_direita": 35,
+    "direita_sozinha": 9,
+    "esquerda_e_centro_esquerda": 18,
+    "falta_a_direita": 24,
+    "falta_a_esquerda": 15,
+    "falta_com_centro_direita": 0,
+    "limiar": "bloquear uma PEC (mais de 2/5)",
+    "votos_necessarios": 33
+   },
+   {
+    "direita_centro_direita_e_centro": 63,
+    "direita_mais_centro_direita": 35,
+    "direita_sozinha": 9,
+    "esquerda_e_centro_esquerda": 18,
+    "falta_a_direita": 32,
+    "falta_a_esquerda": 23,
+    "falta_com_centro_direita": 6,
+    "limiar": "maioria absoluta: lei complementar, derrubar veto com a Câmara, aprovar autoridade com quórum qualificado",
+    "votos_necessarios": 41
+   },
+   {
+    "direita_centro_direita_e_centro": 63,
+    "direita_mais_centro_direita": 35,
+    "direita_sozinha": 9,
+    "esquerda_e_centro_esquerda": 18,
+    "falta_a_direita": 40,
+    "falta_a_esquerda": 31,
+    "falta_com_centro_direita": 14,
+    "limiar": "3/5: aprovar PEC (art. 60 §2º)",
+    "votos_necessarios": 49
+   },
+   {
+    "direita_centro_direita_e_centro": 63,
+    "direita_mais_centro_direita": 35,
+    "direita_sozinha": 9,
+    "esquerda_e_centro_esquerda": 18,
+    "falta_a_direita": 45,
+    "falta_a_esquerda": 36,
+    "falta_com_centro_direita": 19,
+    "limiar": "2/3: condenar no impeachment, de Presidente ou de ministro do STF (art. 52, parágrafo único)",
+    "votos_necessarios": 54
+   }
+  ],
+  "senado_limiares_2027": [
+   {
+    "direita_centro_direita_e_centro": 65,
+    "direita_mais_centro_direita": 48,
+    "direita_sozinha": 31,
+    "esquerda_e_centro_esquerda": 15,
+    "falta_a_direita": 0,
+    "falta_a_esquerda": 12,
+    "falta_com_centro_direita": 0,
+    "limiar": "1/3: abrir CPI (art. 58 §3º)",
+    "votos_necessarios": 27
+   },
+   {
+    "direita_centro_direita_e_centro": 65,
+    "direita_mais_centro_direita": 48,
+    "direita_sozinha": 31,
+    "esquerda_e_centro_esquerda": 15,
+    "falta_a_direita": 2,
+    "falta_a_esquerda": 18,
+    "falta_com_centro_direita": 0,
+    "limiar": "bloquear uma PEC (mais de 2/5)",
+    "votos_necessarios": 33
+   },
+   {
+    "direita_centro_direita_e_centro": 65,
+    "direita_mais_centro_direita": 48,
+    "direita_sozinha": 31,
+    "esquerda_e_centro_esquerda": 15,
+    "falta_a_direita": 10,
+    "falta_a_esquerda": 26,
+    "falta_com_centro_direita": 0,
+    "limiar": "maioria absoluta: lei complementar, derrubar veto com a Câmara, aprovar autoridade com quórum qualificado",
+    "votos_necessarios": 41
+   },
+   {
+    "direita_centro_direita_e_centro": 65,
+    "direita_mais_centro_direita": 48,
+    "direita_sozinha": 31,
+    "esquerda_e_centro_esquerda": 15,
+    "falta_a_direita": 18,
+    "falta_a_esquerda": 34,
+    "falta_com_centro_direita": 1,
+    "limiar": "3/5: aprovar PEC (art. 60 §2º)",
+    "votos_necessarios": 49
+   },
+   {
+    "direita_centro_direita_e_centro": 65,
+    "direita_mais_centro_direita": 48,
+    "direita_sozinha": 31,
+    "esquerda_e_centro_esquerda": 15,
+    "falta_a_direita": 23,
+    "falta_a_esquerda": 39,
+    "falta_com_centro_direita": 6,
+    "limiar": "2/3: condenar no impeachment, de Presidente ou de ministro do STF (art. 52, parágrafo único)",
+    "votos_necessarios": 54
+   }
+  ],
+  "senado_pl": {
+   "eleitos_2026": 19,
+   "fev_2027_partido_atual": 28
+  }
+ },
+ "e4": {
+  "apoio_declarado_2026": {
+   "Caiado": {
+    "governos": 1,
+    "pct_eleitorado": 3.2
+   },
+   "Flavio": {
+    "governos": 10,
+    "pct_eleitorado": 54.5
+   },
+   "Lula": {
+    "governos": 5,
+    "pct_eleitorado": 16.5
+   },
+   "em 2o turno": {
+    "governos": 7,
+    "pct_eleitorado": 16.1
+   },
+   "neutro": {
+    "governos": 4,
+    "pct_eleitorado": 9.8
+   }
+  },
+  "governos_por_grupo": [
+   {
+    "ano": 2018,
+    "centro": 11,
+    "centro-direita": 6,
+    "centro-esquerda": 4,
+    "direita": 1,
+    "em 2o turno": 0,
+    "esquerda": 5
+   },
+   {
+    "ano": 2022,
+    "centro": 9,
+    "centro-direita": 8,
+    "centro-esquerda": 3,
+    "direita": 3,
+    "em 2o turno": 0,
+    "esquerda": 4
+   },
+   {
+    "ano": 2026,
+    "centro": 7,
+    "centro-direita": 5,
+    "centro-esquerda": 0,
+    "direita": 5,
+    "em 2o turno": 7,
+    "esquerda": 3
+   }
+  ],
+  "pct_eleitorado_governado_2026": {
+   "centro": 18.1,
+   "centro-direita": 37.0,
+   "direita": 15.5,
+   "em 2o turno": 16.1,
+   "esquerda": 13.3
+  },
+  "pl_governos": {
+   "2018": 0,
+   "2022": 2,
+   "2026": 5
+  }
+ },
+ "e5": {
+  "migrantes_de_onde": {
+   "AVANTE": 2,
+   "MDB": 2,
+   "PODE": 1,
+   "PRD": 1,
+   "PSD": 2,
+   "REPUBLICANOS": 1,
+   "UNIAO": 3
+  },
+  "migrantes_votos": {
+   "2022_no_partido_antigo": 1185063,
+   "2026_pelo_PL": 1596409
+  },
+  "pl_121_origem": {
+   "assumiu o mandato depois de 2022 (suplente) e se elegeu pelo PL": 1,
+   "disputou deputado federal em 2022 e não se elegeu": 11,
+   "eleito em 2022 pelo PL": 50,
+   "eleito em 2022 por outro partido e foi para o PL": 12,
+   "primeira disputa para deputado federal (desde 2022)": 47
+  },
+  "pl_98_destino": {
+   "disputou deputado e não se elegeu": 14,
+   "disputou deputado estadual: eleito": 3,
+   "disputou governador: eleito": 1,
+   "disputou senador: eleito": 10,
+   "disputou senador: não eleito": 5,
+   "não disputou nenhum cargo em 2026": 2,
+   "reeleito deputado pelo PL": 63
+  },
+  "pl_top10_votos_2026": 9524626,
+  "pl_votos_nominais": {
+   "2018": 5062228,
+   "2022": 17395485,
+   "2026": 25201522
+  }
+ },
+ "e6": {
+  "resultado_por_grupo_2022": {
+   "centro": {
+    "eleito": 77,
+    "não disputou": 12,
+    "não eleito": 46
+   },
+   "centro-direita": {
+    "2º turno": 1,
+    "eleito": 93,
+    "não disputou": 11,
+    "não eleito": 44
+   },
+   "centro-esquerda": {
+    "eleito": 16,
+    "não disputou": 2,
+    "não eleito": 15
+   },
+   "direita": {
+    "eleito": 73,
+    "não disputou": 8,
+    "não eleito": 20
+   },
+   "esquerda": {
+    "eleito": 61,
+    "não disputou": 8,
+    "não eleito": 26
+   }
+  }
  }
 }

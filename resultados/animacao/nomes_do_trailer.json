@@ -1,0 +1,259 @@
+{
+ "senado_nao_eleitos": [
+  {
+   "uf": "SP",
+   "nome": "SIMONE TEBET",
+   "partido": "PSB",
+   "votos": 8342968
+  },
+  {
+   "uf": "SP",
+   "nome": "MARINA SILVA",
+   "partido": "REDE",
+   "votos": 7862400
+  },
+  {
+   "uf": "RJ",
+   "nome": "BENEDITA DA SILVA",
+   "partido": "PT",
+   "votos": 3220765
+  },
+  {
+   "uf": "MG",
+   "nome": "ÁUREA CAROLINA",
+   "partido": "PSOL",
+   "votos": 2664763
+  },
+  {
+   "uf": "RS",
+   "nome": "MANUELA D ÁVILA",
+   "partido": "PSOL",
+   "votos": 1957697
+  },
+  {
+   "uf": "RS",
+   "nome": "PIMENTA",
+   "partido": "PT",
+   "votos": 1870301
+  },
+  {
+   "uf": "PR",
+   "nome": "GLEISI",
+   "partido": "PT",
+   "votos": 1542636
+  },
+  {
+   "uf": "RJ",
+   "nome": "MONICA BENICIO",
+   "partido": "PSOL",
+   "votos": 1538444
+  },
+  {
+   "uf": "PR",
+   "nome": "DR ROSINHA",
+   "partido": "PT",
+   "votos": 1154143
+  },
+  {
+   "uf": "MA",
+   "nome": "WEVERTON ROCHA",
+   "partido": "PDT",
+   "votos": 1086318
+  }
+ ],
+ "camara_e_governo_nao_eleitos": [
+  {
+   "nome": "GLEISI",
+   "uf": "PR",
+   "partido_2022": "PT",
+   "votos_2022": 261247,
+   "cargo_2026": "SENADOR",
+   "partido_2026": "PT",
+   "situacao": "NÃO ELEITO"
+  },
+  {
+   "nome": "MARINA SILVA",
+   "uf": "SP",
+   "partido_2022": "REDE",
+   "votos_2022": 237526,
+   "cargo_2026": "SENADOR",
+   "partido_2026": "REDE",
+   "situacao": "NÃO ELEITO"
+  },
+  {
+   "nome": "PAULO PIMENTA",
+   "uf": "RS",
+   "partido_2022": "PT",
+   "votos_2022": 223109,
+   "cargo_2026": "SENADOR",
+   "partido_2026": "PT",
+   "situacao": "NÃO ELEITO"
+  },
+  {
+   "nome": "RUI FALCÃO",
+   "uf": "SP",
+   "partido_2022": "PT",
+   "votos_2022": 193990,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "PT",
+   "situacao": "SUPLENTE"
+  },
+  {
+   "nome": "TARCÍSIO MOTTA",
+   "uf": "RJ",
+   "partido_2022": "PSOL",
+   "votos_2022": 159928,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "PSOL",
+   "situacao": "SUPLENTE"
+  },
+  {
+   "nome": "ERIKA KOKAY",
+   "uf": "DF",
+   "partido_2022": "PT",
+   "votos_2022": 146092,
+   "cargo_2026": "SENADOR",
+   "partido_2026": "PT",
+   "situacao": "NÃO ELEITO"
+  },
+  {
+   "nome": "MAURO FILHO",
+   "uf": "CE",
+   "partido_2022": "PDT",
+   "votos_2022": 135038,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "UNIÃO",
+   "situacao": "SUPLENTE"
+  },
+  {
+   "nome": "TÚLIO GADELHA",
+   "uf": "PE",
+   "partido_2022": "REDE",
+   "votos_2022": 134391,
+   "cargo_2026": "SENADOR",
+   "partido_2026": "PSD",
+   "situacao": "NÃO ELEITO"
+  },
+  {
+   "nome": "ZÉ NETO",
+   "uf": "BA",
+   "partido_2022": "PT",
+   "votos_2022": 128439,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "PT",
+   "situacao": "SUPLENTE"
+  },
+  {
+   "nome": "PAULO TEIXEIRA",
+   "uf": "SP",
+   "partido_2022": "PT",
+   "votos_2022": 122800,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "PT",
+   "situacao": "SUPLENTE"
+  },
+  {
+   "nome": "HELDER SALOMÃO",
+   "uf": "ES",
+   "partido_2022": "PT",
+   "votos_2022": 120337,
+   "cargo_2026": "GOVERNADOR",
+   "partido_2026": "PT",
+   "situacao": "NÃO ELEITO"
+  },
+  {
+   "nome": "CHICO ALENCAR",
+   "uf": "RJ",
+   "partido_2022": "PSOL",
+   "votos_2022": 115023,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "PSOL",
+   "situacao": "SUPLENTE"
+  },
+  {
+   "nome": "BENEDITA DA SILVA",
+   "uf": "RJ",
+   "partido_2022": "PT",
+   "votos_2022": 113831,
+   "cargo_2026": "SENADOR",
+   "partido_2026": "PT",
+   "situacao": "NÃO ELEITO"
+  },
+  {
+   "nome": "WALDENOR PEREIRA",
+   "uf": "BA",
+   "partido_2022": "PT",
+   "votos_2022": 113110,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "PT",
+   "situacao": "SUPLENTE"
+  },
+  {
+   "nome": "LÍDICE DA MATA",
+   "uf": "BA",
+   "partido_2022": "PSB",
+   "votos_2022": 112385,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "PSB",
+   "situacao": "SUPLENTE"
+  },
+  {
+   "nome": "ANDRÉ FIGUEIREDO",
+   "uf": "CE",
+   "partido_2022": "PDT",
+   "votos_2022": 111886,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "PDT",
+   "situacao": "NÃO ELEITO"
+  },
+  {
+   "nome": "DUARTE",
+   "uf": "MA",
+   "partido_2022": "PSB",
+   "votos_2022": 111019,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "AVANTE",
+   "situacao": "NÃO ELEITO"
+  },
+  {
+   "nome": "BACELAR",
+   "uf": "BA",
+   "partido_2022": "PV",
+   "votos_2022": 110787,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "PV",
+   "situacao": "SUPLENTE"
+  },
+  {
+   "nome": "FLORENTINO NETO",
+   "uf": "PI",
+   "partido_2022": "PT",
+   "votos_2022": 105739,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "PT",
+   "situacao": "SUPLENTE"
+  },
+  {
+   "nome": "EDUARDO BISMARCK",
+   "uf": "CE",
+   "partido_2022": "PDT",
+   "votos_2022": 102287,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "PV",
+   "situacao": "SUPLENTE"
+  }
+ ],
+ "janones": [
+  {
+   "nome": "ANDRÉ JANONES",
+   "uf": "MG",
+   "partido_2022": "AVANTE",
+   "grupo_2022": "centro",
+   "votos_2022": 238967,
+   "cargo_2026": "DEPUTADO FEDERAL",
+   "partido_2026": "REDE",
+   "resultado_2026": "eleito",
+   "situacao": "ELEITO POR QP"
+  }
+ ]
+}

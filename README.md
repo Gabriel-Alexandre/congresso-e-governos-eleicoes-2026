@@ -4,10 +4,12 @@ Análise aberta do resultado do 1º turno das eleições brasileiras de 2026 na 
 
 O projeto mede o que mudou, testa explicações concorrentes contra o dado, mede onde as pesquisas erraram e se o erro teve direção, e registra a leitura de uma IA sobre cada resultado, **marcada como opinião**. Os critérios foram gravados em commit antes das análises.
 
+
+> 🆕 **07/out, emenda 21:** o parâmetro principal de campo é a **autodeclaração de cada partido** (Valor Econômico, ago/2026), com o PL no centro da análise. Feito **depois** de ver os resultados, a pedido do autor; a escala de especialistas (R1), o voto no plenário (R2) e a coligação (R3) continuam calculados. Ver `docs/LEITURA_DA_IA.md`, seção "O parâmetro principal", e `RELATORIO.md` §0.1.
 ## Como ler os resultados (do mais curto ao mais completo)
 
 1. [`RESUMO_SIMPLES.md`](RESUMO_SIMPLES.md): uma página.
-2. [`resultados/figuras/video/`](resultados/figuras/video): 20 gráficos 1920×1080 (cadeiras por campo, ganhos e perdas, origem das cadeiras, puxadores, Senado, governos, mapa, perfil do município, pesquisas, reeleição, correlação com o voto em Bolsonaro para presidente, abstenção, o placar das hipóteses, os hemiciclos da Câmara e do Senado e os mapas de governo e de Senado); os dados das animações ficam em [`resultados/animacao/`](resultados/animacao).
+2. [`resultados/figuras/video/`](resultados/figuras/video): 26 gráficos 1920×1080, entre eles os do parâmetro principal (a Câmara e o Senado por grupo, a conta do que cada grupo alcança, de onde vieram os 121 do PL e o destino dos 98 da véspera), os hemiciclos e os mapas; os dados das animações ficam em [`resultados/animacao/`](resultados/animacao).
 3. [`docs/LEITURA_DA_IA.md`](docs/LEITURA_DA_IA.md): a leitura e o veredito da IA, arena por arena, com o grau de confiança.
 4. [`RELATORIO.md`](RELATORIO.md): tudo, com o que o projeto **não** consegue dizer no topo.
 5. [`resultados/RESUMO.json`](resultados/RESUMO.json) e os CSV de [`resultados/`](resultados): todo número do relatório.

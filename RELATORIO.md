@@ -9,9 +9,67 @@
 1. **Casos e escândalos.** As séries de opinião capturadas (aprovação do governo, confiança no STF) têm poucos pontos por instituto. O teste pré-registrado de movimento da série perto de cada evento **não pôde ser rodado**. O que se mediu: o voto de cada deputado em duas votações de grande atenção contra o desempenho dele em 2026 (sem relação detectável) e a posição de candidatos ao Senado sobre o impeachment de ministros do STF (descritivo).
 2. **Emendas parlamentares e gasto de campanha** não foram analisados (a prestação de contas final não existe).
 3. **Pesquisas.** Só Datafolha e Quaest, só governador, só a última da véspera, com os números tirados de uma compilação de imprensa (conferida em SP contra outra fonte) e conferidos no registro do TSE. Não há 2022 para comparar, nem as pesquisas anteriores para separar mudança de última hora de erro. Pesquisas de Senado não foram coletadas.
-4. **A régua de campo decide parte das respostas.** R1 põe MDB, PSD, PSDB e Podemos na direita (notas 7,0 a 7,2). R3 não é comparável entre 2022 e 2026: em 2026 o PL concorreu sem coligação.
+4. **O parâmetro de campo decide parte das respostas.** O principal, desde a emenda 21 (feita depois de ver os resultados, a pedido do autor), é a **autodeclaração de cada partido** (Valor Econômico, ago/2026): ele separa a direita declarada (PL, Novo, Missão) do centrão. R1 põe MDB, PSD, PSDB e Podemos na direita (notas 7,0 a 7,2). R3 não é comparável entre 2022 e 2026: em 2026 o PL concorreu sem coligação. **Campo não é bloco de votação**: as contas de limiar são o teto de cada grupo votando unido.
 5. **Falácia ecológica.** Toda relação com religião, renda, cor, idade ou Bolsa Família é entre municípios.
 6. **2º turno.** Sete estados estão "em disputa".
+
+## 0.1 O PL no centro: os grupos pela autodeclaração dos partidos (emenda 21)
+
+Cada partido no grupo em que ele mesmo se declara (Valor Econômico, ago/2026): **direita** PL, Novo, Missão · **centro-direita** PP, Republicanos, União Brasil, PRD · **centro** MDB, PSD, Podemos, PSDB, Cidadania, Solidariedade, Avante e os que não se declaram no eixo · **centro-esquerda** PSB, PDT, Rede · **esquerda** PT, PCdoB, PV, PSOL. Sigla antiga vai para o partido que a herdou. Tabela: [`resultados/e0_grupos_por_autodeclaracao.csv`](resultados/e0_grupos_por_autodeclaracao.csv).
+
+**Câmara, cadeiras e votos por grupo** ([`e1_camara_por_grupo.csv`](resultados/e1_camara_por_grupo.csv)):
+
+| grupo | cadeiras 2018 | cadeiras 2022 | cadeiras 2026 | % votos 2018 | % votos 2022 | % votos 2026 |
+|---|---|---|---|---|---|---|
+| direita | 41 | 101 | 132 | 8,1 | 17,9 | 26,4 |
+| centro-direita | 166 | 149 | 133 | 31,3 | 26,4 | 21,6 |
+| centro | 165 | 135 | 124 | 32,9 | 29,1 | 25,7 |
+| centro-esquerda | 61 | 33 | 22 | 11,0 | 8,2 | 6,3 |
+| esquerda | 80 | 95 | 102 | 16,5 | 18,4 | 20,0 |
+
+**Câmara 2026, o que cada grupo alcança se votar unido** ([`e2_camara_limiares_2026.csv`](resultados/e2_camara_limiares_2026.csv)):
+
+| limiar | votos_necessarios | direita_sozinha | direita_mais_centro_direita | falta_com_centro_direita | esquerda_e_centro_esquerda |
+|---|---|---|---|---|---|
+| 1/3: abrir CPI (art. 58 §3º) | 171 | 132 | 265 | 0 | 124 |
+| bloquear uma PEC (mais de 2/5) | 206 | 132 | 265 | 0 | 124 |
+| maioria absoluta: lei complementar, cassação, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º) | 257 | 132 | 265 | 0 | 124 |
+| 3/5: aprovar PEC (art. 60 §2º) | 308 | 132 | 265 | 43 | 124 |
+| 2/3: autorizar processo contra o Presidente (art. 51, I) | 342 | 132 | 265 | 77 | 124 |
+
+**Senado** ([`e3_senado_por_grupo.csv`](resultados/e3_senado_por_grupo.csv)): em exercício hoje (partido atual) centro 31, centro-direita 17, centro-esquerda 8, direita 15, esquerda 9; a partir de fev/2027 centro 17, centro-direita 17, centro-esquerda 6, direita 31, esquerda 9.
+
+| limiar | votos_necessarios | direita_sozinha | direita_mais_centro_direita | falta_com_centro_direita | esquerda_e_centro_esquerda |
+|---|---|---|---|---|---|
+| 1/3: abrir CPI (art. 58 §3º) | 27 | 31 | 48 | 0 | 15 |
+| bloquear uma PEC (mais de 2/5) | 33 | 31 | 48 | 0 | 15 |
+| maioria absoluta: lei complementar, derrubar veto com a Câmara, aprovar autoridade com quórum qualificado | 41 | 31 | 48 | 0 | 15 |
+| 3/5: aprovar PEC (art. 60 §2º) | 49 | 31 | 48 | 1 | 15 |
+| 2/3: condenar no impeachment, de Presidente ou de ministro do STF (art. 52, parágrafo único) | 54 | 31 | 48 | 6 | 15 |
+
+**Governos** ([`e4_governos_por_grupo.csv`](resultados/e4_governos_por_grupo.csv)):
+
+| ano | direita | centro-direita | centro | centro-esquerda | esquerda | em 2o turno |
+|---|---|---|---|---|---|---|
+| 2018 | 1 | 6 | 11 | 4 | 5 | 0 |
+| 2022 | 3 | 8 | 9 | 3 | 4 | 0 |
+| 2026 | 5 | 5 | 7 | 0 | 3 | 7 |
+
+Apoio declarado dos governadores eleitos na eleição presidencial (CNN Brasil) e o eleitorado que eles governarão: Caiado 1 (3,2%), Flávio 10 (54,5%), Lula 5 (16,5%), em 2o turno 7 (16,1%), sem apoio 4 (9,8%).
+
+**Como o PL chegou a 121** ([`e5_pl_121_resumo.csv`](resultados/e5_pl_121_resumo.csv), [`e5_pl_98_da_vespera_destino.csv`](resultados/e5_pl_98_da_vespera_destino.csv)):
+
+| origem | cadeiras | votos_2026 |
+|---|---|---|
+| assumiu o mandato depois de 2022 (suplente) e se elegeu pelo PL | 1 | 187743 |
+| disputou deputado federal em 2022 e não se elegeu | 11 | 761057 |
+| eleito em 2022 pelo PL | 50 | 10172534 |
+| eleito em 2022 por outro partido e foi para o PL | 12 | 1596409 |
+| primeira disputa para deputado federal (desde 2022) | 47 | 7931624 |
+
+Os 98 deputados do PL na véspera: disputou deputado e não se elegeu 14, disputou deputado estadual: eleito 3, disputou governador: eleito 1, disputou senador: eleito 10, disputou senador: não eleito 5, não disputou nenhum cargo em 2026 2, reeleito deputado pelo PL 63.
+
+**Eleitos de 2022 da esquerda e da centro-esquerda que disputaram e não se elegeram:** [`e6_esquerda_que_disputou_e_nao_se_elegeu.csv`](resultados/e6_esquerda_que_disputou_e_nao_se_elegeu.csv); no Senado: [`e6_senado_esquerda_mais_votados_nao_eleitos.csv`](resultados/e6_senado_esquerda_mais_votados_nao_eleitos.csv).
 
 ## 1. Os resultados em dez linhas
 
@@ -217,7 +275,8 @@ Mapa: [`resultados/figuras/video/08_mapa_variacao_voto_direita_deputado_federal.
 
 | id | nome | status | confianca | onde |
 |---|---|---|---|---|
-| H1 | Virada de opinião para a direita | inconsistente | média | Câmara: voto de direita 72,0% → 72,3%; governo e Senado: subida menor que a anterior |
+| H1 | Virada do eleitorado da esquerda para a direita | inconsistente | média | esquerda e centro-esquerda somadas: 26,5% → 26,3% dos votos para deputado; pela R1, direita 72,0% → 72,3% |
+| H9 | Do centro para a direita declarada (PL e Novo) | consistente | alta | direita declarada 17,9% → 26,4% dos votos e 101 → 132 deputados; centro-direita e centro 55,5% → 47,3% |
 | H2 | Referendo sobre o governo | não testável | baixa | só há uma aprovação capturada (Quaest, jul/2026, 48 × 47); sem série |
 | H3 | Anti-incumbência (cansaço de quem está no cargo) | inconsistente | média | deputados reeleitos: 57,5% contra 55,6% em 2022 |
 | H4 | Estrutura e eficiência (listas, federações, puxadores) | consistente | alta | bônus de cadeiras da direita: −0,1 → +2,1 → +3,3 pp; puxadores |

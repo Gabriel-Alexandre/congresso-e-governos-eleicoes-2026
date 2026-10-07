@@ -10,7 +10,8 @@
 
 | # | Hipótese | Situação | Confiança | O que sustenta |
 |---|---|---|---|---|
-| H1 | Virada de opinião para a direita | **inconsistente** | média | Câmara: voto de direita 72,0% → 72,3%; governo e Senado: subida menor que a anterior |
+| H1 | Virada do eleitorado da esquerda para a direita | **inconsistente** | média | esquerda e centro-esquerda somadas: 26,5% → 26,3% dos votos para deputado; pela R1, direita 72,0% → 72,3% |
+| H9 | Do centro para a direita declarada (PL e Novo) | **consistente** | alta | direita declarada 17,9% → 26,4% dos votos e 101 → 132 deputados; centro-direita e centro 55,5% → 47,3% |
 | H2 | Referendo sobre o governo | **não testável** | baixa | só há uma aprovação capturada (Quaest, jul/2026, 48 × 47); sem série |
 | H3 | Anti-incumbência (cansaço de quem está no cargo) | **inconsistente** | média | deputados reeleitos: 57,5% contra 55,6% em 2022 |
 | H4 | Estrutura e eficiência (listas, federações, puxadores) | **consistente** | alta | bônus de cadeiras da direita: −0,1 → +2,1 → +3,3 pp; puxadores |
@@ -19,11 +20,31 @@
 | H7 | Composição do eleitorado (perfil e abstenção) | **inconsistente** | média | perfil soma 1,4 ponto de R² além da UF; abstenção 20,8% → 20,9% |
 | H8 | Arrasto do candidato à Presidência | **consistente** | alta | correlação com o voto de direita: senador 0,53 → 0,70, deputado 0,31 → 0,39 |
 
-*consistente* = as previsões da hipótese aparecem nos testes nomeados; *inconsistente* = aparece o contrário; *não testável* = o dado coletado não alcança. Mais de uma hipótese pode valer ao mesmo tempo.
+*consistente* = as previsões da hipótese aparecem nos testes nomeados; *inconsistente* = aparece o contrário; *não testável* = o dado coletado não alcança. Mais de uma hipótese pode valer ao mesmo tempo. **H9** entrou depois de ver os resultados, com o parâmetro da autodeclaração (emenda 21 do pré-registro).
 
 ---
 
-## Câmara dos Deputados
+## O parâmetro principal: o PL no centro, e cada partido onde ele mesmo se declara
+
+**Por que mudou (07/out, a pedido do autor, depois de ver os resultados; emenda 21):** a escala de especialistas (R1) põe todo o centrão (PP, Republicanos, União, MDB, PSD, Podemos, PSDB) no mesmo campo do PL. No debate brasileiro esses partidos se apresentam como centro ou centro-direita, e é o PL que concentra quem se declara de direita. O parâmetro principal passou a ser **como cada partido se define** (Valor Econômico, ago/2026): **direita** = PL, Novo e Missão; **centro-direita** = PP, Republicanos, União Brasil e PRD; **centro** = MDB, PSD, Podemos, PSDB, Cidadania, Solidariedade, Avante e os que não se declaram no eixo; **centro-esquerda** = PSB, PDT e Rede; **esquerda** = PT, PCdoB, PV e PSOL. Sigla antiga vai para o partido que a herdou (PSL e DEM → União). O GPS Partidário da Folha (set/2026), que mede comportamento, também põe PL e Novo à direita e MDB e PSD no centro. R1, R2 e R3 continuam abaixo como comparação.
+
+**Câmara, os fatos (alto):** a direita declarada foi de 41 deputados em 2018 para 101 em 2022 e 132 em 2026 (17,9% → 26,4% dos votos). A centro-direita foi de 149 para 133 e o centro de 135 para 124. A esquerda foi de 95 para 102 e a centro-esquerda de 33 para 22 (o PDT foi de 16 para 6); somadas, 128 → 124 deputados e 26,5% → 26,3% dos votos. O partido de Bolsonaro em cada eleição: PSL com 52 em 2018, PL com 98 em 2022 e 121 em 2026. ⚠️ Em 2018 o PSL conta como centro-direita, porque o herdeiro dele (União) se declara assim hoje.
+
+**Câmara, o que cada grupo alcança (alto para a conta, baixo para o comportamento):** a direita declarada sozinha (132) não chega a nenhum dos limiares: faltam 39 para abrir uma CPI (171). Com a centro-direita, chega a **265**, acima da maioria absoluta (257), o que em 2022 não acontecia (250). Para uma PEC (308) faltariam 43 votos do centro, e para autorizar processo contra o Presidente (342), 77. A esquerda com a centro-esquerda (124) não bloqueia uma PEC sozinha: faltam 82 para os 206.
+
+**Senado, os fatos e a conta (alto para a conta):** hoje, pelo partido atual, a direita declarada tem 15 dos 81 senadores (PL 15), a centro-direita 17, o centro 31, a centro-esquerda 8 e a esquerda 9. A partir de fevereiro de 2027: direita **31** (PL 28), centro-direita 17, centro 17, centro-esquerda 6 e esquerda 9. Direita com centro-direita: **48**, acima de 41, a **1 voto** de uma PEC (49) e a **6** dos 54 que condenam um ministro do STF num impeachment. A esquerda com a centro-esquerda terá 15, abaixo dos 33 que bloqueiam uma PEC.
+
+**Governos (alto):** a direita declarada (todos do PL) ganhou 5 governos, contra 3 em 2022; a centro-direita 5, o centro 7 e a esquerda 3; 7 vão a 2º turno. Pelo apoio declarado na eleição presidencial (CNN Brasil), os 10 governadores eleitos que apoiam Flávio governarão 54,5% do eleitorado, e os 5 que apoiam Lula, 16,5%.
+
+**Como o PL chegou a 121 (alto para a descrição):** dos 121 eleitos, 50 já tinham sido eleitos pelo PL em 2022, 12 foram eleitos em 2022 por outro partido e mudaram para o PL antes da eleição (3 do União, 2 do Avante, 2 do MDB, 2 do PSD, 1 do Podemos, 1 do PRD, 1 do Republicanos), 11 tinham disputado em 2022 sem se eleger, 1 assumiu como suplente e 47 disputaram pela primeira vez. Dos 98 deputados que o PL tinha na véspera, 63 se reelegeram, **10 foram eleitos senadores** (Gustavo Gayer, Dr. Fernando Máximo, Nicoletti, Caroline de Toni, Bia Kicis, Filipe Barros, Carlos Jordy, Sanderson, Domingos Sávio, José Medeiros), 1 governador, 3 deputados estaduais, 14 perderam a reeleição e 5 perderam a disputa ao Senado. Os votos nominais do PL para deputado foram de 17.395.485 para 25.201.522; os dez mais votados do partido somaram 9.524.626.
+
+**A leitura da IA (opinião, confiança alta para a direção, média para o tamanho):** o voto que o centro e a centro-direita perderam para deputado (8,1 pontos) tem o mesmo tamanho do que a direita declarada ganhou (8,4 pontos), a maior parte no PL (6,1 pontos); o dado é por partido e não mostra quem trocou de voto, um a um; a esquerda somada ficou do mesmo tamanho em votos (26,5% → 26,3%) e perdeu 4 cadeiras, quase todas da centro-esquerda. As duas leituras do mesmo resultado convivem: pela R1, que junta o centrão à direita, "a direita" mal mexeu; pela autodeclaração, a direita declarada cresceu 31 deputados e 16 senadores (contando o Senado de hoje), e o centro encolheu. A consequência prática está no Senado: a direita declarada e a centro-direita juntas vão de 32 senadores hoje para 48, a um voto de aprovar uma PEC e a seis de condenar um ministro do STF; na Câmara passam da maioria absoluta, o que não acontecia com os eleitos de 2022. **Campo não é bloco de votação**: a conta é o teto do que cada grupo alcança se votar unido, não uma previsão.
+
+**O que acompanha o crescimento do PL (descrição, não causa; opinião, confiança média):** (1) o partido trouxe deputados de outras siglas antes da eleição e lançou 47 nomes novos que se elegeram; (2) usou a própria bancada para disputar o Senado, e 10 deputados viraram senadores; (3) puxadores com votação muito acima da média (Nikolas Ferreira e Lucas Pavanato, cada um com mais de 3 milhões); (4) o voto no PL andou junto com o voto em Flávio para presidente (H8). **O que não dá para separar** é quanto disso veio dos casos da campanha (Banco Master, STF, INSS, condenação de Bolsonaro): faltam medições de opinião perto de cada caso (H6).
+
+---
+
+## Câmara dos Deputados, pelos outros parâmetros (R1, R2, R3)
 
 **Base de 2022:** o arquivo atual do TSE (PL 98, PT 69). Matérias da época deram PL 99 e PT 68; a diferença é compatível com a troca de sete mandatos decidida pelo STF sobre as sobras (fonte `conjur-sete-deputados`), mas não foi verificada cadeira a cadeira.
 

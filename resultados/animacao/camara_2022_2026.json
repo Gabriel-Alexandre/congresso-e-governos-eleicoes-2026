@@ -1,6430 +1,5427 @@
 {
  "2022": {
   "total": 513,
+  "contagem_por_grupo": {
+   "centro-direita": 149,
+   "centro": 135,
+   "direita": 101,
+   "esquerda": 95,
+   "centro-esquerda": 33
+  },
   "ordem_dos_partidos": [
    {
     "partido": "PSOL",
     "cadeiras": 13,
-    "campo": "esquerda",
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PCDOB",
     "cadeiras": 7,
-    "campo": "esquerda",
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PT",
     "cadeiras": 69,
-    "campo": "esquerda",
+    "grupo": "esquerda",
     "cor": "#E53935"
-   },
-   {
-    "partido": "PDT",
-    "cadeiras": 16,
-    "campo": "esquerda",
-    "cor": "#EF5350"
-   },
-   {
-    "partido": "PSB",
-    "cadeiras": 15,
-    "campo": "centro",
-    "cor": "#616161"
-   },
-   {
-    "partido": "REDE",
-    "cadeiras": 2,
-    "campo": "centro",
-    "cor": "#757575"
-   },
-   {
-    "partido": "CIDADANIA",
-    "cadeiras": 5,
-    "campo": "centro",
-    "cor": "#9E9E9E"
    },
    {
     "partido": "PV",
     "cadeiras": 6,
-    "campo": "centro",
-    "cor": "#BDBDBD"
+    "grupo": "esquerda",
+    "cor": "#EF5350"
    },
    {
-    "partido": "PTB",
-    "cadeiras": 1,
-    "campo": "direita",
-    "cor": "#1E88E5"
+    "partido": "PDT",
+    "cadeiras": 16,
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
+   },
+   {
+    "partido": "PSB",
+    "cadeiras": 15,
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
+   },
+   {
+    "partido": "REDE",
+    "cadeiras": 2,
+    "grupo": "centro-esquerda",
+    "cor": "#F48FB1"
+   },
+   {
+    "partido": "CIDADANIA",
+    "cadeiras": 5,
+    "grupo": "centro",
+    "cor": "#616161"
    },
    {
     "partido": "AVANTE",
     "cadeiras": 7,
-    "campo": "direita",
-    "cor": "#64B5F6"
+    "grupo": "centro",
+    "cor": "#757575"
    },
    {
     "partido": "SOLIDARIEDADE",
     "cadeiras": 4,
-    "campo": "direita",
-    "cor": "#0097A7"
+    "grupo": "centro",
+    "cor": "#8D8D8D"
    },
    {
     "partido": "MDB",
     "cadeiras": 41,
-    "campo": "direita",
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "PSD",
     "cadeiras": 42,
-    "campo": "direita",
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSDB",
     "cadeiras": 13,
-    "campo": "direita",
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PODE",
     "cadeiras": 14,
-    "campo": "direita",
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PROS",
     "cadeiras": 3,
-    "campo": "direita",
-    "cor": "#80CBC4"
-   },
-   {
-    "partido": "PL",
-    "cadeiras": 98,
-    "campo": "direita",
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "REPUBLICANOS",
-    "cadeiras": 40,
-    "campo": "direita",
-    "cor": "#81D4FA"
-   },
-   {
-    "partido": "NOVO",
-    "cadeiras": 3,
-    "campo": "direita",
-    "cor": "#5C9BD5"
-   },
-   {
-    "partido": "PP",
-    "cadeiras": 47,
-    "campo": "direita",
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "UNIAO",
-    "cadeiras": 57,
-    "campo": "direita",
-    "cor": "#1E88E5"
+    "grupo": "centro",
+    "cor": "#616161"
    },
    {
     "partido": "PSC",
     "cadeiras": 6,
-    "campo": "direita",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "PTB",
+    "cadeiras": 1,
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "REPUBLICANOS",
+    "cadeiras": 40,
+    "grupo": "centro-direita",
     "cor": "#64B5F6"
+   },
+   {
+    "partido": "PP",
+    "cadeiras": 47,
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "UNIAO",
+    "cadeiras": 57,
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
    },
    {
     "partido": "PATRIOTA",
     "cadeiras": 4,
-    "campo": "direita",
-    "cor": "#0097A7"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
+   },
+   {
+    "partido": "NOVO",
+    "cadeiras": 3,
+    "grupo": "direita",
+    "cor": "#3949AB"
+   },
+   {
+    "partido": "PL",
+    "cadeiras": 98,
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    }
   ],
   "assentos": [
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
-    "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
+    "partido": "PV",
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PV",
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PV",
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PV",
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PV",
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PV",
+    "grupo": "esquerda",
     "cor": "#EF5350"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
+   },
+   {
+    "partido": "PDT",
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "REDE",
-    "campo": "centro",
-    "nota_r1": 4.77,
-    "cor": "#757575"
+    "grupo": "centro-esquerda",
+    "cor": "#F48FB1"
    },
    {
     "partido": "REDE",
-    "campo": "centro",
-    "nota_r1": 4.77,
+    "grupo": "centro-esquerda",
+    "cor": "#F48FB1"
+   },
+   {
+    "partido": "CIDADANIA",
+    "grupo": "centro",
+    "cor": "#616161"
+   },
+   {
+    "partido": "CIDADANIA",
+    "grupo": "centro",
+    "cor": "#616161"
+   },
+   {
+    "partido": "CIDADANIA",
+    "grupo": "centro",
+    "cor": "#616161"
+   },
+   {
+    "partido": "CIDADANIA",
+    "grupo": "centro",
+    "cor": "#616161"
+   },
+   {
+    "partido": "CIDADANIA",
+    "grupo": "centro",
+    "cor": "#616161"
+   },
+   {
+    "partido": "AVANTE",
+    "grupo": "centro",
     "cor": "#757575"
    },
    {
-    "partido": "CIDADANIA",
-    "campo": "centro",
-    "nota_r1": 4.92,
+    "partido": "AVANTE",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "AVANTE",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "AVANTE",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "AVANTE",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "AVANTE",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "AVANTE",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "SOLIDARIEDADE",
+    "grupo": "centro",
+    "cor": "#8D8D8D"
+   },
+   {
+    "partido": "SOLIDARIEDADE",
+    "grupo": "centro",
+    "cor": "#8D8D8D"
+   },
+   {
+    "partido": "SOLIDARIEDADE",
+    "grupo": "centro",
+    "cor": "#8D8D8D"
+   },
+   {
+    "partido": "SOLIDARIEDADE",
+    "grupo": "centro",
+    "cor": "#8D8D8D"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
     "cor": "#9E9E9E"
    },
    {
-    "partido": "CIDADANIA",
-    "campo": "centro",
-    "nota_r1": 4.92,
+    "partido": "MDB",
+    "grupo": "centro",
     "cor": "#9E9E9E"
    },
    {
-    "partido": "CIDADANIA",
-    "campo": "centro",
-    "nota_r1": 4.92,
+    "partido": "MDB",
+    "grupo": "centro",
     "cor": "#9E9E9E"
    },
    {
-    "partido": "CIDADANIA",
-    "campo": "centro",
-    "nota_r1": 4.92,
+    "partido": "MDB",
+    "grupo": "centro",
     "cor": "#9E9E9E"
    },
    {
-    "partido": "CIDADANIA",
-    "campo": "centro",
-    "nota_r1": 4.92,
+    "partido": "MDB",
+    "grupo": "centro",
     "cor": "#9E9E9E"
    },
    {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "MDB",
+    "grupo": "centro",
+    "cor": "#9E9E9E"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSD",
+    "grupo": "centro",
+    "cor": "#B0B0B0"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PSDB",
+    "grupo": "centro",
+    "cor": "#C2C2C2"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PODE",
+    "grupo": "centro",
+    "cor": "#D5D5D5"
+   },
+   {
+    "partido": "PROS",
+    "grupo": "centro",
+    "cor": "#616161"
+   },
+   {
+    "partido": "PROS",
+    "grupo": "centro",
+    "cor": "#616161"
+   },
+   {
+    "partido": "PROS",
+    "grupo": "centro",
+    "cor": "#616161"
+   },
+   {
+    "partido": "PSC",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "PSC",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "PSC",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "PSC",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "PSC",
+    "grupo": "centro",
+    "cor": "#757575"
+   },
+   {
+    "partido": "PSC",
+    "grupo": "centro",
+    "cor": "#757575"
    },
    {
     "partido": "PTB",
-    "campo": "direita",
-    "nota_r1": 6.1,
-    "cor": "#1E88E5"
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
    },
    {
-    "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
+    "partido": "REPUBLICANOS",
+    "grupo": "centro-direita",
     "cor": "#64B5F6"
    },
    {
-    "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
+    "partido": "REPUBLICANOS",
+    "grupo": "centro-direita",
     "cor": "#64B5F6"
    },
    {
-    "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
+    "partido": "REPUBLICANOS",
+    "grupo": "centro-direita",
     "cor": "#64B5F6"
    },
    {
-    "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
+    "partido": "REPUBLICANOS",
+    "grupo": "centro-direita",
     "cor": "#64B5F6"
    },
    {
-    "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
+    "partido": "REPUBLICANOS",
+    "grupo": "centro-direita",
     "cor": "#64B5F6"
    },
    {
-    "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
+    "partido": "REPUBLICANOS",
+    "grupo": "centro-direita",
     "cor": "#64B5F6"
    },
    {
-    "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
+    "partido": "REPUBLICANOS",
+    "grupo": "centro-direita",
     "cor": "#64B5F6"
    },
    {
-    "partido": "SOLIDARIEDADE",
-    "campo": "direita",
-    "nota_r1": 6.5,
-    "cor": "#0097A7"
-   },
-   {
-    "partido": "SOLIDARIEDADE",
-    "campo": "direita",
-    "nota_r1": 6.5,
-    "cor": "#0097A7"
-   },
-   {
-    "partido": "SOLIDARIEDADE",
-    "campo": "direita",
-    "nota_r1": 6.5,
-    "cor": "#0097A7"
-   },
-   {
-    "partido": "SOLIDARIEDADE",
-    "campo": "direita",
-    "nota_r1": 6.5,
-    "cor": "#0097A7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PROS",
-    "campo": "direita",
-    "nota_r1": 7.47,
-    "cor": "#80CBC4"
-   },
-   {
-    "partido": "PROS",
-    "campo": "direita",
-    "nota_r1": 7.47,
-    "cor": "#80CBC4"
-   },
-   {
-    "partido": "PROS",
-    "campo": "direita",
-    "nota_r1": 7.47,
-    "cor": "#80CBC4"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
+    "partido": "REPUBLICANOS",
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
-    "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
    },
    {
-    "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
    },
    {
-    "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
    },
    {
-    "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
    },
    {
-    "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
    },
    {
-    "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
    },
    {
-    "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
    },
    {
-    "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "PATRIOTA",
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
+   },
+   {
+    "partido": "PATRIOTA",
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
+   },
+   {
+    "partido": "PATRIOTA",
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
+   },
+   {
+    "partido": "PATRIOTA",
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    },
    {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "PSC",
-    "campo": "direita",
-    "nota_r1": 8.33,
-    "cor": "#64B5F6"
-   },
-   {
-    "partido": "PSC",
-    "campo": "direita",
-    "nota_r1": 8.33,
-    "cor": "#64B5F6"
-   },
-   {
-    "partido": "PSC",
-    "campo": "direita",
-    "nota_r1": 8.33,
-    "cor": "#64B5F6"
-   },
-   {
-    "partido": "PSC",
-    "campo": "direita",
-    "nota_r1": 8.33,
-    "cor": "#64B5F6"
-   },
-   {
-    "partido": "PSC",
-    "campo": "direita",
-    "nota_r1": 8.33,
-    "cor": "#64B5F6"
-   },
-   {
-    "partido": "PSC",
-    "campo": "direita",
-    "nota_r1": 8.33,
-    "cor": "#64B5F6"
-   },
-   {
-    "partido": "PATRIOTA",
-    "campo": "direita",
-    "nota_r1": 8.55,
-    "cor": "#0097A7"
-   },
-   {
-    "partido": "PATRIOTA",
-    "campo": "direita",
-    "nota_r1": 8.55,
-    "cor": "#0097A7"
-   },
-   {
-    "partido": "PATRIOTA",
-    "campo": "direita",
-    "nota_r1": 8.55,
-    "cor": "#0097A7"
-   },
-   {
-    "partido": "PATRIOTA",
-    "campo": "direita",
-    "nota_r1": 8.55,
-    "cor": "#0097A7"
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    }
-  ]
+  ],
+  "direita_mais_centro_direita": 250
  },
  "2026": {
   "total": 513,
+  "contagem_por_grupo": {
+   "centro-direita": 133,
+   "direita": 132,
+   "centro": 124,
+   "esquerda": 102,
+   "centro-esquerda": 22
+  },
   "ordem_dos_partidos": [
    {
     "partido": "PSOL",
     "cadeiras": 14,
-    "campo": "esquerda",
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PCDOB",
     "cadeiras": 11,
-    "campo": "esquerda",
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PT",
     "cadeiras": 70,
-    "campo": "esquerda",
+    "grupo": "esquerda",
     "cor": "#E53935"
-   },
-   {
-    "partido": "PDT",
-    "cadeiras": 6,
-    "campo": "esquerda",
-    "cor": "#EF5350"
-   },
-   {
-    "partido": "PSB",
-    "cadeiras": 15,
-    "campo": "centro",
-    "cor": "#616161"
-   },
-   {
-    "partido": "REDE",
-    "cadeiras": 1,
-    "campo": "centro",
-    "cor": "#757575"
    },
    {
     "partido": "PV",
     "cadeiras": 7,
-    "campo": "centro",
-    "cor": "#BDBDBD"
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PDT",
+    "cadeiras": 6,
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
+   },
+   {
+    "partido": "PSB",
+    "cadeiras": 15,
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
+   },
+   {
+    "partido": "REDE",
+    "cadeiras": 1,
+    "grupo": "centro-esquerda",
+    "cor": "#F48FB1"
    },
    {
     "partido": "AVANTE",
     "cadeiras": 5,
-    "campo": "direita",
-    "cor": "#64B5F6"
+    "grupo": "centro",
+    "cor": "#757575"
    },
    {
     "partido": "SOLIDARIEDADE",
     "cadeiras": 2,
-    "campo": "direita",
-    "cor": "#0097A7"
+    "grupo": "centro",
+    "cor": "#8D8D8D"
    },
    {
     "partido": "MDB",
     "cadeiras": 36,
-    "campo": "direita",
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "PSD",
     "cadeiras": 43,
-    "campo": "direita",
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSDB",
     "cadeiras": 11,
-    "campo": "direita",
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PODE",
     "cadeiras": 27,
-    "campo": "direita",
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PL",
-    "cadeiras": 121,
-    "campo": "direita",
-    "cor": "#0B2C6B"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "REPUBLICANOS",
     "cadeiras": 41,
-    "campo": "direita",
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "PRD",
     "cadeiras": 5,
-    "campo": "direita",
-    "cor": "#B3E5FC"
-   },
-   {
-    "partido": "NOVO",
-    "cadeiras": 10,
-    "campo": "direita",
-    "cor": "#5C9BD5"
+    "grupo": "centro-direita",
+    "cor": "#90CAF9"
    },
    {
     "partido": "PP",
     "cadeiras": 41,
-    "campo": "direita",
-    "cor": "#A7C7E7"
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
    },
    {
     "partido": "UNIAO",
     "cadeiras": 46,
-    "campo": "direita",
-    "cor": "#1E88E5"
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "NOVO",
+    "cadeiras": 10,
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "MISSAO",
     "cadeiras": 1,
-    "campo": "sem classificacao",
-    "cor": "#CFCFCF"
+    "grupo": "direita",
+    "cor": "#5C6BC0"
+   },
+   {
+    "partido": "PL",
+    "cadeiras": 121,
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    }
   ],
   "assentos": [
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PSOL",
-    "campo": "esquerda",
-    "nota_r1": 1.28,
+    "grupo": "esquerda",
     "cor": "#B71C1C"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PCDOB",
-    "campo": "esquerda",
-    "nota_r1": 1.92,
+    "grupo": "esquerda",
     "cor": "#D32F2F"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
     "partido": "PT",
-    "campo": "esquerda",
-    "nota_r1": 2.97,
+    "grupo": "esquerda",
     "cor": "#E53935"
    },
    {
-    "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
+    "partido": "PV",
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PV",
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PV",
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PV",
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PV",
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PV",
+    "grupo": "esquerda",
+    "cor": "#EF5350"
+   },
+   {
+    "partido": "PV",
+    "grupo": "esquerda",
     "cor": "#EF5350"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PDT",
-    "campo": "esquerda",
-    "nota_r1": 3.92,
-    "cor": "#EF5350"
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
+   },
+   {
+    "partido": "PDT",
+    "grupo": "centro-esquerda",
+    "cor": "#EC407A"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "PSB",
-    "campo": "centro",
-    "nota_r1": 4.05,
-    "cor": "#616161"
+    "grupo": "centro-esquerda",
+    "cor": "#F06292"
    },
    {
     "partido": "REDE",
-    "campo": "centro",
-    "nota_r1": 4.77,
+    "grupo": "centro-esquerda",
+    "cor": "#F48FB1"
+   },
+   {
+    "partido": "AVANTE",
+    "grupo": "centro",
     "cor": "#757575"
    },
    {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
-   },
-   {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
-   },
-   {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
-   },
-   {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
-   },
-   {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
-   },
-   {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
-   },
-   {
-    "partido": "PV",
-    "campo": "centro",
-    "nota_r1": 5.29,
-    "cor": "#BDBDBD"
+    "partido": "AVANTE",
+    "grupo": "centro",
+    "cor": "#757575"
    },
    {
     "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
-    "cor": "#64B5F6"
+    "grupo": "centro",
+    "cor": "#757575"
    },
    {
     "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
-    "cor": "#64B5F6"
+    "grupo": "centro",
+    "cor": "#757575"
    },
    {
     "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
-    "cor": "#64B5F6"
-   },
-   {
-    "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
-    "cor": "#64B5F6"
-   },
-   {
-    "partido": "AVANTE",
-    "campo": "direita",
-    "nota_r1": 6.32,
-    "cor": "#64B5F6"
+    "grupo": "centro",
+    "cor": "#757575"
    },
    {
     "partido": "SOLIDARIEDADE",
-    "campo": "direita",
-    "nota_r1": 6.5,
-    "cor": "#0097A7"
+    "grupo": "centro",
+    "cor": "#8D8D8D"
    },
    {
     "partido": "SOLIDARIEDADE",
-    "campo": "direita",
-    "nota_r1": 6.5,
-    "cor": "#0097A7"
+    "grupo": "centro",
+    "cor": "#8D8D8D"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "MDB",
-    "campo": "direita",
-    "nota_r1": 7.01,
-    "cor": "#4FC3F7"
+    "grupo": "centro",
+    "cor": "#9E9E9E"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSD",
-    "campo": "direita",
-    "nota_r1": 7.09,
-    "cor": "#26A69A"
+    "grupo": "centro",
+    "cor": "#B0B0B0"
    },
    {
     "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PSDB",
-    "campo": "direita",
-    "nota_r1": 7.11,
-    "cor": "#90CAF9"
+    "grupo": "centro",
+    "cor": "#C2C2C2"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "PODE",
-    "campo": "direita",
-    "nota_r1": 7.24,
-    "cor": "#4DD0E1"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
-   },
-   {
-    "partido": "PL",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#0B2C6B"
+    "grupo": "centro",
+    "cor": "#D5D5D5"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "REPUBLICANOS",
-    "campo": "direita",
-    "nota_r1": 7.78,
-    "cor": "#81D4FA"
+    "grupo": "centro-direita",
+    "cor": "#64B5F6"
    },
    {
     "partido": "PRD",
-    "campo": "direita",
-    "nota_r1": 8.06,
-    "cor": "#B3E5FC"
+    "grupo": "centro-direita",
+    "cor": "#90CAF9"
    },
    {
     "partido": "PRD",
-    "campo": "direita",
-    "nota_r1": 8.06,
-    "cor": "#B3E5FC"
+    "grupo": "centro-direita",
+    "cor": "#90CAF9"
    },
    {
     "partido": "PRD",
-    "campo": "direita",
-    "nota_r1": 8.06,
-    "cor": "#B3E5FC"
+    "grupo": "centro-direita",
+    "cor": "#90CAF9"
    },
    {
     "partido": "PRD",
-    "campo": "direita",
-    "nota_r1": 8.06,
-    "cor": "#B3E5FC"
+    "grupo": "centro-direita",
+    "cor": "#90CAF9"
    },
    {
     "partido": "PRD",
-    "campo": "direita",
-    "nota_r1": 8.06,
-    "cor": "#B3E5FC"
+    "grupo": "centro-direita",
+    "cor": "#90CAF9"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "PP",
+    "grupo": "centro-direita",
+    "cor": "#4FC3F7"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
+   },
+   {
+    "partido": "UNIAO",
+    "grupo": "centro-direita",
+    "cor": "#42A5F5"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "NOVO",
-    "campo": "direita",
-    "nota_r1": 8.13,
-    "cor": "#5C9BD5"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "PP",
-    "campo": "direita",
-    "nota_r1": 8.2,
-    "cor": "#A7C7E7"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
-   },
-   {
-    "partido": "UNIAO",
-    "campo": "direita",
-    "nota_r1": 8.274691358024691,
-    "cor": "#1E88E5"
+    "grupo": "direita",
+    "cor": "#3949AB"
    },
    {
     "partido": "MISSAO",
-    "campo": "sem classificacao",
-    "nota_r1": null,
-    "cor": "#CFCFCF"
+    "grupo": "direita",
+    "cor": "#5C6BC0"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
+   },
+   {
+    "partido": "PL",
+    "grupo": "direita",
+    "cor": "#0B2C6B"
    }
-  ]
+  ],
+  "direita_mais_centro_direita": 265
+ },
+ "limiares": {
+  "CPI": 171,
+  "bloquear_PEC": 206,
+  "maioria_absoluta": 257,
+  "PEC": 308,
+  "impeachment_autorizar": 342
  }
 }

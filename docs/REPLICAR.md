@@ -18,8 +18,10 @@ python ferramentas/analise-3-senado-governos.py # A2, A3, D5, D8
 python ferramentas/analise-4-pesquisas.py       # C
 python ferramentas/analise-5-geografia.py       # B (demora alguns minutos: lê o Bolsa Família)
 python ferramentas/analise-6-plenario-e-eleicao.py  # D3
+python ferramentas/analise-11-pl-e-blocos.py     # E: autodeclaração dos partidos, limiares, anatomia do PL (emenda 21)
 python ferramentas/analise-8-veredito.py        # placar e docs/LEITURA_DA_IA.md
 python ferramentas/analise-7-graficos.py        # resultados/figuras/video
+python ferramentas/analise-10-animacao.py       # animações (resultados/animacao) e gráficos 15 a 26
 python ferramentas/revisao-adversarial.py       # checagens independentes
 python ferramentas/analise-9-relatorio.py       # RELATORIO.md e RESUMO_SIMPLES.md
 

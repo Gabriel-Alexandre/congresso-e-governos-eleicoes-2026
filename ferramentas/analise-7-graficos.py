@@ -247,7 +247,7 @@ def g14_placar():
     p = json.loads((RES / "placar_hipoteses.json").read_text(encoding="utf-8")) if (RES / "placar_hipoteses.json").exists() else None
     if not p:
         return
-    fig, ax = novo("Placar das hipóteses", "Cada explicação disse antes o que o dado mostraria. Opinião da IA, com grau de confiança")
+    fig, ax = novo("Placar das hipóteses", "Cada explicação disse antes o que o dado mostraria (a H9 entrou depois). Opinião da IA")
     ax.axis("off")
     cores = {"consistente": "#2E7D32", "inconsistente": "#B23B3B", "não testável": "#8E8E93", "parcial": "#C98A00"}
     y = 0.92

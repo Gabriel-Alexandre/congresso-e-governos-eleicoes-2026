@@ -88,9 +88,30 @@ def main() -> None:
     vp = pd.read_csv(RES / 'a1_votos_pct_por_partido_e_ano.csv').set_index('sig')
     dv = (100 * (vp['2026'] - vp['2022'])).round(1)
     perdas = ', '.join(f"{ {'UNIAO': 'União', 'SOLIDARIEDADE': 'Solidariedade'}.get(p_, p_) } {sg(dv[p_])}" for p_ in ('UNIAO', 'PP', 'SOLIDARIEDADE', 'PSDB') if p_ in dv.index) + ' pontos'
+    # bloco E: autodeclaracao dos partidos, com o PL no centro (emenda 21)
+    E1 = R["e1"]; E3 = R["e3"]; E4 = R["e4"]; E5 = R["e5"]
+    cc = {int(a): v for a, v in E1["camara_cadeiras"].items()}
+    cv = {int(a): v for a, v in E1["camara_pct_votos"].items()}
+    esqv = {a: cv[a]["esquerda"] + cv[a]["centro-esquerda"] for a in cv}
+    naoesqv = {a: 100 - esqv[a] for a in cv}
+    lc = {r["votos_necessarios"]: r for r in R["e2"]["camara_2026"]}
+    lc22 = {r["votos_necessarios"]: r for r in R["e2"]["camara_2022"]}
+    ls = {r["votos_necessarios"]: r for r in E3["senado_limiares_2027"]}
+    sh = E3["senado_em_exercicio_out2026"]
+    s27 = E3["senado_2027_partido_atual"]
+    o121 = E5["pl_121_origem"]
+    d98 = E5["pl_98_destino"]
+    mig = E5["migrantes_de_onde"]
+    nomes_part = {"UNIAO": "União", "REPUBLICANOS": "Republicanos", "PODE": "Podemos", "AVANTE": "Avante"}
+    mig_txt = ", ".join(f"{v} do {nomes_part.get(k, k)}" for k, v in sorted(mig.items(), key=lambda kv: -kv[1]))
+    sen_pl = pd.read_csv(RES / "e5_pl_98_da_vespera_destino.csv").query("destino == 'disputou senador: eleito'")["nome"].tolist()
+    apo = E4["apoio_declarado_2026"]
+    ge = {r["ano"]: r for r in E4["governos_por_grupo"]}
     placar = [
-        {"id": "H1", "nome": "Virada de opinião para a direita", "status": "inconsistente", "confianca": "média",
-         "onde": f"Câmara: voto de direita {f1(dir_v[2022])}% → {f1(dir_v[2026])}%; governo e Senado: subida menor que a anterior"},
+        {"id": "H1", "nome": "Virada do eleitorado da esquerda para a direita", "status": "inconsistente", "confianca": "média",
+         "onde": f"esquerda e centro-esquerda somadas: {f1(esqv[2022])}% → {f1(esqv[2026])}% dos votos para deputado; pela R1, direita {f1(dir_v[2022])}% → {f1(dir_v[2026])}%"},
+        {"id": "H9", "nome": "Do centro para a direita declarada (PL e Novo)", "status": "consistente", "confianca": "alta",
+         "onde": f"direita declarada {f1(cv[2022]['direita'])}% → {f1(cv[2026]['direita'])}% dos votos e {cc[2022]['direita']} → {cc[2026]['direita']} deputados; centro-direita e centro {f1(cv[2022]['centro-direita'] + cv[2022]['centro'])}% → {f1(cv[2026]['centro-direita'] + cv[2026]['centro'])}%"},
         {"id": "H2", "nome": "Referendo sobre o governo", "status": "não testável", "confianca": "baixa",
          "onde": "só há uma aprovação capturada (Quaest, jul/2026, 48 × 47); sem série"},
         {"id": "H3", "nome": "Anti-incumbência (cansaço de quem está no cargo)", "status": "inconsistente", "confianca": "média",
@@ -123,11 +144,31 @@ def main() -> None:
     for h in placar:
         t.append(f"| {h['id']} | {h['nome']} | **{h['status']}** | {h['confianca']} | {h['onde']} |")
     t.append(f"""
-*consistente* = as previsões da hipótese aparecem nos testes nomeados; *inconsistente* = aparece o contrário; *não testável* = o dado coletado não alcança. Mais de uma hipótese pode valer ao mesmo tempo.
+*consistente* = as previsões da hipótese aparecem nos testes nomeados; *inconsistente* = aparece o contrário; *não testável* = o dado coletado não alcança. Mais de uma hipótese pode valer ao mesmo tempo. **H9** entrou depois de ver os resultados, com o parâmetro da autodeclaração (emenda 21 do pré-registro).
 
 ---
 
-## Câmara dos Deputados
+## O parâmetro principal: o PL no centro, e cada partido onde ele mesmo se declara
+
+**Por que mudou (07/out, a pedido do autor, depois de ver os resultados; emenda 21):** a escala de especialistas (R1) põe todo o centrão (PP, Republicanos, União, MDB, PSD, Podemos, PSDB) no mesmo campo do PL. No debate brasileiro esses partidos se apresentam como centro ou centro-direita, e é o PL que concentra quem se declara de direita. O parâmetro principal passou a ser **como cada partido se define** (Valor Econômico, ago/2026): **direita** = PL, Novo e Missão; **centro-direita** = PP, Republicanos, União Brasil e PRD; **centro** = MDB, PSD, Podemos, PSDB, Cidadania, Solidariedade, Avante e os que não se declaram no eixo; **centro-esquerda** = PSB, PDT e Rede; **esquerda** = PT, PCdoB, PV e PSOL. Sigla antiga vai para o partido que a herdou (PSL e DEM → União). O GPS Partidário da Folha (set/2026), que mede comportamento, também põe PL e Novo à direita e MDB e PSD no centro. R1, R2 e R3 continuam abaixo como comparação.
+
+**Câmara, os fatos (alto):** a direita declarada foi de {cc[2018]['direita']} deputados em 2018 para {cc[2022]['direita']} em 2022 e {cc[2026]['direita']} em 2026 ({f1(cv[2022]['direita'])}% → {f1(cv[2026]['direita'])}% dos votos). A centro-direita foi de {cc[2022]['centro-direita']} para {cc[2026]['centro-direita']} e o centro de {cc[2022]['centro']} para {cc[2026]['centro']}. A esquerda foi de {cc[2022]['esquerda']} para {cc[2026]['esquerda']} e a centro-esquerda de {cc[2022]['centro-esquerda']} para {cc[2026]['centro-esquerda']} (o PDT foi de 16 para 6); somadas, {cc[2022]['esquerda'] + cc[2022]['centro-esquerda']} → {cc[2026]['esquerda'] + cc[2026]['centro-esquerda']} deputados e {f1(esqv[2022])}% → {f1(esqv[2026])}% dos votos. O partido de Bolsonaro em cada eleição: PSL com {E1['partido_de_bolsonaro']['2018 (PSL)']} em 2018, PL com {E1['partido_de_bolsonaro']['2022 (PL)']} em 2022 e {E1['partido_de_bolsonaro']['2026 (PL)']} em 2026. ⚠️ Em 2018 o PSL conta como centro-direita, porque o herdeiro dele (União) se declara assim hoje.
+
+**Câmara, o que cada grupo alcança (alto para a conta, baixo para o comportamento):** a direita declarada sozinha ({lc[171]['direita_sozinha']}) não chega a nenhum dos limiares: faltam {lc[171]['falta_a_direita']} para abrir uma CPI (171). Com a centro-direita, chega a **{lc[257]['direita_mais_centro_direita']}**, acima da maioria absoluta (257), o que em 2022 não acontecia ({lc22[257]['direita_mais_centro_direita']}). Para uma PEC (308) faltariam {lc[308]['falta_com_centro_direita']} votos do centro, e para autorizar processo contra o Presidente (342), {lc[342]['falta_com_centro_direita']}. A esquerda com a centro-esquerda ({lc[206]['esquerda_e_centro_esquerda']}) não bloqueia uma PEC sozinha: faltam {lc[206]['falta_a_esquerda']} para os 206.
+
+**Senado, os fatos e a conta (alto para a conta):** hoje, pelo partido atual, a direita declarada tem {sh['direita']} dos 81 senadores (PL {sh['PL']}), a centro-direita {sh['centro-direita']}, o centro {sh['centro']}, a centro-esquerda {sh['centro-esquerda']} e a esquerda {sh['esquerda']}. A partir de fevereiro de 2027: direita **{s27['direita']}** (PL {E3['senado_pl']['fev_2027_partido_atual']}), centro-direita {s27['centro-direita']}, centro {s27['centro']}, centro-esquerda {s27['centro-esquerda']} e esquerda {s27['esquerda']}. Direita com centro-direita: **{ls[49]['direita_mais_centro_direita']}**, acima de 41, a **{ls[49]['falta_com_centro_direita']} voto** de uma PEC (49) e a **{ls[54]['falta_com_centro_direita']}** dos 54 que condenam um ministro do STF num impeachment. A esquerda com a centro-esquerda terá {ls[33]['esquerda_e_centro_esquerda']}, abaixo dos 33 que bloqueiam uma PEC.
+
+**Governos (alto):** a direita declarada (todos do PL) ganhou {ge[2026]['direita']} governos, contra {ge[2022]['direita']} em 2022; a centro-direita {ge[2026]['centro-direita']}, o centro {ge[2026]['centro']} e a esquerda {ge[2026]['esquerda']}; {ge[2026]['em 2o turno']} vão a 2º turno. Pelo apoio declarado na eleição presidencial (CNN Brasil), os {apo['Flavio']['governos']} governadores eleitos que apoiam Flávio governarão {f1(apo['Flavio']['pct_eleitorado'])}% do eleitorado, e os {apo['Lula']['governos']} que apoiam Lula, {f1(apo['Lula']['pct_eleitorado'])}%.
+
+**Como o PL chegou a {E1['partido_de_bolsonaro']['2026 (PL)']} (alto para a descrição):** dos {E1['partido_de_bolsonaro']['2026 (PL)']} eleitos, {o121.get('eleito em 2022 pelo PL', 0)} já tinham sido eleitos pelo PL em 2022, {o121.get('eleito em 2022 por outro partido e foi para o PL', 0)} foram eleitos em 2022 por outro partido e mudaram para o PL antes da eleição ({mig_txt}), {o121.get('disputou deputado federal em 2022 e não se elegeu', 0)} tinham disputado em 2022 sem se eleger, {o121.get('assumiu o mandato depois de 2022 (suplente) e se elegeu pelo PL', 0)} assumiu como suplente e {o121.get('primeira disputa para deputado federal (desde 2022)', 0)} disputaram pela primeira vez. Dos 98 deputados que o PL tinha na véspera, {d98.get('reeleito deputado pelo PL', 0)} se reelegeram, **{d98.get('disputou senador: eleito', 0)} foram eleitos senadores** ({', '.join(sen_pl)}), {d98.get('disputou governador: eleito', 0)} governador, {d98.get('disputou deputado estadual: eleito', 0)} deputados estaduais, {d98.get('disputou deputado e não se elegeu', 0)} perderam a reeleição e {d98.get('disputou senador: não eleito', 0)} perderam a disputa ao Senado. Os votos nominais do PL para deputado foram de {n(E5['pl_votos_nominais']['2022'])} para {n(E5['pl_votos_nominais']['2026'])}; os dez mais votados do partido somaram {n(E5['pl_top10_votos_2026'])}.
+
+**A leitura da IA (opinião, confiança alta para a direção, média para o tamanho):** o voto que o centro e a centro-direita perderam para deputado ({f1(cv[2022]['centro-direita'] + cv[2022]['centro'] - cv[2026]['centro-direita'] - cv[2026]['centro'])} pontos) tem o mesmo tamanho do que a direita declarada ganhou ({f1(cv[2026]['direita'] - cv[2022]['direita'])} pontos), a maior parte no PL ({f1(pl['2026']['pct_votos'] - pl['2022']['pct_votos'])} pontos); o dado é por partido e não mostra quem trocou de voto, um a um; a esquerda somada ficou do mesmo tamanho em votos ({f1(esqv[2022])}% → {f1(esqv[2026])}%) e perdeu {cc[2022]['esquerda'] + cc[2022]['centro-esquerda'] - cc[2026]['esquerda'] - cc[2026]['centro-esquerda']} cadeiras, quase todas da centro-esquerda. As duas leituras do mesmo resultado convivem: pela R1, que junta o centrão à direita, "a direita" mal mexeu; pela autodeclaração, a direita declarada cresceu {cc[2026]['direita'] - cc[2022]['direita']} deputados e {s27['direita'] - sh['direita']} senadores (contando o Senado de hoje), e o centro encolheu. A consequência prática está no Senado: a direita declarada e a centro-direita juntas vão de {sh['direita'] + sh['centro-direita']} senadores hoje para {s27['direita'] + s27['centro-direita']}, a um voto de aprovar uma PEC e a seis de condenar um ministro do STF; na Câmara passam da maioria absoluta, o que não acontecia com os eleitos de 2022. **Campo não é bloco de votação**: a conta é o teto do que cada grupo alcança se votar unido, não uma previsão.
+
+**O que acompanha o crescimento do PL (descrição, não causa; opinião, confiança média):** (1) o partido trouxe deputados de outras siglas antes da eleição e lançou {o121.get('primeira disputa para deputado federal (desde 2022)', 0)} nomes novos que se elegeram; (2) usou a própria bancada para disputar o Senado, e {d98.get('disputou senador: eleito', 0)} deputados viraram senadores; (3) puxadores com votação muito acima da média (Nikolas Ferreira e Lucas Pavanato, cada um com mais de 3 milhões); (4) o voto no PL andou junto com o voto em Flávio para presidente (H8). **O que não dá para separar** é quanto disso veio dos casos da campanha (Banco Master, STF, INSS, condenação de Bolsonaro): faltam medições de opinião perto de cada caso (H6).
+
+---
+
+## Câmara dos Deputados, pelos outros parâmetros (R1, R2, R3)
 
 **Base de 2022:** o arquivo atual do TSE (PL {pl['2022']['cadeiras']}, PT 69). Matérias da época deram PL 99 e PT 68; a diferença é compatível com a troca de sete mandatos decidida pelo STF sobre as sobras (fonte `conjur-sete-deputados`), mas não foi verificada cadeira a cadeira.
 

@@ -2,6 +2,12 @@
 
 **Gerado em 07/out/2026 a partir de `resultados/RESUMO.json`.** Texto de uma página; o relatório completo é o [`RELATORIO.md`](RELATORIO.md) e a opinião da IA está em [`docs/LEITURA_DA_IA.md`](docs/LEITURA_DA_IA.md).
 
+## O PL no centro (cada partido onde ele mesmo se declara)
+
+- **Câmara:** a direita declarada (PL, Novo, Missão) foi de 101 para **132** deputados; a centro-direita (PP, Republicanos, União, PRD) de 149 para 133; o centro de 135 para 124; esquerda e centro-esquerda somadas de 128 para 124. Direita e centro-direita juntas: **265**, acima da maioria absoluta (257).
+- **Senado em 2027:** direita declarada **31** (hoje 15); com a centro-direita, **48**: a 1 voto da PEC (49) e a 6 da condenação de ministro do STF num impeachment (54).
+- **PL:** 50 dos 121 já eram do PL em 2022, 12 vieram de outros partidos e 47 estrearam; 10 deputados do PL viraram senadores.
+
 ## O que mudou na Câmara
 
 - O **PL** foi de 98 para **121** deputados e de 16,6% para **22,7%** dos votos.

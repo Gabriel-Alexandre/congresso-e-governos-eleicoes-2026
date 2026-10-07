@@ -5,216 +5,243 @@
    "situacao": "eleito no 1o turno",
    "governador": "GLADSON CAMELI",
    "partido": "PP",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": "Bolsonaro"
   },
   {
    "uf": "AL",
    "situacao": "eleito no 2o turno",
    "governador": "PAULO DANTAS",
    "partido": "MDB",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": null
   },
   {
    "uf": "AM",
    "situacao": "eleito no 2o turno",
    "governador": "WILSON LIMA",
    "partido": "UNIÃO",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": null
   },
   {
    "uf": "AP",
    "situacao": "eleito no 1o turno",
    "governador": "CLÉCIO",
    "partido": "SOLIDARIEDADE",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": "Lula"
   },
   {
    "uf": "BA",
    "situacao": "eleito no 2o turno",
    "governador": "JERÔNIMO",
    "partido": "PT",
-   "campo": "esquerda",
-   "cor": "#D32F2F"
+   "grupo": "esquerda",
+   "cor": "#D32F2F",
+   "apoio_declarado": null
   },
   {
    "uf": "CE",
    "situacao": "eleito no 1o turno",
    "governador": "ELMANO DE FREITAS",
    "partido": "PT",
-   "campo": "esquerda",
-   "cor": "#D32F2F"
+   "grupo": "esquerda",
+   "cor": "#D32F2F",
+   "apoio_declarado": "Lula"
   },
   {
    "uf": "DF",
    "situacao": "eleito no 1o turno",
    "governador": "IBANEIS ROCHA",
    "partido": "MDB",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": "Bolsonaro"
   },
   {
    "uf": "ES",
    "situacao": "eleito no 2o turno",
    "governador": "RENATO CASAGRANDE",
    "partido": "PSB",
-   "campo": "centro",
-   "cor": "#9E9E9E"
+   "grupo": "centro-esquerda",
+   "cor": "#F06292",
+   "apoio_declarado": null
   },
   {
    "uf": "GO",
    "situacao": "eleito no 1o turno",
    "governador": "RONALDO CAIADO",
    "partido": "UNIÃO",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": "Bolsonaro"
   },
   {
    "uf": "MA",
    "situacao": "eleito no 1o turno",
    "governador": "CARLOS BRANDÃO",
    "partido": "PSB",
-   "campo": "centro",
-   "cor": "#9E9E9E"
+   "grupo": "centro-esquerda",
+   "cor": "#F06292",
+   "apoio_declarado": "Lula"
   },
   {
    "uf": "MG",
    "situacao": "eleito no 1o turno",
    "governador": "ZEMA",
    "partido": "NOVO",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "direita",
+   "cor": "#1E40AF",
+   "apoio_declarado": "Bolsonaro"
   },
   {
    "uf": "MS",
    "situacao": "eleito no 2o turno",
    "governador": "EDUARDO RIEDEL",
    "partido": "PSDB",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": null
   },
   {
    "uf": "MT",
    "situacao": "eleito no 1o turno",
    "governador": "MAURO MENDES",
    "partido": "UNIÃO",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": "Bolsonaro"
   },
   {
    "uf": "PA",
    "situacao": "eleito no 1o turno",
    "governador": "HELDER",
    "partido": "MDB",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": "Lula"
   },
   {
    "uf": "PB",
    "situacao": "eleito no 2o turno",
    "governador": "JOÃO",
    "partido": "PSB",
-   "campo": "centro",
-   "cor": "#9E9E9E"
+   "grupo": "centro-esquerda",
+   "cor": "#F06292",
+   "apoio_declarado": null
   },
   {
    "uf": "PE",
    "situacao": "eleito no 2o turno",
    "governador": "RAQUEL LYRA",
    "partido": "PSDB",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": null
   },
   {
    "uf": "PI",
    "situacao": "eleito no 1o turno",
    "governador": "RAFAEL FONTELES",
    "partido": "PT",
-   "campo": "esquerda",
-   "cor": "#D32F2F"
+   "grupo": "esquerda",
+   "cor": "#D32F2F",
+   "apoio_declarado": "Lula"
   },
   {
    "uf": "PR",
    "situacao": "eleito no 1o turno",
    "governador": "CARLOS MASSA RATINHO JUNIOR",
    "partido": "PSD",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": "Bolsonaro"
   },
   {
    "uf": "RJ",
    "situacao": "eleito no 1o turno",
    "governador": "CLÁUDIO CASTRO",
    "partido": "PL",
-   "campo": "direita",
-   "cor": "#0B2C6B"
+   "grupo": "direita",
+   "cor": "#0B2C6B",
+   "apoio_declarado": "Bolsonaro"
   },
   {
    "uf": "RN",
    "situacao": "eleito no 1o turno",
    "governador": "FATIMA BEZERRA",
    "partido": "PT",
-   "campo": "esquerda",
-   "cor": "#D32F2F"
+   "grupo": "esquerda",
+   "cor": "#D32F2F",
+   "apoio_declarado": "Lula"
   },
   {
    "uf": "RO",
    "situacao": "eleito no 2o turno",
    "governador": "CORONEL MARCOS ROCHA",
    "partido": "UNIÃO",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": null
   },
   {
    "uf": "RR",
    "situacao": "eleito no 1o turno",
    "governador": "ANTONIO DENARIUM",
    "partido": "PP",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": "Bolsonaro"
   },
   {
    "uf": "RS",
    "situacao": "eleito no 2o turno",
    "governador": "EDUARDO LEITE",
    "partido": "PSDB",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": null
   },
   {
    "uf": "SC",
    "situacao": "eleito no 2o turno",
    "governador": "JORGINHO MELLO",
    "partido": "PL",
-   "campo": "direita",
-   "cor": "#0B2C6B"
+   "grupo": "direita",
+   "cor": "#0B2C6B",
+   "apoio_declarado": null
   },
   {
    "uf": "SE",
    "situacao": "eleito no 2o turno",
    "governador": "FÁBIO",
    "partido": "PSD",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": null
   },
   {
    "uf": "SP",
    "situacao": "eleito no 2o turno",
    "governador": "TARCÍSIO",
    "partido": "REPUBLICANOS",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": null
   },
   {
    "uf": "TO",
    "situacao": "eleito no 1o turno",
    "governador": "WANDERLEI BARBOSA",
    "partido": "REPUBLICANOS",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": "Bolsonaro"
   }
  ],
  "2026": [
@@ -228,8 +255,9 @@
    "situacao": "eleito no 1o turno",
    "governador": "JHC",
    "partido": "PSDB",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": "neutro"
   },
   {
    "uf": "AM",
@@ -241,24 +269,27 @@
    "situacao": "eleito no 1o turno",
    "governador": "DR. FURLAN",
    "partido": "PSD",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": "neutro"
   },
   {
    "uf": "BA",
    "situacao": "eleito no 1o turno",
    "governador": "JERÔNIMO RODRIGUES",
    "partido": "PT",
-   "campo": "esquerda",
-   "cor": "#D32F2F"
+   "grupo": "esquerda",
+   "cor": "#D32F2F",
+   "apoio_declarado": "Lula"
   },
   {
    "uf": "CE",
    "situacao": "eleito no 1o turno",
    "governador": "ELMANO DE FREITAS",
    "partido": "PT",
-   "campo": "esquerda",
-   "cor": "#D32F2F"
+   "grupo": "esquerda",
+   "cor": "#D32F2F",
+   "apoio_declarado": "Lula"
   },
   {
    "uf": "DF",
@@ -275,80 +306,90 @@
    "situacao": "eleito no 1o turno",
    "governador": "DANIEL VILELA",
    "partido": "MDB",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": "Caiado"
   },
   {
    "uf": "MA",
    "situacao": "eleito no 1o turno",
    "governador": "EDUARDO BRAIDE",
    "partido": "PSD",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": "neutro"
   },
   {
    "uf": "MG",
    "situacao": "eleito no 1o turno",
    "governador": "CLEITINHO AZEVEDO",
    "partido": "REPUBLICANOS",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": "Flavio"
   },
   {
    "uf": "MS",
    "situacao": "eleito no 1o turno",
    "governador": "EDUARDO RIEDEL",
    "partido": "PP",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": "Flavio"
   },
   {
    "uf": "MT",
    "situacao": "eleito no 1o turno",
    "governador": "OTAVIANO PIVETTA",
    "partido": "REPUBLICANOS",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": "Flavio"
   },
   {
    "uf": "PA",
    "situacao": "eleito no 1o turno",
    "governador": "DR. DANIEL",
    "partido": "PODE",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": "Flavio"
   },
   {
    "uf": "PB",
    "situacao": "eleito no 1o turno",
    "governador": "LUCAS RIBEIRO",
    "partido": "PP",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": "Lula"
   },
   {
    "uf": "PE",
    "situacao": "eleito no 1o turno",
    "governador": "RAQUEL LYRA",
    "partido": "PSD",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": "neutro"
   },
   {
    "uf": "PI",
    "situacao": "eleito no 1o turno",
    "governador": "RAFAEL FONTELES",
    "partido": "PT",
-   "campo": "esquerda",
-   "cor": "#D32F2F"
+   "grupo": "esquerda",
+   "cor": "#D32F2F",
+   "apoio_declarado": "Lula"
   },
   {
    "uf": "PR",
    "situacao": "eleito no 1o turno",
    "governador": "SERGIO MORO",
    "partido": "PL",
-   "campo": "direita",
-   "cor": "#0B2C6B"
+   "grupo": "direita",
+   "cor": "#0B2C6B",
+   "apoio_declarado": "Flavio"
   },
   {
    "uf": "RJ",
@@ -365,48 +406,54 @@
    "situacao": "eleito no 1o turno",
    "governador": "MARCOS ROGÉRIO",
    "partido": "PL",
-   "campo": "direita",
-   "cor": "#0B2C6B"
+   "grupo": "direita",
+   "cor": "#0B2C6B",
+   "apoio_declarado": "Flavio"
   },
   {
    "uf": "RR",
    "situacao": "eleito no 1o turno",
    "governador": "ARTHUR HENRIQUE",
    "partido": "PL",
-   "campo": "direita",
-   "cor": "#0B2C6B"
+   "grupo": "direita",
+   "cor": "#0B2C6B",
+   "apoio_declarado": "Flavio"
   },
   {
    "uf": "RS",
    "situacao": "eleito no 1o turno",
    "governador": "ZUCCO",
    "partido": "PL",
-   "campo": "direita",
-   "cor": "#0B2C6B"
+   "grupo": "direita",
+   "cor": "#0B2C6B",
+   "apoio_declarado": "Flavio"
   },
   {
    "uf": "SC",
    "situacao": "eleito no 1o turno",
    "governador": "JORGINHO MELLO",
    "partido": "PL",
-   "campo": "direita",
-   "cor": "#0B2C6B"
+   "grupo": "direita",
+   "cor": "#0B2C6B",
+   "apoio_declarado": "Flavio"
   },
   {
    "uf": "SE",
    "situacao": "eleito no 1o turno",
    "governador": "FÁBIO",
    "partido": "PSD",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro",
+   "cor": "#9E9E9E",
+   "apoio_declarado": "Lula"
   },
   {
    "uf": "SP",
    "situacao": "eleito no 1o turno",
    "governador": "TARCÍSIO",
    "partido": "REPUBLICANOS",
-   "campo": "direita",
-   "cor": "#1E88E5"
+   "grupo": "centro-direita",
+   "cor": "#64B5F6",
+   "apoio_declarado": "Flavio"
   },
   {
    "uf": "TO",

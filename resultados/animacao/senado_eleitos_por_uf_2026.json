@@ -3,324 +3,324 @@
   {
    "nome": "MARA ROCHA",
    "partido": "REPUBLICANOS",
-   "campo": "direita"
+   "grupo": "centro-direita"
   },
   {
    "nome": "MARCIO BITTAR",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "AL": [
   {
    "nome": "ARTHUR LIRA",
    "partido": "PP",
-   "campo": "direita"
+   "grupo": "centro-direita"
   },
   {
    "nome": "MARINA JHC",
    "partido": "PSDB",
-   "campo": "direita"
+   "grupo": "centro"
   }
  ],
  "AM": [
   {
    "nome": "EDUARDO BRAGA",
    "partido": "MDB",
-   "campo": "direita"
+   "grupo": "centro"
   },
   {
    "nome": "PLINIO VALÉRIO",
    "partido": "PSDB",
-   "campo": "direita"
+   "grupo": "centro"
   }
  ],
  "AP": [
   {
    "nome": "LUCAS BARRETO",
    "partido": "PSD",
-   "campo": "direita"
+   "grupo": "centro"
   },
   {
    "nome": "RAYSSA FURLAN",
    "partido": "PODE",
-   "campo": "direita"
+   "grupo": "centro"
   }
  ],
  "BA": [
   {
    "nome": "JAQUES WAGNER",
    "partido": "PT",
-   "campo": "esquerda"
+   "grupo": "esquerda"
   },
   {
    "nome": "RUI COSTA",
    "partido": "PT",
-   "campo": "esquerda"
+   "grupo": "esquerda"
   }
  ],
  "CE": [
   {
    "nome": "LUIZIANNE",
    "partido": "REDE",
-   "campo": "centro"
+   "grupo": "centro-esquerda"
   },
   {
    "nome": "CID GOMES",
    "partido": "PSB",
-   "campo": "centro"
+   "grupo": "centro-esquerda"
   }
  ],
  "DF": [
   {
    "nome": "BIA KICIS",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   },
   {
    "nome": "MICHELLE BOLSONARO",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "ES": [
   {
    "nome": "RENATO CASAGRANDE",
    "partido": "PSB",
-   "campo": "centro"
+   "grupo": "centro-esquerda"
   },
   {
    "nome": "EVAIR DE MELO",
    "partido": "REPUBLICANOS",
-   "campo": "direita"
+   "grupo": "centro-direita"
   }
  ],
  "GO": [
   {
    "nome": "GRACINHA CAIADO",
    "partido": "UNIAO",
-   "campo": "direita"
+   "grupo": "centro-direita"
   },
   {
    "nome": "GUSTAVO GAYER",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "MA": [
   {
    "nome": "FUFUCA",
    "partido": "PP",
-   "campo": "direita"
+   "grupo": "centro-direita"
   },
   {
    "nome": "LAHESIO BONFIM",
    "partido": "NOVO",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "MG": [
   {
    "nome": "MARÍLIA CAMPOS",
    "partido": "PT",
-   "campo": "esquerda"
+   "grupo": "esquerda"
   },
   {
    "nome": "DOMINGOS SÁVIO",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "MS": [
   {
    "nome": "REINALDO AZAMBUJA",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   },
   {
    "nome": "CAPITÃO CONTAR",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "MT": [
   {
    "nome": "MAURO MENDES",
    "partido": "UNIAO",
-   "campo": "direita"
+   "grupo": "centro-direita"
   },
   {
    "nome": "ZÉ MEDEIROS",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "PA": [
   {
    "nome": "HELDER",
    "partido": "MDB",
-   "campo": "direita"
+   "grupo": "centro"
   },
   {
    "nome": "CHICÃO",
    "partido": "UNIAO",
-   "campo": "direita"
+   "grupo": "centro-direita"
   }
  ],
  "PB": [
   {
    "nome": "VENEZIANO",
    "partido": "MDB",
-   "campo": "direita"
+   "grupo": "centro"
   },
   {
    "nome": "JOAO AZEVÊDO",
    "partido": "PSB",
-   "campo": "centro"
+   "grupo": "centro-esquerda"
   }
  ],
  "PE": [
   {
    "nome": "MARÍLIA ARRAES",
    "partido": "PDT",
-   "campo": "esquerda"
+   "grupo": "centro-esquerda"
   },
   {
    "nome": "HUMBERTO COSTA",
    "partido": "PT",
-   "campo": "esquerda"
+   "grupo": "esquerda"
   }
  ],
  "PI": [
   {
    "nome": "JÚLIO CÉSAR O JULIM DO LULA",
    "partido": "PSD",
-   "campo": "direita"
+   "grupo": "centro"
   },
   {
    "nome": "MARCELO CASTRO",
    "partido": "MDB",
-   "campo": "direita"
+   "grupo": "centro"
   }
  ],
  "PR": [
   {
    "nome": "FILIPE BARROS",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   },
   {
    "nome": "DELTAN DALLAGNOL",
    "partido": "NOVO",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "RJ": [
   {
    "nome": "CARLOS PORTINHO",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   },
   {
    "nome": "CARLOS JORDY",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "RN": [
   {
    "nome": "SAMANDA DE LULA",
    "partido": "PT",
-   "campo": "esquerda"
+   "grupo": "esquerda"
   },
   {
    "nome": "STYVENSON VALENTIM",
    "partido": "PODE",
-   "campo": "direita"
+   "grupo": "centro"
   }
  ],
  "RO": [
   {
    "nome": "BRUNO SCHEID",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   },
   {
    "nome": "DR. FERNANDO MÁXIMO",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "RR": [
   {
    "nome": "NICOLETTI",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   },
   {
    "nome": "TERESA SURITA",
    "partido": "MDB",
-   "campo": "direita"
+   "grupo": "centro"
   }
  ],
  "RS": [
   {
    "nome": "SANDERSON",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   },
   {
    "nome": "MARCEL VAN HATTEM",
    "partido": "NOVO",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "SC": [
   {
    "nome": "CAROL DE TONI",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   },
   {
    "nome": "CARLOS BOLSONARO",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   }
  ],
  "SE": [
   {
    "nome": "DELEGADO ALESSANDRO",
    "partido": "MDB",
-   "campo": "direita"
+   "grupo": "centro"
   },
   {
    "nome": "ROGERIO CARVALHO",
    "partido": "PT",
-   "campo": "esquerda"
+   "grupo": "esquerda"
   }
  ],
  "SP": [
   {
    "nome": "ANDRÉ DO PRADO",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   },
   {
    "nome": "GUILHERME DERRITE",
    "partido": "PP",
-   "campo": "direita"
+   "grupo": "centro-direita"
   }
  ],
  "TO": [
   {
    "nome": "EDUARDO GOMES",
    "partido": "PL",
-   "campo": "direita"
+   "grupo": "direita"
   },
   {
    "nome": "ALEXANDRE GUIMARÃES",
    "partido": "MDB",
-   "campo": "direita"
+   "grupo": "centro"
   }
  ]
 }

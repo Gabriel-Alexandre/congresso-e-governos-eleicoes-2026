@@ -1,10 +1,17 @@
 [
  {
   "id": "H1",
-  "nome": "Virada de opinião para a direita",
+  "nome": "Virada do eleitorado da esquerda para a direita",
   "status": "inconsistente",
   "confianca": "média",
-  "onde": "Câmara: voto de direita 72,0% → 72,3%; governo e Senado: subida menor que a anterior"
+  "onde": "esquerda e centro-esquerda somadas: 26,5% → 26,3% dos votos para deputado; pela R1, direita 72,0% → 72,3%"
+ },
+ {
+  "id": "H9",
+  "nome": "Do centro para a direita declarada (PL e Novo)",
+  "status": "consistente",
+  "confianca": "alta",
+  "onde": "direita declarada 17,9% → 26,4% dos votos e 101 → 132 deputados; centro-direita e centro 55,5% → 47,3%"
  },
  {
   "id": "H2",

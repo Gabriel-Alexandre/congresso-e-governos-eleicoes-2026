@@ -91,3 +91,29 @@ def test_binomial_bicaudal_exato():
     assert p(6, 3) == 1.0
     assert p(7, 2) == pytest.approx(0.453125)
     assert p(27, 20) == pytest.approx(0.0192, abs=1e-3)
+
+
+def _blocos():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("blocos", Path(__file__).resolve().parent.parent / "ferramentas" / "analise-11-pl-e-blocos.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
+def test_autodeclaracao_e_herdeiros():
+    b = _blocos()
+    assert b.grupo("PL") == "direita" and b.grupo("NOVO") == "direita"
+    assert b.grupo("PSL") == "centro-direita" and b.grupo("DEM") == "centro-direita"  # herdeiro: União
+    assert b.grupo("PR") == "direita"  # herdeiro: PL
+    assert b.grupo("MDB") == "centro" and b.grupo("PSD") == "centro"
+    assert b.grupo("PSB") == "centro-esquerda" and b.grupo("PT") == "esquerda"
+    assert b.tres("centro-esquerda") == "esquerda" and b.tres("centro-direita") == "centro"
+
+
+def test_escada_de_limiares():
+    b = _blocos()
+    t = b.escada({"direita": 31, "centro-direita": 17, "centro": 17, "centro-esquerda": 6, "esquerda": 9}, b.LIMIARES_SENADO).set_index("votos_necessarios")
+    assert t.loc[49, "falta_com_centro_direita"] == 1
+    assert t.loc[54, "falta_com_centro_direita"] == 6
+    assert t.loc[33, "esquerda_e_centro_esquerda"] == 15

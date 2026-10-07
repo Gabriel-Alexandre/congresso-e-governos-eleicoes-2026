@@ -97,6 +97,16 @@ def main() -> None:
     cf = R["b3"]["contrafactual_comparecimento_2022"]
     c2, c4 = R["c2"], R["c4"]
     adv_ok = sum(1 for a in ADV if a["passou"])
+    GRUPOS = ["direita", "centro-direita", "centro", "centro-esquerda", "esquerda"]
+    E3, E4, E5 = R["e3"], R["e4"], R["e5"]
+    e1t = csv("e1_camara_por_grupo").pivot(index="grupo", columns="ano", values=["cadeiras", "pct_votos"]).reindex(GRUPOS)
+    e1t.columns = [f"{'cadeiras' if a == 'cadeiras' else '% votos'} {b}" for a, b in e1t.columns]
+    e1t = e1t.reset_index()
+    for c in e1t.columns:
+        if c.startswith("cadeiras"):
+            e1t[c] = e1t[c].astype(int)
+    e2t = csv("e2_camara_limiares_2026")[["limiar", "votos_necessarios", "direita_sozinha", "direita_mais_centro_direita", "falta_com_centro_direita", "esquerda_e_centro_esquerda"]]
+    e3t = csv("e3_senado_limiares_2027")[["limiar", "votos_necessarios", "direita_sozinha", "direita_mais_centro_direita", "falta_com_centro_direita", "esquerda_e_centro_esquerda"]]
     pre_commit = "e372efb"
     t = []
     t.append(f"""# Relatório: o que o 1º turno de 2026 mudou na Câmara, no Senado e nos governos, e por quê
@@ -110,9 +120,39 @@ def main() -> None:
 1. **Casos e escândalos.** As séries de opinião capturadas (aprovação do governo, confiança no STF) têm poucos pontos por instituto. O teste pré-registrado de movimento da série perto de cada evento **não pôde ser rodado**. O que se mediu: o voto de cada deputado em duas votações de grande atenção contra o desempenho dele em 2026 (sem relação detectável) e a posição de candidatos ao Senado sobre o impeachment de ministros do STF (descritivo).
 2. **Emendas parlamentares e gasto de campanha** não foram analisados (a prestação de contas final não existe).
 3. **Pesquisas.** Só Datafolha e Quaest, só governador, só a última da véspera, com os números tirados de uma compilação de imprensa (conferida em SP contra outra fonte) e conferidos no registro do TSE. Não há 2022 para comparar, nem as pesquisas anteriores para separar mudança de última hora de erro. Pesquisas de Senado não foram coletadas.
-4. **A régua de campo decide parte das respostas.** R1 põe MDB, PSD, PSDB e Podemos na direita (notas 7,0 a 7,2). R3 não é comparável entre 2022 e 2026: em 2026 o PL concorreu sem coligação.
+4. **O parâmetro de campo decide parte das respostas.** O principal, desde a emenda 21 (feita depois de ver os resultados, a pedido do autor), é a **autodeclaração de cada partido** (Valor Econômico, ago/2026): ele separa a direita declarada (PL, Novo, Missão) do centrão. R1 põe MDB, PSD, PSDB e Podemos na direita (notas 7,0 a 7,2). R3 não é comparável entre 2022 e 2026: em 2026 o PL concorreu sem coligação. **Campo não é bloco de votação**: as contas de limiar são o teto de cada grupo votando unido.
 5. **Falácia ecológica.** Toda relação com religião, renda, cor, idade ou Bolsa Família é entre municípios.
 6. **2º turno.** Sete estados estão "em disputa".
+
+## 0.1 O PL no centro: os grupos pela autodeclaração dos partidos (emenda 21)
+
+Cada partido no grupo em que ele mesmo se declara (Valor Econômico, ago/2026): **direita** PL, Novo, Missão · **centro-direita** PP, Republicanos, União Brasil, PRD · **centro** MDB, PSD, Podemos, PSDB, Cidadania, Solidariedade, Avante e os que não se declaram no eixo · **centro-esquerda** PSB, PDT, Rede · **esquerda** PT, PCdoB, PV, PSOL. Sigla antiga vai para o partido que a herdou. Tabela: [`resultados/e0_grupos_por_autodeclaracao.csv`](resultados/e0_grupos_por_autodeclaracao.csv).
+
+**Câmara, cadeiras e votos por grupo** ([`e1_camara_por_grupo.csv`](resultados/e1_camara_por_grupo.csv)):
+
+{md(e1t)}
+
+**Câmara 2026, o que cada grupo alcança se votar unido** ([`e2_camara_limiares_2026.csv`](resultados/e2_camara_limiares_2026.csv)):
+
+{md(e2t)}
+
+**Senado** ([`e3_senado_por_grupo.csv`](resultados/e3_senado_por_grupo.csv)): em exercício hoje (partido atual) {ds({k: v for k, v in E3['senado_em_exercicio_out2026'].items() if k in GRUPOS})}; a partir de fev/2027 {ds({k: v for k, v in E3['senado_2027_partido_atual'].items() if k in GRUPOS})}.
+
+{md(e3t)}
+
+**Governos** ([`e4_governos_por_grupo.csv`](resultados/e4_governos_por_grupo.csv)):
+
+{md(csv('e4_governos_por_grupo'))}
+
+Apoio declarado dos governadores eleitos na eleição presidencial (CNN Brasil) e o eleitorado que eles governarão: {', '.join(f"{ {'Flavio': 'Flávio', 'neutro': 'sem apoio'}.get(k, k)} {v['governos']} ({f1(v['pct_eleitorado'])}%)" for k, v in E4['apoio_declarado_2026'].items())}.
+
+**Como o PL chegou a 121** ([`e5_pl_121_resumo.csv`](resultados/e5_pl_121_resumo.csv), [`e5_pl_98_da_vespera_destino.csv`](resultados/e5_pl_98_da_vespera_destino.csv)):
+
+{md(csv('e5_pl_121_resumo'))}
+
+Os 98 deputados do PL na véspera: {ds(E5['pl_98_destino'])}.
+
+**Eleitos de 2022 da esquerda e da centro-esquerda que disputaram e não se elegeram:** [`e6_esquerda_que_disputou_e_nao_se_elegeu.csv`](resultados/e6_esquerda_que_disputou_e_nao_se_elegeu.csv); no Senado: [`e6_senado_esquerda_mais_votados_nao_eleitos.csv`](resultados/e6_senado_esquerda_mais_votados_nao_eleitos.csv).
 
 ## 1. Os resultados em dez linhas
 
@@ -250,6 +290,12 @@ Todos estão na §15 do [`docs/PRE_REGISTRO.md`](docs/PRE_REGISTRO.md), com data
     s = f"""# Resumo simples
 
 **Gerado em 07/out/2026 a partir de `resultados/RESUMO.json`.** Texto de uma página; o relatório completo é o [`RELATORIO.md`](RELATORIO.md) e a opinião da IA está em [`docs/LEITURA_DA_IA.md`](docs/LEITURA_DA_IA.md).
+
+## O PL no centro (cada partido onde ele mesmo se declara)
+
+- **Câmara:** a direita declarada (PL, Novo, Missão) foi de {R['e1']['camara_cadeiras']['2022']['direita']} para **{R['e1']['camara_cadeiras']['2026']['direita']}** deputados; a centro-direita (PP, Republicanos, União, PRD) de {R['e1']['camara_cadeiras']['2022']['centro-direita']} para {R['e1']['camara_cadeiras']['2026']['centro-direita']}; o centro de {R['e1']['camara_cadeiras']['2022']['centro']} para {R['e1']['camara_cadeiras']['2026']['centro']}; esquerda e centro-esquerda somadas de {R['e1']['camara_cadeiras']['2022']['esquerda'] + R['e1']['camara_cadeiras']['2022']['centro-esquerda']} para {R['e1']['camara_cadeiras']['2026']['esquerda'] + R['e1']['camara_cadeiras']['2026']['centro-esquerda']}. Direita e centro-direita juntas: **{R['e2']['camara_2026'][2]['direita_mais_centro_direita']}**, acima da maioria absoluta (257).
+- **Senado em 2027:** direita declarada **{E3['senado_2027_partido_atual']['direita']}** (hoje {E3['senado_em_exercicio_out2026']['direita']}); com a centro-direita, **{E3['senado_limiares_2027'][3]['direita_mais_centro_direita']}**: a 1 voto da PEC (49) e a 6 da condenação de ministro do STF num impeachment (54).
+- **PL:** 50 dos 121 já eram do PL em 2022, 12 vieram de outros partidos e 47 estrearam; 10 deputados do PL viraram senadores.
 
 ## O que mudou na Câmara
 

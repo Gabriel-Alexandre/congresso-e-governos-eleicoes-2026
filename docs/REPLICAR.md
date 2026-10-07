@@ -16,6 +16,8 @@ python ferramentas/analise-1-plenario.py        # R2 e base de deputados em exer
 python ferramentas/analise-2-camara.py          # A1, A4, A5, D5, D6
 python ferramentas/analise-3-senado-governos.py # A2, A3, D5, D8
 python ferramentas/analise-4-pesquisas.py       # C
+python ferramentas/capturar-pesquisas-historicas.py  # pesquisas de 2018 e 2022 (Pindograma, commit fixado)
+python ferramentas/analise-12-pesquisas-2018-2022.py # C contra 2018 e 2022 (emenda 23) e grafico 28
 python ferramentas/analise-5-geografia.py       # B (demora alguns minutos: lê o Bolsa Família)
 python ferramentas/analise-6-plenario-e-eleicao.py  # D3
 python ferramentas/analise-11-pl-e-blocos.py     # E: autodeclaração dos partidos, limiares, anatomia do PL (emenda 21)
@@ -28,7 +30,7 @@ python ferramentas/analise-9-relatorio.py       # RELATORIO.md e RESUMO_SIMPLES.
 python -m pytest -q
 ```
 
-- As páginas de imprensa capturadas (`dados/brutos/capturas/`) **não** vão para o git (são conteúdo de terceiros): ficam o sha256 e o trecho em `dados/CAPTURAS.csv` e as tabelas extraídas (fatos) em `resultados/c1_pesquisas_governador_2026_extraidas.csv` e `resultados/d8_lista_gazeta_posicoes.csv`. Sem as capturas, as análises 3 e 4 leem essas tabelas e dão o mesmo `RESUMO.json` (testado: mesmo sha256).
+- As páginas de imprensa capturadas (`dados/brutos/capturas/`) **não** vão para o git (são conteúdo de terceiros): ficam o sha256 e o trecho em `dados/CAPTURAS.csv` e as tabelas extraídas (fatos) em `resultados/c1_pesquisas_governador_2026_extraidas.csv` e `resultados/d8_lista_gazeta_posicoes.csv` (e, para 2018 e 2022, `resultados/c5_pesquisas_governador_2018_2022_extraidas.csv`). Sem as capturas, as análises 3, 4 e 12 leem essas tabelas e dão o mesmo `RESUMO.json` (testado: mesmo sha256).
 - Os números do relatório vêm todos de `resultados/RESUMO.json` e dos CSV de `resultados/`.
 - `dados/FONTE_APURACAO.json` aponta para os boletins de urna do projeto `apuracao-eleicoes-2026` (commit `740fe519`); esta rodada **não** os usou.
 - Arquivos do TSE e da Câmara podem ser republicados; compare o `sha256` no manifesto antes de concluir qualquer coisa diferente.

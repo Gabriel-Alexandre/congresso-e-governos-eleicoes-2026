@@ -117,3 +117,21 @@ def test_escada_de_limiares():
     assert t.loc[49, "direita"] == 48 and t.loc[49, "falta_a_direita"] == 1
     assert t.loc[54, "falta_a_direita"] == 6
     assert t.loc[33, "esquerda"] == 15 and t.loc[33, "centro"] == 17
+
+
+def _pesquisas_historicas():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("hist", Path(__file__).resolve().parent.parent / "ferramentas" / "analise-12-pesquisas-2018-2022.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
+def test_pesquisas_historicas_sinal_e_lado():
+    h = _pesquisas_historicas()
+    # pesquisa com margem 10 pontos menor que a urna para o 1o colocado, que e de direita: subestimou a direita em 10
+    assert h.sinal("direita", "esquerda", "direita", -10) == 10
+    assert h.sinal("esquerda", "direita", "direita", -10) == -10
+    assert h.sinal("direita", "direita", "direita", -10) is None
+    assert h.tres("PSL") == "direita" and h.tres("PSC") == "centro" and h.tres("PDT") == "esquerda"
+    assert h.p_sinal(13, 11) == 0.0225 and h.p_sinal(18, 6) == 0.2379

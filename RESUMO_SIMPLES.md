@@ -32,7 +32,8 @@
 
 ## As pesquisas
 
-- Datafolha e Quaest mostraram o primeiro colocado **abaixo** do que ele teve em 26 de 32 pesquisas de governador. O erro **não** tem direção por campo nos testes feitos, mas o poder deles é baixo (6 a 13 disputas).
+- Datafolha e Quaest mostraram o primeiro colocado **abaixo** do que ele teve em 26 de 32 pesquisas de governador.
+- **Contra 2018 e 2022:** nas disputas em que só um dos dois primeiros era de direita, a pesquisa mostrou a direita mais fraca do que a urna em 11 de 13 em 2018, 10 de 13 em 2022 e **6 de 18 em 2026**; em 2026 foi a esquerda que saiu mais fraca (8 de 11). Poucas disputas por ano: é sinal, não prova.
 
 ## O que o projeto não diz
 

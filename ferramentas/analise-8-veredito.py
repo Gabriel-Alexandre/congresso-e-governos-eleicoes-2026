@@ -18,6 +18,10 @@ from congresso.comum import RAIZ, RES  # noqa: E402
 R = json.loads((RES / "RESUMO.json").read_text(encoding="utf-8"))
 
 
+def f0(x):
+    return f"{x:.0f}"
+
+
 def f1(x):
     return f"{x:.1f}".replace(".", ",")
 
@@ -72,6 +76,8 @@ def main() -> None:
     v4 = d3[d3.votacao.str.startswith("V4") & (d3.desfecho == "eleito em 2026")].iloc[0]
     dd = pd.DataFrame(R["d3"]["descricao"])
     c2 = R["c2"]; c4 = R["c4"]
+    c5p = {int(k): v for k, v in R["c5"]["principal"].items()}
+    c5t = {int(k): v for k, v in R["c5"]["todos_os_institutos"].items()}
     _e = pd.read_csv(RES / 'c2_erro_por_pesquisa.csv').set_index(['uf', 'instituto'])['erro_vencedor_pp']
     rj_d, rj_q, ap_q = _e[('RJ', 'Datafolha')], _e[('RJ', 'Quaest')], _e[('AP', 'Quaest')]
     ex = pd.read_csv(RES / 'c2_erro_por_pesquisa.csv').dropna(subset=['subestimou_flavio_pp_exploratoria']).groupby('uf')['subestimou_flavio_pp_exploratoria'].mean()
@@ -219,7 +225,9 @@ def main() -> None:
 
 **O erro tem direção por campo? (opinião, confiança média):** nas disputas em que um candidato era de Flávio e o outro de Lula (R3, {c4['r3_flavio']['disputas']} disputas) a pesquisa subestimou o lado de Flávio em {c4['r3_flavio']['disputas_em_que_subestimou']} (p = {f2(c4['r3_flavio']['p_binomial_bicaudal'])}); pela R1 ({c4['r1_direita']['disputas']} disputas), em {c4['r1_direita']['disputas_em_que_subestimou']} (p = {f2(c4['r1_direita']['p_binomial_bicaudal'])}). No teste exploratório, definido depois de ver os resultados (um dos dois primeiros alinhado a Flávio, o outro qualquer), foram {c4['exploratoria_flavio_contra_qualquer_outro']['disputas_em_que_subestimou']} de {c4['exploratoria_flavio_contra_qualquer_outro']['disputas']} (p = {f2(c4['exploratoria_flavio_contra_qualquer_outro']['p_binomial_bicaudal'])}); a média foi de {sg(c4['exploratoria_flavio_contra_qualquer_outro']['media_pp'])} ponto de subestimação do lado de Flávio e a mediana de {sg(c4['exploratoria_flavio_contra_qualquer_outro']['mediana_pp'])}, ou seja, a média é puxada por cinco disputas ({ex_pos}), em que o candidato do PL terminou mais à frente do que as pesquisas mostravam, enquanto em {ex_neg} pontos as pesquisas deram ao lado de Flávio mais do que a urna deu. Com 6 a 13 disputas, esses testes só acusariam desvios grandes e constantes; **ausência de direção neste teste não é prova de ausência de erro por campo**. **Nenhum teste mostra erro numa direção de campo.** O que os dados sustentam é outro padrão: as pesquisas mostraram corridas mais apertadas do que as urnas deram, para quem terminou em primeiro, **seja qual fosse o campo**. Os maiores erros no vencedor foram no Rio de Janeiro (Datafolha {f1(abs(rj_d))} pontos abaixo e Quaest {f1(abs(rj_q))}), onde o candidato do PL terminou em primeiro, com mais votos que o previsto, e vai ao 2º turno, e no Amapá (Quaest {f1(abs(ap_q))} pontos), onde nenhum dos dois finalistas é do PL.
 
-**O que isso não permite dizer:** não há "erro sistemático" no sentido do pré-registro, porque faltam duas coisas: a comparação com 2022 e a separação entre mudança de última hora e erro da pesquisa (não foram coletadas as pesquisas anteriores). O padrão pode ser mudança de última hora, abstenção diferencial ou decisão tardia de quem estava indeciso; os dados não separam. Também só entraram dois institutos.
+**Contra 2018 e 2022 (emenda 23; fatos altos, leitura com confiança média):** pelo mesmo cálculo, com as pesquisas da véspera registradas no TSE (base do ranking de institutos do Pindograma, conferida em {R['c5']['conferencia']['numeros']} números contra a imprensa da época, maior diferença {f1(R['c5']['conferencia']['maior_diferenca_pp'])} ponto) e a direita contada com a centro-direita, nas disputas em que só um dos dois primeiros era de direita a pesquisa mostrou a direita mais fraca do que a urna em **{c5p[2018]['direita_subestimada_em']} de {c5p[2018]['direita_disputas']}** em 2018 (Datafolha e Ibope; p = {f2(c5p[2018]['direita_p_sinal'])}), em **{c5p[2022]['direita_subestimada_em']} de {c5p[2022]['direita_disputas']}** em 2022 (Datafolha, Quaest e Ipec; p = {f2(c5p[2022]['direita_p_sinal'])}) e em **{c5p[2026]['direita_subestimada_em']} de {c5p[2026]['direita_disputas']}** em 2026 (Datafolha e Quaest; p = {f2(c5p[2026]['direita_p_sinal'])}). Com a esquerda foi o inverso: {c5p[2018]['esquerda_subestimada_em']} de {c5p[2018]['esquerda_disputas']}, {c5p[2022]['esquerda_subestimada_em']} de {c5p[2022]['esquerda_disputas']} e **{c5p[2026]['esquerda_subestimada_em']} de {c5p[2026]['esquerda_disputas']}**. Com todos os institutos, 2018 e 2022 dão {c5t[2018]['direita_subestimada_em']} de {c5t[2018]['direita_disputas']} e {c5t[2022]['direita_subestimada_em']} de {c5t[2022]['direita_disputas']}. O primeiro colocado apareceu abaixo da urna em {f0(c5p[2018]['pct_vencedor_abaixo'])}% das pesquisas em 2018, {f0(c5p[2022]['pct_vencedor_abaixo'])}% em 2022 e {f0(c5p[2026]['pct_vencedor_abaixo'])}% em 2026. **A leitura da IA:** a desconfiança de que a pesquisa mostra a direita mais fraca do que ela é tem base em 2018 e em 2022, em que a direita saiu mais fraca na maioria das disputas (só em 2018, com Datafolha e Ibope, a diferença passa no teste do sinal), e **não** em 2026, em que a direção virou; o que se repetiu nas três eleições foi mostrar mais fraco quem ia ganhar. São 11 a 18 disputas por ano, então a virada de 2026 é um sinal, não uma prova. Tabelas: `c5_*`; gráfico `28_pesquisas_quem_saiu_mais_fraco_2018_2022_2026`.
+
+**O que isso não permite dizer:** não há "erro sistemático" em 2026 no sentido do pré-registro (o teste do sinal não rejeita e o erro de 2026 contra a direita é menor que o de 2022, não maior). A separação entre mudança de última hora e erro da pesquisa não foi feita (não foram coletadas as pesquisas anteriores à última); o padrão de 2026 pode ser mudança de última hora, abstenção diferencial ou decisão tardia de quem estava indeciso. Em 2026 só entraram dois institutos.
 
 ## O que o eleitor sinalizou
 
@@ -230,7 +238,7 @@ def main() -> None:
 1. Em quem cada pessoa votou: tudo aqui é entre municípios.
 2. Se os casos (Master e ministros do STF, condenação de Bolsonaro, INSS, tarifaço, PEC da Blindagem) mudaram votos: as séries de opinião capturadas têm menos de duas medições do mesmo instituto antes e depois dos eventos.
 3. O efeito de emendas parlamentares e de gasto de campanha: não foram analisados (a prestação de contas final ainda não existe).
-4. Se as pesquisas erraram em 2026 mais que em 2022 e se a causa foi mudança de última hora: faltam as pesquisas anteriores e as de 2022. Pesquisas de Senado não foram coletadas.
+4. Se o erro das pesquisas foi mudança de última hora ou erro de medida: faltam as pesquisas anteriores à última (a comparação com 2018 e 2022 foi feita, emenda 23). Pesquisas de Senado não foram coletadas.
 5. O 2º turno: os 7 estados em disputa estão como "em disputa".
 6. Se a classificação de campo de especialistas de 2021 ainda descreve os partidos de 2026: ela põe o PL na posição do antigo PR, e partidos novos ou fundidos herdam a média das origens.
 """)

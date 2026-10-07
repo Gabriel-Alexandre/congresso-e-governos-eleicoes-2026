@@ -1,0 +1,21 @@
+ano,uf,instituto,candidato,publicado,extraido,diferenca,fonte
+2022,SP,Datafolha,HADDAD,39,38.82,-0.2,cnnbrasil.com.br/politica/resultados-das-urnas-divergem-das-pesquisas-eleitorais-em-21-estados-e-no-df
+2022,SP,Datafolha,TARCÍSIO,31,30.59,-0.4,cnnbrasil.com.br/politica/resultados-das-urnas-divergem-das-pesquisas-eleitorais-em-21-estados-e-no-df
+2022,SP,Datafolha,GARCIA,23,23.53,0.5,cnnbrasil.com.br/politica/resultados-das-urnas-divergem-das-pesquisas-eleitorais-em-21-estados-e-no-df
+2022,RJ,Datafolha,CASTRO,44,44.58,0.6,idem
+2022,RJ,Datafolha,FREIXO,35,34.94,-0.1,idem
+2022,BA,Datafolha,NETO,51,50.55,-0.5,idem
+2022,BA,Datafolha,JERÔNIMO,38,37.36,-0.6,idem
+2022,BA,Ipec (antigo Ibope),NETO,51,51.09,0.1,idem
+2022,BA,Ipec (antigo Ibope),JERÔNIMO,40,40.22,0.2,idem
+2022,RS,Ipec (antigo Ibope),LEITE,40,39.56,-0.4,idem
+2022,RS,Ipec (antigo Ibope),LORENZONI,30,29.67,-0.3,idem
+2018,MG,Datafolha,ANASTASIA,40,40.51,0.5,jb.com.br/pais/eleicoes_2018/2018/10/944723 (registro MG-08940/2018)
+2018,MG,Datafolha,PIMENTEL,29,29.11,0.1,jb.com.br/pais/eleicoes_2018/2018/10/944723 (registro MG-08940/2018)
+2018,MG,Datafolha,ZEMA,24,24.05,0.1,jb.com.br/pais/eleicoes_2018/2018/10/944723 (registro MG-08940/2018)
+2018,RJ,Datafolha,PAES,27,27.71,0.7,exame.com/brasil/datafolha-paes-tem-27-de-votos-validos-no-rj-romario-e-witzel-empatam
+2018,RJ,Datafolha,ROMÁRIO,17,18.07,1.1,exame.com/brasil/datafolha-paes-tem-27-de-votos-validos-no-rj-romario-e-witzel-empatam
+2018,RJ,Datafolha,WITZEL,17,16.87,-0.1,exame.com/brasil/datafolha-paes-tem-27-de-votos-validos-no-rj-romario-e-witzel-empatam
+2018,RJ,Ibope,PAES,32,31.33,-0.7,istoe.com.br/ibope-paes-tem-32-romario-20-indio-e-witzel-12
+2018,RJ,Ibope,ROMÁRIO,20,20.48,0.5,istoe.com.br/ibope-paes-tem-32-romario-20-indio-e-witzel-12
+2018,RJ,Ibope,WITZEL,12,12.05,0.1,istoe.com.br/ibope-paes-tem-32-romario-20-indio-e-witzel-12

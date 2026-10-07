@@ -122,7 +122,7 @@ def main() -> None:
 
 1. **Casos e escândalos.** As séries de opinião capturadas (aprovação do governo, confiança no STF) têm poucos pontos por instituto. O teste pré-registrado de movimento da série perto de cada evento **não pôde ser rodado**. O que se mediu: o voto de cada deputado em duas votações de grande atenção contra o desempenho dele em 2026 (sem relação detectável) e a posição de candidatos ao Senado sobre o impeachment de ministros do STF (descritivo).
 2. **Emendas parlamentares e gasto de campanha** não foram analisados (a prestação de contas final não existe).
-3. **Pesquisas.** Só Datafolha e Quaest, só governador, só a última da véspera, com os números tirados de uma compilação de imprensa (conferida em SP contra outra fonte) e conferidos no registro do TSE. Não há 2022 para comparar, nem as pesquisas anteriores para separar mudança de última hora de erro. Pesquisas de Senado não foram coletadas.
+3. **Pesquisas.** Só Datafolha e Quaest, só governador, só a última da véspera, com os números tirados de uma compilação de imprensa (conferida em SP contra outra fonte) e conferidos no registro do TSE. A comparação com 2018 e 2022 (emenda 23) usa a base de pesquisas com registro no TSE do Pindograma, com outros institutos naqueles anos (Ibope em 2018; Quaest e Ipec em 2022); não há as pesquisas anteriores à última para separar mudança de última hora de erro. Pesquisas de Senado não foram coletadas.
 4. **O parâmetro de campo decide parte das respostas.** O principal, desde a emenda 21 (feita depois de ver os resultados, a pedido do autor), é a **autodeclaração de cada partido** (Valor Econômico, ago/2026), com os grupos juntos em três do mesmo jeito dos dois lados (emenda 22): direita = direita e centro-direita; centro = só centro; esquerda = esquerda e centro-esquerda. R1 põe MDB, PSD, PSDB e Podemos na direita (notas 7,0 a 7,2). R3 não é comparável entre 2022 e 2026: em 2026 o PL concorreu sem coligação. **Campo não é bloco de votação**: as contas de limiar são o teto de cada grupo votando unido.
 5. **Falácia ecológica.** Toda relação com religião, renda, cor, idade ou Bolsa Família é entre municípios.
 6. **2º turno.** Sete estados estão "em disputa".
@@ -280,6 +280,24 @@ Mapa: [`resultados/figuras/video/08_mapa_variacao_voto_direita_deputado_federal.
 
 **Critério do pré-registro para "erro sistemático"** exigia 4 condições; só a primeira (teste do sinal) pôde ser rodada, e **não** foi atendida por campo. Por isso o texto usa "corridas mais apertadas na pesquisa que na urna, para quem terminou em primeiro, independente do campo" e não "erro sistemático por campo".
 
+### 6.1 Contra 2018 e 2022 (emenda 23)
+
+Mesmo cálculo, mesma janela (a última pesquisa de cada instituto na semana antes do 1º turno), votos válidos pela soma dos candidatos, ligação com a urna pelo número do candidato. Direita = direita + centro-direita; esquerda = esquerda + centro-esquerda. "Subestimada" = a pesquisa mostrou a margem do lado menor do que a urna, nas disputas em que só um dos dois primeiros é daquele lado (média entre institutos por disputa).
+
+**Institutos nacionais de cada ano** (2018 Datafolha e Ibope; 2022 Datafolha, Quaest e Ipec; 2026 Datafolha e Quaest):
+
+{md(csv("c5_resumo_por_ano_principal")[["ano", "pesquisas", "disputas", "pct_vencedor_abaixo", "erro_medio_vencedor_pp", "direita_disputas", "direita_subestimada_em", "direita_media_pp", "direita_p_sinal", "esquerda_disputas", "esquerda_subestimada_em", "esquerda_media_pp", "esquerda_p_sinal"]])}
+
+**Todos os institutos** (2026 continua só com Datafolha e Quaest):
+
+{md(csv("c5_resumo_por_ano_todos_os_institutos")[["ano", "pesquisas", "disputas", "pct_vencedor_abaixo", "direita_disputas", "direita_subestimada_em", "direita_p_sinal", "esquerda_disputas", "esquerda_subestimada_em", "esquerda_p_sinal"]])}
+
+**Só o Datafolha** (o único instituto nos três anos; 4 a 6 disputas por ano, descritivo):
+
+{md(csv("c5_resumo_por_ano_so_datafolha")[["ano", "pesquisas", "pct_vencedor_abaixo", "direita_disputas", "direita_subestimada_em", "esquerda_disputas", "esquerda_subestimada_em"]])}
+
+**Conferência:** {R['c5']['conferencia']['numeros']} números extraídos contra a imprensa da época ([`c5_conferencia_segunda_fonte.csv`](resultados/c5_conferencia_segunda_fonte.csv)), {R['c5']['conferencia']['ate_1_ponto']} dentro de 1 ponto e a maior diferença de {f1(R['c5']['conferencia']['maior_diferenca_pp'])} ponto (arredondamento do número publicado). Tabelas: [`c5_erro_por_pesquisa_2018_2022_2026.csv`](resultados/c5_erro_por_pesquisa_2018_2022_2026.csv), [`c5_pesquisas_governador_2018_2022_extraidas.csv`](resultados/c5_pesquisas_governador_2018_2022_extraidas.csv).
+
 ## 7. Por quê: o placar das hipóteses
 
 {md(pd.DataFrame(json.loads((RES / 'placar_hipoteses.json').read_text(encoding='utf-8')))[['id','nome','status','confianca','onde']])}
@@ -340,7 +358,8 @@ Todos estão na §15 do [`docs/PRE_REGISTRO.md`](docs/PRE_REGISTRO.md), com data
 
 ## As pesquisas
 
-- Datafolha e Quaest mostraram o primeiro colocado **abaixo** do que ele teve em {R['c4']['vencedor_subestimado']['com_vencedor_abaixo_da_urna']} de {c2['pesquisas_analisadas']} pesquisas de governador. O erro **não** tem direção por campo nos testes feitos, mas o poder deles é baixo (6 a 13 disputas).
+- Datafolha e Quaest mostraram o primeiro colocado **abaixo** do que ele teve em {R['c4']['vencedor_subestimado']['com_vencedor_abaixo_da_urna']} de {c2['pesquisas_analisadas']} pesquisas de governador.
+- **Contra 2018 e 2022:** nas disputas em que só um dos dois primeiros era de direita, a pesquisa mostrou a direita mais fraca do que a urna em {R['c5']['principal']['2018']['direita_subestimada_em']} de {R['c5']['principal']['2018']['direita_disputas']} em 2018, {R['c5']['principal']['2022']['direita_subestimada_em']} de {R['c5']['principal']['2022']['direita_disputas']} em 2022 e **{R['c5']['principal']['2026']['direita_subestimada_em']} de {R['c5']['principal']['2026']['direita_disputas']} em 2026**; em 2026 foi a esquerda que saiu mais fraca ({R['c5']['principal']['2026']['esquerda_subestimada_em']} de {R['c5']['principal']['2026']['esquerda_disputas']}). Poucas disputas por ano: é sinal, não prova.
 
 ## O que o projeto não diz
 

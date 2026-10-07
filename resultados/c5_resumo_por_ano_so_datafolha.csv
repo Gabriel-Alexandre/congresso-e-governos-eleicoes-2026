@@ -1,0 +1,4 @@
+ano,pesquisas,disputas,vencedor_abaixo_da_urna,pct_vencedor_abaixo,erro_medio_vencedor_pp,erro_medio_abs_vencedor_pp,vencedor_certo,direita_disputas,direita_subestimada_em,direita_media_pp,direita_mediana_pp,direita_p_sinal,esquerda_disputas,esquerda_subestimada_em,esquerda_media_pp,esquerda_mediana_pp,esquerda_p_sinal
+2018,5,5,3,60.0,-8.6,9.43,3,3,2,-0.02,2.36,1.0,3,1,0.24,-0.26,1.0
+2022,4,4,3,75.0,-9.45,9.51,2,4,3,3.77,7.63,0.625,3,1,-4.89,-14.85,1.0
+2026,6,6,5,83.3,-3.24,4.93,5,5,2,-0.82,-2.94,1.0,5,3,2.23,2.94,1.0

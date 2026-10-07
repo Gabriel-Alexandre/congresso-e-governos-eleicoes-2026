@@ -1,0 +1,92 @@
+[
+ {
+  "id": "A1",
+  "descricao": "513 vagas e 513 eleitos no JSON oficial",
+  "passou": true,
+  "detalhe": "513 vagas, 513 eleitos"
+ },
+ {
+  "id": "A2",
+  "descricao": "cadeiras por partido: JSON oficial = tabela da A1 (caminho independente)",
+  "passou": true,
+  "detalhe": "sem diferenca"
+ },
+ {
+  "id": "A3",
+  "descricao": "cadeiras por campo R1 em 2026: JSON oficial = tabela da A1",
+  "passou": true,
+  "detalhe": "JSON {'direita': 388, 'esquerda': 101, 'centro': 23, 'sem classificacao': 1} | tabela {'esquerda': 101, 'centro': 23, 'direita': 388, 'sem classificacao': 1}"
+ },
+ {
+  "id": "A4",
+  "descricao": "R1: esquerda + centro + direita + sem classificacao = 513 nos tres anos",
+  "passou": true,
+  "detalhe": "{2018: 513, 2022: 513, 2026: 513}"
+ },
+ {
+  "id": "A5",
+  "descricao": "% de votos validos (nominais + legenda) por partido: JSON (tvtn + tvtl) x derivado, diferenca <= 0,05 ponto",
+  "passou": true,
+  "detalhe": "{'PL': (22.72, 22.72), 'PSD': (8.26, 8.26), 'REPUBLICANOS': (6.96, 6.96), 'MDB': (6.94, 6.94), 'PODE': (5.18, 5.18)}"
+ },
+ {
+  "id": "A6",
+  "descricao": "reproducao das 513 cadeiras com a regra da lei (80% e 20% nas sobras): 0 diferencas",
+  "passou": true,
+  "detalhe": "0 diferencas"
+ },
+ {
+  "id": "A7",
+  "descricao": "votos validos por UF: soma das listas = detalhe do TSE (diferenca relativa maxima < 0,1%)",
+  "passou": true,
+  "detalhe": "0.0000%"
+ },
+ {
+  "id": "B1",
+  "descricao": "municipios casados TSE x IBGE >= 99,9%",
+  "passou": true,
+  "detalhe": "5567 de 5571"
+ },
+ {
+  "id": "C1",
+  "descricao": "SP: Datafolha e Quaest iguais nas duas fontes (O Povo e Gazeta do Povo)",
+  "passou": true,
+  "detalhe": ""
+ },
+ {
+  "id": "C2",
+  "descricao": "pesquisas com registro no TSE na janela (>= 90%)",
+  "passou": true,
+  "detalhe": "{'com_registro': 30, 'total': 32}"
+ },
+ {
+  "id": "S1",
+  "descricao": "toda tabela de campo traz esquerda e direita nos tres anos e tres cortes",
+  "passou": true,
+  "detalhe": ""
+ },
+ {
+  "id": "S2",
+  "descricao": "derrotados notaveis: tabelas dos 30 mais votados de 2018 e de 2022 existem, sem filtro por partido",
+  "passou": true,
+  "detalhe": ""
+ },
+ {
+  "id": "S3",
+  "descricao": "pesquisas: a lista dos maiores erros nao filtra por campo e traz os dois sinais",
+  "passou": true,
+  "detalhe": ""
+ },
+ {
+  "id": "L1",
+  "descricao": "nenhuma palavra proibida nos textos publicados (fora das linhas que listam as proibidas)",
+  "passou": true,
+  "detalhe": "limpo"
+ },
+ {
+  "id": "L2",
+  "descricao": "sem travessao nos textos publicados",
+  "passou": true,
+  "detalhe": "{'LEITURA_DA_IA.md': 0, 'PLANO.md': 0, 'RELATORIO.md': 0, 'RESUMO_SIMPLES.md': 0, 'README.md': 0}"
+ }
+]

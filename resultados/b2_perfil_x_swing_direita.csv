@@ -1,0 +1,28 @@
+cargo,variavel,coef_placebo_pp_por_desvio_padrao,coef_2026_menos_placebo_pp,ic95_diferenca_baixo,ic95_diferenca_alto,acompanha_mais_que_antes,municipios
+deputado federal,pct_urbana,-2.684,3.418,1.511,5.325,True,5492
+deputado federal,pct_pretos_pardos,-0.826,1.574,-0.365,3.514,False,5492
+deputado federal,pct_60mais,0.442,-0.136,-1.824,1.552,False,5492
+deputado federal,pct_superior,-1.433,1.428,0.492,2.364,True,5492
+deputado federal,pct_evangelicos,-0.709,1.604,0.103,3.105,True,5492
+deputado federal,pct_catolicos,2.27,-2.998,-4.525,-1.471,True,5492
+deputado federal,log_pib_pc,-2.312,2.795,1.219,4.37,True,5492
+deputado federal,agro_share,2.172,-1.959,-3.972,0.053,False,5492
+deputado federal,bf_por_100hab,2.424,-3.556,-6.119,-0.992,True,5492
+governador,pct_urbana,-0.155,-1.837,-5.603,1.928,False,5492
+governador,pct_pretos_pardos,3.692,-4.656,-12.505,3.192,False,5492
+governador,pct_60mais,-1.15,2.083,-2.094,6.26,False,5492
+governador,pct_superior,-0.62,-0.038,-2.162,2.087,False,5492
+governador,pct_evangelicos,2.148,-4.517,-8.251,-0.784,True,5492
+governador,pct_catolicos,-1.419,4.051,0.945,7.157,True,5492
+governador,log_pib_pc,-1.798,1.295,-3.001,5.591,False,5492
+governador,agro_share,0.144,1.722,-1.113,4.556,False,5492
+governador,bf_por_100hab,1.721,-0.255,-7.9,7.39,False,5492
+senador,pct_urbana,2.437,-3.437,-6.744,-0.131,True,5492
+senador,pct_pretos_pardos,-3.824,4.882,-1.627,11.391,False,5492
+senador,pct_60mais,-1.015,0.625,-1.098,2.348,False,5492
+senador,pct_superior,0.644,-1.665,-3.312,-0.018,True,5492
+senador,pct_evangelicos,2.129,-1.527,-4.159,1.105,False,5492
+senador,pct_catolicos,-2.099,3.163,0.383,5.943,True,5492
+senador,log_pib_pc,1.926,-2.639,-6.164,0.886,False,5492
+senador,agro_share,-1.517,3.281,0.857,5.704,True,5492
+senador,bf_por_100hab,-4.056,4.253,-1.698,10.203,False,5492

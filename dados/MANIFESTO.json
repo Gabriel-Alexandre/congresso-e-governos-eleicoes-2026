@@ -1,0 +1,956 @@
+{
+ "arquivos": {
+  "dados/apoios_declarados.csv": {
+   "baixado_utc": "2026-10-07T14:20:00+00:00",
+   "bytes": 3041,
+   "last_modified": null,
+   "sha256": "497b6ec1ce8d5b22b10f689ce30f75770b65dac61cac5cd7d56fbc4f31a0706e",
+   "url": "apuracao-eleicoes-2026@740fe519:dados/apoios.csv"
+  },
+  "dados/brutos/camara/deputados-leg55.json": {
+   "baixado_utc": "2026-10-07T13:57:34+00:00",
+   "bytes": 319706,
+   "last_modified": null,
+   "sha256": "8d8932e5e7abfd709603d4243ec578be6a657f96cf126d1712338e558e8c5303",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/deputados?idLegislatura=55&itens=1000&formato=json"
+  },
+  "dados/brutos/camara/deputados-leg56.json": {
+   "baixado_utc": "2026-10-07T13:57:35+00:00",
+   "bytes": 320751,
+   "last_modified": null,
+   "sha256": "7c83eb8f7115ff00cdb1a7cb235c26e2f0230f8c1963c8e903dbc1cb9f43b437",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/deputados?idLegislatura=56&itens=1000&formato=json"
+  },
+  "dados/brutos/camara/deputados-leg57.json": {
+   "baixado_utc": "2026-10-07T13:57:40+00:00",
+   "bytes": 303374,
+   "last_modified": null,
+   "sha256": "8a4963051be06868d0dc1b9d1ff44a2071450d8459b4c0e9c2f508c4b9e6e05a",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/deputados?idLegislatura=57&itens=1000&formato=json"
+  },
+  "dados/brutos/camara/deputados.csv": {
+   "baixado_utc": "2026-10-07T13:57:29+00:00",
+   "bytes": 1372072,
+   "last_modified": "Wed, 07 Oct 2026 04:00:06 GMT",
+   "sha256": "c5d390d94ec7573af416117eb5665ca588596f8b8186dce879f0af3abdebfb8f",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/deputados/csv/deputados.csv"
+  },
+  "dados/brutos/camara/votacoes-2023.csv": {
+   "baixado_utc": "2026-10-07T13:55:57+00:00",
+   "bytes": 6706788,
+   "last_modified": "Wed, 07 Oct 2026 06:51:39 GMT",
+   "sha256": "3ccbabab8a2aeea6cc6448649aece2869b370720bacafdb4dd76d5ea2aa941f6",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoes/csv/votacoes-2023.csv"
+  },
+  "dados/brutos/camara/votacoes-2024.csv": {
+   "baixado_utc": "2026-10-07T13:56:18+00:00",
+   "bytes": 6270723,
+   "last_modified": "Wed, 07 Oct 2026 06:50:53 GMT",
+   "sha256": "27a95b64057eb75624e59fc68a179097fb4d433b6cb265ff84ced88dc1ebd5ba",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoes/csv/votacoes-2024.csv"
+  },
+  "dados/brutos/camara/votacoes-2025.csv": {
+   "baixado_utc": "2026-10-07T13:56:47+00:00",
+   "bytes": 8765235,
+   "last_modified": "Wed, 07 Oct 2026 06:52:16 GMT",
+   "sha256": "52e571531b9fb1918811a6cee7d9c63983383bc453d48311983e9f6b26ee16f9",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoes/csv/votacoes-2025.csv"
+  },
+  "dados/brutos/camara/votacoes-2026.csv": {
+   "baixado_utc": "2026-10-07T13:57:21+00:00",
+   "bytes": 4492636,
+   "last_modified": "Wed, 07 Oct 2026 06:50:44 GMT",
+   "sha256": "3042c865353496b46644e350610562fd5e0bd004a680d702d5511d9187c2a6c5",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoes/csv/votacoes-2026.csv"
+  },
+  "dados/brutos/camara/votacoesObjetos-2023.csv": {
+   "baixado_utc": "2026-10-07T13:56:03+00:00",
+   "bytes": 26317494,
+   "last_modified": "Wed, 07 Oct 2026 07:26:32 GMT",
+   "sha256": "2adcc401ad13e3c513ce1ac719865f820038c283c4b0ac97de998a9345f7798c",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesObjetos/csv/votacoesObjetos-2023.csv"
+  },
+  "dados/brutos/camara/votacoesObjetos-2024.csv": {
+   "baixado_utc": "2026-10-07T13:56:25+00:00",
+   "bytes": 27222860,
+   "last_modified": "Wed, 07 Oct 2026 07:07:23 GMT",
+   "sha256": "4c76150cbb22d7fd9e4319bb0a0fc72a2a7fef405e7fb26cb6be499dc4008077",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesObjetos/csv/votacoesObjetos-2024.csv"
+  },
+  "dados/brutos/camara/votacoesObjetos-2025.csv": {
+   "baixado_utc": "2026-10-07T13:57:04+00:00",
+   "bytes": 12693230,
+   "last_modified": "Tue, 06 Oct 2026 21:48:30 GMT",
+   "sha256": "48e3cf8a101cb9a63c2fdbc22a7d65a1292c2993bcd7b18644fd29ecd6a47c86",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesObjetos/csv/votacoesObjetos-2025.csv"
+  },
+  "dados/brutos/camara/votacoesObjetos-2026.csv": {
+   "baixado_utc": "2026-10-07T13:57:27+00:00",
+   "bytes": 13445867,
+   "last_modified": "Wed, 07 Oct 2026 07:35:27 GMT",
+   "sha256": "5e5025c496312a393f0d26242ae8c4a3882ff3717961878e3160f096e0dcccdf",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesObjetos/csv/votacoesObjetos-2026.csv"
+  },
+  "dados/brutos/camara/votacoesOrientacoes-2023.csv": {
+   "baixado_utc": "2026-10-07T13:55:48+00:00",
+   "bytes": 1052068,
+   "last_modified": "Wed, 07 Oct 2026 07:03:31 GMT",
+   "sha256": "dff0e5c79e7c9ef18b853ac3870dcb72968711ffd01fa97804b11c49708dc041",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesOrientacoes/csv/votacoesOrientacoes-2023.csv"
+  },
+  "dados/brutos/camara/votacoesOrientacoes-2024.csv": {
+   "baixado_utc": "2026-10-07T13:56:15+00:00",
+   "bytes": 1023616,
+   "last_modified": "Wed, 07 Oct 2026 07:01:18 GMT",
+   "sha256": "10ea98903a94f44e9c67d9cdb0cf10e72073a083f7b4fe7f4c6ecd99feba58d0",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesOrientacoes/csv/votacoesOrientacoes-2024.csv"
+  },
+  "dados/brutos/camara/votacoesOrientacoes-2025.csv": {
+   "baixado_utc": "2026-10-07T13:56:44+00:00",
+   "bytes": 1095383,
+   "last_modified": "Wed, 07 Oct 2026 07:02:54 GMT",
+   "sha256": "75eae7028c521db02037f55fedf1abb1908df193149638fb4201e84d54ba9552",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesOrientacoes/csv/votacoesOrientacoes-2025.csv"
+  },
+  "dados/brutos/camara/votacoesOrientacoes-2026.csv": {
+   "baixado_utc": "2026-10-07T13:57:11+00:00",
+   "bytes": 434168,
+   "last_modified": "Wed, 07 Oct 2026 07:00:41 GMT",
+   "sha256": "be85a3a64e4a3028c924264daea8f8be47cf52315bf23b4fff31e4e2c6351c4c",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesOrientacoes/csv/votacoesOrientacoes-2026.csv"
+  },
+  "dados/brutos/camara/votacoesVotos-2023.csv": {
+   "baixado_utc": "2026-10-07T13:55:47+00:00",
+   "bytes": 42793597,
+   "last_modified": "Wed, 07 Oct 2026 06:59:09 GMT",
+   "sha256": "1a8573a51bb7edaeb8c2970babe4f3afc3f64ea101aa068a904e0cce90f08cb6",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesVotos/csv/votacoesVotos-2023.csv"
+  },
+  "dados/brutos/camara/votacoesVotos-2024.csv": {
+   "baixado_utc": "2026-10-07T13:56:14+00:00",
+   "bytes": 38680746,
+   "last_modified": "Wed, 07 Oct 2026 06:59:05 GMT",
+   "sha256": "8636ad0b9a94757ef34129ef1c05cfe7586a9e58cb80ebc4b0992a1c09b410ec",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesVotos/csv/votacoesVotos-2024.csv"
+  },
+  "dados/brutos/camara/votacoesVotos-2025.csv": {
+   "baixado_utc": "2026-10-07T13:56:42+00:00",
+   "bytes": 39829230,
+   "last_modified": "Wed, 07 Oct 2026 07:04:36 GMT",
+   "sha256": "06b32227ba6f5af04c8c346b01085fb04339d8edffc3cedded6c42a1cb38f021",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesVotos/csv/votacoesVotos-2025.csv"
+  },
+  "dados/brutos/camara/votacoesVotos-2026.csv": {
+   "baixado_utc": "2026-10-07T13:57:10+00:00",
+   "bytes": 17218786,
+   "last_modified": "Wed, 07 Oct 2026 06:56:34 GMT",
+   "sha256": "7490fdb43c889c7424992df6e724a72bd02f5347c233c31a9d8c8d45b34be786",
+   "url": "https://dadosabertos.camara.leg.br/arquivos/votacoesVotos/csv/votacoesVotos-2026.csv"
+  },
+  "dados/brutos/literatura/bolognesi2023.pdf": {
+   "baixado_utc": "2026-10-07T14:20:00+00:00",
+   "bytes": 679703,
+   "last_modified": null,
+   "sha256": "3eed87683cc2f4ce377407afc52f389f49adc2633e7e53ef955752df47752cb8",
+   "url": "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/?format=pdf&lang=pt"
+  },
+  "dados/brutos/mds/202608_NovoBolsaFamilia.zip": {
+   "baixado_utc": "2026-10-07T14:28:26+00:00",
+   "bytes": 330703661,
+   "last_modified": "Thu, 24 Sep 2026 11:16:47 GMT",
+   "sha256": "0e0efef8bd01517aa234ba85ee530b4d8d486fb4a0abc2dcc3b24a274c044b9a",
+   "url": "https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/novo-bolsa-familia/202608_NovoBolsaFamilia.zip"
+  },
+  "dados/brutos/oficial2026/ac-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:42+00:00",
+   "bytes": 5854,
+   "last_modified": "Mon, 05 Oct 2026 00:08:42 GMT",
+   "sha256": "8cb75ce631656d84f93fafcf518c35951afcf20b2fc9959b1c4b39921383d741",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ac/ac-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ac-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:43+00:00",
+   "bytes": 8309,
+   "last_modified": "Mon, 05 Oct 2026 00:08:43 GMT",
+   "sha256": "5fb86b8f924fe38a921b6c21fb912926257647065415d9c4ccebbb3fd84fff61",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ac/ac-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ac-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:42+00:00",
+   "bytes": 30025,
+   "last_modified": "Mon, 05 Oct 2026 00:08:42 GMT",
+   "sha256": "4d4668d3d274ccb643f085daa6e84b9d6fe79982ddb9e8269ae0621acdf4dd01",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ac/ac-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/al-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:43+00:00",
+   "bytes": 4466,
+   "last_modified": "Mon, 05 Oct 2026 01:55:30 GMT",
+   "sha256": "3ad695b491e40bfb104fb1f01b576c913ce3c18971f7461b26d3c95deb841a3d",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/al/al-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/al-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:44+00:00",
+   "bytes": 7022,
+   "last_modified": "Mon, 05 Oct 2026 01:55:28 GMT",
+   "sha256": "526a0311940cd81aa9d73733efda81728811d596338ad7a318152804079bd9f6",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/al/al-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/al-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:43+00:00",
+   "bytes": 33214,
+   "last_modified": "Mon, 05 Oct 2026 01:55:31 GMT",
+   "sha256": "923d226aefea6c6099b3465680c802d54e2ed405e1d466ed3cedffdb361f6489",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/al/al-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/am-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:45+00:00",
+   "bytes": 6611,
+   "last_modified": "Mon, 05 Oct 2026 09:10:06 GMT",
+   "sha256": "8a0e979f06c5f99b9b3a20dcb3753ef7d04229866ec2edf352f9ff70a2f4fd84",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/am/am-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/am-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:45+00:00",
+   "bytes": 8372,
+   "last_modified": "Mon, 05 Oct 2026 09:10:04 GMT",
+   "sha256": "4c2f04a28260489ec837b00e5bde625aa90f3c79a99efb032b4795a18b49da89",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/am/am-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/am-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:44+00:00",
+   "bytes": 43105,
+   "last_modified": "Mon, 05 Oct 2026 09:09:07 GMT",
+   "sha256": "bfa4433538e53ba273824bac1806a87a6467dd15d73adbadaaed77262558f82f",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/am/am-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ap-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:46+00:00",
+   "bytes": 5109,
+   "last_modified": "Mon, 05 Oct 2026 00:04:54 GMT",
+   "sha256": "51baf6202b78541c7d998d0e18e758da7a5442bca3e2653be4328e5bf171f2e8",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ap/ap-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ap-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:46+00:00",
+   "bytes": 8317,
+   "last_modified": "Mon, 05 Oct 2026 00:04:57 GMT",
+   "sha256": "114f5908adff6a3e1360fcceaf6f6450add3dc6e3d21c8a3f4d61affbadc7bc4",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ap/ap-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ap-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:46+00:00",
+   "bytes": 27961,
+   "last_modified": "Mon, 05 Oct 2026 00:04:55 GMT",
+   "sha256": "327ea99c3c9f71222bb7a1e45d64af073c3db7570e71e3927d22380a78bbf39f",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ap/ap-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ba-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:47+00:00",
+   "bytes": 6048,
+   "last_modified": "Mon, 05 Oct 2026 14:42:57 GMT",
+   "sha256": "b2620f5ff5f67b38796a31e3929df4b78eef9115445176072dbcf4a4faa4ec9e",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ba/ba-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ba-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:48+00:00",
+   "bytes": 9194,
+   "last_modified": "Mon, 05 Oct 2026 14:42:57 GMT",
+   "sha256": "83bcfbed2eaea2e49afbe161ae162ef1a1c9359cb7e309ff89d605e34cfc638b",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ba/ba-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ba-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:47+00:00",
+   "bytes": 136311,
+   "last_modified": "Mon, 05 Oct 2026 14:42:58 GMT",
+   "sha256": "b7cc68f6dc8759cecaf7691b9692e459482ed5dd197b2a1d45437c94ade16ec7",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ba/ba-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ce-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:48+00:00",
+   "bytes": 7128,
+   "last_modified": "Mon, 05 Oct 2026 02:12:19 GMT",
+   "sha256": "e80b249bc10f2ddff40d1bd856fe30c1b93a98c710cbe127de1bdd4648342090",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ce/ce-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ce-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:49+00:00",
+   "bytes": 7937,
+   "last_modified": "Mon, 05 Oct 2026 02:12:19 GMT",
+   "sha256": "3b2ecb567a5bab25c49b3621d8c80e8801db834ecd01993c65acb5546a5cce4c",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ce/ce-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ce-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:48+00:00",
+   "bytes": 77300,
+   "last_modified": "Mon, 05 Oct 2026 02:12:19 GMT",
+   "sha256": "60ea255a084d11446715539fc328d019e5aa5fe28b1bccbde061cf4e5612650a",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ce/ce-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/df-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:50+00:00",
+   "bytes": 8630,
+   "last_modified": "Sun, 04 Oct 2026 23:23:49 GMT",
+   "sha256": "c5cd445a898ce46675f52affa9ba55a1de8e76afa01757680667ef3efcf04435",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/df/df-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/df-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:50+00:00",
+   "bytes": 9988,
+   "last_modified": "Sun, 04 Oct 2026 23:23:47 GMT",
+   "sha256": "65cd4102657ea7db3c17df431fd392ba4ad33d6bbcffafe302acafa73458433a",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/df/df-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/df-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:49+00:00",
+   "bytes": 51511,
+   "last_modified": "Sun, 04 Oct 2026 23:23:49 GMT",
+   "sha256": "8e5dc399ca3e034eb88dfb3cd15d1d5e2c33807204b148cbc204aa43ef80d470",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/df/df-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/es-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:51+00:00",
+   "bytes": 5157,
+   "last_modified": "Sun, 04 Oct 2026 23:58:22 GMT",
+   "sha256": "da8416442f9c792f7d4cd9c6df24f44ec0dba6ecff4b724207041bb829a4b643",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/es/es-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/es-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:51+00:00",
+   "bytes": 10150,
+   "last_modified": "Sun, 04 Oct 2026 23:58:23 GMT",
+   "sha256": "e655423fa0dcf84e44de3316315a16aa9f5496a07a501c60ff15bfe8805f96ef",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/es/es-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/es-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:51+00:00",
+   "bytes": 40731,
+   "last_modified": "Sun, 04 Oct 2026 23:58:23 GMT",
+   "sha256": "e691a95ec64abadbd1c6a082b7c35dd550463ffc229807f8dba1c18060eaaf43",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/es/es-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/go-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:52+00:00",
+   "bytes": 6021,
+   "last_modified": "Mon, 05 Oct 2026 01:40:18 GMT",
+   "sha256": "d40dd1761fd3d924d50a3b532d0930a14705309d4e8227ecab4b7d9515d1c8d2",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/go/go-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/go-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:53+00:00",
+   "bytes": 10206,
+   "last_modified": "Mon, 05 Oct 2026 01:40:21 GMT",
+   "sha256": "ec3105d5d828123486f1c637c0d92e8981614a674b703474fb4324492c15ef96",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/go/go-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/go-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:52+00:00",
+   "bytes": 71352,
+   "last_modified": "Mon, 05 Oct 2026 01:40:21 GMT",
+   "sha256": "281899d2d403a19dc92b0311fb0c478179174fd794b4e00757ecdf461485daee",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/go/go-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ma-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:53+00:00",
+   "bytes": 7145,
+   "last_modified": "Mon, 05 Oct 2026 05:02:45 GMT",
+   "sha256": "e20796e52de54b0ccc7cec996a0fcdb85d29a73b693406acdabacfc371687b91",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ma/ma-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ma-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:54+00:00",
+   "bytes": 10508,
+   "last_modified": "Mon, 05 Oct 2026 05:02:45 GMT",
+   "sha256": "1954d81eb32b651350c9ebb720b6f2d89c056e2ab87de411467ff880cd8cadbb",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ma/ma-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ma-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:53+00:00",
+   "bytes": 77578,
+   "last_modified": "Mon, 05 Oct 2026 05:02:46 GMT",
+   "sha256": "433c845fbf2e25b86f9837073d36b97846ef5cdca41a55933f759be230748f85",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ma/ma-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/mg-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:55+00:00",
+   "bytes": 9050,
+   "last_modified": "Mon, 05 Oct 2026 14:46:40 GMT",
+   "sha256": "4a610ce364c51eb467b5a0689acb2b3b39eaeb62e1cf3aaae18040fc8dd0a546",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/mg/mg-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/mg-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:55+00:00",
+   "bytes": 13700,
+   "last_modified": "Mon, 05 Oct 2026 14:46:39 GMT",
+   "sha256": "3c141db59cfd2ca69aa6afb9a96a63399a3f6f4e9ad3e7a92523571a562070d2",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/mg/mg-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/mg-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:54+00:00",
+   "bytes": 190010,
+   "last_modified": "Mon, 05 Oct 2026 14:51:12 GMT",
+   "sha256": "b8210456b97621fc07a53b5df07025819b3f08c1ca0b8eb2d623bcf18a2d98d6",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/mg/mg-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ms-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:56+00:00",
+   "bytes": 7434,
+   "last_modified": "Mon, 05 Oct 2026 00:07:07 GMT",
+   "sha256": "a7ede30afb5bb617afb9a57f14bcddea388143d6a67585b79c6a7555e2139dbe",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ms/ms-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ms-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:56+00:00",
+   "bytes": 8758,
+   "last_modified": "Mon, 05 Oct 2026 00:07:06 GMT",
+   "sha256": "0b8875ec33e18d3c339db7c408d9c56022dfbccbb628379aa2869c04a815d33e",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ms/ms-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ms-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:56+00:00",
+   "bytes": 38537,
+   "last_modified": "Mon, 05 Oct 2026 00:07:06 GMT",
+   "sha256": "f1e456ccea8eb1388ece0cfbe029d766c6bd014688d20486c7723f1799de329d",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ms/ms-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/mt-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:57+00:00",
+   "bytes": 5654,
+   "last_modified": "Mon, 05 Oct 2026 00:33:36 GMT",
+   "sha256": "c11608adcf33e814e1a2c48e400fed23d54bbd52791326a2ea64953d180ba716",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/mt/mt-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/mt-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:58+00:00",
+   "bytes": 8859,
+   "last_modified": "Mon, 05 Oct 2026 00:33:36 GMT",
+   "sha256": "baab57c5c9aa9ee1d19982fa2f24741c372f0bfe4268d22ede7584417475009a",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/mt/mt-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/mt-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:57+00:00",
+   "bytes": 41752,
+   "last_modified": "Mon, 05 Oct 2026 00:33:39 GMT",
+   "sha256": "af9d363815888ca7427158508dca3a9810374af72507ad63553746b0ff80553d",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/mt/mt-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pa-c0003.json": {
+   "baixado_utc": "2026-10-07T13:54:59+00:00",
+   "bytes": 5804,
+   "last_modified": "Mon, 05 Oct 2026 14:43:18 GMT",
+   "sha256": "71ebf989c74459ef6cf7d68a00067aa72465c3106820b51895ed80e76ddce1c9",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pa/pa-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pa-c0005.json": {
+   "baixado_utc": "2026-10-07T13:54:59+00:00",
+   "bytes": 10953,
+   "last_modified": "Mon, 05 Oct 2026 14:43:18 GMT",
+   "sha256": "292e4f0804aac92e6c909290e6a4270e9032a108b60ee616b38d499c5a720c01",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pa/pa-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pa-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:58+00:00",
+   "bytes": 73652,
+   "last_modified": "Mon, 05 Oct 2026 14:43:19 GMT",
+   "sha256": "07d387c90aff42f4cd8140f07038baee597ee887378ce7135c32ff4c26e4d0fe",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pa/pa-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pb-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:00+00:00",
+   "bytes": 5140,
+   "last_modified": "Mon, 05 Oct 2026 02:23:19 GMT",
+   "sha256": "790e766df25f1a8fbce714624cb5a71efa396b0b6c4feb847ff05a12ab36a5a9",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pb/pb-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pb-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:00+00:00",
+   "bytes": 8841,
+   "last_modified": "Mon, 05 Oct 2026 02:23:19 GMT",
+   "sha256": "0de9ca745a3b583018b723f59dbef4f8d276af3ddbebb8a02738549dfd3ade7d",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pb/pb-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pb-c0006.json": {
+   "baixado_utc": "2026-10-07T13:54:59+00:00",
+   "bytes": 50496,
+   "last_modified": "Mon, 05 Oct 2026 02:23:18 GMT",
+   "sha256": "671e58e5be7a06f58ea830d7eb56b43ac07e836a29c4be7fcdbe0021e155f09d",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pb/pb-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pe-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:01+00:00",
+   "bytes": 6469,
+   "last_modified": "Tue, 06 Oct 2026 20:00:24 GMT",
+   "sha256": "d470568efa973b2a3a42531541c6f1a659727d8ceea5e254fcc3042a6bf8d572",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pe/pe-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pe-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:02+00:00",
+   "bytes": 11039,
+   "last_modified": "Tue, 06 Oct 2026 20:00:24 GMT",
+   "sha256": "f76060fff649d9c330d84aea8e73f80af9d085c219e2fa66357b8da239400872",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pe/pe-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pe-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:01+00:00",
+   "bytes": 101349,
+   "last_modified": "Tue, 06 Oct 2026 20:00:24 GMT",
+   "sha256": "a27315f14e39d2c82c0491e553c45e8c678bccc70da21c9008a1d422d4e7c7f0",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pe/pe-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pi-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:02+00:00",
+   "bytes": 8829,
+   "last_modified": "Mon, 05 Oct 2026 02:38:24 GMT",
+   "sha256": "a4afe31b96b0252f1f56b59a3047c93aa1e31a51ee6612b8b8376ab2d0c3a8b0",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pi/pi-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pi-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:03+00:00",
+   "bytes": 13534,
+   "last_modified": "Mon, 05 Oct 2026 02:38:25 GMT",
+   "sha256": "3aad42ba47d25abaf9b84e84e99dfd93f87d306e5a2956bd04de755d8f92f697",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pi/pi-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pi-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:02+00:00",
+   "bytes": 48814,
+   "last_modified": "Mon, 05 Oct 2026 02:38:23 GMT",
+   "sha256": "c54a3a3ece2218d658635c9c49b5700729e4c1e68a4a8de9ea870a1afee258b1",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pi/pi-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pr-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:04+00:00",
+   "bytes": 6986,
+   "last_modified": "Mon, 05 Oct 2026 14:47:27 GMT",
+   "sha256": "9300e2f16270e51d0669cdba3e4a36de5462f9574269ced991cfa0bb382ed81e",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pr/pr-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pr-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:04+00:00",
+   "bytes": 8332,
+   "last_modified": "Mon, 05 Oct 2026 14:47:25 GMT",
+   "sha256": "70f9b06532672acbaf24f156c809c65655a5934c2bf90931875512dd2ccfe9c2",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pr/pr-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/pr-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:03+00:00",
+   "bytes": 111447,
+   "last_modified": "Mon, 05 Oct 2026 14:47:28 GMT",
+   "sha256": "d1d772c03d433e2f6034bb89f91efdc7f20065aece4bb91c1bfa278a1e9b0ebf",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pr/pr-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rj-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:05+00:00",
+   "bytes": 7738,
+   "last_modified": "Mon, 05 Oct 2026 01:24:45 GMT",
+   "sha256": "a76307dfeddacff97a336180fe4491595190f9b206e7545f6a037d2a68657160",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rj/rj-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rj-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:05+00:00",
+   "bytes": 12752,
+   "last_modified": "Mon, 05 Oct 2026 01:24:46 GMT",
+   "sha256": "457c321e1847afd4957c2df4ebd2614928b836cb9c91d4a3386ce4802684d507",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rj/rj-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rj-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:05+00:00",
+   "bytes": 204969,
+   "last_modified": "Mon, 05 Oct 2026 01:24:46 GMT",
+   "sha256": "133da3acb51b2505dec481d62bdbb12efd4b0638ded4c2365f57067fac82f101",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rj/rj-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rn-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:06+00:00",
+   "bytes": 7145,
+   "last_modified": "Mon, 05 Oct 2026 02:02:18 GMT",
+   "sha256": "1ad24ac01ce21d3faeb817ab62fa95dc8c2342d44bd5182db780c2eff22baf47",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rn/rn-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rn-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:07+00:00",
+   "bytes": 11071,
+   "last_modified": "Mon, 05 Oct 2026 02:02:16 GMT",
+   "sha256": "849592454a1f0d7916710dc2b76a9855ddbec8c1c72b83ba381b9e8ff8b0293f",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rn/rn-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rn-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:06+00:00",
+   "bytes": 33451,
+   "last_modified": "Mon, 05 Oct 2026 02:02:18 GMT",
+   "sha256": "395a4602601829c48c08fa2e5da32859ac450c5fbbafcb87bc32b138f0efee23",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rn/rn-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ro-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:08+00:00",
+   "bytes": 5989,
+   "last_modified": "Sun, 04 Oct 2026 23:51:37 GMT",
+   "sha256": "e8cb1ef46d3259c7a8d247bc38c6690f37d78757d16d109d5b2b8beaf1c8b330",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ro/ro-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ro-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:08+00:00",
+   "bytes": 9338,
+   "last_modified": "Sun, 04 Oct 2026 23:51:37 GMT",
+   "sha256": "c7886eaf7b2b6cc8b6d1d6c63cb94320a771aa3f40df735881fcf5f2fcb2059d",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ro/ro-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/ro-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:07+00:00",
+   "bytes": 40243,
+   "last_modified": "Sun, 04 Oct 2026 23:51:37 GMT",
+   "sha256": "e00a29968dfcddf907e086e640d415b6357adfe40b680a87f27972f26adfb6b7",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/ro/ro-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rr-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:09+00:00",
+   "bytes": 5283,
+   "last_modified": "Mon, 05 Oct 2026 00:10:48 GMT",
+   "sha256": "1493b2feb57d9235e404667f082a4855b2a4307344482f53c475629baafb73a5",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rr/rr-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rr-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:09+00:00",
+   "bytes": 11544,
+   "last_modified": "Mon, 05 Oct 2026 00:10:48 GMT",
+   "sha256": "543385651f38754dc989c4f953ff30de60985946405c0c5a4cb19227a1b5d75a",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rr/rr-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rr-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:08+00:00",
+   "bytes": 32138,
+   "last_modified": "Mon, 05 Oct 2026 00:10:48 GMT",
+   "sha256": "140aeb9f7e5f12aae01d5c5a76c0cbc3cbdeb9c27ce204ae0fef57c0d31777b2",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rr/rr-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rs-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:10+00:00",
+   "bytes": 6494,
+   "last_modified": "Mon, 05 Oct 2026 00:13:03 GMT",
+   "sha256": "4e9678878ac46a1b95317832fe79830ab594bd31be1820445f49c291878e7170",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rs/rs-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rs-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:11+00:00",
+   "bytes": 11205,
+   "last_modified": "Mon, 05 Oct 2026 00:13:03 GMT",
+   "sha256": "c2667f90d2e1a75c35bafe27de4ba24c6441b659c382acf2353df25729b917a5",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rs/rs-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/rs-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:10+00:00",
+   "bytes": 119453,
+   "last_modified": "Mon, 05 Oct 2026 00:16:01 GMT",
+   "sha256": "02c43dd2eef501d2165b80faed930725141d7768f0e220ce7281a556c25558c2",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rs/rs-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/sc-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:11+00:00",
+   "bytes": 7121,
+   "last_modified": "Mon, 05 Oct 2026 00:58:29 GMT",
+   "sha256": "efdd025a7aa7d56049431a9d9c22d199694d037548c671c869970e53a999d541",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/sc/sc-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/sc-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:12+00:00",
+   "bytes": 11273,
+   "last_modified": "Mon, 05 Oct 2026 00:58:27 GMT",
+   "sha256": "4316649187e6c90ab83e505115c6973097addae62a88e52ec1f29e5b37bcdc1f",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/sc/sc-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/sc-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:11+00:00",
+   "bytes": 65845,
+   "last_modified": "Mon, 05 Oct 2026 00:58:30 GMT",
+   "sha256": "3a0cc8ba9eaad3974d563b6a8e149f3b15447510e2b7e5fe0e6a59554b6cd0f8",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/sc/sc-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/se-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:13+00:00",
+   "bytes": 4532,
+   "last_modified": "Mon, 05 Oct 2026 01:08:27 GMT",
+   "sha256": "9c45c0d0f4f32148cc5136bedfab85c5643c505b730c20b738c93e3c7dedfa16",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/se/se-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/se-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:13+00:00",
+   "bytes": 9256,
+   "last_modified": "Mon, 05 Oct 2026 01:08:30 GMT",
+   "sha256": "e0c4b1c67fbe21f81568913d7fedb9f8dab73a76a5ea15e5e8578a25f9e0e1f9",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/se/se-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/se-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:12+00:00",
+   "bytes": 39115,
+   "last_modified": "Mon, 05 Oct 2026 01:08:28 GMT",
+   "sha256": "2a79030e36cf591778934b829a2a864af10c29a858e461c257b2efe166fc0498",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/se/se-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/sp-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:14+00:00",
+   "bytes": 5203,
+   "last_modified": "Mon, 05 Oct 2026 14:47:39 GMT",
+   "sha256": "699c0f735f3b706a304c3dc6725ff9df2cc5511ece29ff7dd46edf3d730437df",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/sp/sp-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/sp-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:15+00:00",
+   "bytes": 11328,
+   "last_modified": "Mon, 05 Oct 2026 14:47:39 GMT",
+   "sha256": "55ae5a371b797c0817494e37b38987af4408af5a3ae45ae2a72f6739f1019a86",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/sp/sp-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/sp-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:14+00:00",
+   "bytes": 275259,
+   "last_modified": "Mon, 05 Oct 2026 14:50:40 GMT",
+   "sha256": "7781286c5fe2cdc6c2c14ada2bceb79e393cd2c543c165c159e8f6341b735af8",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/sp/sp-c0006-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/to-c0003.json": {
+   "baixado_utc": "2026-10-07T13:55:15+00:00",
+   "bytes": 6045,
+   "last_modified": "Mon, 05 Oct 2026 00:21:21 GMT",
+   "sha256": "ca4749eb9fda9582cc415a5af5a1d12f70c6bbec906b21e80c429ec93ac6bbc9",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/to/to-c0003-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/to-c0005.json": {
+   "baixado_utc": "2026-10-07T13:55:16+00:00",
+   "bytes": 11418,
+   "last_modified": "Mon, 05 Oct 2026 00:21:21 GMT",
+   "sha256": "0764a9b9eb3124e377796660415acdefb2d3e9acf67b8e244012ddcaa39cfe5a",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/to/to-c0005-e006259-u.json"
+  },
+  "dados/brutos/oficial2026/to-c0006.json": {
+   "baixado_utc": "2026-10-07T13:55:15+00:00",
+   "bytes": 29317,
+   "last_modified": "Mon, 05 Oct 2026 00:21:21 GMT",
+   "sha256": "f761c8a6db27ea3adc649492939595dd56417e9e75e5e157b9de6ba0d394cb37",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/to/to-c0006-e006259-u.json"
+  },
+  "dados/brutos/senado/atual.json": {
+   "baixado_utc": "2026-10-07T13:55:17+00:00",
+   "bytes": 129301,
+   "last_modified": null,
+   "sha256": "350782fdc8d2ad6ae24f6ddb734f672c8b66678113a50b55ad65c2be2264aa87",
+   "url": "https://legis.senado.leg.br/dadosabertos/senador/lista/atual.json"
+  },
+  "dados/brutos/tse/consulta_cand_2006.zip": {
+   "baixado_utc": "2026-10-07T14:02:31+00:00",
+   "bytes": 4044252,
+   "last_modified": "Wed, 01 Sep 2021 14:02:27 GMT",
+   "sha256": "6f5c0cf7ae8087782824dc4fcd447ee284daecfe2cd1402dec3670bcca739b8a",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2006.zip"
+  },
+  "dados/brutos/tse/consulta_cand_2010.zip": {
+   "baixado_utc": "2026-10-07T14:02:21+00:00",
+   "bytes": 4939410,
+   "last_modified": "Wed, 01 Sep 2021 14:02:29 GMT",
+   "sha256": "761c8eb2683b0ccdfab535dc92452384bcfc95b1ca7dba9579081ea352281328",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2010.zip"
+  },
+  "dados/brutos/tse/consulta_cand_2014.zip": {
+   "baixado_utc": "2026-10-07T14:02:06+00:00",
+   "bytes": 4530527,
+   "last_modified": "Tue, 26 Aug 2025 16:59:56 GMT",
+   "sha256": "ad31cc36d9a6c89eac3d034533fffe1964aaf038697acaf32320cb9a09151087",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2014.zip"
+  },
+  "dados/brutos/tse/consulta_cand_2018.zip": {
+   "baixado_utc": "2026-10-07T14:00:36+00:00",
+   "bytes": 4722704,
+   "last_modified": "Wed, 13 Nov 2024 16:20:54 GMT",
+   "sha256": "57f6881f1aa036142886ae548afd275e7ee6695643a2ab62826f2ee232d3fd44",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2018.zip"
+  },
+  "dados/brutos/tse/consulta_cand_2022.zip": {
+   "baixado_utc": "2026-10-07T13:59:40+00:00",
+   "bytes": 4387572,
+   "last_modified": "Wed, 07 Oct 2026 06:20:21 GMT",
+   "sha256": "2d23b5120662c76955ac492dcfa69e3be9fcb531e61a86eb084bdcbd1ac6e487",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2022.zip"
+  },
+  "dados/brutos/tse/consulta_cand_2026.zip": {
+   "baixado_utc": "2026-10-07T13:58:50+00:00",
+   "bytes": 3238747,
+   "last_modified": "Wed, 07 Oct 2026 13:06:30 GMT",
+   "sha256": "d4a950c7cf04eb8902d27de0ddc51fc4189bbda4ea8d2e516ec476b2cabcc5fe",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip"
+  },
+  "dados/brutos/tse/detalhe_votacao_munzona_2006.zip": {
+   "baixado_utc": "2026-10-07T14:02:31+00:00",
+   "bytes": 3893736,
+   "last_modified": "Fri, 08 Aug 2025 16:29:38 GMT",
+   "sha256": "9cc8d3a710f33f7dc2b301e01cab58a67e78b6ab3bf0bd48031e7cdb46f6870f",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2006.zip"
+  },
+  "dados/brutos/tse/detalhe_votacao_munzona_2010.zip": {
+   "baixado_utc": "2026-10-07T14:02:20+00:00",
+   "bytes": 3354480,
+   "last_modified": "Fri, 08 Aug 2025 16:28:11 GMT",
+   "sha256": "5f0ea64db232ddf7b88c0cb568534477cf21d8d1c8c8d40790b33cffce03a034",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2010.zip"
+  },
+  "dados/brutos/tse/detalhe_votacao_munzona_2014.zip": {
+   "baixado_utc": "2026-10-07T14:02:04+00:00",
+   "bytes": 3937094,
+   "last_modified": "Fri, 08 Aug 2025 16:26:35 GMT",
+   "sha256": "f9195f8988edabd5db03fdef31ad33b21ad0f02c75c8a8fa30c468ed5642460a",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2014.zip"
+  },
+  "dados/brutos/tse/detalhe_votacao_munzona_2018.zip": {
+   "baixado_utc": "2026-10-07T14:00:34+00:00",
+   "bytes": 4269741,
+   "last_modified": "Tue, 29 Jul 2025 16:29:08 GMT",
+   "sha256": "df68c258a2261dff37b379f65ea5f2e8de7b3d824bb2340d8f4830274a3fabb5",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2018.zip"
+  },
+  "dados/brutos/tse/detalhe_votacao_munzona_2022.zip": {
+   "baixado_utc": "2026-10-07T13:59:39+00:00",
+   "bytes": 4428494,
+   "last_modified": "Wed, 07 Oct 2026 06:44:54 GMT",
+   "sha256": "f8a7fbf13763e8b167fe4ae9a9367d398daf3e0cdbf9571c075b590ec54f759f",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2022.zip"
+  },
+  "dados/brutos/tse/detalhe_votacao_munzona_2026.zip": {
+   "baixado_utc": "2026-10-07T13:58:49+00:00",
+   "bytes": 2503922,
+   "last_modified": "Wed, 07 Oct 2026 13:21:31 GMT",
+   "sha256": "659af8b0b0cd43672b8dc8bcb25a8550768ba25ae6ac5d5f9e5c11ad7693bda9",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2026.zip"
+  },
+  "dados/brutos/tse/pesquisa_contratante_2018.zip": {
+   "baixado_utc": "2026-10-07T14:00:38+00:00",
+   "bytes": 239399,
+   "last_modified": "Mon, 27 Feb 2023 17:31:59 GMT",
+   "sha256": "7c49460fe8fbe14cfc66e52a708f4854368be1fcb8255c093d894870e07b292a",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/pesquisa_eleitoral/pesquisa_contratante_2018.zip"
+  },
+  "dados/brutos/tse/pesquisa_contratante_2022.zip": {
+   "baixado_utc": "2026-10-07T13:59:41+00:00",
+   "bytes": 281645,
+   "last_modified": "Sat, 26 Oct 2024 08:35:05 GMT",
+   "sha256": "70becacf2e4871e97a774370a595d281e000f9c830ed895323936301b69e5afd",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/pesquisa_eleitoral/pesquisa_contratante_2022.zip"
+  },
+  "dados/brutos/tse/pesquisa_contratante_2026.zip": {
+   "baixado_utc": "2026-10-07T13:58:51+00:00",
+   "bytes": 283930,
+   "last_modified": "Wed, 07 Oct 2026 08:47:18 GMT",
+   "sha256": "62d867a93bc27072d6e35d12da9ae35bf87b29710b65977effcc895d182799b7",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/pesquisa_eleitoral/pesquisa_contratante_2026.zip"
+  },
+  "dados/brutos/tse/pesquisa_eleitoral_2018.zip": {
+   "baixado_utc": "2026-10-07T14:00:37+00:00",
+   "bytes": 1278059,
+   "last_modified": "Tue, 10 Jun 2025 10:00:04 GMT",
+   "sha256": "6c26a1510b5aa1c55f34c099234689f278c0796bd448b6fabe598cfcd6b7b2c4",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/pesquisa_eleitoral/pesquisa_eleitoral_2018.zip"
+  },
+  "dados/brutos/tse/pesquisa_eleitoral_2022.zip": {
+   "baixado_utc": "2026-10-07T13:59:41+00:00",
+   "bytes": 3171871,
+   "last_modified": "Sat, 26 Oct 2024 13:49:43 GMT",
+   "sha256": "5565b63ced39655005a3c7a0b51e3209ff787da5815a9124ae264b5671b3038b",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/pesquisa_eleitoral/pesquisa_eleitoral_2022.zip"
+  },
+  "dados/brutos/tse/pesquisa_eleitoral_2026.zip": {
+   "baixado_utc": "2026-10-07T13:58:51+00:00",
+   "bytes": 5858843,
+   "last_modified": "Tue, 06 Oct 2026 09:01:06 GMT",
+   "sha256": "8cba5fd864e71c87b293bfa1b1f532235854b0a2a9ddabe41c4b3bf5ded5fdd9",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/pesquisa_eleitoral/pesquisa_eleitoral_2026.zip"
+  },
+  "dados/brutos/tse/votacao_candidato_munzona_2006.zip": {
+   "baixado_utc": "2026-10-07T14:02:30+00:00",
+   "bytes": 130940089,
+   "last_modified": "Fri, 13 May 2022 23:19:55 GMT",
+   "sha256": "9bd23c339924ee761347a80590deff8bbbe2f483ff5a5b3d478998ce59ec929e",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip"
+  },
+  "dados/brutos/tse/votacao_candidato_munzona_2010.zip": {
+   "baixado_utc": "2026-10-07T14:02:19+00:00",
+   "bytes": 132565895,
+   "last_modified": "Fri, 03 Sep 2021 20:11:47 GMT",
+   "sha256": "fc7052974632351a3dc81e8ec17312889687eae0b2d56508259f91deecadd563",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
+  },
+  "dados/brutos/tse/votacao_candidato_munzona_2014.zip": {
+   "baixado_utc": "2026-10-07T14:02:03+00:00",
+   "bytes": 494100168,
+   "last_modified": "Fri, 03 Sep 2021 20:11:58 GMT",
+   "sha256": "f41bceb427820c068b2b14b87befa69d8c333638644eea0e8337534f9b349fd3",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
+  },
+  "dados/brutos/tse/votacao_candidato_munzona_2018.zip": {
+   "baixado_utc": "2026-10-07T14:00:33+00:00",
+   "bytes": 395389280,
+   "last_modified": "Wed, 13 Nov 2024 16:25:44 GMT",
+   "sha256": "f880848ef4ba340b15cb91ff0754aa370d34ca7b7e605d6607c0f2a75009adc8",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
+  },
+  "dados/brutos/tse/votacao_candidato_munzona_2022.zip": {
+   "baixado_utc": "2026-10-07T13:59:38+00:00",
+   "bytes": 641972446,
+   "last_modified": "Sun, 04 Oct 2026 07:24:15 GMT",
+   "sha256": "b5bd20d7e2aee66c142ff38cebaaf7f31b84bc6aaaee1ae09ae4b66778c96b7d",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
+  },
+  "dados/brutos/tse/votacao_candidato_munzona_2026.zip": {
+   "baixado_utc": "2026-10-07T13:58:47+00:00",
+   "bytes": 454587650,
+   "last_modified": "Wed, 07 Oct 2026 13:47:01 GMT",
+   "sha256": "de3a73bc3d9624af97d87d94f767c245570e91d60a107f258627eaf04b95ed68",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2026.zip"
+  },
+  "dados/brutos/tse/votacao_partido_munzona_2006.zip": {
+   "baixado_utc": "2026-10-07T14:02:59+00:00",
+   "bytes": 8894538,
+   "last_modified": "Fri, 13 May 2022 23:19:20 GMT",
+   "sha256": "03dcdef80b254c8a5e02753ba6359a94ae7f050f5973eef7fc03bf315f23cc35",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_partido_munzona/votacao_partido_munzona_2006.zip"
+  },
+  "dados/brutos/tse/votacao_partido_munzona_2010.zip": {
+   "baixado_utc": "2026-10-07T14:02:58+00:00",
+   "bytes": 7875767,
+   "last_modified": "Fri, 03 Sep 2021 20:12:05 GMT",
+   "sha256": "32d210a9b5535694bc48c0026e8afecd10267117b86b51272e53836510a4339f",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_partido_munzona/votacao_partido_munzona_2010.zip"
+  },
+  "dados/brutos/tse/votacao_partido_munzona_2014.zip": {
+   "baixado_utc": "2026-10-07T14:02:57+00:00",
+   "bytes": 12141261,
+   "last_modified": "Fri, 03 Sep 2021 20:12:24 GMT",
+   "sha256": "2743ea0b516eddedc1d92693900cbc8b53bfc8aa502419b4e4774f212c530562",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_partido_munzona/votacao_partido_munzona_2014.zip"
+  },
+  "dados/brutos/tse/votacao_partido_munzona_2018.zip": {
+   "baixado_utc": "2026-10-07T14:02:56+00:00",
+   "bytes": 27920768,
+   "last_modified": "Thu, 25 Jul 2024 01:01:27 GMT",
+   "sha256": "c3ab9e78efd8d11033d650451252cb5c019a699e79bec7e04371a3a4022143df",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_partido_munzona/votacao_partido_munzona_2018.zip"
+  },
+  "dados/brutos/tse/votacao_partido_munzona_2022.zip": {
+   "baixado_utc": "2026-10-07T14:02:53+00:00",
+   "bytes": 26628473,
+   "last_modified": "Wed, 07 Oct 2026 06:25:05 GMT",
+   "sha256": "8b2d9a5777ea1d3e693c0a20a6ff62baa210700a265867d021e667a4d1e00d72",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_partido_munzona/votacao_partido_munzona_2022.zip"
+  },
+  "dados/brutos/tse/votacao_partido_munzona_2026.zip": {
+   "baixado_utc": "2026-10-07T14:02:51+00:00",
+   "bytes": 9225503,
+   "last_modified": "Wed, 07 Oct 2026 13:10:45 GMT",
+   "sha256": "5ac351b9e64e43aa61d1b4601f70c59a76b232e5ba2b8f5f2b5bbd322f450833",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_partido_munzona/votacao_partido_munzona_2026.zip"
+  },
+  "dados/senado_apoio_flavio.csv": {
+   "baixado_utc": "2026-10-07T14:20:00+00:00",
+   "bytes": 2323,
+   "last_modified": null,
+   "sha256": "707e5a83cd2e6a931706e080f0b30e231097a36f1868db5b960ea192d947e7d1",
+   "url": "apuracao-eleicoes-2026@740fe519:dados/senado-apoio-flavio.csv"
+  }
+ }
+}

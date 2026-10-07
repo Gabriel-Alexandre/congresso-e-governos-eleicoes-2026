@@ -1,0 +1,1334 @@
+{
+ "arquivos": {
+  "dados/brutos/ibge/10061-ac.json": {
+   "baixado_utc": "2026-10-07T14:01:09+00:00",
+   "bytes": 20359,
+   "last_modified": null,
+   "sha256": "c10a535ce8e84bd2434891e5998d95830b8b8d12513191c9525750bc6c3b6cf2",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2012/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-al.json": {
+   "baixado_utc": "2026-10-07T14:01:10+00:00",
+   "bytes": 92208,
+   "last_modified": null,
+   "sha256": "49c808c7b5e504258451a287e25de4da77bc4eb1193d17378b632c6370757ed0",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2027/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-am.json": {
+   "baixado_utc": "2026-10-07T14:01:11+00:00",
+   "bytes": 56049,
+   "last_modified": null,
+   "sha256": "84abcc49c2ae4e66dc6f015af42fd736aa47f1098eaca16039833ab2731f262f",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2013/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-ap.json": {
+   "baixado_utc": "2026-10-07T14:01:12+00:00",
+   "bytes": 14943,
+   "last_modified": null,
+   "sha256": "9197f81e05d3bc91a0ea249e13d370abc295c3384204f6b867edd9b7d7465f94",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2016/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-ba.json": {
+   "baixado_utc": "2026-10-07T14:01:13+00:00",
+   "bytes": 373784,
+   "last_modified": null,
+   "sha256": "a60cbb5d06d1b7b8d403d360c9ddce2a8683a27c0febfd9db02697ecc595e4e8",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2029/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-ce.json": {
+   "baixado_utc": "2026-10-07T14:01:14+00:00",
+   "bytes": 164753,
+   "last_modified": null,
+   "sha256": "1025122dc83682b238c50e60a25241a68bbc663ce614e823bd2c9aebe8b0754d",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2023/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-df.json": {
+   "baixado_utc": "2026-10-07T14:01:15+00:00",
+   "bytes": 1518,
+   "last_modified": null,
+   "sha256": "146eb97015ca0d07e7178d610cbb8813f0f68835b20ce3dc4cdb04dbf609f01d",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2053/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-es.json": {
+   "baixado_utc": "2026-10-07T14:01:16+00:00",
+   "bytes": 70690,
+   "last_modified": null,
+   "sha256": "4709dde8cb50c5bbcfe8a2a192af68496d9c3483d4e10d10b75e0ef79ef787bc",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2032/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-go.json": {
+   "baixado_utc": "2026-10-07T14:01:17+00:00",
+   "bytes": 221455,
+   "last_modified": null,
+   "sha256": "cf435d05e58585277158e65f3a2781f06b26bea8a64663b0da38df334c700234",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2052/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-ma.json": {
+   "baixado_utc": "2026-10-07T14:01:18+00:00",
+   "bytes": 196322,
+   "last_modified": null,
+   "sha256": "ecd2c41763103220d7faaaf099953ba161e0119539abbd6ecaf3c0c1034805f7",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2021/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-mg.json": {
+   "baixado_utc": "2026-10-07T14:01:20+00:00",
+   "bytes": 766308,
+   "last_modified": null,
+   "sha256": "8da214a9e1b7227b4ff6054f126a3b689f53a0dea5bb56235a9f7c469bfd6bc4",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2031/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-ms.json": {
+   "baixado_utc": "2026-10-07T14:01:21+00:00",
+   "bytes": 71357,
+   "last_modified": null,
+   "sha256": "10f74cd0546b8a363d8b6f6d17f734eb70b38b8b2a44a96ff3ea92a6204ae1ea",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2050/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-mt.json": {
+   "baixado_utc": "2026-10-07T14:01:22+00:00",
+   "bytes": 127463,
+   "last_modified": null,
+   "sha256": "3293244ec984f4297d2c89d81b50fd16d06f48f821824554a8a27e963a483816",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2051/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-pa.json": {
+   "baixado_utc": "2026-10-07T14:01:23+00:00",
+   "bytes": 129963,
+   "last_modified": null,
+   "sha256": "9f8000bc40da7ffa417b1e2cd0d147e860ef66ac6a60cba1f17eeb5d147a2489",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2015/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-pb.json": {
+   "baixado_utc": "2026-10-07T14:01:24+00:00",
+   "bytes": 200275,
+   "last_modified": null,
+   "sha256": "ff950f1aa91e8f76cc8975b9fa7b751a923a7b8d0aa079a2b5e683ed9f115537",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2025/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-pe.json": {
+   "baixado_utc": "2026-10-07T14:01:25+00:00",
+   "bytes": 166085,
+   "last_modified": null,
+   "sha256": "fe3ad7fc69c4d8ea7b31e7d202f0c3ce8b66fb7ddca7c9f10546d0ee58650d5e",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2026/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-pi.json": {
+   "baixado_utc": "2026-10-07T14:01:26+00:00",
+   "bytes": 202892,
+   "last_modified": null,
+   "sha256": "f2093563e1ad0011b49ae36ccf51b10ecd4052ecfe9c36ca061c1a75dd8b1a64",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2022/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-pr.json": {
+   "baixado_utc": "2026-10-07T14:01:27+00:00",
+   "bytes": 358868,
+   "last_modified": null,
+   "sha256": "4eea456fa277b389e85ed9daa3101facafa186ccaed955699c783034905bd127",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2041/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-rj.json": {
+   "baixado_utc": "2026-10-07T14:01:29+00:00",
+   "bytes": 83311,
+   "last_modified": null,
+   "sha256": "d5ee4254d63d135a405431be5448cbf06737b3db823019bfa9e6700a5caee20b",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2033/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-rn.json": {
+   "baixado_utc": "2026-10-07T14:01:30+00:00",
+   "bytes": 150383,
+   "last_modified": null,
+   "sha256": "1d25c62ba5150191ba444a79c42f3f99c3d03ba24057e192ac683663cfa5146f",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2024/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-ro.json": {
+   "baixado_utc": "2026-10-07T14:01:30+00:00",
+   "bytes": 47519,
+   "last_modified": null,
+   "sha256": "555a9a1616c5beb3022a89a9d927fd827ac4b06f38caae8c9f3e743e3649e746",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2011/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-rr.json": {
+   "baixado_utc": "2026-10-07T14:01:31+00:00",
+   "bytes": 14017,
+   "last_modified": null,
+   "sha256": "099e46631583ac63ff900396b91eeaf7f90b41c3f212b642d0e15bab6ab76af6",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2014/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-rs.json": {
+   "baixado_utc": "2026-10-07T14:01:32+00:00",
+   "bytes": 446631,
+   "last_modified": null,
+   "sha256": "eafdd918b97cce20efa5c30855963d082e3908f6305320bf20d8fd594c6bf2e7",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2043/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-sc.json": {
+   "baixado_utc": "2026-10-07T14:01:34+00:00",
+   "bytes": 264808,
+   "last_modified": null,
+   "sha256": "cdf99b321e2e11437f97f4f58da2fbce434dafb6748ad5741d4a73a3ab6f01a5",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2042/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-se.json": {
+   "baixado_utc": "2026-10-07T14:01:34+00:00",
+   "bytes": 67991,
+   "last_modified": null,
+   "sha256": "3b6d6cad775b96161e75ff3698e43aa9b09fb2e725e4fccbc66e5f668424b11f",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2028/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-sp.json": {
+   "baixado_utc": "2026-10-07T14:01:36+00:00",
+   "bytes": 578202,
+   "last_modified": null,
+   "sha256": "4a2c1da08083b79bcced9a6fece33b9f9e59387d0de921bb956dbcf7666df9f1",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2035/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10061-to.json": {
+   "baixado_utc": "2026-10-07T14:01:37+00:00",
+   "bytes": 125805,
+   "last_modified": null,
+   "sha256": "e242cbda02503144883841e15fe957884c27950123dfb8fd85792ad4df6ace98",
+   "url": "https://apisidra.ibge.gov.br/values/t/10061/n6/in%20n3%2017/v/2667/p/2022/c1568/120704,99713/c58/95253/c2/6794/c86/95251"
+  },
+  "dados/brutos/ibge/10198-ac.json": {
+   "baixado_utc": "2026-10-07T14:01:38+00:00",
+   "bytes": 90504,
+   "last_modified": null,
+   "sha256": "4cbe5efb8c889a847c8acd5b5ab51312a06a94daaaf82ca614b36218a7451d2e",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2012/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-al.json": {
+   "baixado_utc": "2026-10-07T14:01:39+00:00",
+   "bytes": 417909,
+   "last_modified": null,
+   "sha256": "4f4c07434985dababd7ed6383177dd3e296c4fc96e9ceb7ee91cc71f65dda8b6",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2027/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-am.json": {
+   "baixado_utc": "2026-10-07T14:01:40+00:00",
+   "bytes": 253058,
+   "last_modified": null,
+   "sha256": "c917a10572953d6bc04948b68732fbf0f85e9be6b2bcd45189e998a53d50345d",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2013/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-ap.json": {
+   "baixado_utc": "2026-10-07T14:01:41+00:00",
+   "bytes": 65803,
+   "last_modified": null,
+   "sha256": "9024a1ddfd0ada3006afde07c1664936e090d6f79ad1a9a752e126f27ea5e6a3",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2016/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-ba.json": {
+   "baixado_utc": "2026-10-07T14:01:43+00:00",
+   "bytes": 1700970,
+   "last_modified": null,
+   "sha256": "081cabd33d429e8c81e9f0aee2cf8e85503b8ce8136484e19ae8ae55cd1bdf8f",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2029/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-ce.json": {
+   "baixado_utc": "2026-10-07T14:01:44+00:00",
+   "bytes": 747844,
+   "last_modified": null,
+   "sha256": "aa339211360cc133f2ff183bec526316a6fd8c0a9b19c9508a7fa499a0b1dda8",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2023/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-df.json": {
+   "baixado_utc": "2026-10-07T14:01:45+00:00",
+   "bytes": 4639,
+   "last_modified": null,
+   "sha256": "d60a6fb9052367dcc268591fc7c9934a6fa91e3bb29473dad7ee598d6e06cfbc",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2053/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-es.json": {
+   "baixado_utc": "2026-10-07T14:01:46+00:00",
+   "bytes": 319809,
+   "last_modified": null,
+   "sha256": "957e7345e16388c0ff23c48939a4fd1de452e515e3fad4ea993a77a026b197a2",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2032/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-go.json": {
+   "baixado_utc": "2026-10-07T14:01:48+00:00",
+   "bytes": 1006996,
+   "last_modified": null,
+   "sha256": "7b068a9a102c6f3ec65f0e18c390cdeb17e30d7138048b805738f3cac5916998",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2052/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-ma.json": {
+   "baixado_utc": "2026-10-07T14:01:49+00:00",
+   "bytes": 892706,
+   "last_modified": null,
+   "sha256": "d5389be72e300208247e0eca5fdb99b10cdc4dad76cc61874e88dc4d5f4f2b2d",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2021/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-mg.json": {
+   "baixado_utc": "2026-10-07T14:01:52+00:00",
+   "bytes": 3489614,
+   "last_modified": null,
+   "sha256": "f480c693ebf8964399e2d383d5c8a5e6d59b08322e73c5d8d9c9e885545efd71",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2031/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-ms.json": {
+   "baixado_utc": "2026-10-07T14:01:53+00:00",
+   "bytes": 322840,
+   "last_modified": null,
+   "sha256": "a3020dde78fe7f755255b5be570d7107a63e93fac4642c3d1349ec1976d090d0",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2050/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-mt.json": {
+   "baixado_utc": "2026-10-07T14:01:54+00:00",
+   "bytes": 578728,
+   "last_modified": null,
+   "sha256": "402304b2926412c316767c3aea4571fc996973d138b15d3848d17328b49867c9",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2051/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-pa.json": {
+   "baixado_utc": "2026-10-07T14:01:56+00:00",
+   "bytes": 589887,
+   "last_modified": null,
+   "sha256": "d089fe4b9f1e4f6fc3a65aeefb5d26d3558f9293f535de71f160fe58fd399353",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2015/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-pb.json": {
+   "baixado_utc": "2026-10-07T14:01:57+00:00",
+   "bytes": 910033,
+   "last_modified": null,
+   "sha256": "9315402b121ccac598c2ab03b42e7e8726d8750a2d196f3b690ce283c7927de7",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2025/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-pe.json": {
+   "baixado_utc": "2026-10-07T14:01:58+00:00",
+   "bytes": 754303,
+   "last_modified": null,
+   "sha256": "44eb17e37c1f4109d7066d5f35cb548f084b207a8e98fcdd908c34af11048855",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2026/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-pi.json": {
+   "baixado_utc": "2026-10-07T14:02:00+00:00",
+   "bytes": 922665,
+   "last_modified": null,
+   "sha256": "b646b96fe80b3624d52b94701a3680569104fa5ca2ae6d0e83c9de95441fbbfd",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2022/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-pr.json": {
+   "baixado_utc": "2026-10-07T14:02:02+00:00",
+   "bytes": 1632641,
+   "last_modified": null,
+   "sha256": "d58f6a27f0b698d0cbca4752f80ee9f421420d7437f423cce75cff746cf58dda",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2041/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-rj.json": {
+   "baixado_utc": "2026-10-07T14:02:03+00:00",
+   "bytes": 377477,
+   "last_modified": null,
+   "sha256": "6bbb97c293d6c786e84f1c1795c306f0ef2e03453060b71431fe78aa9a9f00b7",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2033/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-rn.json": {
+   "baixado_utc": "2026-10-07T14:02:04+00:00",
+   "bytes": 682989,
+   "last_modified": null,
+   "sha256": "0a0c9c09113ad29027f0a76cb6a5b9a3bf20d80244aedf3ae9e3612d2bfd4882",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2024/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-ro.json": {
+   "baixado_utc": "2026-10-07T14:02:05+00:00",
+   "bytes": 214377,
+   "last_modified": null,
+   "sha256": "2a459d3d83718956193e91fdb90a89e6a74840b2da19cb22085147169601c13d",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2011/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-rr.json": {
+   "baixado_utc": "2026-10-07T14:02:06+00:00",
+   "bytes": 61598,
+   "last_modified": null,
+   "sha256": "511107ca2c7c3de59ea6e798ef967f5ec93e95ea3e2dd39758c8bdad1a8792db",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2014/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-rs.json": {
+   "baixado_utc": "2026-10-07T14:02:08+00:00",
+   "bytes": 2032715,
+   "last_modified": null,
+   "sha256": "cfa343f85b9aad758dbcec9a893f7bfd585648f54e55a81c2eb30958beedaa89",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2043/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-sc.json": {
+   "baixado_utc": "2026-10-07T14:02:10+00:00",
+   "bytes": 1203858,
+   "last_modified": null,
+   "sha256": "191f480b8b4dc13261ff0b1dfc0e5d16de3742ee36fdf78e415a0273801dde1d",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2042/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-se.json": {
+   "baixado_utc": "2026-10-07T14:02:10+00:00",
+   "bytes": 307653,
+   "last_modified": null,
+   "sha256": "9ae4e81c6602e0de142be10b79542c67919b01c1abd0a062a0a3320691324cc6",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2028/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-sp.json": {
+   "baixado_utc": "2026-10-07T14:02:13+00:00",
+   "bytes": 2632341,
+   "last_modified": null,
+   "sha256": "0de8e3ab12f3d1a0cdeba754497a19b6295a032b34db9c2f63cd64834cc53408",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2035/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/10198-to.json": {
+   "baixado_utc": "2026-10-07T14:02:15+00:00",
+   "bytes": 571200,
+   "last_modified": null,
+   "sha256": "e0a21765031749dff387652e95dea60e67f84651834da58f183d360b601baeef",
+   "url": "https://apisidra.ibge.gov.br/values/t/10198/n6/in%20n3%2017/v/950/p/2022/c133/all/c58/95253/c59/93024"
+  },
+  "dados/brutos/ibge/5938-ac.json": {
+   "baixado_utc": "2026-10-07T14:32:34+00:00",
+   "bytes": 19012,
+   "last_modified": null,
+   "sha256": "da3f1cae8dbc7fd559f77cb3f63a06f4f41860b80dc346068e70318002ceef2f",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2012/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-al.json": {
+   "baixado_utc": "2026-10-07T14:32:35+00:00",
+   "bytes": 86999,
+   "last_modified": null,
+   "sha256": "20d8d6107e2b88f6e46ca2986b67c9e4610e6759493f7a9df548ac1a5cbf18eb",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2027/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-am.json": {
+   "baixado_utc": "2026-10-07T14:32:36+00:00",
+   "bytes": 52634,
+   "last_modified": null,
+   "sha256": "252d986bcdb6803bb929d285b92f8b50be8b5018fa7969565502a3698aa700e5",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2013/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-ap.json": {
+   "baixado_utc": "2026-10-07T14:32:36+00:00",
+   "bytes": 13876,
+   "last_modified": null,
+   "sha256": "50ba626b5a9e974d7c1308f1d7c64f94fd3a8cedfa11eaca7b067934b5beff40",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2016/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-ba.json": {
+   "baixado_utc": "2026-10-07T14:32:37+00:00",
+   "bytes": 352600,
+   "last_modified": null,
+   "sha256": "eeb9e77813c21c49151953cb6fc0653ff309d656b1be03a70398886323ef56ae",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2029/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-ce.json": {
+   "baixado_utc": "2026-10-07T14:32:38+00:00",
+   "bytes": 154930,
+   "last_modified": null,
+   "sha256": "71d83a231df53a5e269924e3edcb64076ff139eaa5f04679398d43035ddd0fcf",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2023/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-df.json": {
+   "baixado_utc": "2026-10-07T14:32:39+00:00",
+   "bytes": 1194,
+   "last_modified": null,
+   "sha256": "50c6d9b2eade4319d225879ff742965e27b7f22e3ca95dc6b838ca0a86d4ba09",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2053/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-es.json": {
+   "baixado_utc": "2026-10-07T14:32:40+00:00",
+   "bytes": 66608,
+   "last_modified": null,
+   "sha256": "d3184e12364add99b97beb43ed13e9bafb1568a336be33b9fe6d1c959176a5bc",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2032/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-go.json": {
+   "baixado_utc": "2026-10-07T14:32:41+00:00",
+   "bytes": 209331,
+   "last_modified": null,
+   "sha256": "5c6fbb6f444897702313d395f6b087447388c96e2d5382b529ce95811d6e400a",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2052/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-ma.json": {
+   "baixado_utc": "2026-10-07T14:32:41+00:00",
+   "bytes": 185949,
+   "last_modified": null,
+   "sha256": "2ece7ff3a82bcbf6efc0a8e5a34f4baf327e05bbca169dae3ec5fb1e87ef3967",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2021/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-mg.json": {
+   "baixado_utc": "2026-10-07T14:32:43+00:00",
+   "bytes": 724736,
+   "last_modified": null,
+   "sha256": "c8cab96917e78a367df68227383e0268a03d60145ae831dc4db645f68a455343",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2031/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-ms.json": {
+   "baixado_utc": "2026-10-07T14:32:43+00:00",
+   "bytes": 67174,
+   "last_modified": null,
+   "sha256": "06f180f3d391a1d48f0a0821f5519c6b7ba048af809f79ee7dc566d1af51d174",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2050/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-mt.json": {
+   "baixado_utc": "2026-10-07T14:32:44+00:00",
+   "bytes": 120554,
+   "last_modified": null,
+   "sha256": "195ca5c3c9033edeaa78db9a85f52b398816befa27e8591b7d8b27650bc13d76",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2051/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-pa.json": {
+   "baixado_utc": "2026-10-07T14:32:45+00:00",
+   "bytes": 122656,
+   "last_modified": null,
+   "sha256": "d6cd151d799cdfd1def56724d696d4f925bf73440f126b2575e7d04840ba141e",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2015/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-pb.json": {
+   "baixado_utc": "2026-10-07T14:32:46+00:00",
+   "bytes": 188958,
+   "last_modified": null,
+   "sha256": "f2997b800a295b589303fd71a5d3218a53d48d7a338484036d991e52956c0fce",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2025/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-pe.json": {
+   "baixado_utc": "2026-10-07T14:32:47+00:00",
+   "bytes": 156441,
+   "last_modified": null,
+   "sha256": "90503dc95b4a9ae4a3342b59556979b754f7c85166c02074332238ff4b84db27",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2026/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-pi.json": {
+   "baixado_utc": "2026-10-07T14:32:47+00:00",
+   "bytes": 192411,
+   "last_modified": null,
+   "sha256": "a3686878121ca50bfda8f59384a8a549ce0b6994a737460506a9e1f215b921ec",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2022/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-pr.json": {
+   "baixado_utc": "2026-10-07T14:32:48+00:00",
+   "bytes": 339349,
+   "last_modified": null,
+   "sha256": "860fe47e6eaeae0123da2e042ce1b34653f294747f454d7019d444f60857c793",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2041/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-rj.json": {
+   "baixado_utc": "2026-10-07T14:32:49+00:00",
+   "bytes": 78506,
+   "last_modified": null,
+   "sha256": "8d52b64ff047088bd4fb0cb7d33456dd9c9d9bd58bc46eb865d330cf0816efda",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2033/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-rn.json": {
+   "baixado_utc": "2026-10-07T14:32:50+00:00",
+   "bytes": 142006,
+   "last_modified": null,
+   "sha256": "913fa71cc163e38c59f18a1375b13caa770752b409fd092590169670a9a5dfda",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2024/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-ro.json": {
+   "baixado_utc": "2026-10-07T14:32:51+00:00",
+   "bytes": 44842,
+   "last_modified": null,
+   "sha256": "8fadd732e8acf3d6706ce9dbc826a3c3075c19190b72aa035b5df5a5639d0739",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2011/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-rr.json": {
+   "baixado_utc": "2026-10-07T14:32:52+00:00",
+   "bytes": 12984,
+   "last_modified": null,
+   "sha256": "55ae68ff3ca9e611e3f5717b4dc05643c84344fa3d172fb4ab24947dca057fdd",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2014/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-rs.json": {
+   "baixado_utc": "2026-10-07T14:32:53+00:00",
+   "bytes": 422409,
+   "last_modified": null,
+   "sha256": "48f5bcb49d99479112187266f40a56b2641ef8c1cc9055ccb62218b29b7ada83",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2043/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-sc.json": {
+   "baixado_utc": "2026-10-07T14:32:54+00:00",
+   "bytes": 249976,
+   "last_modified": null,
+   "sha256": "a65a40e326f5c49cef779c8c20a7af222765c4bcd267cfc08190f599ebc15e3f",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2042/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-se.json": {
+   "baixado_utc": "2026-10-07T14:32:54+00:00",
+   "bytes": 64111,
+   "last_modified": null,
+   "sha256": "ece2ebdf7e3dab541f481c7d78ff5582f57631fcc1fb96601d75d23df05fd09f",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2028/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-sp.json": {
+   "baixado_utc": "2026-10-07T14:32:56+00:00",
+   "bytes": 545729,
+   "last_modified": null,
+   "sha256": "c0cc69a67961e601cad70673c59a66b87442320efcf4bce55b79b8a2aaaaf420",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2035/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938-to.json": {
+   "baixado_utc": "2026-10-07T14:32:56+00:00",
+   "bytes": 119099,
+   "last_modified": null,
+   "sha256": "4bbee242e582859a55655ac2a5d55295ea65df5e5fd1c186a647f94f9f90765b",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2017/v/37,513,498/p/2022"
+  },
+  "dados/brutos/ibge/5938v-ac.json": {
+   "baixado_utc": "2026-10-07T14:33:31+00:00",
+   "bytes": 13392,
+   "last_modified": null,
+   "sha256": "56fd313aa53f37ec19babd48332b5c26ec41e9ae699d4bb36a205c5bc69463aa",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2012/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-al.json": {
+   "baixado_utc": "2026-10-07T14:33:31+00:00",
+   "bytes": 60882,
+   "last_modified": null,
+   "sha256": "8b26eafd03ed8c385871cebf107adb3c3f87e49cfba875ec8533af57fcc770f9",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2027/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-am.json": {
+   "baixado_utc": "2026-10-07T14:33:32+00:00",
+   "bytes": 36874,
+   "last_modified": null,
+   "sha256": "c2742edaf532c511f489934a417ad2cd59d09de78c3a744ec850d74aa870ba8f",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2013/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-ap.json": {
+   "baixado_utc": "2026-10-07T14:33:33+00:00",
+   "bytes": 9790,
+   "last_modified": null,
+   "sha256": "d39c9bffd7946303ecf883d513b4a139b17ebf90b2e0768d7f3606a81b859936",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2016/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-ba.json": {
+   "baixado_utc": "2026-10-07T14:33:34+00:00",
+   "bytes": 246261,
+   "last_modified": null,
+   "sha256": "4b87665d000f06b41a755c9d4c6f9d87c47d1188d9a53a76bb6f38f0f8e92a30",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2029/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-ce.json": {
+   "baixado_utc": "2026-10-07T14:33:35+00:00",
+   "bytes": 108320,
+   "last_modified": null,
+   "sha256": "eea2cfd91a375b0c9a9355c805dcd9a20760d3830b5aef36089f3cc0600b94e6",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2023/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-df.json": {
+   "baixado_utc": "2026-10-07T14:33:35+00:00",
+   "bytes": 943,
+   "last_modified": null,
+   "sha256": "286f738f09ae56c92aac15f3072738c9528870585b50b169a16ec3fb5402424a",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2053/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-es.json": {
+   "baixado_utc": "2026-10-07T14:33:36+00:00",
+   "bytes": 46630,
+   "last_modified": null,
+   "sha256": "9bde9cc1820dca8f872defc8d5f959042181232925fdc10331e12e90249e2e95",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2032/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-go.json": {
+   "baixado_utc": "2026-10-07T14:33:37+00:00",
+   "bytes": 146297,
+   "last_modified": null,
+   "sha256": "adb0ea45e43a8040d89d19b6c32ad216f0a61121c2c20aec15bc8f523aa44f8e",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2052/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-ma.json": {
+   "baixado_utc": "2026-10-07T14:33:38+00:00",
+   "bytes": 129829,
+   "last_modified": null,
+   "sha256": "f112a1b1e9cc90255a608c6c5f8fab3d57dc1ac9a56e6c1203c5043a43802e2d",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2021/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-mg.json": {
+   "baixado_utc": "2026-10-07T14:33:39+00:00",
+   "bytes": 505870,
+   "last_modified": null,
+   "sha256": "53629f5b77f6a92e7244a174111892b11832b5711ddd48ecfcfef957a6dd5a21",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2031/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-ms.json": {
+   "baixado_utc": "2026-10-07T14:33:40+00:00",
+   "bytes": 47085,
+   "last_modified": null,
+   "sha256": "d560e3a78ddbb4db985579173c3784f3039afc568293f9996cfb039020df4aae",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2050/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-mt.json": {
+   "baixado_utc": "2026-10-07T14:33:40+00:00",
+   "bytes": 84370,
+   "last_modified": null,
+   "sha256": "06fc3209a0ef2096921ec7594e2d5516cb12d302814b83d35f763f8e0930e145",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2051/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-pa.json": {
+   "baixado_utc": "2026-10-07T14:33:41+00:00",
+   "bytes": 85804,
+   "last_modified": null,
+   "sha256": "77af6435fc6666afd9e70bb6a87253495a9a16db8d5fc923d471423d9c70b3eb",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2015/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-pb.json": {
+   "baixado_utc": "2026-10-07T14:33:42+00:00",
+   "bytes": 131855,
+   "last_modified": null,
+   "sha256": "e69fc1926af6ad4fdd50a30f58e1ddf57866e4037c7c3260acb2dac55bf4a055",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2025/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-pe.json": {
+   "baixado_utc": "2026-10-07T14:33:43+00:00",
+   "bytes": 109323,
+   "last_modified": null,
+   "sha256": "bc6f2356986cb2be0e896a9ce32194346b817b3bada09ba7ff8f359267d66d2b",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2026/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-pi.json": {
+   "baixado_utc": "2026-10-07T14:33:44+00:00",
+   "bytes": 134194,
+   "last_modified": null,
+   "sha256": "8b9580cdc686580b3bb18e8c54a36be33c4643de082c9da29443e1b83596a506",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2022/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-pr.json": {
+   "baixado_utc": "2026-10-07T14:33:45+00:00",
+   "bytes": 237214,
+   "last_modified": null,
+   "sha256": "08d9cdf860f22a02493038fa818a0eae13e0c1c61e3c283f57fe2c96317b0b98",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2041/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-rj.json": {
+   "baixado_utc": "2026-10-07T14:33:46+00:00",
+   "bytes": 54908,
+   "last_modified": null,
+   "sha256": "ee7162a88243c1aad92e3a36527c184a99ac6b4e3d32657e0771fc4dfeca6f32",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2033/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-rn.json": {
+   "baixado_utc": "2026-10-07T14:33:47+00:00",
+   "bytes": 99115,
+   "last_modified": null,
+   "sha256": "9dd53a0ff6d911f7f6b66414af3b80a822e646b4acb4d5199a90c9f473ac570b",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2024/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-ro.json": {
+   "baixado_utc": "2026-10-07T14:33:47+00:00",
+   "bytes": 31441,
+   "last_modified": null,
+   "sha256": "bcdfe413bd5ba8a27d4e31b120198a882e27c3f0c08437c80c1b1cee70da0907",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2011/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-rr.json": {
+   "baixado_utc": "2026-10-07T14:33:48+00:00",
+   "bytes": 9177,
+   "last_modified": null,
+   "sha256": "6a8af82166e40bf0334b13fc3b57d9cacafa6e10d54b933855d20dedf827be88",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2014/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-rs.json": {
+   "baixado_utc": "2026-10-07T14:33:49+00:00",
+   "bytes": 295190,
+   "last_modified": null,
+   "sha256": "dac365b7c00891967e160d6bf337c77cf30b1bb60c1e581608ffa91f77113ab7",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2043/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-sc.json": {
+   "baixado_utc": "2026-10-07T14:33:50+00:00",
+   "bytes": 174695,
+   "last_modified": null,
+   "sha256": "35804e14b4589f159cc05de517fc58c78beda38aeead9bff19b0d72417066cb3",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2042/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-se.json": {
+   "baixado_utc": "2026-10-07T14:33:51+00:00",
+   "bytes": 44835,
+   "last_modified": null,
+   "sha256": "e9910e04cf62aa2cca2a7888df1fa27491080ae194c85cf3244e407511e04df5",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2028/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-sp.json": {
+   "baixado_utc": "2026-10-07T14:33:52+00:00",
+   "bytes": 381194,
+   "last_modified": null,
+   "sha256": "7c29b7d7d6c1cfa30cffe997a18b3e011a1acd00cea51f379c9b4b1d0990596e",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2035/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/5938v-to.json": {
+   "baixado_utc": "2026-10-07T14:33:53+00:00",
+   "bytes": 83230,
+   "last_modified": null,
+   "sha256": "49edf0441805ae5211de87c9e33e54d9007c3dcc836cf271aed3c9c4074f807d",
+   "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/in%20n3%2017/v/513,498/p/2021"
+  },
+  "dados/brutos/ibge/9514-ac.json": {
+   "baixado_utc": "2026-10-07T14:00:34+00:00",
+   "bytes": 86428,
+   "last_modified": null,
+   "sha256": "0b5b41ef17bba12df86ed5b1486d2ca6ad2bce57d589bc07f680f7c66fd3d846",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2012/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-al.json": {
+   "baixado_utc": "2026-10-07T14:00:35+00:00",
+   "bytes": 399271,
+   "last_modified": null,
+   "sha256": "5c408cb37f709b70e1b4dcebe726311178b0a765c725c4fbf73a64ff4d17a0e8",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2027/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-am.json": {
+   "baixado_utc": "2026-10-07T14:00:36+00:00",
+   "bytes": 241631,
+   "last_modified": null,
+   "sha256": "375c5855380d67dc2014ff96f618970573826feb73b59d4bed58a24cc570e627",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2013/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-ap.json": {
+   "baixado_utc": "2026-10-07T14:00:37+00:00",
+   "bytes": 62837,
+   "last_modified": null,
+   "sha256": "bc7c19ad61d8fc2adf5a32e1d081ab6b7c2974c5d9c01343459b76f7eceb7226",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2016/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-ba.json": {
+   "baixado_utc": "2026-10-07T14:00:39+00:00",
+   "bytes": 1624838,
+   "last_modified": null,
+   "sha256": "e06065b0e2feb0da53a46a21ac55ca152970899781381ff0cdcc3f2cfa2dc2c3",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2029/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-ce.json": {
+   "baixado_utc": "2026-10-07T14:00:40+00:00",
+   "bytes": 714526,
+   "last_modified": null,
+   "sha256": "4cf652d79af051730a181180de878cb941fcb24c0e31ddc18a06e22144977a9a",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2023/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-df.json": {
+   "baixado_utc": "2026-10-07T14:00:41+00:00",
+   "bytes": 4452,
+   "last_modified": null,
+   "sha256": "a843c9c4a65a2336fe8b1a0fec9258b43b383a745abd052c6a7455bb38fc9859",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2053/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-es.json": {
+   "baixado_utc": "2026-10-07T14:00:42+00:00",
+   "bytes": 305569,
+   "last_modified": null,
+   "sha256": "84eed9769854aae749797f574cecd4de584103f849ae1cee63f2eca12d2285c1",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2032/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-go.json": {
+   "baixado_utc": "2026-10-07T14:00:43+00:00",
+   "bytes": 961808,
+   "last_modified": null,
+   "sha256": "336cd98e250c8687387b59e0eacbda0e9d28547c3e4f334f0c37a9819925e43e",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2052/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-ma.json": {
+   "baixado_utc": "2026-10-07T14:00:45+00:00",
+   "bytes": 853214,
+   "last_modified": null,
+   "sha256": "50478ff5809a529c4b9c9cf68a27e48ece346fb1c1922a68dbec157c3a5198d1",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2021/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-mg.json": {
+   "baixado_utc": "2026-10-07T14:00:47+00:00",
+   "bytes": 3334195,
+   "last_modified": null,
+   "sha256": "0942899c6cb59eb76732fc04f80f8e6245559bcc2a1246c5eed239e21d328090",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2031/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-ms.json": {
+   "baixado_utc": "2026-10-07T14:00:48+00:00",
+   "bytes": 308292,
+   "last_modified": null,
+   "sha256": "4049c030895b18a0b344e54b6021c82a8cd5e04087bcc7e94029b304a88c67e1",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2050/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-mt.json": {
+   "baixado_utc": "2026-10-07T14:00:49+00:00",
+   "bytes": 552689,
+   "last_modified": null,
+   "sha256": "1cfeb6dc091cda184fefca5835bcb9b61b217bf58d9e89ee3c95ebe9accba96d",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2051/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-pa.json": {
+   "baixado_utc": "2026-10-07T14:00:50+00:00",
+   "bytes": 563498,
+   "last_modified": null,
+   "sha256": "6d59eb5bdb7cc72433123218608605e0ab0b8b1886ce9559bf4ce0170953b0e7",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2015/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-pb.json": {
+   "baixado_utc": "2026-10-07T14:00:52+00:00",
+   "bytes": 869616,
+   "last_modified": null,
+   "sha256": "c73dce3346c1f658d99865fae29e66a90244eb7e9e4e530edbbf8946c7b89b36",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2025/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-pe.json": {
+   "baixado_utc": "2026-10-07T14:00:53+00:00",
+   "bytes": 720548,
+   "last_modified": null,
+   "sha256": "d02172861fc4361ca8e978b9691071ff6e1563086f1e83844a902a5c7edc0a0f",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2026/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-pi.json": {
+   "baixado_utc": "2026-10-07T14:00:54+00:00",
+   "bytes": 882086,
+   "last_modified": null,
+   "sha256": "afbd70268780458223da78f27c85225b8b750caf7dbcb0f4644157423090c5e1",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2022/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-pr.json": {
+   "baixado_utc": "2026-10-07T14:00:56+00:00",
+   "bytes": 1559982,
+   "last_modified": null,
+   "sha256": "95de22796af86ff511b1ce7e4d77b309a13d2b8345ebc36edfc1e99c26ec4059",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2041/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-rj.json": {
+   "baixado_utc": "2026-10-07T14:00:57+00:00",
+   "bytes": 360481,
+   "last_modified": null,
+   "sha256": "39f6053bc9f542b3cb2ce8010382c6ff254d42df658e6958a2e5ded076d73281",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2033/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-rn.json": {
+   "baixado_utc": "2026-10-07T14:00:58+00:00",
+   "bytes": 652662,
+   "last_modified": null,
+   "sha256": "bbe79c3a1c3868b93f22f43ba8db2462eb030801c1c4b70444acaa7538565377",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2024/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-ro.json": {
+   "baixado_utc": "2026-10-07T14:00:59+00:00",
+   "bytes": 204798,
+   "last_modified": null,
+   "sha256": "7644f14e37b726082aff2a54fc23675e3a195d0ebed67e36332dcd3596f3d1ac",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2011/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-rr.json": {
+   "baixado_utc": "2026-10-07T14:01:00+00:00",
+   "bytes": 58791,
+   "last_modified": null,
+   "sha256": "447308f037f08273bcc9c9bb706cc172601788fc236fbcfa47e71e5ee999f7f5",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2014/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-rs.json": {
+   "baixado_utc": "2026-10-07T14:01:02+00:00",
+   "bytes": 1942303,
+   "last_modified": null,
+   "sha256": "ac345f4b0b5a04c3b5fa7e54c0d819927e3a7430611e872f57fe6bf3fe3e2ca3",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2043/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-sc.json": {
+   "baixado_utc": "2026-10-07T14:01:03+00:00",
+   "bytes": 1149986,
+   "last_modified": null,
+   "sha256": "bbd29f56423217df4e1f91acb7c11d24a5dbb178bff8cd9e7c15077e97acc15c",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2042/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-se.json": {
+   "baixado_utc": "2026-10-07T14:01:04+00:00",
+   "bytes": 293889,
+   "last_modified": null,
+   "sha256": "47d57c3648cf4e1f634d38627969e8ef8b54efdd93f55d86f7130bbe81f72a4f",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2028/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-sp.json": {
+   "baixado_utc": "2026-10-07T14:01:07+00:00",
+   "bytes": 2513509,
+   "last_modified": null,
+   "sha256": "d6d49df80be1722140c5bed696ce2cce52263bbadbd2b0dea0dbe0a5e80cfe3a",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2035/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9514-to.json": {
+   "baixado_utc": "2026-10-07T14:01:08+00:00",
+   "bytes": 545734,
+   "last_modified": null,
+   "sha256": "49ee63933d781e019910888abb224d316c45d6f3538bf78cf54925182cea78e9",
+   "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/in%20n3%2017/v/93/p/2022/c2/6794/c286/113635/c287/100362,93095,93096,93097,93098,49108,49109,60040,60041,6653"
+  },
+  "dados/brutos/ibge/9606-ac.json": {
+   "baixado_utc": "2026-10-07T13:59:54+00:00",
+   "bytes": 51351,
+   "last_modified": null,
+   "sha256": "c64d1cc8974876bb52a3a90fc7d65a072ff4d2ea49cc5b515834d7b5510d968f",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2012/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-al.json": {
+   "baixado_utc": "2026-10-07T13:59:55+00:00",
+   "bytes": 236293,
+   "last_modified": null,
+   "sha256": "c5b27ac2f6a057c4f3b97ff7e5c100822f20104a2377c3af8d63a1874b29cb08",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2027/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-am.json": {
+   "baixado_utc": "2026-10-07T13:59:56+00:00",
+   "bytes": 143182,
+   "last_modified": null,
+   "sha256": "894f1849f16c61bc980680917fa4a36e066c952c9e94e3adcec2b57c89622acf",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2013/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-ap.json": {
+   "baixado_utc": "2026-10-07T13:59:57+00:00",
+   "bytes": 37365,
+   "last_modified": null,
+   "sha256": "63888c7fdf9a5a9508aad83865d9728a51944d672d0cf53f469acaf66e4b5fa4",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2016/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-ba.json": {
+   "baixado_utc": "2026-10-07T13:59:59+00:00",
+   "bytes": 960666,
+   "last_modified": null,
+   "sha256": "a208936f457155cb251bcb7b541f24cf5869b823027f10c95f7c7e63e7090f76",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2029/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-ce.json": {
+   "baixado_utc": "2026-10-07T14:00:00+00:00",
+   "bytes": 422459,
+   "last_modified": null,
+   "sha256": "7a61f97856522295544645827520d0a4f8cf756702eccb1e4c7d3dc68c069d3b",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2023/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-df.json": {
+   "baixado_utc": "2026-10-07T14:00:01+00:00",
+   "bytes": 2826,
+   "last_modified": null,
+   "sha256": "5d6fb43f8f7db5c993658ac964156dcc30032883e5fb98f5b9e88f895875937a",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2053/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-es.json": {
+   "baixado_utc": "2026-10-07T14:00:03+00:00",
+   "bytes": 180819,
+   "last_modified": null,
+   "sha256": "8699d5934214cf55969781aee10ae918bc48f0e62b296238b6cee04bf9fa4e54",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2032/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-go.json": {
+   "baixado_utc": "2026-10-07T14:00:04+00:00",
+   "bytes": 568821,
+   "last_modified": null,
+   "sha256": "ea0d28077ac8e73b580114c919a43eb584b96e4c08029dbcd329e62ba6d358b4",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2052/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-ma.json": {
+   "baixado_utc": "2026-10-07T14:00:06+00:00",
+   "bytes": 504681,
+   "last_modified": null,
+   "sha256": "ad19e7a8c10d20f8b132638d9ff616b5ecc8a78ebf6febcbbfc80e1f53a7c9e8",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2021/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-mg.json": {
+   "baixado_utc": "2026-10-07T14:00:09+00:00",
+   "bytes": 1970726,
+   "last_modified": null,
+   "sha256": "40dedca2c4ec07a584db6c59779e4ece7e9fb136ba39a47a1b48bd6201e45e3f",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2031/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-ms.json": {
+   "baixado_utc": "2026-10-07T14:00:10+00:00",
+   "bytes": 182579,
+   "last_modified": null,
+   "sha256": "648b696e0649d22fbac224e4ae07c4df2c6b27d4b773b90b07dfe9eefb1bcf77",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2050/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-mt.json": {
+   "baixado_utc": "2026-10-07T14:00:12+00:00",
+   "bytes": 327147,
+   "last_modified": null,
+   "sha256": "46421e4a8183862d08b9b33fe154137d0d854fd50e6a89cfd60aad975da53367",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2051/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-pa.json": {
+   "baixado_utc": "2026-10-07T14:00:13+00:00",
+   "bytes": 333521,
+   "last_modified": null,
+   "sha256": "e1715c488161937046893acaf9bea74fbede24177d9d3fe0d9b7b37a231c5eab",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2015/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-pb.json": {
+   "baixado_utc": "2026-10-07T14:00:14+00:00",
+   "bytes": 514086,
+   "last_modified": null,
+   "sha256": "c85b9da3a9cc6baf9df3952e7ef2fd72e8c04060c2ead2bb448ca2c8b272a878",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2025/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-pe.json": {
+   "baixado_utc": "2026-10-07T14:00:16+00:00",
+   "bytes": 426177,
+   "last_modified": null,
+   "sha256": "48f7f3b2d02a60459afcc7d2b08e844439b77455fe3f1ad14cdd47b57d945149",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2026/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-pi.json": {
+   "baixado_utc": "2026-10-07T14:00:17+00:00",
+   "bytes": 521541,
+   "last_modified": null,
+   "sha256": "b5d1111028060ae6e2e60a6108b6e19c43cabf36ce533193adb2959a0e7a03d4",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2022/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-pr.json": {
+   "baixado_utc": "2026-10-07T14:00:20+00:00",
+   "bytes": 922402,
+   "last_modified": null,
+   "sha256": "f167da9c84a7a00207ba1c56e7af3b43705cc966dd7bf65304c24ab42316d73c",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2041/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-rj.json": {
+   "baixado_utc": "2026-10-07T14:00:21+00:00",
+   "bytes": 213297,
+   "last_modified": null,
+   "sha256": "afaab8e2909b5180869726fe6691601e9dcb1b75e0f9ee79f31656f3d93e3121",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2033/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-rn.json": {
+   "baixado_utc": "2026-10-07T14:00:22+00:00",
+   "bytes": 385946,
+   "last_modified": null,
+   "sha256": "e8be90cd215761991f2581db600f6c257fa28ad3b1031aa38a45f57d1ed64f14",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2024/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-ro.json": {
+   "baixado_utc": "2026-10-07T14:00:23+00:00",
+   "bytes": 121339,
+   "last_modified": null,
+   "sha256": "cc71ddd4ebc59ad57283702f715088d3880d52cef9b1fa00373c01da501d62ee",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2011/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-rr.json": {
+   "baixado_utc": "2026-10-07T14:00:24+00:00",
+   "bytes": 34991,
+   "last_modified": null,
+   "sha256": "8f8f89675207a0e3cdf090fe63fff235009e5c4843893e39195ca2c63634484b",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2014/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-rs.json": {
+   "baixado_utc": "2026-10-07T14:00:26+00:00",
+   "bytes": 1147567,
+   "last_modified": null,
+   "sha256": "46136128b918e9acc8ca16bd4317f8516f8c55a6fccb78a58cc5c6eed3bc257c",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2043/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-sc.json": {
+   "baixado_utc": "2026-10-07T14:00:28+00:00",
+   "bytes": 679728,
+   "last_modified": null,
+   "sha256": "685b169e7c71607c06571b5f904f3a8b61656bf834a7edf92fe6e70c30062894",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2042/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-se.json": {
+   "baixado_utc": "2026-10-07T14:00:29+00:00",
+   "bytes": 173960,
+   "last_modified": null,
+   "sha256": "5d2d452308092a89408e0492181c447dd997354b8ac84411a4386b057e93edcd",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2028/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-sp.json": {
+   "baixado_utc": "2026-10-07T14:00:32+00:00",
+   "bytes": 1486133,
+   "last_modified": null,
+   "sha256": "32a3aac4533b019e6b34b889be2b7f5ec96ede91af78acccd001d19cd91b31d1",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2035/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9606-to.json": {
+   "baixado_utc": "2026-10-07T14:00:33+00:00",
+   "bytes": 322879,
+   "last_modified": null,
+   "sha256": "6befa9abec300d7806b913c1342ae1a2d54fdce994ddab7cb517dc2c8d7df3a6",
+   "url": "https://apisidra.ibge.gov.br/values/t/9606/n6/in%20n3%2017/v/93/p/2022/c86/all/c2/6794/c287/100362"
+  },
+  "dados/brutos/ibge/9923-ac.json": {
+   "baixado_utc": "2026-10-07T13:59:22+00:00",
+   "bytes": 20170,
+   "last_modified": null,
+   "sha256": "235f30016a19ae4aa1112db1107ae65ae5defb4937641e1f0e0f2d68ee96ab4a",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2012/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-al.json": {
+   "baixado_utc": "2026-10-07T13:59:23+00:00",
+   "bytes": 92011,
+   "last_modified": null,
+   "sha256": "63935b0af79543de6914dc9514ac027bcbacc259a05a4678b887184caca66421",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2027/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-am.json": {
+   "baixado_utc": "2026-10-07T13:59:24+00:00",
+   "bytes": 55764,
+   "last_modified": null,
+   "sha256": "aca13026e094202349eb8b12a96598b4f172e56c288ce8c17287a85a4f1b65cd",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2013/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-ap.json": {
+   "baixado_utc": "2026-10-07T13:59:25+00:00",
+   "bytes": 14739,
+   "last_modified": null,
+   "sha256": "47a52666a23a7e20be9c14de5806311bcb12443642924f161b507b02e5312dc5",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2016/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-ba.json": {
+   "baixado_utc": "2026-10-07T13:59:27+00:00",
+   "bytes": 372952,
+   "last_modified": null,
+   "sha256": "ec77b390288fd93af7308cb8cf5f7364f911b841700acdb7c7df9d1fb9cb92a7",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2029/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-ce.json": {
+   "baixado_utc": "2026-10-07T13:59:28+00:00",
+   "bytes": 164011,
+   "last_modified": null,
+   "sha256": "dd76546300358f7a003d8b98d688d6b6cf6af8045e885e5efff096c256dc68cb",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2023/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-df.json": {
+   "baixado_utc": "2026-10-07T13:59:29+00:00",
+   "bytes": 1335,
+   "last_modified": null,
+   "sha256": "83ad4de20dc4c29d5bce638671226c0b79eddd6704d8842ea8d25e359fed58e2",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2053/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-es.json": {
+   "baixado_utc": "2026-10-07T13:59:30+00:00",
+   "bytes": 70476,
+   "last_modified": null,
+   "sha256": "02c23cf413f6b1b43af22bb0cdb0f88ee665ae0f30276d5935f936f219bfe9d4",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2032/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-go.json": {
+   "baixado_utc": "2026-10-07T13:59:31+00:00",
+   "bytes": 221070,
+   "last_modified": null,
+   "sha256": "138ecec01ec6686692b9431de6b78f3a3014d8ade17384c10607c7ce77b205cd",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2052/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-ma.json": {
+   "baixado_utc": "2026-10-07T13:59:32+00:00",
+   "bytes": 196608,
+   "last_modified": null,
+   "sha256": "f8e57a82bad6c4fba04466b43930b0e7a59e0456af58096e20a6871b61329941",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2021/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-mg.json": {
+   "baixado_utc": "2026-10-07T13:59:33+00:00",
+   "bytes": 765554,
+   "last_modified": null,
+   "sha256": "57056c88f8339c48fec02312b741b5aa6aef0fb2e9a0b40458e2fdd561beb16f",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2031/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-ms.json": {
+   "baixado_utc": "2026-10-07T13:59:35+00:00",
+   "bytes": 71041,
+   "last_modified": null,
+   "sha256": "21d18f449aba9848f9228d53f1b9bc6ce4a000cdfa75a160f2f4d888f8d7bc0c",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2050/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-mt.json": {
+   "baixado_utc": "2026-10-07T13:59:36+00:00",
+   "bytes": 127332,
+   "last_modified": null,
+   "sha256": "57400bbc42c762a7dfc780a9f210b9c812999acab034caefe4bec838dc882e13",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2051/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-pa.json": {
+   "baixado_utc": "2026-10-07T13:59:37+00:00",
+   "bytes": 129809,
+   "last_modified": null,
+   "sha256": "95b9f3111e669d26c56f7bf592ca7693086211236401a2ecff00390af2bbb201",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2015/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-pb.json": {
+   "baixado_utc": "2026-10-07T13:59:38+00:00",
+   "bytes": 199754,
+   "last_modified": null,
+   "sha256": "7832eb6f721b88bbf9a59d9f65762e438497305b11fa2051b47b2c68bb7f0416",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2025/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-pe.json": {
+   "baixado_utc": "2026-10-07T13:59:39+00:00",
+   "bytes": 165556,
+   "last_modified": null,
+   "sha256": "b72cfe7a4629e5c4a7743c65c94be0490eb0c297a774e91ef96d972ca87ca0dd",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2026/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-pi.json": {
+   "baixado_utc": "2026-10-07T13:59:40+00:00",
+   "bytes": 203252,
+   "last_modified": null,
+   "sha256": "4281f110833803624cb519844a4b69523838f6207c8ce99b6dc9057952f82ec1",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2022/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-pr.json": {
+   "baixado_utc": "2026-10-07T13:59:41+00:00",
+   "bytes": 358421,
+   "last_modified": null,
+   "sha256": "3726c8dfa34a62c9c5d63b3a4e01c267892c8302d7f6de05afbea436f73f0e0a",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2041/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-rj.json": {
+   "baixado_utc": "2026-10-07T13:59:42+00:00",
+   "bytes": 83032,
+   "last_modified": null,
+   "sha256": "d42a96f66e8781f6518bce876c82e13cd84f1101b48d6b364b1e0b4a4fb29a92",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2033/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-rn.json": {
+   "baixado_utc": "2026-10-07T13:59:43+00:00",
+   "bytes": 150082,
+   "last_modified": null,
+   "sha256": "4e985bbc262360be9a9a849e60ec51150ebbbb7de705ab5e171751ae90932a7f",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2024/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-ro.json": {
+   "baixado_utc": "2026-10-07T13:59:44+00:00",
+   "bytes": 47422,
+   "last_modified": null,
+   "sha256": "374a34d984a4a5b48d52d6d45556d0c103fc4f7e88093867b9d4cf632181e9db",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2011/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-rr.json": {
+   "baixado_utc": "2026-10-07T13:59:46+00:00",
+   "bytes": 13803,
+   "last_modified": null,
+   "sha256": "3be593f1f03c19fee35c7374dd312c3027b36aed83c66fbe577af485493e170e",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2014/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-rs.json": {
+   "baixado_utc": "2026-10-07T13:59:47+00:00",
+   "bytes": 446009,
+   "last_modified": null,
+   "sha256": "21d8dcfb4221a064e31bc08c74b5d2d13ff2a5fcf4898f998bf1bb014f24aecf",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2043/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-sc.json": {
+   "baixado_utc": "2026-10-07T13:59:49+00:00",
+   "bytes": 264096,
+   "last_modified": null,
+   "sha256": "4f0311bfe4deaeb124c6d4c2be827497b4748f761cdb16dc23a6998d60c7f782",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2042/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-se.json": {
+   "baixado_utc": "2026-10-07T13:59:49+00:00",
+   "bytes": 67820,
+   "last_modified": null,
+   "sha256": "425cd503c7f4af2011bd81945af67921f06c5d9802bc3e1cc1066ea20b6a4953",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2028/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-sp.json": {
+   "baixado_utc": "2026-10-07T13:59:52+00:00",
+   "bytes": 576510,
+   "last_modified": null,
+   "sha256": "3b4d6bedf4775717effdbfac6f56df8747c0740cf9ff5e989d99ec604a843f13",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2035/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/9923-to.json": {
+   "baixado_utc": "2026-10-07T13:59:53+00:00",
+   "bytes": 125762,
+   "last_modified": null,
+   "sha256": "08b90491350aebf75b7fa7a724be30127e8b0dd726d96573bd11aca802830c20",
+   "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/in%20n3%2017/v/93/p/2022/c1/all"
+  },
+  "dados/brutos/ibge/malha_municipios_minima.json": {
+   "baixado_utc": "2026-10-07T15:10:00+00:00",
+   "bytes": 3605638,
+   "last_modified": null,
+   "sha256": "5efffedf8772dc8654322affafac4e3e8b001839e7c2af5cab4eb1094dcd6240",
+   "url": "https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?formato=application/vnd.geo+json&qualidade=minima&intrarregiao=municipio"
+  }
+ }
+}

@@ -1,6 +1,6 @@
 # Plano e método: o que o 1º turno de 2026 mudou no Congresso e nos governos, e por quê
 
-**Escrito em:** 07/out/2026, manhã. **Estado:** plano fechado, aguardando a ordem de execução do autor.
+**Escrito em:** 07/out/2026, manhã. **Estado:** ✅ **executado em 07/out/2026** (ver §15). O resultado está em [`../RELATORIO.md`](../RELATORIO.md).
 **Critérios exatos de cada teste:** [`PRE_REGISTRO.md`](PRE_REGISTRO.md). **Endereços e o que existe:** [`FONTES_DE_DADOS.md`](FONTES_DE_DADOS.md). **Doutrina:** [`.cursor/rules/congresso-fundamentos.mdc`](../.cursor/rules/congresso-fundamentos.mdc).
 
 ---
@@ -211,7 +211,7 @@ A reprodução das 513 cadeiras é a porta: **se ela não fecha, o resto não co
 
 ## 13. Travas do assunto
 
-As do projeto de checagem e do vídeo 5 valem aqui: ⛔ nada de "mentiu N vezes" sobre ninguém · ⛔ nada de recomendação de voto · ⛔ nada de julgar intenção · ⛔ nada de testar um lado só. E três a mais, porque aqui se explica, não se audita:
+As do projeto de checagem e do vídeo 5 valem aqui: ⛔ nada de contar quantas vezes alguém faltou com a verdade · ⛔ nada de recomendação de voto · ⛔ nada de julgar intenção · ⛔ nada de testar um lado só. E três a mais, porque aqui se explica, não se audita:
 
 1. **Causa só com desenho que separa causa.** A régua: *"coincide com"*, *"consistente com"*, *"os dados não separam"*, *"não explicado por"*.
 2. **Investigação não é condenação.** Pessoa citada em investigação aparece como *"citada"*, *"investigada"* ou *"denunciada"*, exatamente como o ato oficial diz, com a resposta dela quando houver. Condenação só com decisão.
@@ -227,3 +227,27 @@ As do projeto de checagem e do vídeo 5 valem aqui: ⛔ nada de "mentiu N vezes"
 | ID de votação nominal da Câmara diferente do esperado | a lista do pré-registro é por tema e data; votação que não existir como nominal sai, registrada |
 | tempo | ordem A → C → B → D → E; o que não couber fica marcado como não feito, sem ser citado |
 | regra de sobras mal entendida | a variante que reproduz 513 de 513 é a aplicada; a outra entra como contrafactual |
+
+---
+
+## 15. O que foi executado, e o que não foi (07/out/2026)
+
+O pré-registro foi gravado em commit antes de qualquer análise (`e372efb`). Os desvios estão na §15 do [`PRE_REGISTRO.md`](PRE_REGISTRO.md), com a declaração de antes ou depois de ver o resultado.
+
+| Parte | Estado | Observação |
+|---|---|---|
+| **A1** cadeiras por partido e campo (R1, R2, R3), véspera, volatilidade, NEP | ✅ | série 2006 a 2026 |
+| **A2** Senado | ✅ | composição de fev/2027 com a API do Senado |
+| **A3** governos | ✅ | 20 decididos, 7 em disputa |
+| **A4** renovação e nomes | 🟡 | critérios (c), (d), (e); (a) e (b) não executados |
+| **A5** puxadores e regra de sobras | ✅ | |
+| **B1, B2, B4** geografia, perfil, arrasto | ✅ | Moran não calculado |
+| **B3** abstenção | 🟡 | por município; por idade e escolaridade não executado |
+| **C1 a C4** pesquisas | 🟡 | Datafolha e Quaest, governador, 2026; sem 2022, sem Senado, sem decomposição de tendência |
+| **D1, D2** séries de opinião e linha do tempo | 🟡 | só captura; teste de movimento **não rodado** |
+| **D3** voto no plenário × desempenho | 🟡 | duas votações e um placebo que não pôde ser estimado |
+| **D4** emendas e gasto de campanha | ⛔ | fora, declarado |
+| **D5, D6** incumbentes e votos × cadeiras | ✅ | |
+| **D8** STF no Senado | 🟡 | fonte única |
+| **E** veredito | ✅ | [`LEITURA_DA_IA.md`](LEITURA_DA_IA.md), depois das três passadas ([`REVISAO_ADVERSARIAL.md`](REVISAO_ADVERSARIAL.md)) |
+| Segunda via pelos boletins de urna | ⛔ | não executada; o JSON oficial e a soma por partido do TSE serviram de segunda via (checagens A2, A5, A7) |

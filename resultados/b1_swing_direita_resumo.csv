@@ -1,0 +1,7 @@
+cargo,periodo,municipios,swing_direita_medio_ponderado_pp,desvio_padrao_ponderado_pp,pct_municipios_com_swing_positivo,pct_eleitorado_em_municipios_com_swing_positivo
+6,2022->2026,5567,0.05,10.39,54.3,42.9
+6,2018->2022 (placebo de estabilidade),5567,0.69,11.2,60.0,47.3
+3,2022->2026,5567,3.24,22.73,54.2,48.0
+3,2018->2022 (placebo de estabilidade),5567,7.62,20.03,67.1,57.1
+5,2018->2026,5567,1.68,18.22,61.5,43.3
+5,2010->2018,5564,9.51,23.82,68.3,76.0

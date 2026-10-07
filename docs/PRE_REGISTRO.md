@@ -164,6 +164,27 @@ Diferente do vídeo 5, o resultado desta eleição é público e foi manchete. A
 
 ## 15. Emendas a este registro
 
-| Data | O quê | Antes | Depois | Motivo | Antes ou depois de ver o resultado |
+Cada linha diz **quando** foi feita e se **antes ou depois de ver o resultado** do teste afetado. O commit do pré-registro original é `e372efb`; tudo abaixo vem depois dele, no mesmo dia (07/out/2026).
+
+| # | O quê | Antes | Depois | Motivo | Antes ou depois de ver o resultado |
 |---|---|---|---|---|---|
-| | | | | | |
+| 1 | Definição operacional de "em exercício em 30/09/2026" e de "partido na véspera" | API da Câmara (histórico de partido) | votou ao menos uma vez em votação nominal de 01/07 a 30/09/2026; partido do último voto até 30/09 (arquivos `votacoesVotos`) | o histórico individual exigiria 500 chamadas; o arquivo de votos traz o partido na data do voto | **antes** |
+| 2 | Pesos das fusões na R1 | média pesada por cadeiras de 2022 | União Brasil: DEM e PSL pelas cadeiras de **2018** (29 e 52); PRD: PTB e Patriota pelas cadeiras de 2022 (1 e 4) | União não existia em 2022 com notas das origens; PTB teve 1 cadeira em 2022 | **antes** |
+| 3 | Base de 2022 | resultado de 2022 | arquivo atual do TSE (PL 98, PT 69), que difere da imprensa da época (PL 99, PT 68) | única base reproduzível; 6 diferenças contra a regra da lei, compatível com a troca de 7 mandatos por decisão do STF | **antes** |
+| 4 | Regra de distribuição de cadeiras | variantes do Código e da decisão do STF | a variante que reproduz as 513 cadeiras em 2026 é a da **lei 14.211 com os mínimos de 80% e 20% nas sobras**; as alternativas entram como sensibilidade (A5) | previsto no pré-registro (a variante que reproduz é a aplicada) | **antes** (a reprodução foi o teste de porta) |
+| 5 | Votações de D3 | V1 a V5 e placebo do IR | só **V1** (PEC da Blindagem, 1º turno) e **V4** (emendas do Senado ao PLP 177/2023) existem como nominais no arquivo da Câmara; V2, V3 e V5 não; placebo escolhido por regra: votação de 2025 com 440+ votos válidos e 15 a 40 "Não", a de "Não" mais próximo de 25 (`2438459-141`, 423 × 23) | a votação do IR é 493 × 0, sem variação para estimar | **antes** de rodar os modelos |
+| 6 | Notáveis (A4) | critérios (a) a (e) | só (c) os 30 mais votados de 2018 e de 2022, (d) e (e) nas tabelas de senadores e governadores; (a) e (b) **não executados** | sem fonte estruturada de ministros e de líderes | **antes** |
+| 7 | Pesquisas (C) | governador e senador, 27 estados, 2026 e 2022, relatório do instituto ou duas reportagens | **Datafolha e Quaest, só governador, 2026**, resultado de uma compilação de imprensa (O Povo, 04/out) conferida em SP contra a Gazeta do Povo e todas cruzadas com o registro do TSE; sem 2022; sem Senado; margem de 2 pontos quando o plano amostral não traz | não há compilação de Senado nem de 2022 acessível no dia; o registro do TSE não traz resultado | **antes** de calcular qualquer erro |
+| 8 | C3 e C4: decomposição e critério de "erro sistemático" | tendência do instituto, abstenção, resíduo; quatro condições | a tendência **não foi calculada** (sem as pesquisas anteriores); a abstenção entra só como correlação com 6 UFs (descritiva); o texto usa "erro sistemático" **só se** as quatro condições forem atendidas, e não foram | consequência da emenda 7 | **antes** |
+| 9 | Teste exploratório de direção (um dos dois primeiros alinhado a Flávio, o outro qualquer) | não existia | adicionado e **rotulado exploratório** | o maior erro da amostra (Rio de Janeiro) ficava de fora dos testes pré-registrados porque o adversário não é de Lula nem de esquerda | **depois** de ver os testes pré-registrados |
+| 10 | B2: forma do teste | regressões separadas e comparação | uma regressão empilhada com efeito fixo de UF por período e interação; "acompanha mais que antes" = IC95 da interação exclui zero | testa a diferença diretamente | **antes** |
+| 11 | B2 e B1: Moran dos resíduos | calcular | **não calculado** (sem geometria na regressão); erro padrão por UF | custo | **antes** |
+| 12 | Base do Senado em B1 | 2022 → 2026 | **2018 → 2026** (e placebo 2010 → 2018), porque 2022 elegeu 1 vaga por UF | desenho do Senado | **antes** |
+| 13 | Variáveis do IBGE | renda do Censo | PIB per capita 2022 (a renda domiciliar municipal não foi coletada), agropecuária no valor adicionado de **2021** (2022 e 2023 saem "..." no SIDRA), Bolsa Família de **ago/2026** | disponibilidade | **antes** |
+| 14 | D1 e D2 | teste de movimento da série perto de cada evento | **não rodado**: poucos pontos por instituto; as manchetes capturadas ficam como registro | disponibilidade | **antes** |
+| 15 | D8 | dois mapeamentos de imprensa | **um** (Gazeta do Povo, 25/09) | o segundo (ND+) não traz lista | **antes** |
+| 16 | D4 (emendas) e gasto de campanha | condicional | **não executados** | tempo e disponibilidade | **antes** |
+| 17 | Escopo de R2 em D3/A1 | classe do deputado novo | herda a mediana do partido em 2026; em 2022 só entra quem tem histórico individual | descrito no relatório | **antes** |
+| 18 | B3 por faixa de idade e escolaridade | opcional ("se sobrar tempo") | **não executado**; só abstenção por município | tempo | **antes** |
+| 19 | Volatilidade (A1) | partidos pelo nome | partidos renomeados mapeados ao sucessor (PMDB→MDB, PRB→Republicanos, PR→PL, PTN→Podemos etc.); fusões (União, PRD) tratadas como partidos novos | evitar volatilidade fictícia por troca de nome | **antes** |
+| 20 | A5 em 2022 | regra aplicada | usa a regra da lei, que na base de 2022 deixa 6 diferenças; os puxadores de 2022 são ilustrativos | base de 2022 (emenda 3) | **antes** |

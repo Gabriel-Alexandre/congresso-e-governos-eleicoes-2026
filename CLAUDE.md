@@ -11,6 +11,7 @@ As regras moram em `.cursor/rules/*.mdc`, que o Cursor carrega sozinho e o Claud
 | 3 | `docs/PLANO.md` | o método, o escopo e as fases |
 | 4 | `docs/PRE_REGISTRO.md` | os critérios; nenhuma análise roda antes de ele estar em commit |
 | 5 | `docs/FONTES_DE_DADOS.md` | endereços, o que existe e o que não existe |
+| 6 | `docs/LEITURA_DA_IA.md` e `RELATORIO.md` | o resultado, quando a pergunta for sobre ele |
 
 ## O que nunca fazer
 
@@ -21,4 +22,4 @@ As regras moram em `.cursor/rules/*.mdc`, que o Cursor carrega sozinho e o Claud
 - Chamar de "direita" ou "esquerda" sem dizer qual régua.
 - Usar as palavras da lista da doutrina.
 - Baixar em massa sem teto de requisições (o TSE devolve 429) e sem manifesto.
-- Fazer commit ou push sem o autor confirmar.
+- Fazer commit ou push sem o autor confirmar (o autor mandou o commit e o push desta execução em 07/out/2026; isso não vale para as próximas).

@@ -1,0 +1,82 @@
+ano,uf,situacao,nome,partido,finalistas,campo_r1
+2018,AC,eleito no 1o turno,GLADSON CAMELI,PP,,direita
+2018,AL,eleito no 1o turno,RENAN FILHO,MDB,,direita
+2018,AM,eleito no 2o turno,WILSON LIMA,PSC,,direita
+2018,AP,eleito no 2o turno,WALDEZ,PDT,,esquerda
+2018,BA,eleito no 1o turno,RUI COSTA,PT,,esquerda
+2018,CE,eleito no 1o turno,CAMILO,PT,,esquerda
+2018,DF,eleito no 2o turno,IBANEIS,MDB,,direita
+2018,ES,eleito no 1o turno,RENATO CASAGRANDE,PSB,,centro
+2018,GO,eleito no 1o turno,RONALDO CAIADO,DEM,,direita
+2018,MA,eleito no 1o turno,FLÁVIO DINO,PC do B,,esquerda
+2018,MG,eleito no 2o turno,ROMEU ZEMA,NOVO,,direita
+2018,MS,eleito no 2o turno,REINALDO AZAMBUJA,PSDB,,direita
+2018,MT,eleito no 1o turno,MAURO MENDES,DEM,,direita
+2018,PA,eleito no 2o turno,HELDER,MDB,,direita
+2018,PB,eleito no 1o turno,JOÃO,PSB,,centro
+2018,PE,eleito no 1o turno,PAULO CÂMARA,PSB,,centro
+2018,PI,eleito no 1o turno,WELLINGTON DIAS,PT,,esquerda
+2018,PR,eleito no 1o turno,RATINHO JUNIOR,PSD,,direita
+2018,RJ,eleito no 2o turno,WILSON WITZEL,PSC,,direita
+2018,RN,eleito no 2o turno,FATIMA BEZERRA,PT,,esquerda
+2018,RO,eleito no 2o turno,CORONEL MARCOS ROCHA,PSL,,direita
+2018,RR,eleito no 2o turno,ANTONIO DENARIUM,PSL,,direita
+2018,RS,eleito no 2o turno,EDUARDO LEITE,PSDB,,direita
+2018,SC,eleito no 2o turno,COMANDANTE MOISÉS,PSL,,direita
+2018,SE,eleito no 2o turno,BELIVALDO,PSD,,direita
+2018,SP,eleito no 2o turno,JOÃO DORIA,PSDB,,direita
+2018,TO,eleito no 1o turno,MAURO CARLESSE,PHS,,direita
+2022,AC,eleito no 1o turno,GLADSON CAMELI,PP,,direita
+2022,AL,eleito no 2o turno,PAULO DANTAS,MDB,,direita
+2022,AM,eleito no 2o turno,WILSON LIMA,UNIÃO,,direita
+2022,AP,eleito no 1o turno,CLÉCIO,SOLIDARIEDADE,,direita
+2022,BA,eleito no 2o turno,JERÔNIMO,PT,,esquerda
+2022,CE,eleito no 1o turno,ELMANO DE FREITAS,PT,,esquerda
+2022,DF,eleito no 1o turno,IBANEIS ROCHA,MDB,,direita
+2022,ES,eleito no 2o turno,RENATO CASAGRANDE,PSB,,centro
+2022,GO,eleito no 1o turno,RONALDO CAIADO,UNIÃO,,direita
+2022,MA,eleito no 1o turno,CARLOS BRANDÃO,PSB,,centro
+2022,MG,eleito no 1o turno,ZEMA,NOVO,,direita
+2022,MS,eleito no 2o turno,EDUARDO RIEDEL,PSDB,,direita
+2022,MT,eleito no 1o turno,MAURO MENDES,UNIÃO,,direita
+2022,PA,eleito no 1o turno,HELDER,MDB,,direita
+2022,PB,eleito no 2o turno,JOÃO,PSB,,centro
+2022,PE,eleito no 2o turno,RAQUEL LYRA,PSDB,,direita
+2022,PI,eleito no 1o turno,RAFAEL FONTELES,PT,,esquerda
+2022,PR,eleito no 1o turno,CARLOS MASSA RATINHO JUNIOR,PSD,,direita
+2022,RJ,eleito no 1o turno,CLÁUDIO CASTRO,PL,,direita
+2022,RN,eleito no 1o turno,FATIMA BEZERRA,PT,,esquerda
+2022,RO,eleito no 2o turno,CORONEL MARCOS ROCHA,UNIÃO,,direita
+2022,RR,eleito no 1o turno,ANTONIO DENARIUM,PP,,direita
+2022,RS,eleito no 2o turno,EDUARDO LEITE,PSDB,,direita
+2022,SC,eleito no 2o turno,JORGINHO MELLO,PL,,direita
+2022,SE,eleito no 2o turno,FÁBIO,PSD,,direita
+2022,SP,eleito no 2o turno,TARCÍSIO,REPUBLICANOS,,direita
+2022,TO,eleito no 1o turno,WANDERLEI BARBOSA,REPUBLICANOS,,direita
+2026,AC,2o turno em disputa,,,ALAN RICK (REPUBLICANOS) x MAILZA ASSIS (PP),
+2026,AL,eleito no 1o turno,JHC,PSDB,,direita
+2026,AM,2o turno em disputa,,,OMAR AZIZ (PSD) x PROFESSORA MARIA DO CARMO (PL),
+2026,AP,eleito no 1o turno,DR. FURLAN,PSD,,direita
+2026,BA,eleito no 1o turno,JERÔNIMO RODRIGUES,PT,,esquerda
+2026,CE,eleito no 1o turno,ELMANO DE FREITAS,PT,,esquerda
+2026,DF,2o turno em disputa,,,LEANDRO GRASS (PT) x CELINA LEÃO (PP),
+2026,ES,2o turno em disputa,,,RICARDO FERRAÇO (MDB) x LORENZO PAZOLINI (REPUBLICANOS),
+2026,GO,eleito no 1o turno,DANIEL VILELA,MDB,,direita
+2026,MA,eleito no 1o turno,EDUARDO BRAIDE,PSD,,direita
+2026,MG,eleito no 1o turno,CLEITINHO AZEVEDO,REPUBLICANOS,,direita
+2026,MS,eleito no 1o turno,EDUARDO RIEDEL,PP,,direita
+2026,MT,eleito no 1o turno,OTAVIANO PIVETTA,REPUBLICANOS,,direita
+2026,PA,eleito no 1o turno,DR. DANIEL,PODE,,direita
+2026,PB,eleito no 1o turno,LUCAS RIBEIRO,PP,,direita
+2026,PE,eleito no 1o turno,RAQUEL LYRA,PSD,,direita
+2026,PI,eleito no 1o turno,RAFAEL FONTELES,PT,,esquerda
+2026,PR,eleito no 1o turno,SERGIO MORO,PL,,direita
+2026,RJ,2o turno em disputa,,,DOUGLAS RUAS (PL) x EDUARDO PAES (PSD),
+2026,RN,2o turno em disputa,,,CADU DE LULA (PT) x ALLYSON (UNIÃO),
+2026,RO,eleito no 1o turno,MARCOS ROGÉRIO,PL,,direita
+2026,RR,eleito no 1o turno,ARTHUR HENRIQUE,PL,,direita
+2026,RS,eleito no 1o turno,ZUCCO,PL,,direita
+2026,SC,eleito no 1o turno,JORGINHO MELLO,PL,,direita
+2026,SE,eleito no 1o turno,FÁBIO,PSD,,direita
+2026,SP,eleito no 1o turno,TARCÍSIO,REPUBLICANOS,,direita
+2026,TO,2o turno em disputa,,,VICENTINHO JÚNIOR (PSDB) x PROFESSORA DORINHA (UNIÃO),

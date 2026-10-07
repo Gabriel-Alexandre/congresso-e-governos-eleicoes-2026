@@ -1,0 +1,21 @@
+uf,nome,partido,campo_r1,nome_2022,partido_2022,campo_r1_2022,trocou_de_campo_r1,mesmo_governador
+AL,JHC,PSDB,direita,PAULO DANTAS,MDB,direita,False,False
+AP,DR. FURLAN,PSD,direita,CLÉCIO,SOLIDARIEDADE,direita,False,False
+BA,JERÔNIMO RODRIGUES,PT,esquerda,JERÔNIMO,PT,esquerda,False,False
+CE,ELMANO DE FREITAS,PT,esquerda,ELMANO DE FREITAS,PT,esquerda,False,True
+GO,DANIEL VILELA,MDB,direita,RONALDO CAIADO,UNIÃO,direita,False,False
+MA,EDUARDO BRAIDE,PSD,direita,CARLOS BRANDÃO,PSB,centro,True,False
+MG,CLEITINHO AZEVEDO,REPUBLICANOS,direita,ZEMA,NOVO,direita,False,False
+MS,EDUARDO RIEDEL,PP,direita,EDUARDO RIEDEL,PSDB,direita,False,True
+MT,OTAVIANO PIVETTA,REPUBLICANOS,direita,MAURO MENDES,UNIÃO,direita,False,False
+PA,DR. DANIEL,PODE,direita,HELDER,MDB,direita,False,False
+PB,LUCAS RIBEIRO,PP,direita,JOÃO,PSB,centro,True,False
+PE,RAQUEL LYRA,PSD,direita,RAQUEL LYRA,PSDB,direita,False,True
+PI,RAFAEL FONTELES,PT,esquerda,RAFAEL FONTELES,PT,esquerda,False,True
+PR,SERGIO MORO,PL,direita,CARLOS MASSA RATINHO JUNIOR,PSD,direita,False,False
+RO,MARCOS ROGÉRIO,PL,direita,CORONEL MARCOS ROCHA,UNIÃO,direita,False,False
+RR,ARTHUR HENRIQUE,PL,direita,ANTONIO DENARIUM,PP,direita,False,False
+RS,ZUCCO,PL,direita,EDUARDO LEITE,PSDB,direita,False,False
+SC,JORGINHO MELLO,PL,direita,JORGINHO MELLO,PL,direita,False,True
+SE,FÁBIO,PSD,direita,FÁBIO,PSD,direita,False,True
+SP,TARCÍSIO,REPUBLICANOS,direita,TARCÍSIO,REPUBLICANOS,direita,False,True

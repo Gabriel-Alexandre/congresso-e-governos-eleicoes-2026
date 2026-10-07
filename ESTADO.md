@@ -1,29 +1,35 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 07/out/2026, manhã.
+**Atualizado em:** 07/out/2026.
 
 ## Em uma frase
 
-O plano, o pré-registro e a sondagem das fontes estão escritos. **Nada foi executado.** A execução começa quando o autor mandar, e o primeiro passo dela é gravar o pré-registro em commit, antes de qualquer análise.
+A execução de ponta a ponta está feita: coleta com hash, validação (513 de 513 cadeiras reproduzidas), blocos A, B, C e D (com as limitações declaradas), três passadas de revisão adversarial, relatório, resumo, 14 gráficos 1920×1080 e a leitura da IA. O repositório é **público** (decisão do autor). Falta o que é dele: gravar e publicar o vídeo.
 
 ## O que está pronto
 
 | Peça | Estado |
 |---|---|
-| Plano, escopo e fases | ✅ `docs/PLANO.md` |
-| Pré-registro (réguas de campo, critérios de cada teste, eventos, votações, critério de erro de pesquisa, veredito) | ✅ escrito · ⬜ **ainda não está em commit** |
-| Sondagem das fontes (07/out) | ✅ `docs/FONTES_DE_DADOS.md` |
-| Ligação com os boletins do vídeo 5 (caminho, commit e hash) | ✅ `dados/FONTE_APURACAO.json` |
-| Doutrina | ✅ `.cursor/rules/congresso-fundamentos.mdc` |
+| Plano, pré-registro (commit `e372efb`, antes de qualquer análise) e fontes | ✅ `docs/PLANO.md`, `docs/PRE_REGISTRO.md`, `docs/FONTES_DE_DADOS.md` |
+| Coleta com sha256 | ✅ `dados/MANIFESTO.json`, `dados/MANIFESTO_IBGE.json`, `dados/CAPTURAS.csv` |
+| Validação (porta) | ✅ 513 de 513 cadeiras reproduzidas; votos por partido iguais ao JSON oficial |
+| Relatório e resumo | ✅ `RELATORIO.md`, `RESUMO_SIMPLES.md`, gerados de `resultados/RESUMO.json` |
+| Leitura e veredito da IA | ✅ `docs/LEITURA_DA_IA.md` |
+| Revisão adversarial (3 passadas) | ✅ `docs/REVISAO_ADVERSARIAL.md` (15 de 15 checagens programáticas) |
+| Gráficos do vídeo | ✅ `resultados/figuras/video/` (14 arquivos) |
+| Testes | ✅ `python -m pytest -q` (8) |
+| Erros achados no caminho | ✅ `docs/CORRECOES.md` |
 
-## Por onde a execução começa
+## O que o projeto concluiu, em uma linha
 
-1. Commit do pré-registro (com a confirmação do autor).
-2. As fases do `docs/PLANO.md` §11, na ordem **A → C → B → D → E** (§8 de lá), para que um corte de tempo derrube o menos importante.
-3. Porta de saída da validação: a reprodução das **513 de 513** cadeiras.
+O PL cresceu muito (98 → 121 cadeiras), mas o campo de direita pela escala de especialistas ficou parado em votos (72,0% → 72,3%); a federação do PT também cresceu (82 → 88); o crescimento do PL acompanha concentração de voto, eficiência do sistema e puxadores; os casos (Master, STF, INSS) e as emendas **não foram testados**. Detalhe: [`RESUMO_SIMPLES.md`](RESUMO_SIMPLES.md).
 
-## O que é decisão do autor
+## Limites declarados
 
-- Criar o repositório no GitHub e o momento de abrir (ele decidiu que será público, como o do vídeo 5).
-- Licença.
-- Publicar, e quando.
+Topo do [`RELATORIO.md`](RELATORIO.md) (§0) e §15 do pré-registro.
+
+## O que observar ao retomar
+
+- O 2º turno é em 25/10; os 7 estados "em disputa" estão sem previsão.
+- O TSE pode republicar arquivos: compare os hashes do manifesto.
+- Quando a prestação de contas final sair, o gasto de campanha pode entrar (bloco D4).

@@ -1,0 +1,33 @@
+instituto,uf,status,vencedor_urna,partido_1,segundo_urna,partido_2,pct_urna_1,pct_poll_1,erro_vencedor_pp,margem_poll,margem_urna,erro_margem_pp_com_sinal_do_vencedor,alinh_1,alinh_2,campo_r1_1,campo_r1_2,subestimou_flavio_pp_r3,subestimou_flavio_pp_exploratoria,subestimou_direita_pp_r1,vencedor_certo,margem_no_plano,amostra
+Datafolha,DF,ok,CELINA LEÃO,PP,LEANDRO GRASS,PT,49.99,55,5.01,28,15.48,12.52,outro_ou_sem_info,Lula,direita,esquerda,,,-12.52,True,,
+Datafolha,MG,ok,CLEITINHO AZEVEDO,REPUBLICANOS,PATRUS ANANIAS,PT,55.4,53,-2.4,32,29.06,2.94,Flavio,Lula,direita,esquerda,-2.94,-2.94,-2.94,True,3.0,2010.0
+Datafolha,PE,ok,RAQUEL LYRA,PSD,JOÃO CAMPOS,PSB,53.27,49,-4.27,1,8.45,-7.45,outro_ou_sem_info,Lula,direita,centro,,,,True,3.0,1650.0
+Datafolha,PI,ok,RAFAEL FONTELES,PT,JOEL RODRIGUES,PP,71.08,67,-4.08,39,43.48,-4.48,Lula,outro_ou_sem_info,esquerda,direita,,,-4.48,True,2.0,1564.0
+Datafolha,RJ,ok,DOUGLAS RUAS,PL,EDUARDO PAES,PSD,50.88,38,-12.88,-8,6.72,-14.72,Flavio,outro_ou_sem_info,direita,direita,,14.72,,False,2.0,2010.0
+Datafolha,SP,ok,TARCÍSIO,REPUBLICANOS,FERNANDO HADDAD,PT,62.65,60,-2.65,25,26.23,-1.23,Flavio,Lula,direita,esquerda,1.23,1.23,1.23,True,2.0,2520.0
+Quaest,AC,ok,MAILZA ASSIS,PP,ALAN RICK,REPUBLICANOS,49.76,41,-8.76,4,17.49,-13.49,outro_ou_sem_info,outro_ou_sem_info,direita,direita,,,,True,,1800.0
+Quaest,AL,ok,JHC,PSDB,RENAN FILHO,MDB,52.2,49,-3.2,-1,4.84,-5.84,outro_ou_sem_info,outro_ou_sem_info,direita,direita,,,,False,,1800.0
+Quaest,AM,ok,OMAR AZIZ,PSD,PROFESSORA MARIA DO CARMO,PL,40.63,40,-0.63,15,16.14,-1.14,outro_ou_sem_info,Flavio,direita,direita,,-1.14,,True,,1800.0
+Quaest,AP,ok,DR. FURLAN,PSD,CLÉCIO,UNIÃO,62.75,53,-9.75,6,25.78,-19.78,outro_ou_sem_info,outro_ou_sem_info,direita,sem classificacao,,,,True,,1800.0
+Quaest,BA,ok,JERÔNIMO RODRIGUES,PT,ACM NETO,UNIÃO,55.8,52,-3.8,4,12.08,-8.08,Lula,outro_ou_sem_info,esquerda,sem classificacao,,,,True,,2004.0
+Quaest,CE,ok,ELMANO DE FREITAS,PT,CIRO GOMES,PSDB,53.19,50,-3.19,1,6.97,-5.97,Lula,outro_ou_sem_info,esquerda,direita,,,-5.97,True,,2004.0
+Quaest,DF,ok,CELINA LEÃO,PP,LEANDRO GRASS,PT,49.99,53,3.01,21,15.48,5.52,outro_ou_sem_info,Lula,direita,esquerda,,,-5.52,True,,
+Quaest,ES,ok,LORENZO PAZOLINI,REPUBLICANOS,RICARDO FERRAÇO,MDB,49.65,45,-4.65,4,15.59,-11.59,outro_ou_sem_info,outro_ou_sem_info,direita,direita,,,,True,,1800.0
+Quaest,GO,ok,DANIEL VILELA,MDB,WILDER MORAIS,PL,59.17,57,-2.17,37,37.21,-0.21,outro_ou_sem_info,Flavio,direita,direita,,-0.21,,True,,2004.0
+Quaest,MA,ok,EDUARDO BRAIDE,PSD,ORLEANS BRANDÃO,MDB,54.71,52,-2.71,17,19.5,-2.5,outro_ou_sem_info,outro_ou_sem_info,direita,direita,,,,True,,2004.0
+Quaest,MG,ok,CLEITINHO AZEVEDO,REPUBLICANOS,PATRUS ANANIAS,PT,55.4,54,-1.4,31,29.06,1.94,Flavio,Lula,direita,esquerda,-1.94,-1.94,-1.94,True,,3204.0
+Quaest,MS,ok,EDUARDO RIEDEL,PP,FÁBIO TRAD,PT,67.07,67,-0.07,44,43.39,0.61,Flavio,Lula,direita,esquerda,-0.61,-0.61,-0.61,True,,1800.0
+Quaest,MT,ok,OTAVIANO PIVETTA,REPUBLICANOS,WELLINGTON FAGUNDES,PL,60.77,54,-6.77,26,37.58,-11.58,Flavio,Flavio,direita,direita,,,,True,,1800.0
+Quaest,PA,ok,DR. DANIEL,PODE,HANA GHASSAN,MDB,51.39,57,5.61,17,4.83,12.17,Flavio,outro_ou_sem_info,direita,direita,,-12.17,,True,,1800.0
+Quaest,PB,ok,LUCAS RIBEIRO,PP,EFRAIM FILHO,PL,64.3,61,-3.3,38,40.12,-2.12,Lula,Flavio,direita,direita,-2.12,-2.12,,True,,1800.0
+Quaest,PE,ok,RAQUEL LYRA,PSD,JOÃO CAMPOS,PSB,53.27,52,-1.27,5,8.45,-3.45,outro_ou_sem_info,Lula,direita,centro,,,,True,,2652.0
+Quaest,PR,ok,SERGIO MORO,PL,SANDRO ALEX,PSD,50.11,43,-7.11,14,24.74,-10.74,Flavio,outro_ou_sem_info,direita,direita,,10.74,,True,,2004.0
+Quaest,RJ,ok,DOUGLAS RUAS,PL,EDUARDO PAES,PSD,50.88,40,-10.88,-9,6.72,-15.72,Flavio,outro_ou_sem_info,direita,direita,,15.72,,False,,3204.0
+Quaest,RN,ok,ALLYSON,UNIÃO,CADU DE LULA,PT,36.94,37,0.06,5,0.78,4.22,outro_ou_sem_info,Lula,sem classificacao,esquerda,,,,True,,1800.0
+Quaest,RO,ok,MARCOS ROGÉRIO,PL,ADAILTON FURIA,PSD,56.86,53,-3.86,29,36.8,-7.8,Flavio,outro_ou_sem_info,direita,direita,,7.8,,True,,1800.0
+Quaest,RR,ok,ARTHUR HENRIQUE,PL,SOLDADO SAMPAIO,REPUBLICANOS,69.15,64,-5.15,30,39.89,-9.89,Flavio,outro_ou_sem_info,direita,direita,,9.89,,True,,1800.0
+Quaest,RS,ok,ZUCCO,PL,JULIANA BRIZOLA,PDT,58.07,52,-6.07,17,26.4,-9.4,Flavio,Lula,direita,esquerda,9.4,9.4,9.4,True,,2004.0
+Quaest,SC,ok,JORGINHO MELLO,PL,GELSON MERÍSIO,PSB,68.98,71,2.02,59,53.32,5.68,Flavio,Lula,direita,centro,-5.68,-5.68,,True,,1800.0
+Quaest,SE,ok,FÁBIO,PSD,VALMIR DE FRANCISQUINHO,REPUBLICANOS,61.12,55,-6.12,11,22.47,-11.47,Lula,outro_ou_sem_info,direita,direita,,,,True,,1800.0
+Quaest,SP,ok,TARCÍSIO,REPUBLICANOS,FERNANDO HADDAD,PT,62.65,60,-2.65,24,26.23,-2.23,Flavio,Lula,direita,esquerda,2.23,2.23,2.23,True,,3702.0
+Quaest,TO,ok,PROFESSORA DORINHA,UNIÃO,VICENTINHO JÚNIOR,PSDB,45.52,46,0.48,5,1.58,3.42,outro_ou_sem_info,outro_ou_sem_info,sem classificacao,direita,,,,True,,1800.0

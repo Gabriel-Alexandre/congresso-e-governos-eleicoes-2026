@@ -1,0 +1,58 @@
+[
+ {
+  "id": "H1",
+  "nome": "Virada de opinião para a direita",
+  "status": "inconsistente",
+  "confianca": "média",
+  "onde": "Câmara: voto de direita 72,0% → 72,3%; governo e Senado: subida menor que a anterior"
+ },
+ {
+  "id": "H2",
+  "nome": "Referendo sobre o governo",
+  "status": "não testável",
+  "confianca": "baixa",
+  "onde": "só há uma aprovação capturada (Quaest, jul/2026, 48 × 47); sem série"
+ },
+ {
+  "id": "H3",
+  "nome": "Anti-incumbência (cansaço de quem está no cargo)",
+  "status": "inconsistente",
+  "confianca": "média",
+  "onde": "deputados reeleitos: 56,1% contra 54,0% em 2022"
+ },
+ {
+  "id": "H4",
+  "nome": "Estrutura e eficiência (listas, federações, puxadores)",
+  "status": "consistente",
+  "confianca": "alta",
+  "onde": "bônus de cadeiras da direita: −0,1 → +2,1 → +3,3 pp; puxadores"
+ },
+ {
+  "id": "H5",
+  "nome": "Máquina (emendas, fundo, mandato)",
+  "status": "não testável",
+  "confianca": "baixa",
+  "onde": "emendas não foram analisadas nesta rodada"
+ },
+ {
+  "id": "H6",
+  "nome": "Casos e escândalos (Master, STF, INSS, condenação)",
+  "status": "não testável",
+  "confianca": "baixa",
+  "onde": "voto na PEC da Blindagem sem relação com a eleição (−2,4 pp); séries de opinião insuficientes"
+ },
+ {
+  "id": "H7",
+  "nome": "Composição do eleitorado (perfil e abstenção)",
+  "status": "inconsistente",
+  "confianca": "média",
+  "onde": "perfil soma 1,4 ponto de R² além da UF; abstenção 20,8% → 20,9%"
+ },
+ {
+  "id": "H8",
+  "nome": "Arrasto do candidato à Presidência",
+  "status": "consistente",
+  "confianca": "alta",
+  "onde": "correlação com o voto de direita: senador 0,53 → 0,70, deputado 0,31 → 0,39"
+ }
+]

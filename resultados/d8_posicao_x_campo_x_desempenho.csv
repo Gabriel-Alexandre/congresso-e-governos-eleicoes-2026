@@ -1,0 +1,14 @@
+classe,campo_r1,candidatos,eleitos,media_pct_votos
+a favor,centro,3,0,4.7
+a favor,direita,82,28,15.38
+a favor,esquerda,2,0,6.49
+a favor,sem classificacao,5,0,0.74
+contra,centro,4,2,22.06
+contra,direita,1,0,24.86
+contra,esquerda,11,4,17.46
+"outra (neutro, reforma ou outra)",centro,4,0,2.96
+"outra (neutro, reforma ou outra)",direita,10,2,8.11
+"outra (neutro, reforma ou outra)",esquerda,3,1,9.75
+sem posicao,centro,8,2,10.41
+sem posicao,direita,33,10,14.55
+sem posicao,esquerda,30,2,7.11

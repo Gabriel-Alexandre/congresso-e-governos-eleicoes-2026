@@ -91,3 +91,23 @@ Tudo aqui entra em `dados/CAPTURAS.csv` com URL, data, sha256 do corpo e o trech
 | Regra das sobras | [CNN Brasil: pedido de aplicar as regras a partir de 2026](https://www.cnnbrasil.com.br/politica/hugo-pede-ao-stf-que-regras-sobre-sobras-eleitorais-valham-a-partir-de-2026/) · [ConJur: Câmara declara perda de mandato de sete deputados](https://www.conjur.com.br/2025-jul-31/camara-declara-perda-de-mandato-de-sete-deputados-e-convoca-substitutos/) · acórdãos das ADIs (⬜) |
 
 ⚠️ **As matérias acima são ponto de partida, lidas por resumo de busca.** Nenhum número delas entra no relatório sem o texto bruto capturado.
+
+---
+
+## 8. O que foi coletado de fato (07/out/2026)
+
+A coleta foi feita no mesmo dia: o que foi baixado, com hash, está em `dados/MANIFESTO.json`, `dados/MANIFESTO_IBGE.json` e `dados/CAPTURAS.csv`.
+
+| Grupo | Arquivos | Onde |
+|---|---|---|
+| TSE, 2006 a 2026 | `votacao_candidato_munzona`, `votacao_partido_munzona`, `detalhe_votacao_munzona`, `consulta_cand` (o de 2014 veio com 1 byte e não foi usado), pesquisas e contratantes (2018, 2022, 2026) | `dados/brutos/tse/` |
+| Resultado oficial 2026 | JSON por UF de deputado federal, governador e senador | `dados/brutos/oficial2026/` |
+| Câmara | `votacoesVotos`, `votacoesOrientacoes`, `votacoes`, `votacoesObjetos` (2023 a 2026), `deputados.csv` | `dados/brutos/camara/` |
+| Senado | `senador/lista/atual` | `dados/brutos/senado/` |
+| IBGE | Censo 2022 (tabelas 9923, 9606, 9514, 10061, 10198), PIB municipal 2022 e valor adicionado 2021, malha municipal | `dados/brutos/ibge/` |
+| MDS | Novo Bolsa Família, competência 08/2026 | `dados/brutos/mds/` |
+| Literatura | Bolognesi, Ribeiro e Codato, *Dados* 66(2), 2023 (PDF fora do git; URL e sha256 no manifesto; as médias usadas estão em `congresso/campos.py` e em `resultados/a1_escala_r1_usada.csv`) | `dados/brutos/literatura/` |
+| Imprensa | páginas capturadas (HTML fora do git; sha256 e trecho em `dados/CAPTURAS.csv`; fatos extraídos em `resultados/`) | `dados/brutos/capturas/` |
+| Reaproveitado do projeto irmão | `apoios_declarados.csv`, `senado_apoio_flavio.csv` (commit `740fe519`) | `dados/` |
+
+**Ressalvas medidas na coleta:** o `votacao_candidato_munzona_2026.zip` cresceu de 316 MB para 454 MB entre 05 e 07/out (o manifesto guarda o hash da versão usada) · o SIDRA devolve "..." para o valor adicionado setorial de 2022 e 2023 · duas capturas de imprensa (Metrópoles: Janones e pesquisas de presidente) não trouxeram o trecho esperado e não foram usadas.

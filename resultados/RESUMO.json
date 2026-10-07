@@ -2614,10 +2614,21 @@
     "direita_mais_centro_direita": 250,
     "direita_sozinha": 101,
     "esquerda_e_centro_esquerda": 128,
+    "falta_a_direita": 71,
+    "falta_a_esquerda": 44,
+    "falta_com_centro_direita": 0,
+    "limiar": "barrar a autorização de impeachment do Presidente (mais de 1/3)",
+    "votos_necessarios": 172
+   },
+   {
+    "direita_centro_direita_e_centro": 385,
+    "direita_mais_centro_direita": 250,
+    "direita_sozinha": 101,
+    "esquerda_e_centro_esquerda": 128,
     "falta_a_direita": 156,
     "falta_a_esquerda": 129,
     "falta_com_centro_direita": 7,
-    "limiar": "maioria absoluta: lei complementar, cassação, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º)",
+    "limiar": "maioria absoluta: lei complementar, cassação, eleger o presidente da Câmara, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º; RICD art. 7º)",
     "votos_necessarios": 257
    },
    {
@@ -2671,10 +2682,21 @@
     "direita_mais_centro_direita": 265,
     "direita_sozinha": 132,
     "esquerda_e_centro_esquerda": 124,
+    "falta_a_direita": 40,
+    "falta_a_esquerda": 48,
+    "falta_com_centro_direita": 0,
+    "limiar": "barrar a autorização de impeachment do Presidente (mais de 1/3)",
+    "votos_necessarios": 172
+   },
+   {
+    "direita_centro_direita_e_centro": 389,
+    "direita_mais_centro_direita": 265,
+    "direita_sozinha": 132,
+    "esquerda_e_centro_esquerda": 124,
     "falta_a_direita": 125,
     "falta_a_esquerda": 133,
     "falta_com_centro_direita": 0,
-    "limiar": "maioria absoluta: lei complementar, cassação, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º)",
+    "limiar": "maioria absoluta: lei complementar, cassação, eleger o presidente da Câmara, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º; RICD art. 7º)",
     "votos_necessarios": 257
    },
    {
@@ -2699,7 +2721,28 @@
     "limiar": "2/3: autorizar processo contra o Presidente (art. 51, I)",
     "votos_necessarios": 342
    }
-  ]
+  ],
+  "camara_2026_bloco": {
+   "com_psdb": 276,
+   "direita": 132,
+   "direita_mais_centro_direita": 265,
+   "esquerda_e_centro_esquerda": 124,
+   "falta_esquerda_barrar_impeachment": 48,
+   "falta_esquerda_barrar_pec": 82,
+   "falta_impeachment_com_psdb": 66,
+   "falta_impeachment_sem_psdb": 77,
+   "falta_pec_com_psdb": 32,
+   "falta_pec_sem_psdb": 43,
+   "psdb": 11
+  },
+  "derrubar_veto_2027": {
+   "camara_bloco": 265,
+   "camara_precisa": 257,
+   "consegue_se_votar_unido": true,
+   "senado_bloco_por_partido": 48,
+   "senado_poder360_por_senador": 49,
+   "senado_precisa": 41
+  }
  },
  "e3": {
   "senado_2023_pela_legenda_eleita": {

@@ -332,13 +332,15 @@ def grafico_tres_grupos():
     plt.close(fig)
 
 
-def grafico_escada(nome, casa, tab, limiares, total, rodape):
+def grafico_escada(nome, casa, tab, limiares, total, rodape, psdb=None):
     t = pd.read_csv(RES / tab).iloc[0]
     d, dc, dcc = int(t.direita_sozinha), int(t.direita_mais_centro_direita), int(t.direita_centro_direita_e_centro)
     esq = int(t.esquerda_e_centro_esquerda)
     fig, ax = figura_barras(nome, f"{casa}: até onde cada grupo chega se votar unido", f"{total} cadeiras · linhas = os votos que cada decisão exige", rodape)
-    linhas = [("direita (PL, Novo, Missão)", d, COR_GRUPO["direita"]), ("+ centro-direita", dc, COR_GRUPO["centro-direita"]), ("+ centro", dcc, COR_GRUPO["centro"]),
-              ("esquerda + centro-esquerda", esq, COR_GRUPO["esquerda"])]
+    linhas = [("direita (PL, Novo, Missão)", d, COR_GRUPO["direita"]), ("+ centro-direita", dc, COR_GRUPO["centro-direita"])]
+    if psdb:
+        linhas.append(("+ PSDB", dc + psdb, "#90A4AE"))
+    linhas += [("+ resto do centro", dcc, COR_GRUPO["centro"]), ("esquerda + centro-esquerda", esq, COR_GRUPO["esquerda"])]
     y = np.arange(len(linhas))[::-1]
     for (rot, v, c), yy in zip(linhas, y):
         ax.barh(yy, v, color=c, height=0.55)
@@ -415,8 +417,9 @@ if __name__ == "__main__":
     camara(); senado(); governos(); senado_por_uf()
     grafico_grupos_camara(); grafico_tres_grupos()
     grafico_escada("23_camara_limiares_2026", "Câmara 2026", "e2_camara_limiares_2026.csv",
-                   [("CPI", 171), ("bloqueia PEC", 206), ("maioria\nabsoluta", 257), ("PEC", 308), ("autoriza\nimpeachment", 342)], 513,
-                   "Fonte: TSE; Constituição, arts. 51, 58, 60 e 69. Campo não é bloco de votação: é o teto de cada grupo votando unido.")
+                   [("abre CPI (171) e barra impeachment", 172), ("barra PEC", 206), ("maioria absoluta e veto", 257), ("PEC", 308), ("autoriza impeachment", 342)], 513,
+                   "Fonte: TSE; Constituição, arts. 51, 58, 60, 66 e 69. Derrubar veto exige também 41 senadores. Campo não é bloco de votação: é o teto de cada grupo votando unido.",
+                   psdb=R["e2"]["camara_2026_bloco"]["psdb"])
     grafico_escada("24_senado_limiares_2027", "Senado a partir de 2027", "e3_senado_limiares_2027.csv",
                    [("CPI", 27), ("bloqueia\nPEC", 33), ("maioria\nabsoluta", 41), ("PEC", 49), ("condena no\nimpeachment", 54)], 81,
                    "Fonte: TSE e Senado; Constituição, arts. 52, 58 e 60. Campo não é bloco de votação: é o teto de cada grupo votando unido.")

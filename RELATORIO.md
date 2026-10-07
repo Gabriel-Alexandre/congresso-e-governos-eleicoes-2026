@@ -33,7 +33,8 @@ Cada partido no grupo em que ele mesmo se declara (Valor Econômico, ago/2026): 
 |---|---|---|---|---|---|
 | 1/3: abrir CPI (art. 58 §3º) | 171 | 132 | 265 | 0 | 124 |
 | bloquear uma PEC (mais de 2/5) | 206 | 132 | 265 | 0 | 124 |
-| maioria absoluta: lei complementar, cassação, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º) | 257 | 132 | 265 | 0 | 124 |
+| barrar a autorização de impeachment do Presidente (mais de 1/3) | 172 | 132 | 265 | 0 | 124 |
+| maioria absoluta: lei complementar, cassação, eleger o presidente da Câmara, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º; RICD art. 7º) | 257 | 132 | 265 | 0 | 124 |
 | 3/5: aprovar PEC (art. 60 §2º) | 308 | 132 | 265 | 43 | 124 |
 | 2/3: autorizar processo contra o Presidente (art. 51, I) | 342 | 132 | 265 | 77 | 124 |
 

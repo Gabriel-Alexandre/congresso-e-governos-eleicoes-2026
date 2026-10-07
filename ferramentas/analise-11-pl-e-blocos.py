@@ -108,7 +108,8 @@ def achar(idx: dict, nasc, nomes) -> list:
 LIMIARES_CAMARA = [
     ("1/3: abrir CPI (art. 58 §3º)", 171),
     ("bloquear uma PEC (mais de 2/5)", 206),
-    ("maioria absoluta: lei complementar, cassação, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º)", 257),
+    ("barrar a autorização de impeachment do Presidente (mais de 1/3)", 172),
+    ("maioria absoluta: lei complementar, cassação, eleger o presidente da Câmara, derrubar veto com o Senado (arts. 69, 55 §2º, 66 §4º; RICD art. 7º)", 257),
     ("3/5: aprovar PEC (art. 60 §2º)", 308),
     ("2/3: autorizar processo contra o Presidente (art. 51, I)", 342),
 ]
@@ -167,6 +168,16 @@ def main() -> None:
         t = escada(por_ano[ano], LIMIARES_CAMARA)
         tabela(f"e2_camara_limiares_{ano}", t)
         registrar(f"e2.camara_{ano}", t.to_dict("records"))
+
+    # o bloco de direita com o PSDB (o PSDB se declara "centro-democrático"; muita gente, e a lista do Poder360, o põe na direita)
+    psdb = int(cad.loc["PSDB", "2026"]) if "PSDB" in cad.index else 0
+    bloco = por_ano[2026]["direita"] + por_ano[2026]["centro-direita"]
+    registrar("e2.camara_2026_bloco", {"direita": por_ano[2026]["direita"], "direita_mais_centro_direita": bloco, "psdb": psdb, "com_psdb": bloco + psdb,
+                                       "falta_pec_sem_psdb": 308 - bloco, "falta_pec_com_psdb": 308 - bloco - psdb,
+                                       "falta_impeachment_sem_psdb": 342 - bloco, "falta_impeachment_com_psdb": 342 - bloco - psdb,
+                                       "esquerda_e_centro_esquerda": por_ano[2026]["esquerda"] + por_ano[2026]["centro-esquerda"],
+                                       "falta_esquerda_barrar_pec": 206 - (por_ano[2026]["esquerda"] + por_ano[2026]["centro-esquerda"]),
+                                       "falta_esquerda_barrar_impeachment": 172 - (por_ano[2026]["esquerda"] + por_ano[2026]["centro-esquerda"])})
 
     # ---------------- E3: Senado, 2023 e 2027 ----------------
     sen = pd.read_csv(RES / "a2_senadores_eleitos_por_partido.csv").set_index("partido")
@@ -406,6 +417,10 @@ def main() -> None:
     registrar("e7.senado_poder360_por_senador", {"eleitos_2026": {"direita": 33, "esquerda": 19, "centro": 2}, "ficam_ate_2031": {"direita": 16, "esquerda": 8, "centro": 3},
                                                  "fev_2027": {"direita": 49, "esquerda": 27, "centro": 5},
                                                  "fonte": "captura poder360-senado-dominado-direita (04/out/2026): 'considerando a orientação ideológica de cada político, separadamente'"})
+    # derrubar veto (art. 66 §4º): maioria absoluta das duas Casas, 257 deputados E 41 senadores
+    lim27 = {r["votos_necessarios"]: r for r in escada({k: int(c27.get(k, 0)) for k in GRUPOS}, LIMIARES_SENADO).to_dict("records")}
+    registrar("e2.derrubar_veto_2027", {"camara_bloco": bloco, "camara_precisa": 257, "senado_bloco_por_partido": lim27[41]["direita_mais_centro_direita"], "senado_precisa": 41,
+                                        "senado_poder360_por_senador": 49, "consegue_se_votar_unido": bool(bloco >= 257 and lim27[41]["direita_mais_centro_direita"] >= 41)})
     print("ok E")
 
 

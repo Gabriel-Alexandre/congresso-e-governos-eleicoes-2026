@@ -8,6 +8,7 @@ Criterios: docs/PRE_REGISTRO.md secao 9 e emenda 3 da secao 15.
 from __future__ import annotations
 
 import html
+import json
 import re
 import sys
 import unicodedata
@@ -110,10 +111,21 @@ def main() -> None:
     registrar("c1.registro_tse_governador_total_2026", int(len(reg)))
     registrar("c1.registro_tse_governador_na_janela_26set_03out", int(len(ult)))
 
-    # resultado das urnas (governador, 1o turno, % dos votos validos)
-    c3 = votos_cand()
-    c3 = c3[(c3.ano == 2026) & (c3.cargo == 3)].groupby(["uf", "sq", "nome", "partido", "sit"], as_index=False)["votos"].sum()
-    c3["pct_urna"] = 100 * c3["votos"] / c3.groupby("uf")["votos"].transform("sum")
+    # resultado das urnas: o percentual OFICIAL do TSE (pvap), sobre os votos validos mais os de candidatura
+    # anulada sub judice (vvc). As pesquisas incluem esses candidatos (ex.: Garotinho no RJ), entao a urna tem
+    # que incluir tambem. Correcao de 07/out (docs/CORRECOES.md): antes se usava so o voto nominal valido.
+    linhas_urna = []
+    for uf in UFS:
+        raw = (RAIZ / f"dados/brutos/oficial2026/{uf.lower()}-c0003.json").read_bytes()
+        try:
+            d = json.loads(raw.decode("utf-8"))
+        except UnicodeDecodeError:
+            d = json.loads(raw.decode("latin-1"))
+        for ag in d["carg"][0]["agr"]:
+            for p_ in ag["par"]:
+                for c in p_["cand"]:
+                    linhas_urna.append({"uf": uf, "sq": c["sqcand"], "nome": c["nmu"], "partido": p_["sg"], "sit": c.get("st", ""), "votos": int(c["vap"]), "pct_urna": float(c["pvap"].replace(",", ".")), "situacao_voto": c.get("dvt", "")})
+    c3 = pd.DataFrame(linhas_urna)
     c3["n"] = c3["nome"].map(nn)
     ap = pd.read_csv(RAIZ / "dados/apoios_declarados.csv")
     apoio26 = {r.uf: r.apoio for r in ap[ap.ano == 2026].itertuples()}

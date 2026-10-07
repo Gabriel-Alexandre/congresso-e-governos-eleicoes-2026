@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from congresso import campos  # noqa: E402
+from congresso import campos, identidade  # noqa: E402
 from congresso.cadeiras import distribuir, montar_listas, preparar  # noqa: E402
 from congresso.comum import DER, RAIZ, UFS, eleito, votos_cand, votos_partido  # noqa: E402
 from congresso.saida import registrar, tabela  # noqa: E402
@@ -36,18 +36,27 @@ def sig(p: str) -> str:
     return SUCESSOR.get(n, n)
 
 
+_ID = None
+
+
+def _ids():
+    """Identidade de pessoa (congresso/identidade.py): mesma data de nascimento e um nome igual (civil, urna, social ou parlamentar)."""
+    global _ID
+    if _ID is None:
+        plen = pd.read_parquet(DER / "plenario_deputados.parquet")
+        _ID = identidade.resolver(camara=plen[["id", "nomeCivil", "nome", "dataNascimento"]])
+    return _ID
+
+
 def consulta(ano: int) -> pd.DataFrame:
-    """sq -> nome civil e nascimento, cargo 6 (deputado federal)."""
-    z = zipfile.ZipFile(TSE / f"consulta_cand_{ano}.zip")
-    partes = []
-    for i in z.infolist():
-        if i.filename.endswith(".csv") and "_BRASIL" not in i.filename and not i.filename.endswith("_BR.csv"):
-            with z.open(i.filename) as fh:
-                d = pd.read_csv(fh, sep=";", encoding="latin-1", dtype=str, usecols=lambda c: c in {"SQ_CANDIDATO", "NM_CANDIDATO", "DT_NASCIMENTO", "SG_UF", "CD_CARGO", "SG_PARTIDO", "ST_REELEICAO"})
-            partes.append(d[d["CD_CARGO"] == "6"])
-    d = pd.concat(partes, ignore_index=True)
-    d["chave"] = d["NM_CANDIDATO"].map(nome_norm) + "|" + pd.to_datetime(d["DT_NASCIMENTO"], format="%d/%m/%Y", errors="coerce").dt.strftime("%Y-%m-%d")
-    return d.rename(columns={"SQ_CANDIDATO": "sq", "SG_UF": "uf"})[["sq", "uf", "chave", "SG_PARTIDO"]]
+    """sq do candidato a deputado federal -> chave de pessoa."""
+    sq, _ = _ids()
+    return pd.DataFrame([(s, p) for (a, s), p in sq.items() if a == ano], columns=["sq", "chave"])
+
+
+def chave_camara(ids: pd.Series) -> pd.Series:
+    _, cm = _ids()
+    return ids.map(cm)
 
 
 def main() -> None:
@@ -172,7 +181,7 @@ def main() -> None:
     # ---------------- ligacao com deputados (nome civil + nascimento) ----------------
     ci = {a: consulta(a) for a in (2018, 2022, 2026)}
     plen = pd.read_parquet(DER / "plenario_deputados.parquet")
-    plen["chave"] = plen["nomeCivil"].map(nome_norm) + "|" + plen["dataNascimento"]
+    plen["chave"] = chave_camara(plen["id"])
     plen_u = plen.drop_duplicates("chave")
     for a in ci:
         ci[a] = ci[a].drop_duplicates("sq")

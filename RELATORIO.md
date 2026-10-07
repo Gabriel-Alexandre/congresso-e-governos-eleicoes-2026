@@ -17,14 +17,14 @@
 
 1. **Câmara, 2022 → 2026:** PL 98 → 121 cadeiras (16,6% → 22,7% dos votos). Federação PT/PCdoB/PV 82 → 88.
 2. **Campo (R1):** direita 380 → 388 cadeiras; esquerda 105 → 101; em votos, a direita 72,0% → 72,3%.
-3. **Bancada de oposição ao governo (R2):** 102 → 131 cadeiras.
+3. **Bancada de oposição ao governo (R2):** 104 → 131 cadeiras.
 4. **Bônus de cadeiras da direita sobre os votos:** −0,1 → +2,1 → +3,3 pontos (2018, 2022, 2026).
-5. **Reeleição de deputados:** 54,0% (eleitos de 2018 em 2022) → 56,1% (eleitos de 2022 em 2026).
+5. **Reeleição de deputados:** 55,6% (eleitos de 2018 em 2022) → 57,5% (eleitos de 2022 em 2026).
 6. **Senado:** PL 19 das 54 vagas; 28 das 81 cadeiras em 2027.
 7. **Governos:** 20 decididos no 1º turno (17 de direita pela R1) e 7 em 2º turno.
 8. **Geografia:** o perfil do município soma só 1,4 ponto de R² além da UF (20,1%).
 9. **Abstenção:** 20,8% → 20,9%; com o comparecimento de 2022, o voto de direita seria 72,23% (real 72,32%).
-10. **Pesquisas de governador:** o vencedor apareceu abaixo da urna em 26 de 32 pesquisas; nenhum teste por campo mostrou direção.
+10. **Pesquisas de governador:** o primeiro colocado apareceu abaixo da urna em 26 de 32 pesquisas; nenhum teste por campo mostrou direção.
 
 ## 2. Dados e validação
 
@@ -81,7 +81,7 @@ Bancada na véspera da eleição (partido no último voto até 30/09/2026 entre 
 | 4,5-6,5 | direita | 335 | 368 | 381 | 65,3 | 67,2 | 69,9 |
 | 4,5-6,5 | esquerda | 135 | 120 | 116 | 24,7 | 24,9 | 24,9 |
 
-**R2 (voto no plenário contra a orientação do governo, 2023 a 2026):** coorte eleita em 2022: governista 328, independente 58, oposição 102, sem classificação 25; coorte eleita em 2026: governista 355, independente 27, oposição 131 (deputado novo herda a classe mediana do partido). Com cortes de 65% e 45%: oposição 107 → 134.
+**R2 (voto no plenário contra a orientação do governo, 2023 a 2026):** coorte eleita em 2022: governista 335, independente 60, oposição 104, sem classificação 14; coorte eleita em 2026: governista 355, independente 27, oposição 131 (deputado novo herda a classe mediana do partido). Com cortes de 65% e 45%: oposição 109 → 134.
 
 **R3 (coligação formal na eleição presidencial):** [`resultados/a1_campo_r3.csv`](resultados/a1_campo_r3.csv). Em 2026 o PL concorreu sem coligação, e 40% das cadeiras ficam em "sem candidato presidencial"; **não é comparável com 2022**.
 
@@ -124,16 +124,16 @@ Volatilidade (Pedersen) e número efetivo de partidos: [`resultados/a1_volatilid
 
 | de | para | campo_r1_na_eleicao_anterior | eleitos_na_eleicao_anterior | tentaram_de_novo | reeleitos | pct_reeleito_entre_os_que_tentaram | pct_reeleito_entre_todos |
 |---|---|---|---|---|---|---|---|
-| 2018 | 2022 | todos | 513 | 409 | 277 | 67,7 | 54,0 |
+| 2018 | 2022 | todos | 513 | 421 | 285 | 67,7 | 55,6 |
 | 2018 | 2022 | centro | 45 | 36 | 16 | 44,4 | 35,6 |
-| 2018 | 2022 | direita | 365 | 286 | 193 | 67,5 | 52,9 |
-| 2018 | 2022 | esquerda | 103 | 87 | 68 | 78,2 | 66,0 |
-| 2022 | 2026 | todos | 513 | 401 | 288 | 71,8 | 56,1 |
+| 2018 | 2022 | direita | 365 | 296 | 200 | 67,6 | 54,8 |
+| 2018 | 2022 | esquerda | 103 | 89 | 69 | 77,5 | 67,0 |
+| 2022 | 2026 | todos | 513 | 408 | 295 | 72,3 | 57,5 |
 | 2022 | 2026 | centro | 28 | 22 | 13 | 59,1 | 46,4 |
-| 2022 | 2026 | direita | 380 | 294 | 214 | 72,8 | 56,3 |
-| 2022 | 2026 | esquerda | 105 | 85 | 61 | 71,8 | 58,1 |
+| 2022 | 2026 | direita | 380 | 298 | 218 | 73,2 | 57,4 |
+| 2022 | 2026 | esquerda | 105 | 88 | 64 | 72,7 | 61,0 |
 
-43,5% dos eleitos de 2026 não estavam na Câmara na véspera (inclui ex-deputados que voltam e estreantes; a imprensa fala em 35% de primeiro mandato). Maiores quedas e altas de votos entre reeleitos: [`quedas`](resultados/a4_reeleitos_maiores_quedas_2022_2026.csv), [`altas`](resultados/a4_reeleitos_maiores_altas_2022_2026.csv). Os 30 mais votados de cada eleição e o que houve na seguinte: [`2018→2022`](resultados/a4_trinta_mais_votados_2018_e_o_que_houve_em_2022.csv), [`2022→2026`](resultados/a4_trinta_mais_votados_2022_e_o_que_houve_em_2026.csv).
+42,3% dos eleitos de 2026 não estavam na Câmara na véspera (inclui ex-deputados que voltam e estreantes; a imprensa fala em 35% de primeiro mandato). Maiores quedas e altas de votos entre reeleitos: [`quedas`](resultados/a4_reeleitos_maiores_quedas_2022_2026.csv), [`altas`](resultados/a4_reeleitos_maiores_altas_2022_2026.csv). Os 30 mais votados de cada eleição e o que houve na seguinte: [`2018→2022`](resultados/a4_trinta_mais_votados_2018_e_o_que_houve_em_2022.csv), [`2022→2026`](resultados/a4_trinta_mais_votados_2022_e_o_que_houve_em_2026.csv).
 
 ## 4. Senado e governos
 
@@ -202,16 +202,16 @@ Mapa: [`resultados/figuras/video/08_mapa_variacao_voto_direita_deputado_federal.
 
 ## 6. As pesquisas (bloco C)
 
-32 pesquisas (Datafolha 6, Quaest 26) em 27 disputas; 30 com registro no TSE na janela de 26/set a 03/out. Erro do vencedor: média com sinal −3,2 ponto; em valor absoluto 4,2; erro da margem em valor absoluto 7,2. Fora da margem declarada (2 pontos quando o plano amostral não informa): proporção 25 de 32, diferença entre os dois primeiros 21 de 32.
+32 pesquisas (Datafolha 6, Quaest 26) em 27 disputas; 30 com registro no TSE na janela de 26/set a 03/out. Erro do primeiro colocado (o eleito ou, nos 7 estados com 2º turno, o primeiro do 1º turno), contra o percentual oficial do TSE (que inclui candidaturas anuladas sub judice, como fazem as pesquisas): média com sinal −3,0 ponto; em valor absoluto 4,1; erro da margem em valor absoluto 7,1. Fora da margem declarada (2 pontos quando o plano amostral não informa): proporção 25 de 32, diferença entre os dois primeiros 21 de 32.
 
 | erro_margem_abs | erro_vencedor_abs | erro_vencedor_medio_com_sinal | instituto | n | vencedor_certo |
 |---|---|---|---|---|---|
-| 7,2 | 5,2 | -3,54 | Datafolha | 6 | 5 |
-| 7,2 | 4,0 | -3,17 | Quaest | 26 | 24 |
+| 7,2 | 4,93 | -3,24 | Datafolha | 6 | 5 |
+| 7,1 | 3,87 | -3,00 | Quaest | 26 | 24 |
 
 **Direção do erro:** margem subestimada (corrida mais apertada que a urna) em 23 das 32 pesquisas e na maioria das pesquisas de 20 das 27 disputas (p = 0,02). Por campo: R3 6 disputas, subestimou Flávio em 2 (p = 0,69); R1 7 disputas, em 2 (p = 0,45); exploratório (definido depois de ver o resultado) 13 disputas, em 6 (p = 1,00). Tabelas: [`c2_erro_por_pesquisa.csv`](resultados/c2_erro_por_pesquisa.csv), [`c4_direcao_*.csv`](resultados/).
 
-**Critério do pré-registro para "erro sistemático"** exigia 4 condições; só a primeira (teste do sinal) pôde ser rodada, e **não** foi atendida por campo. Por isso o texto usa "corridas mais apertadas na pesquisa que na urna, para quem ganhou, independente do campo" e não "erro sistemático por campo".
+**Critério do pré-registro para "erro sistemático"** exigia 4 condições; só a primeira (teste do sinal) pôde ser rodada, e **não** foi atendida por campo. Por isso o texto usa "corridas mais apertadas na pesquisa que na urna, para quem terminou em primeiro, independente do campo" e não "erro sistemático por campo".
 
 ## 7. Por quê: o placar das hipóteses
 
@@ -219,10 +219,10 @@ Mapa: [`resultados/figuras/video/08_mapa_variacao_voto_direita_deputado_federal.
 |---|---|---|---|---|
 | H1 | Virada de opinião para a direita | inconsistente | média | Câmara: voto de direita 72,0% → 72,3%; governo e Senado: subida menor que a anterior |
 | H2 | Referendo sobre o governo | não testável | baixa | só há uma aprovação capturada (Quaest, jul/2026, 48 × 47); sem série |
-| H3 | Anti-incumbência (cansaço de quem está no cargo) | inconsistente | média | deputados reeleitos: 56,1% contra 54,0% em 2022 |
+| H3 | Anti-incumbência (cansaço de quem está no cargo) | inconsistente | média | deputados reeleitos: 57,5% contra 55,6% em 2022 |
 | H4 | Estrutura e eficiência (listas, federações, puxadores) | consistente | alta | bônus de cadeiras da direita: −0,1 → +2,1 → +3,3 pp; puxadores |
 | H5 | Máquina (emendas, fundo, mandato) | não testável | baixa | emendas não foram analisadas nesta rodada |
-| H6 | Casos e escândalos (Master, STF, INSS, condenação) | não testável | baixa | voto na PEC da Blindagem sem relação com a eleição (−2,4 pp); séries de opinião insuficientes |
+| H6 | Casos e escândalos (Master, STF, INSS, condenação) | não testável | baixa | voto na PEC da Blindagem sem relação com a eleição (−5,2 pp); séries de opinião insuficientes |
 | H7 | Composição do eleitorado (perfil e abstenção) | inconsistente | média | perfil soma 1,4 ponto de R² além da UF; abstenção 20,8% → 20,9% |
 | H8 | Arrasto do candidato à Presidência | consistente | alta | correlação com o voto de direita: senador 0,53 → 0,70, deputado 0,31 → 0,39 |
 
@@ -230,20 +230,20 @@ Voto no plenário × desempenho (D3):
 
 | votacao | desfecho | n | grupos | coef_sim | ic95_baixo | ic95_alto | p | p_bh_v1_v4 |
 |---|---|---|---|---|---|---|---|---|
-| V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025 | eleito em 2026 | 85 | 23 | -0,02 | -0,15 | 0,10 | 0,70 | 0,70 |
-| V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025 | log(votos 2026 / votos 2022) | 84 | 23 | 0,10 | -0,28 | 0,47 | 0,61 | 0,61 |
+| V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025 | eleito em 2026 | 87 | 24 | -0,05 | -0,20 | 0,09 | 0,48 | 0,48 |
+| V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025 | log(votos 2026 / votos 2022) | 86 | 24 | 0,08 | -0,28 | 0,45 | 0,65 | 0,65 |
 | V4 Emendas do Senado ao PLP 177/2023 (numero de deputados), 25/06/2025 | eleito em 2026 | 55 | 15 | 0,20 | -0,04 | 0,44 | 0,09 | 0,19 |
 | V4 Emendas do Senado ao PLP 177/2023 (numero de deputados), 25/06/2025 | log(votos 2026 / votos 2022) | 55 | 15 | 0,18 | -0,13 | 0,50 | 0,25 | 0,50 |
-| P placebo: 'Mantido o texto', 16/12/2025 (423 x 23) | eleito em 2026 | 13 | 5 |  |  |  |  |  |
-| P placebo: 'Mantido o texto', 16/12/2025 (423 x 23) | log(votos 2026 / votos 2022) | 13 | 5 |  |  |  |  |  |
+| P placebo: 'Mantido o texto', 16/12/2025 (423 x 23) | eleito em 2026 | 17 | 7 |  |  |  |  |  |
+| P placebo: 'Mantido o texto', 16/12/2025 (423 x 23) | log(votos 2026 / votos 2022) | 17 | 7 |  |  |  |  |  |
 
 Descrição das votações:
 
 | votacao | votaram_sim_nao | sim | nao | disputaram_dep_federal_2026 | pct_eleitos_entre_os_que_disputaram_sim | pct_eleitos_entre_os_que_disputaram_nao |
 |---|---|---|---|---|---|---|
-| V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025 | 487 | 353 | 134 | 398 | 67,8 | 67,0 |
-| V4 Emendas do Senado ao PLP 177/2023 (numero de deputados), 25/06/2025 | 397 | 361 | 36 | 324 | 68,3 | 71,0 |
-| P placebo: 'Mantido o texto', 16/12/2025 (423 x 23) | 446 | 423 | 23 | 367 | 68,3 | 47,1 |
+| V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025 | 487 | 353 | 134 | 407 | 68,2 | 67,0 |
+| V4 Emendas do Senado ao PLP 177/2023 (numero de deputados), 25/06/2025 | 397 | 361 | 36 | 331 | 68,7 | 71,0 |
+| P placebo: 'Mantido o texto', 16/12/2025 (423 x 23) | 446 | 423 | 23 | 374 | 68,6 | 47,1 |
 
 A leitura da IA arena por arena e o veredito, marcados como opinião: [`docs/LEITURA_DA_IA.md`](docs/LEITURA_DA_IA.md).
 

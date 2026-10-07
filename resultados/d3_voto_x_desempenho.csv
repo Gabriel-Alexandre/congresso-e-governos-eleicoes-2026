@@ -1,7 +1,7 @@
 votacao,desfecho,n,grupos,coef_sim,ic95_baixo,ic95_alto,p,p_bh_v1_v4
-"V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025",eleito em 2026,85,23,-0.0242,-0.1493,0.1008,0.7042,0.7042
-"V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025",log(votos 2026 / votos 2022),84,23,0.0979,-0.2789,0.4748,0.6105,0.6105
+"V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025",eleito em 2026,87,24,-0.052,-0.1962,0.0922,0.4797,0.4797
+"V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025",log(votos 2026 / votos 2022),86,24,0.0841,-0.2841,0.4523,0.6545,0.6545
 "V4 Emendas do Senado ao PLP 177/2023 (numero de deputados), 25/06/2025",eleito em 2026,55,15,0.2025,-0.0351,0.4401,0.0949,0.1898
 "V4 Emendas do Senado ao PLP 177/2023 (numero de deputados), 25/06/2025",log(votos 2026 / votos 2022),55,15,0.1842,-0.13,0.4983,0.2505,0.501
-"P placebo: 'Mantido o texto', 16/12/2025 (423 x 23)",eleito em 2026,13,5,,,,,
-"P placebo: 'Mantido o texto', 16/12/2025 (423 x 23)",log(votos 2026 / votos 2022),13,5,,,,,
+"P placebo: 'Mantido o texto', 16/12/2025 (423 x 23)",eleito em 2026,17,7,,,,,
+"P placebo: 'Mantido o texto', 16/12/2025 (423 x 23)",log(votos 2026 / votos 2022),17,7,,,,,

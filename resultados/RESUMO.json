@@ -467,8 +467,8 @@
    "MDB": {
     "entrante (nao estava na vespera nem foi eleito em 2022)": 12,
     "ex-titular de 2022, mesmo partido": 0,
-    "ex-titular de 2022, veio de outro partido": 2,
-    "reeleito, mesmo partido da vespera": 22
+    "ex-titular de 2022, veio de outro partido": 0,
+    "reeleito, mesmo partido da vespera": 24
    },
    "PL": {
     "entrante (nao estava na vespera nem foi eleito em 2022)": 58,
@@ -501,23 +501,23 @@
     "reeleito, mesmo partido da vespera": 41
    },
    "REPUBLICANOS": {
-    "entrante (nao estava na vespera nem foi eleito em 2022)": 16,
-    "ex-titular de 2022, mesmo partido": 1,
+    "entrante (nao estava na vespera nem foi eleito em 2022)": 15,
+    "ex-titular de 2022, mesmo partido": 2,
     "ex-titular de 2022, veio de outro partido": 1,
     "reeleito, mesmo partido da vespera": 23
    },
    "UNIAO": {
-    "entrante (nao estava na vespera nem foi eleito em 2022)": 18,
+    "entrante (nao estava na vespera nem foi eleito em 2022)": 17,
     "ex-titular de 2022, mesmo partido": 0,
     "ex-titular de 2022, veio de outro partido": 0,
-    "reeleito, mesmo partido da vespera": 28
+    "reeleito, mesmo partido da vespera": 29
    }
   },
   "origem_cadeiras_2026_total": {
-   "entrante (nao estava na vespera nem foi eleito em 2022)": 214,
+   "entrante (nao estava na vespera nem foi eleito em 2022)": 210,
    "ex-titular de 2022, mesmo partido": 4,
-   "ex-titular de 2022, veio de outro partido": 5,
-   "reeleito, mesmo partido da vespera": 290
+   "ex-titular de 2022, veio de outro partido": 3,
+   "reeleito, mesmo partido da vespera": 296
   },
   "pesos_fusoes": {
    "DEM": 29,
@@ -543,10 +543,10 @@
    }
   },
   "r2_coorte_2022": {
-   "governista": 328,
-   "independente": 58,
-   "oposicao": 102,
-   "sem classificacao": 25
+   "governista": 335,
+   "independente": 60,
+   "oposicao": 104,
+   "sem classificacao": 14
   },
   "r2_coorte_2026": {
    "governista": 355,
@@ -611,10 +611,10 @@
    {
     "coorte": 2022,
     "cortes_governista_oposicao": "0.7/0.4",
-    "governista": 329,
-    "independente": 57,
-    "oposicao": 102,
-    "sem classificacao": 25
+    "governista": 336,
+    "independente": 59,
+    "oposicao": 104,
+    "sem classificacao": 14
    },
    {
     "coorte": 2026,
@@ -627,10 +627,10 @@
    {
     "coorte": 2022,
     "cortes_governista_oposicao": "0.65/0.45",
-    "governista": 338,
-    "independente": 43,
-    "oposicao": 107,
-    "sem classificacao": 25
+    "governista": 346,
+    "independente": 44,
+    "oposicao": 109,
+    "sem classificacao": 14
    },
    {
     "coorte": 2026,
@@ -833,20 +833,20 @@
   ]
  },
  "a4": {
-  "mediana_razao_votos_reeleitos_2026_sobre_2022": 1.099,
-  "pct_eleitos_que_nao_estavam_em_exercicio": 43.47,
-  "pct_reeleitos_com_queda_de_votos": 37.85,
+  "mediana_razao_votos_reeleitos_2026_sobre_2022": 1.105,
+  "pct_eleitos_que_nao_estavam_em_exercicio": 42.3,
+  "pct_reeleitos_com_queda_de_votos": 37.29,
   "trinta_mais_votados_2018": {
    "resultado_em_2022": {
-    "eleito": 19,
-    "nao disputou deputado federal": 8,
+    "eleito": 20,
+    "nao disputou deputado federal": 7,
     "nao eleito": 3
    }
   },
   "trinta_mais_votados_2022": {
    "resultado_em_2026": {
-    "eleito": 15,
-    "nao disputou deputado federal": 14,
+    "eleito": 16,
+    "nao disputou deputado federal": 13,
     "nao eleito": 1
    }
   }
@@ -1797,9 +1797,9 @@
   "sp_duas_fontes_iguais": true
  },
  "c2": {
-  "erro_medio_abs_margem_pp": 7.18,
-  "erro_medio_abs_vencedor_pp": 4.25,
-  "erro_medio_com_sinal_vencedor_pp": -3.24,
+  "erro_medio_abs_margem_pp": 7.14,
+  "erro_medio_abs_vencedor_pp": 4.07,
+  "erro_medio_com_sinal_vencedor_pp": -3.05,
   "fora_da_margem": {
    "diferenca": 21,
    "margem_usada_quando_plano_sem_numero_pp": 2.0,
@@ -1810,22 +1810,11 @@
    {
     "alinh_1": "Flavio",
     "alinh_2": "outro_ou_sem_info",
-    "erro_vencedor_pp": -12.88,
+    "erro_vencedor_pp": -11.27,
     "instituto": "Datafolha",
     "partido_1": "PL",
     "pct_poll_1": 38,
-    "pct_urna_1": 50.88,
-    "uf": "RJ",
-    "vencedor_urna": "DOUGLAS RUAS"
-   },
-   {
-    "alinh_1": "Flavio",
-    "alinh_2": "outro_ou_sem_info",
-    "erro_vencedor_pp": -10.88,
-    "instituto": "Quaest",
-    "partido_1": "PL",
-    "pct_poll_1": 40,
-    "pct_urna_1": 50.88,
+    "pct_urna_1": 49.27,
     "uf": "RJ",
     "vencedor_urna": "DOUGLAS RUAS"
    },
@@ -1841,6 +1830,17 @@
     "vencedor_urna": "DR. FURLAN"
    },
    {
+    "alinh_1": "Flavio",
+    "alinh_2": "outro_ou_sem_info",
+    "erro_vencedor_pp": -9.27,
+    "instituto": "Quaest",
+    "partido_1": "PL",
+    "pct_poll_1": 40,
+    "pct_urna_1": 49.27,
+    "uf": "RJ",
+    "vencedor_urna": "DOUGLAS RUAS"
+   },
+   {
     "alinh_1": "outro_ou_sem_info",
     "alinh_2": "outro_ou_sem_info",
     "erro_vencedor_pp": -8.76,
@@ -1854,11 +1854,11 @@
    {
     "alinh_1": "Flavio",
     "alinh_2": "outro_ou_sem_info",
-    "erro_vencedor_pp": -7.11,
+    "erro_vencedor_pp": -7.1,
     "instituto": "Quaest",
     "partido_1": "PL",
     "pct_poll_1": 43,
-    "pct_urna_1": 50.11,
+    "pct_urna_1": 50.1,
     "uf": "PR",
     "vencedor_urna": "SERGIO MORO"
    },
@@ -1874,43 +1874,43 @@
     "vencedor_urna": "OTAVIANO PIVETTA"
    },
    {
-    "alinh_1": "Lula",
-    "alinh_2": "outro_ou_sem_info",
-    "erro_vencedor_pp": -6.12,
-    "instituto": "Quaest",
-    "partido_1": "PSD",
-    "pct_poll_1": 55,
-    "pct_urna_1": 61.12,
-    "uf": "SE",
-    "vencedor_urna": "FÁBIO"
-   },
-   {
     "alinh_1": "Flavio",
     "alinh_2": "Lula",
-    "erro_vencedor_pp": -6.07,
+    "erro_vencedor_pp": -6.05,
     "instituto": "Quaest",
     "partido_1": "PL",
     "pct_poll_1": 52,
-    "pct_urna_1": 58.07,
+    "pct_urna_1": 58.05,
     "uf": "RS",
     "vencedor_urna": "ZUCCO"
+   },
+   {
+    "alinh_1": "Flavio",
+    "alinh_2": "outro_ou_sem_info",
+    "erro_vencedor_pp": 5.64,
+    "instituto": "Quaest",
+    "partido_1": "PODE",
+    "pct_poll_1": 57,
+    "pct_urna_1": 51.36,
+    "uf": "PA",
+    "vencedor_urna": "DR. DANIEL"
    }
   ],
   "pesquisas_analisadas": 32,
   "pesquisas_fora_da_analise": [],
   "por_instituto": [
    {
-    "erro_margem_abs": 7.22,
-    "erro_vencedor_abs": 5.22,
-    "erro_vencedor_medio_com_sinal": -3.54,
+    "erro_margem_abs": 7.17,
+    "erro_vencedor_abs": 4.93,
+    "erro_vencedor_medio_com_sinal": -3.24,
     "instituto": "Datafolha",
     "n": 6,
     "vencedor_certo": 5
    },
    {
-    "erro_margem_abs": 7.18,
-    "erro_vencedor_abs": 4.03,
-    "erro_vencedor_medio_com_sinal": -3.17,
+    "erro_margem_abs": 7.13,
+    "erro_vencedor_abs": 3.87,
+    "erro_vencedor_medio_com_sinal": -3.0,
     "instituto": "Quaest",
     "n": 26,
     "vencedor_certo": 24
@@ -1931,18 +1931,18 @@
   "exploratoria_flavio_contra_qualquer_outro": {
    "disputas": 13,
    "disputas_em_que_subestimou": 6,
-   "media_pp": 2.34,
+   "media_pp": 2.32,
    "mediana_pp": -0.21,
    "p_binomial_bicaudal": 1.0,
    "por_instituto": [
     {
      "instituto": "Datafolha",
-     "mean": 4.34,
+     "mean": 4.27,
      "size": 3
     },
     {
      "instituto": "Quaest",
-     "mean": 2.45,
+     "mean": 2.44,
      "size": 13
     }
    ]
@@ -1951,20 +1951,20 @@
    "com_margem_menor_que_a_urna": 23,
    "disputas": 27,
    "disputas_com_maioria_das_pesquisas_apertadas_demais": 20,
-   "erro_margem_medio_com_sinal_pp": -4.12,
+   "erro_margem_medio_com_sinal_pp": -4.07,
    "p_binomial_bicaudal_disputas": 0.0192,
    "pesquisas": 32
   },
   "r1_direita": {
    "disputas": 7,
    "disputas_em_que_subestimou": 2,
-   "media_pp": -1.63,
+   "media_pp": -1.61,
    "mediana_pp": -2.44,
    "p_binomial_bicaudal": 0.4531,
    "por_instituto": [
     {
      "instituto": "Datafolha",
-     "mean": -4.68,
+     "mean": -4.65,
      "size": 4
     },
     {
@@ -2002,28 +2002,28 @@
   "deputados_na_base_plenario": 643,
   "descricao": [
    {
-    "disputaram_dep_federal_2026": 398,
+    "disputaram_dep_federal_2026": 407,
     "nao": 134,
     "pct_eleitos_entre_os_que_disputaram_nao": 67.0,
-    "pct_eleitos_entre_os_que_disputaram_sim": 67.8,
+    "pct_eleitos_entre_os_que_disputaram_sim": 68.2,
     "sim": 353,
     "votacao": "V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025",
     "votaram_sim_nao": 487
    },
    {
-    "disputaram_dep_federal_2026": 324,
+    "disputaram_dep_federal_2026": 331,
     "nao": 36,
     "pct_eleitos_entre_os_que_disputaram_nao": 71.0,
-    "pct_eleitos_entre_os_que_disputaram_sim": 68.3,
+    "pct_eleitos_entre_os_que_disputaram_sim": 68.7,
     "sim": 361,
     "votacao": "V4 Emendas do Senado ao PLP 177/2023 (numero de deputados), 25/06/2025",
     "votaram_sim_nao": 397
    },
    {
-    "disputaram_dep_federal_2026": 367,
+    "disputaram_dep_federal_2026": 374,
     "nao": 23,
     "pct_eleitos_entre_os_que_disputaram_nao": 47.1,
-    "pct_eleitos_entre_os_que_disputaram_sim": 68.3,
+    "pct_eleitos_entre_os_que_disputaram_sim": 68.6,
     "sim": 423,
     "votacao": "P placebo: 'Mantido o texto', 16/12/2025 (423 x 23)",
     "votaram_sim_nao": 446
@@ -2031,25 +2031,25 @@
   ],
   "modelos": [
    {
-    "coef_sim": -0.0242,
+    "coef_sim": -0.052,
     "desfecho": "eleito em 2026",
-    "grupos": 23,
-    "ic95_alto": 0.1008,
-    "ic95_baixo": -0.1493,
-    "n": 85,
-    "p": 0.7042,
-    "p_bh_v1_v4": 0.7042,
+    "grupos": 24,
+    "ic95_alto": 0.0922,
+    "ic95_baixo": -0.1962,
+    "n": 87,
+    "p": 0.4797,
+    "p_bh_v1_v4": 0.4797,
     "votacao": "V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025"
    },
    {
-    "coef_sim": 0.0979,
+    "coef_sim": 0.0841,
     "desfecho": "log(votos 2026 / votos 2022)",
-    "grupos": 23,
-    "ic95_alto": 0.4748,
-    "ic95_baixo": -0.2789,
-    "n": 84,
-    "p": 0.6105,
-    "p_bh_v1_v4": 0.6105,
+    "grupos": 24,
+    "ic95_alto": 0.4523,
+    "ic95_baixo": -0.2841,
+    "n": 86,
+    "p": 0.6545,
+    "p_bh_v1_v4": 0.6545,
     "votacao": "V1 PEC 3/2021 (blindagem), 1o turno, 16/09/2025"
    },
    {
@@ -2077,10 +2077,10 @@
    {
     "coef_sim": null,
     "desfecho": "eleito em 2026",
-    "grupos": 5,
+    "grupos": 7,
     "ic95_alto": null,
     "ic95_baixo": null,
-    "n": 13,
+    "n": 17,
     "p": null,
     "p_bh_v1_v4": null,
     "votacao": "P placebo: 'Mantido o texto', 16/12/2025 (423 x 23)"
@@ -2088,10 +2088,10 @@
    {
     "coef_sim": null,
     "desfecho": "log(votos 2026 / votos 2022)",
-    "grupos": 5,
+    "grupos": 7,
     "ic95_alto": null,
     "ic95_baixo": null,
-    "n": 13,
+    "n": 17,
     "p": null,
     "p_bh_v1_v4": null,
     "votacao": "P placebo: 'Mantido o texto', 16/12/2025 (423 x 23)"
@@ -2121,11 +2121,11 @@
     "de": 2018,
     "eleitos_na_eleicao_anterior": 513,
     "para": 2022,
-    "pct_reeleito_entre_os_que_tentaram": 67.73,
-    "pct_reeleito_entre_todos": 54.0,
-    "pct_tentou": 79.73,
-    "reeleitos": 277,
-    "tentaram_de_novo": 409
+    "pct_reeleito_entre_os_que_tentaram": 67.7,
+    "pct_reeleito_entre_todos": 55.56,
+    "pct_tentou": 82.07,
+    "reeleitos": 285,
+    "tentaram_de_novo": 421
    },
    {
     "campo_r1_na_eleicao_anterior": "centro",
@@ -2143,33 +2143,33 @@
     "de": 2018,
     "eleitos_na_eleicao_anterior": 365,
     "para": 2022,
-    "pct_reeleito_entre_os_que_tentaram": 67.48,
-    "pct_reeleito_entre_todos": 52.88,
-    "pct_tentou": 78.36,
-    "reeleitos": 193,
-    "tentaram_de_novo": 286
+    "pct_reeleito_entre_os_que_tentaram": 67.57,
+    "pct_reeleito_entre_todos": 54.79,
+    "pct_tentou": 81.1,
+    "reeleitos": 200,
+    "tentaram_de_novo": 296
    },
    {
     "campo_r1_na_eleicao_anterior": "esquerda",
     "de": 2018,
     "eleitos_na_eleicao_anterior": 103,
     "para": 2022,
-    "pct_reeleito_entre_os_que_tentaram": 78.16,
-    "pct_reeleito_entre_todos": 66.02,
-    "pct_tentou": 84.47,
-    "reeleitos": 68,
-    "tentaram_de_novo": 87
+    "pct_reeleito_entre_os_que_tentaram": 77.53,
+    "pct_reeleito_entre_todos": 66.99,
+    "pct_tentou": 86.41,
+    "reeleitos": 69,
+    "tentaram_de_novo": 89
    },
    {
     "campo_r1_na_eleicao_anterior": "todos",
     "de": 2022,
     "eleitos_na_eleicao_anterior": 513,
     "para": 2026,
-    "pct_reeleito_entre_os_que_tentaram": 71.82,
-    "pct_reeleito_entre_todos": 56.14,
-    "pct_tentou": 78.17,
-    "reeleitos": 288,
-    "tentaram_de_novo": 401
+    "pct_reeleito_entre_os_que_tentaram": 72.3,
+    "pct_reeleito_entre_todos": 57.5,
+    "pct_tentou": 79.53,
+    "reeleitos": 295,
+    "tentaram_de_novo": 408
    },
    {
     "campo_r1_na_eleicao_anterior": "centro",
@@ -2187,22 +2187,22 @@
     "de": 2022,
     "eleitos_na_eleicao_anterior": 380,
     "para": 2026,
-    "pct_reeleito_entre_os_que_tentaram": 72.79,
-    "pct_reeleito_entre_todos": 56.32,
-    "pct_tentou": 77.37,
-    "reeleitos": 214,
-    "tentaram_de_novo": 294
+    "pct_reeleito_entre_os_que_tentaram": 73.15,
+    "pct_reeleito_entre_todos": 57.37,
+    "pct_tentou": 78.42,
+    "reeleitos": 218,
+    "tentaram_de_novo": 298
    },
    {
     "campo_r1_na_eleicao_anterior": "esquerda",
     "de": 2022,
     "eleitos_na_eleicao_anterior": 105,
     "para": 2026,
-    "pct_reeleito_entre_os_que_tentaram": 71.76,
-    "pct_reeleito_entre_todos": 58.1,
-    "pct_tentou": 80.95,
-    "reeleitos": 61,
-    "tentaram_de_novo": 85
+    "pct_reeleito_entre_os_que_tentaram": 72.73,
+    "pct_reeleito_entre_todos": 60.95,
+    "pct_tentou": 83.81,
+    "reeleitos": 64,
+    "tentaram_de_novo": 88
    }
   ],
   "reeleicao_senadores": [

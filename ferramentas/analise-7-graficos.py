@@ -191,7 +191,7 @@ def g09_perfil():
 
 def g10_pesquisas():
     t = pd.read_csv(RES / "c2_erro_por_pesquisa.csv").sort_values("erro_vencedor_pp")
-    fig, ax = novo("Pesquisas: o vencedor teve mais voto do que a pesquisa mostrou", "Erro no % do vencedor (pesquisa menos urna), pontos, 32 pesquisas de Datafolha e Quaest da véspera")
+    fig, ax = novo("Pesquisas: o primeiro colocado teve mais voto do que a pesquisa mostrou", "Erro no % do primeiro colocado (pesquisa menos urna, % oficial do TSE), pontos, 32 pesquisas de Datafolha e Quaest da véspera")
     cores = ["#1F4E9C" if i == "Quaest" else "#C0392B" for i in t.instituto]
     ax.barh([f"{u} {i[:1]}" for u, i in zip(t.uf, t.instituto)], t.erro_vencedor_pp, color=cores)
     ax.axvline(0, color="#333")
@@ -217,7 +217,7 @@ def g11_reeleicao():
 
 def g12_arrasto():
     t = pd.DataFrame(R["b4"]["arrasto"])
-    fig, ax = novo("Correlação entre o voto no candidato do PL e o de direita nos outros cargos", "Correlação entre municípios (não é causa), média por UF ponderada pelo eleitorado")
+    fig, ax = novo("Voto em Bolsonaro para presidente × voto de direita nos outros cargos", "Correlação entre municípios (não é causa), média por UF ponderada pelo eleitorado")
     cargos = ["deputado federal", "governador", "senador"]
     w = 0.26
     for j, a in enumerate((2018, 2022, 2026)):
@@ -228,7 +228,7 @@ def g12_arrasto():
             if not np.isnan(y):
                 ax.text(x, y + 0.01, f"{y:.2f}", ha="center", fontsize=20, fontweight="bold")
     ax.set_xticks(range(3)); ax.set_xticklabels(cargos); ax.legend(frameon=False, fontsize=20)
-    fecha(fig, "12_arrasto_presidenciavel", "Fonte: TSE. Presidente entra só como variável de controle (candidato do PL/PSL). Senado 2022 não entra (1 vaga por UF).")
+    fecha(fig, "12_arrasto_presidenciavel", "Fonte: TSE. Presidente: Jair Bolsonaro (PSL) em 2018 e (PL) em 2022, Flávio Bolsonaro (PL) em 2026. Senado 2022 não entra (1 vaga por UF).")
 
 
 def g13_abstencao():

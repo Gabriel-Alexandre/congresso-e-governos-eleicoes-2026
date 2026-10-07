@@ -1,0 +1,417 @@
+{
+ "2022": [
+  {
+   "uf": "AC",
+   "situacao": "eleito no 1o turno",
+   "governador": "GLADSON CAMELI",
+   "partido": "PP",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "AL",
+   "situacao": "eleito no 2o turno",
+   "governador": "PAULO DANTAS",
+   "partido": "MDB",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "AM",
+   "situacao": "eleito no 2o turno",
+   "governador": "WILSON LIMA",
+   "partido": "UNIÃO",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "AP",
+   "situacao": "eleito no 1o turno",
+   "governador": "CLÉCIO",
+   "partido": "SOLIDARIEDADE",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "BA",
+   "situacao": "eleito no 2o turno",
+   "governador": "JERÔNIMO",
+   "partido": "PT",
+   "campo": "esquerda",
+   "cor": "#D32F2F"
+  },
+  {
+   "uf": "CE",
+   "situacao": "eleito no 1o turno",
+   "governador": "ELMANO DE FREITAS",
+   "partido": "PT",
+   "campo": "esquerda",
+   "cor": "#D32F2F"
+  },
+  {
+   "uf": "DF",
+   "situacao": "eleito no 1o turno",
+   "governador": "IBANEIS ROCHA",
+   "partido": "MDB",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "ES",
+   "situacao": "eleito no 2o turno",
+   "governador": "RENATO CASAGRANDE",
+   "partido": "PSB",
+   "campo": "centro",
+   "cor": "#9E9E9E"
+  },
+  {
+   "uf": "GO",
+   "situacao": "eleito no 1o turno",
+   "governador": "RONALDO CAIADO",
+   "partido": "UNIÃO",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "MA",
+   "situacao": "eleito no 1o turno",
+   "governador": "CARLOS BRANDÃO",
+   "partido": "PSB",
+   "campo": "centro",
+   "cor": "#9E9E9E"
+  },
+  {
+   "uf": "MG",
+   "situacao": "eleito no 1o turno",
+   "governador": "ZEMA",
+   "partido": "NOVO",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "MS",
+   "situacao": "eleito no 2o turno",
+   "governador": "EDUARDO RIEDEL",
+   "partido": "PSDB",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "MT",
+   "situacao": "eleito no 1o turno",
+   "governador": "MAURO MENDES",
+   "partido": "UNIÃO",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "PA",
+   "situacao": "eleito no 1o turno",
+   "governador": "HELDER",
+   "partido": "MDB",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "PB",
+   "situacao": "eleito no 2o turno",
+   "governador": "JOÃO",
+   "partido": "PSB",
+   "campo": "centro",
+   "cor": "#9E9E9E"
+  },
+  {
+   "uf": "PE",
+   "situacao": "eleito no 2o turno",
+   "governador": "RAQUEL LYRA",
+   "partido": "PSDB",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "PI",
+   "situacao": "eleito no 1o turno",
+   "governador": "RAFAEL FONTELES",
+   "partido": "PT",
+   "campo": "esquerda",
+   "cor": "#D32F2F"
+  },
+  {
+   "uf": "PR",
+   "situacao": "eleito no 1o turno",
+   "governador": "CARLOS MASSA RATINHO JUNIOR",
+   "partido": "PSD",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "RJ",
+   "situacao": "eleito no 1o turno",
+   "governador": "CLÁUDIO CASTRO",
+   "partido": "PL",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "uf": "RN",
+   "situacao": "eleito no 1o turno",
+   "governador": "FATIMA BEZERRA",
+   "partido": "PT",
+   "campo": "esquerda",
+   "cor": "#D32F2F"
+  },
+  {
+   "uf": "RO",
+   "situacao": "eleito no 2o turno",
+   "governador": "CORONEL MARCOS ROCHA",
+   "partido": "UNIÃO",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "RR",
+   "situacao": "eleito no 1o turno",
+   "governador": "ANTONIO DENARIUM",
+   "partido": "PP",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "RS",
+   "situacao": "eleito no 2o turno",
+   "governador": "EDUARDO LEITE",
+   "partido": "PSDB",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "SC",
+   "situacao": "eleito no 2o turno",
+   "governador": "JORGINHO MELLO",
+   "partido": "PL",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "uf": "SE",
+   "situacao": "eleito no 2o turno",
+   "governador": "FÁBIO",
+   "partido": "PSD",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "SP",
+   "situacao": "eleito no 2o turno",
+   "governador": "TARCÍSIO",
+   "partido": "REPUBLICANOS",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "TO",
+   "situacao": "eleito no 1o turno",
+   "governador": "WANDERLEI BARBOSA",
+   "partido": "REPUBLICANOS",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  }
+ ],
+ "2026": [
+  {
+   "uf": "AC",
+   "situacao": "2o turno",
+   "finalistas": "ALAN RICK (REPUBLICANOS) x MAILZA ASSIS (PP)"
+  },
+  {
+   "uf": "AL",
+   "situacao": "eleito no 1o turno",
+   "governador": "JHC",
+   "partido": "PSDB",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "AM",
+   "situacao": "2o turno",
+   "finalistas": "OMAR AZIZ (PSD) x PROFESSORA MARIA DO CARMO (PL)"
+  },
+  {
+   "uf": "AP",
+   "situacao": "eleito no 1o turno",
+   "governador": "DR. FURLAN",
+   "partido": "PSD",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "BA",
+   "situacao": "eleito no 1o turno",
+   "governador": "JERÔNIMO RODRIGUES",
+   "partido": "PT",
+   "campo": "esquerda",
+   "cor": "#D32F2F"
+  },
+  {
+   "uf": "CE",
+   "situacao": "eleito no 1o turno",
+   "governador": "ELMANO DE FREITAS",
+   "partido": "PT",
+   "campo": "esquerda",
+   "cor": "#D32F2F"
+  },
+  {
+   "uf": "DF",
+   "situacao": "2o turno",
+   "finalistas": "LEANDRO GRASS (PT) x CELINA LEÃO (PP)"
+  },
+  {
+   "uf": "ES",
+   "situacao": "2o turno",
+   "finalistas": "RICARDO FERRAÇO (MDB) x LORENZO PAZOLINI (REPUBLICANOS)"
+  },
+  {
+   "uf": "GO",
+   "situacao": "eleito no 1o turno",
+   "governador": "DANIEL VILELA",
+   "partido": "MDB",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "MA",
+   "situacao": "eleito no 1o turno",
+   "governador": "EDUARDO BRAIDE",
+   "partido": "PSD",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "MG",
+   "situacao": "eleito no 1o turno",
+   "governador": "CLEITINHO AZEVEDO",
+   "partido": "REPUBLICANOS",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "MS",
+   "situacao": "eleito no 1o turno",
+   "governador": "EDUARDO RIEDEL",
+   "partido": "PP",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "MT",
+   "situacao": "eleito no 1o turno",
+   "governador": "OTAVIANO PIVETTA",
+   "partido": "REPUBLICANOS",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "PA",
+   "situacao": "eleito no 1o turno",
+   "governador": "DR. DANIEL",
+   "partido": "PODE",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "PB",
+   "situacao": "eleito no 1o turno",
+   "governador": "LUCAS RIBEIRO",
+   "partido": "PP",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "PE",
+   "situacao": "eleito no 1o turno",
+   "governador": "RAQUEL LYRA",
+   "partido": "PSD",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "PI",
+   "situacao": "eleito no 1o turno",
+   "governador": "RAFAEL FONTELES",
+   "partido": "PT",
+   "campo": "esquerda",
+   "cor": "#D32F2F"
+  },
+  {
+   "uf": "PR",
+   "situacao": "eleito no 1o turno",
+   "governador": "SERGIO MORO",
+   "partido": "PL",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "uf": "RJ",
+   "situacao": "2o turno",
+   "finalistas": "DOUGLAS RUAS (PL) x EDUARDO PAES (PSD)"
+  },
+  {
+   "uf": "RN",
+   "situacao": "2o turno",
+   "finalistas": "CADU DE LULA (PT) x ALLYSON (UNIÃO)"
+  },
+  {
+   "uf": "RO",
+   "situacao": "eleito no 1o turno",
+   "governador": "MARCOS ROGÉRIO",
+   "partido": "PL",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "uf": "RR",
+   "situacao": "eleito no 1o turno",
+   "governador": "ARTHUR HENRIQUE",
+   "partido": "PL",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "uf": "RS",
+   "situacao": "eleito no 1o turno",
+   "governador": "ZUCCO",
+   "partido": "PL",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "uf": "SC",
+   "situacao": "eleito no 1o turno",
+   "governador": "JORGINHO MELLO",
+   "partido": "PL",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "uf": "SE",
+   "situacao": "eleito no 1o turno",
+   "governador": "FÁBIO",
+   "partido": "PSD",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "SP",
+   "situacao": "eleito no 1o turno",
+   "governador": "TARCÍSIO",
+   "partido": "REPUBLICANOS",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "uf": "TO",
+   "situacao": "2o turno",
+   "finalistas": "VICENTINHO JÚNIOR (PSDB) x PROFESSORA DORINHA (UNIÃO)"
+  }
+ ]
+}

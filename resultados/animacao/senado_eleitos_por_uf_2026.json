@@ -1,0 +1,326 @@
+{
+ "AC": [
+  {
+   "nome": "MARA ROCHA",
+   "partido": "REPUBLICANOS",
+   "campo": "direita"
+  },
+  {
+   "nome": "MARCIO BITTAR",
+   "partido": "PL",
+   "campo": "direita"
+  }
+ ],
+ "AL": [
+  {
+   "nome": "ARTHUR LIRA",
+   "partido": "PP",
+   "campo": "direita"
+  },
+  {
+   "nome": "MARINA JHC",
+   "partido": "PSDB",
+   "campo": "direita"
+  }
+ ],
+ "AM": [
+  {
+   "nome": "EDUARDO BRAGA",
+   "partido": "MDB",
+   "campo": "direita"
+  },
+  {
+   "nome": "PLINIO VALÉRIO",
+   "partido": "PSDB",
+   "campo": "direita"
+  }
+ ],
+ "AP": [
+  {
+   "nome": "LUCAS BARRETO",
+   "partido": "PSD",
+   "campo": "direita"
+  },
+  {
+   "nome": "RAYSSA FURLAN",
+   "partido": "PODE",
+   "campo": "direita"
+  }
+ ],
+ "BA": [
+  {
+   "nome": "JAQUES WAGNER",
+   "partido": "PT",
+   "campo": "esquerda"
+  },
+  {
+   "nome": "RUI COSTA",
+   "partido": "PT",
+   "campo": "esquerda"
+  }
+ ],
+ "CE": [
+  {
+   "nome": "LUIZIANNE",
+   "partido": "REDE",
+   "campo": "centro"
+  },
+  {
+   "nome": "CID GOMES",
+   "partido": "PSB",
+   "campo": "centro"
+  }
+ ],
+ "DF": [
+  {
+   "nome": "BIA KICIS",
+   "partido": "PL",
+   "campo": "direita"
+  },
+  {
+   "nome": "MICHELLE BOLSONARO",
+   "partido": "PL",
+   "campo": "direita"
+  }
+ ],
+ "ES": [
+  {
+   "nome": "RENATO CASAGRANDE",
+   "partido": "PSB",
+   "campo": "centro"
+  },
+  {
+   "nome": "EVAIR DE MELO",
+   "partido": "REPUBLICANOS",
+   "campo": "direita"
+  }
+ ],
+ "GO": [
+  {
+   "nome": "GRACINHA CAIADO",
+   "partido": "UNIAO",
+   "campo": "direita"
+  },
+  {
+   "nome": "GUSTAVO GAYER",
+   "partido": "PL",
+   "campo": "direita"
+  }
+ ],
+ "MA": [
+  {
+   "nome": "FUFUCA",
+   "partido": "PP",
+   "campo": "direita"
+  },
+  {
+   "nome": "LAHESIO BONFIM",
+   "partido": "NOVO",
+   "campo": "direita"
+  }
+ ],
+ "MG": [
+  {
+   "nome": "MARÍLIA CAMPOS",
+   "partido": "PT",
+   "campo": "esquerda"
+  },
+  {
+   "nome": "DOMINGOS SÁVIO",
+   "partido": "PL",
+   "campo": "direita"
+  }
+ ],
+ "MS": [
+  {
+   "nome": "REINALDO AZAMBUJA",
+   "partido": "PL",
+   "campo": "direita"
+  },
+  {
+   "nome": "CAPITÃO CONTAR",
+   "partido": "PL",
+   "campo": "direita"
+  }
+ ],
+ "MT": [
+  {
+   "nome": "MAURO MENDES",
+   "partido": "UNIAO",
+   "campo": "direita"
+  },
+  {
+   "nome": "ZÉ MEDEIROS",
+   "partido": "PL",
+   "campo": "direita"
+  }
+ ],
+ "PA": [
+  {
+   "nome": "HELDER",
+   "partido": "MDB",
+   "campo": "direita"
+  },
+  {
+   "nome": "CHICÃO",
+   "partido": "UNIAO",
+   "campo": "direita"
+  }
+ ],
+ "PB": [
+  {
+   "nome": "VENEZIANO",
+   "partido": "MDB",
+   "campo": "direita"
+  },
+  {
+   "nome": "JOAO AZEVÊDO",
+   "partido": "PSB",
+   "campo": "centro"
+  }
+ ],
+ "PE": [
+  {
+   "nome": "MARÍLIA ARRAES",
+   "partido": "PDT",
+   "campo": "esquerda"
+  },
+  {
+   "nome": "HUMBERTO COSTA",
+   "partido": "PT",
+   "campo": "esquerda"
+  }
+ ],
+ "PI": [
+  {
+   "nome": "JÚLIO CÉSAR O JULIM DO LULA",
+   "partido": "PSD",
+   "campo": "direita"
+  },
+  {
+   "nome": "MARCELO CASTRO",
+   "partido": "MDB",
+   "campo": "direita"
+  }
+ ],
+ "PR": [
+  {
+   "nome": "FILIPE BARROS",
+   "partido": "PL",
+   "campo": "direita"
+  },
+  {
+   "nome": "DELTAN DALLAGNOL",
+   "partido": "NOVO",
+   "campo": "direita"
+  }
+ ],
+ "RJ": [
+  {
+   "nome": "CARLOS PORTINHO",
+   "partido": "PL",
+   "campo": "direita"
+  },
+  {
+   "nome": "CARLOS JORDY",
+   "partido": "PL",
+   "campo": "direita"
+  }
+ ],
+ "RN": [
+  {
+   "nome": "SAMANDA DE LULA",
+   "partido": "PT",
+   "campo": "esquerda"
+  },
+  {
+   "nome": "STYVENSON VALENTIM",
+   "partido": "PODE",
+   "campo": "direita"
+  }
+ ],
+ "RO": [
+  {
+   "nome": "BRUNO SCHEID",
+   "partido": "PL",
+   "campo": "direita"
+  },
+  {
+   "nome": "DR. FERNANDO MÁXIMO",
+   "partido": "PL",
+   "campo": "direita"
+  }
+ ],
+ "RR": [
+  {
+   "nome": "NICOLETTI",
+   "partido": "PL",
+   "campo": "direita"
+  },
+  {
+   "nome": "TERESA SURITA",
+   "partido": "MDB",
+   "campo": "direita"
+  }
+ ],
+ "RS": [
+  {
+   "nome": "SANDERSON",
+   "partido": "PL",
+   "campo": "direita"
+  },
+  {
+   "nome": "MARCEL VAN HATTEM",
+   "partido": "NOVO",
+   "campo": "direita"
+  }
+ ],
+ "SC": [
+  {
+   "nome": "CAROL DE TONI",
+   "partido": "PL",
+   "campo": "direita"
+  },
+  {
+   "nome": "CARLOS BOLSONARO",
+   "partido": "PL",
+   "campo": "direita"
+  }
+ ],
+ "SE": [
+  {
+   "nome": "DELEGADO ALESSANDRO",
+   "partido": "MDB",
+   "campo": "direita"
+  },
+  {
+   "nome": "ROGERIO CARVALHO",
+   "partido": "PT",
+   "campo": "esquerda"
+  }
+ ],
+ "SP": [
+  {
+   "nome": "ANDRÉ DO PRADO",
+   "partido": "PL",
+   "campo": "direita"
+  },
+  {
+   "nome": "GUILHERME DERRITE",
+   "partido": "PP",
+   "campo": "direita"
+  }
+ ],
+ "TO": [
+  {
+   "nome": "EDUARDO GOMES",
+   "partido": "PL",
+   "campo": "direita"
+  },
+  {
+   "nome": "ALEXANDRE GUIMARÃES",
+   "partido": "MDB",
+   "campo": "direita"
+  }
+ ]
+}

@@ -53,7 +53,7 @@ def main() -> None:
     p26 = pc[pc.ano == 2026].merge(ci[2026][["sq", "chave"]], on="sq").groupby("chave").agg(uf26=("uf", "first"), partido26=("partido", "first"), votos26=("votos", "sum"), eleito=("eleito", "max")).reset_index()
     p22 = pc[pc.ano == 2022].merge(ci[2022][["sq", "chave"]], on="sq").groupby("chave").agg(votos22=("votos", "sum")).reset_index()
     plen = pd.read_parquet(DER / "plenario_deputados.parquet")
-    plen["chave"] = plen["nomeCivil"].map(a2.nome_norm) + "|" + plen["dataNascimento"]
+    plen["chave"] = a2.chave_camara(plen["id"])
     plen = plen.drop_duplicates("chave")
     d3 = pd.read_parquet(DER / "votos_d3.parquet")
     # a votacao placebo nao esta em votos_d3 (selecionada depois): ler direto

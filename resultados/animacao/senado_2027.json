@@ -1,0 +1,658 @@
+{
+ "total": 81,
+ "limiares": {
+  "maioria_absoluta": 41,
+  "tres_quintos": 49,
+  "dois_tercos": 54
+ },
+ "assentos": [
+  {
+   "partido": "PT",
+   "uf": "BA",
+   "nome": "JAQUES WAGNER",
+   "origem": "eleito em 2026",
+   "campo": "esquerda",
+   "cor": "#B71C1C"
+  },
+  {
+   "partido": "PT",
+   "uf": "BA",
+   "nome": "RUI COSTA",
+   "origem": "eleito em 2026",
+   "campo": "esquerda",
+   "cor": "#B71C1C"
+  },
+  {
+   "partido": "PT",
+   "uf": "MG",
+   "nome": "MARÍLIA CAMPOS",
+   "origem": "eleito em 2026",
+   "campo": "esquerda",
+   "cor": "#B71C1C"
+  },
+  {
+   "partido": "PT",
+   "uf": "PE",
+   "nome": "HUMBERTO COSTA",
+   "origem": "eleito em 2026",
+   "campo": "esquerda",
+   "cor": "#B71C1C"
+  },
+  {
+   "partido": "PT",
+   "uf": "RN",
+   "nome": "SAMANDA DE LULA",
+   "origem": "eleito em 2026",
+   "campo": "esquerda",
+   "cor": "#B71C1C"
+  },
+  {
+   "partido": "PT",
+   "uf": "SE",
+   "nome": "ROGERIO CARVALHO",
+   "origem": "eleito em 2026",
+   "campo": "esquerda",
+   "cor": "#B71C1C"
+  },
+  {
+   "partido": "PT",
+   "uf": "PA",
+   "nome": "Beto Faro",
+   "origem": "mandato ate 2031",
+   "campo": "esquerda",
+   "cor": "#B71C1C"
+  },
+  {
+   "partido": "PT",
+   "uf": "CE",
+   "nome": "Camilo Santana",
+   "origem": "mandato ate 2031",
+   "campo": "esquerda",
+   "cor": "#B71C1C"
+  },
+  {
+   "partido": "PT",
+   "uf": "PE",
+   "nome": "Teresa Leitão",
+   "origem": "mandato ate 2031",
+   "campo": "esquerda",
+   "cor": "#B71C1C"
+  },
+  {
+   "partido": "PDT",
+   "uf": "PE",
+   "nome": "MARÍLIA ARRAES",
+   "origem": "eleito em 2026",
+   "campo": "esquerda",
+   "cor": "#D32F2F"
+  },
+  {
+   "partido": "PSB",
+   "uf": "CE",
+   "nome": "CID GOMES",
+   "origem": "eleito em 2026",
+   "campo": "centro",
+   "cor": "#616161"
+  },
+  {
+   "partido": "PSB",
+   "uf": "ES",
+   "nome": "RENATO CASAGRANDE",
+   "origem": "eleito em 2026",
+   "campo": "centro",
+   "cor": "#616161"
+  },
+  {
+   "partido": "PSB",
+   "uf": "PB",
+   "nome": "JOAO AZEVÊDO",
+   "origem": "eleito em 2026",
+   "campo": "centro",
+   "cor": "#616161"
+  },
+  {
+   "partido": "PSB",
+   "uf": "MA",
+   "nome": "Ana Paula Lobato",
+   "origem": "mandato ate 2031",
+   "campo": "centro",
+   "cor": "#616161"
+  },
+  {
+   "partido": "REDE",
+   "uf": "CE",
+   "nome": "LUIZIANNE",
+   "origem": "eleito em 2026",
+   "campo": "centro",
+   "cor": "#757575"
+  },
+  {
+   "partido": "MDB",
+   "uf": "AM",
+   "nome": "EDUARDO BRAGA",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "partido": "MDB",
+   "uf": "PA",
+   "nome": "HELDER",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "partido": "MDB",
+   "uf": "PB",
+   "nome": "VENEZIANO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "partido": "MDB",
+   "uf": "PI",
+   "nome": "MARCELO CASTRO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "partido": "MDB",
+   "uf": "RR",
+   "nome": "TERESA SURITA",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "partido": "MDB",
+   "uf": "SE",
+   "nome": "DELEGADO ALESSANDRO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "partido": "MDB",
+   "uf": "TO",
+   "nome": "ALEXANDRE GUIMARÃES",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "partido": "MDB",
+   "uf": "AL",
+   "nome": "Renan Filho",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#1E88E5"
+  },
+  {
+   "partido": "PSD",
+   "uf": "AP",
+   "nome": "LUCAS BARRETO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#64B5F6"
+  },
+  {
+   "partido": "PSD",
+   "uf": "PI",
+   "nome": "JÚLIO CÉSAR O JULIM DO LULA",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#64B5F6"
+  },
+  {
+   "partido": "PSD",
+   "uf": "PI",
+   "nome": "Jussara Lima",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#64B5F6"
+  },
+  {
+   "partido": "PSD",
+   "uf": "AM",
+   "nome": "Omar Aziz",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#64B5F6"
+  },
+  {
+   "partido": "PSD",
+   "uf": "BA",
+   "nome": "Otto Alencar",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#64B5F6"
+  },
+  {
+   "partido": "PSDB",
+   "uf": "AL",
+   "nome": "MARINA JHC",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0097A7"
+  },
+  {
+   "partido": "PSDB",
+   "uf": "AM",
+   "nome": "PLINIO VALÉRIO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0097A7"
+  },
+  {
+   "partido": "PODE",
+   "uf": "AP",
+   "nome": "RAYSSA FURLAN",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#4FC3F7"
+  },
+  {
+   "partido": "PODE",
+   "uf": "RN",
+   "nome": "STYVENSON VALENTIM",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#4FC3F7"
+  },
+  {
+   "partido": "PL",
+   "uf": "AC",
+   "nome": "MARCIO BITTAR",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "DF",
+   "nome": "BIA KICIS",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "DF",
+   "nome": "MICHELLE BOLSONARO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "GO",
+   "nome": "GUSTAVO GAYER",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "MG",
+   "nome": "DOMINGOS SÁVIO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "MS",
+   "nome": "REINALDO AZAMBUJA",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "MS",
+   "nome": "CAPITÃO CONTAR",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "MT",
+   "nome": "ZÉ MEDEIROS",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "PR",
+   "nome": "FILIPE BARROS",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "RJ",
+   "nome": "CARLOS PORTINHO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "RJ",
+   "nome": "CARLOS JORDY",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "RO",
+   "nome": "BRUNO SCHEID",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "RO",
+   "nome": "DR. FERNANDO MÁXIMO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "RR",
+   "nome": "NICOLETTI",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "RS",
+   "nome": "SANDERSON",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "SC",
+   "nome": "CAROL DE TONI",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "SC",
+   "nome": "CARLOS BOLSONARO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "SP",
+   "nome": "ANDRÉ DO PRADO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "TO",
+   "nome": "EDUARDO GOMES",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "SP",
+   "nome": "Astronauta Marcos Pontes",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "PB",
+   "nome": "Efraim Filho",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "RO",
+   "nome": "Jaime Bagattoli",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "SC",
+   "nome": "Jorge Seif",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "ES",
+   "nome": "Magno Malta",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "RN",
+   "nome": "Rogerio Marinho",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "PR",
+   "nome": "Sergio Moro",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "MT",
+   "nome": "Wellington Fagundes",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "PL",
+   "uf": "GO",
+   "nome": "Wilder Morais",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#0B2C6B"
+  },
+  {
+   "partido": "REPUBLICANOS",
+   "uf": "AC",
+   "nome": "MARA ROCHA",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#26A69A"
+  },
+  {
+   "partido": "REPUBLICANOS",
+   "uf": "ES",
+   "nome": "EVAIR DE MELO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#26A69A"
+  },
+  {
+   "partido": "REPUBLICANOS",
+   "uf": "AC",
+   "nome": "Alan Rick",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#26A69A"
+  },
+  {
+   "partido": "REPUBLICANOS",
+   "uf": "MG",
+   "nome": "Cleitinho",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#26A69A"
+  },
+  {
+   "partido": "REPUBLICANOS",
+   "uf": "DF",
+   "nome": "Damares Alves",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#26A69A"
+  },
+  {
+   "partido": "REPUBLICANOS",
+   "uf": "RS",
+   "nome": "Hamilton Mourão",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#26A69A"
+  },
+  {
+   "partido": "NOVO",
+   "uf": "MA",
+   "nome": "LAHESIO BONFIM",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#90CAF9"
+  },
+  {
+   "partido": "NOVO",
+   "uf": "PR",
+   "nome": "DELTAN DALLAGNOL",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#90CAF9"
+  },
+  {
+   "partido": "NOVO",
+   "uf": "RS",
+   "nome": "MARCEL VAN HATTEM",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#90CAF9"
+  },
+  {
+   "partido": "PP",
+   "uf": "AL",
+   "nome": "ARTHUR LIRA",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#4DD0E1"
+  },
+  {
+   "partido": "PP",
+   "uf": "MA",
+   "nome": "FUFUCA",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#4DD0E1"
+  },
+  {
+   "partido": "PP",
+   "uf": "SP",
+   "nome": "GUILHERME DERRITE",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#4DD0E1"
+  },
+  {
+   "partido": "PP",
+   "uf": "RR",
+   "nome": "Dr. Hiran",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#4DD0E1"
+  },
+  {
+   "partido": "PP",
+   "uf": "SE",
+   "nome": "Laércio Oliveira",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#4DD0E1"
+  },
+  {
+   "partido": "PP",
+   "uf": "MS",
+   "nome": "Tereza Cristina",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#4DD0E1"
+  },
+  {
+   "partido": "UNIAO",
+   "uf": "GO",
+   "nome": "GRACINHA CAIADO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#80CBC4"
+  },
+  {
+   "partido": "UNIAO",
+   "uf": "MT",
+   "nome": "MAURO MENDES",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#80CBC4"
+  },
+  {
+   "partido": "UNIAO",
+   "uf": "PA",
+   "nome": "CHICÃO",
+   "origem": "eleito em 2026",
+   "campo": "direita",
+   "cor": "#80CBC4"
+  },
+  {
+   "partido": "UNIAO",
+   "uf": "AP",
+   "nome": "Davi Alcolumbre",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#80CBC4"
+  },
+  {
+   "partido": "UNIAO",
+   "uf": "TO",
+   "nome": "Professora Dorinha Seabra",
+   "origem": "mandato ate 2031",
+   "campo": "direita",
+   "cor": "#80CBC4"
+  },
+  {
+   "partido": "S/PARTIDO",
+   "uf": "RJ",
+   "nome": "Romário",
+   "origem": "mandato ate 2031",
+   "campo": "sem classificacao",
+   "cor": "#CFCFCF"
+  }
+ ]
+}

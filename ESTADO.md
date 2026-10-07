@@ -4,7 +4,7 @@
 
 ## Em uma frase
 
-A execução de ponta a ponta está feita: coleta com hash, validação (513 de 513 cadeiras reproduzidas), blocos A, B, C e D (com as limitações declaradas), três passadas de revisão adversarial, relatório, resumo, 14 gráficos 1920×1080 e a leitura da IA. O repositório é **público** (decisão do autor). Falta o que é dele: gravar e publicar o vídeo.
+A execução de ponta a ponta está feita: coleta com hash, validação (513 de 513 cadeiras reproduzidas), blocos A, B, C e D (com as limitações declaradas), três passadas de revisão adversarial, relatório, resumo, 20 gráficos 1920×1080 (mais 6 versões borradas), os dados das animações de cadeira e de mapa e a leitura da IA. O repositório é **público** (decisão do autor). Falta o que é dele: gravar e publicar o vídeo.
 
 ## O que está pronto
 
@@ -16,7 +16,8 @@ A execução de ponta a ponta está feita: coleta com hash, validação (513 de 
 | Relatório e resumo | ✅ `RELATORIO.md`, `RESUMO_SIMPLES.md`, gerados de `resultados/RESUMO.json` |
 | Leitura e veredito da IA | ✅ `docs/LEITURA_DA_IA.md` |
 | Revisão adversarial (3 passadas) | ✅ `docs/REVISAO_ADVERSARIAL.md` (15 de 15 checagens programáticas) |
-| Gráficos do vídeo | ✅ `resultados/figuras/video/` (14 arquivos) |
+| Gráficos do vídeo | ✅ `resultados/figuras/video/` (20 gráficos e 6 versões borradas, `ferramentas/analise-7-graficos.py` e `analise-10-animacao.py`) |
+| Dados das animações | ✅ `resultados/animacao/` (hemiciclo da Câmara 2022 e 2026, Senado 2027, governos 2022 e 2026, Senado por UF), gerados por `ferramentas/analise-10-animacao.py` |
 | Testes | ✅ `python -m pytest -q` (8) |
 | Erros achados no caminho | ✅ `docs/CORRECOES.md` |
 

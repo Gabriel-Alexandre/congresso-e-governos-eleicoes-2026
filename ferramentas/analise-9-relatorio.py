@@ -125,7 +125,7 @@ def main() -> None:
 7. **Governos:** {R['a3']['governos_por_campo_r1'][2]['decididos']} decididos no 1º turno ({R['a3']['governos_por_campo_r1'][2]['decididos_direita']} de direita pela R1) e {R['a3']['governos_por_campo_r1'][2]['em_disputa']} em 2º turno.
 8. **Geografia:** o perfil do município soma só {f1(100*R['b2']['r2_modelo_deputado_federal']['ganho_do_perfil'])} ponto de R² além da UF ({f1(100*R['b2']['r2_modelo_deputado_federal']['so_uf'])}%).
 9. **Abstenção:** {f1(abst[abst.ano==2022].abstencao_pct.iloc[0])}% → {f1(abst[abst.ano==2026].abstencao_pct.iloc[0])}%; com o comparecimento de 2022, o voto de direita seria {f2(cf['direita_pct_com_comparecimento_de_2022'])}% (real {f2(cf['direita_pct_real_2026'])}%).
-10. **Pesquisas de governador:** o vencedor apareceu abaixo da urna em {R['c4']['vencedor_subestimado']['com_vencedor_abaixo_da_urna']} de {c2['pesquisas_analisadas']} pesquisas; nenhum teste por campo mostrou direção.
+10. **Pesquisas de governador:** o primeiro colocado apareceu abaixo da urna em {R['c4']['vencedor_subestimado']['com_vencedor_abaixo_da_urna']} de {c2['pesquisas_analisadas']} pesquisas; nenhum teste por campo mostrou direção.
 
 ## 2. Dados e validação
 
@@ -213,13 +213,13 @@ Mapa: [`resultados/figuras/video/08_mapa_variacao_voto_direita_deputado_federal.
 
 ## 6. As pesquisas (bloco C)
 
-{c2['pesquisas_analisadas']} pesquisas (Datafolha {R['c2']['por_instituto'][0]['n']}, Quaest {R['c2']['por_instituto'][1]['n']}) em {c4['margem_subestimada']['disputas']} disputas; {R['c1']['pesquisas_com_registro_no_tse']['com_registro']} com registro no TSE na janela de 26/set a 03/out. Erro do vencedor: média com sinal {sg(c2['erro_medio_com_sinal_vencedor_pp'])} ponto; em valor absoluto {f1(c2['erro_medio_abs_vencedor_pp'])}; erro da margem em valor absoluto {f1(c2['erro_medio_abs_margem_pp'])}. Fora da margem declarada (2 pontos quando o plano amostral não informa): proporção {c2['fora_da_margem']['proporcao']} de {c2['fora_da_margem']['total']}, diferença entre os dois primeiros {c2['fora_da_margem']['diferenca']} de {c2['fora_da_margem']['total']}.
+{c2['pesquisas_analisadas']} pesquisas (Datafolha {R['c2']['por_instituto'][0]['n']}, Quaest {R['c2']['por_instituto'][1]['n']}) em {c4['margem_subestimada']['disputas']} disputas; {R['c1']['pesquisas_com_registro_no_tse']['com_registro']} com registro no TSE na janela de 26/set a 03/out. Erro do primeiro colocado (o eleito ou, nos 7 estados com 2º turno, o primeiro do 1º turno), contra o percentual oficial do TSE (que inclui candidaturas anuladas sub judice, como fazem as pesquisas): média com sinal {sg(c2['erro_medio_com_sinal_vencedor_pp'])} ponto; em valor absoluto {f1(c2['erro_medio_abs_vencedor_pp'])}; erro da margem em valor absoluto {f1(c2['erro_medio_abs_margem_pp'])}. Fora da margem declarada (2 pontos quando o plano amostral não informa): proporção {c2['fora_da_margem']['proporcao']} de {c2['fora_da_margem']['total']}, diferença entre os dois primeiros {c2['fora_da_margem']['diferenca']} de {c2['fora_da_margem']['total']}.
 
 {md(pd.DataFrame(R['c2']['por_instituto']))}
 
 **Direção do erro:** margem subestimada (corrida mais apertada que a urna) em {c4['margem_subestimada']['com_margem_menor_que_a_urna']} das {c4['margem_subestimada']['pesquisas']} pesquisas e na maioria das pesquisas de {c4['margem_subestimada']['disputas_com_maioria_das_pesquisas_apertadas_demais']} das {c4['margem_subestimada']['disputas']} disputas (p = {f2(c4['margem_subestimada']['p_binomial_bicaudal_disputas'])}). Por campo: R3 {c4['r3_flavio']['disputas']} disputas, subestimou Flávio em {c4['r3_flavio']['disputas_em_que_subestimou']} (p = {f2(c4['r3_flavio']['p_binomial_bicaudal'])}); R1 {c4['r1_direita']['disputas']} disputas, em {c4['r1_direita']['disputas_em_que_subestimou']} (p = {f2(c4['r1_direita']['p_binomial_bicaudal'])}); exploratório (definido depois de ver o resultado) {c4['exploratoria_flavio_contra_qualquer_outro']['disputas']} disputas, em {c4['exploratoria_flavio_contra_qualquer_outro']['disputas_em_que_subestimou']} (p = {f2(c4['exploratoria_flavio_contra_qualquer_outro']['p_binomial_bicaudal'])}). Tabelas: [`c2_erro_por_pesquisa.csv`](resultados/c2_erro_por_pesquisa.csv), [`c4_direcao_*.csv`](resultados/).
 
-**Critério do pré-registro para "erro sistemático"** exigia 4 condições; só a primeira (teste do sinal) pôde ser rodada, e **não** foi atendida por campo. Por isso o texto usa "corridas mais apertadas na pesquisa que na urna, para quem ganhou, independente do campo" e não "erro sistemático por campo".
+**Critério do pré-registro para "erro sistemático"** exigia 4 condições; só a primeira (teste do sinal) pôde ser rodada, e **não** foi atendida por campo. Por isso o texto usa "corridas mais apertadas na pesquisa que na urna, para quem terminou em primeiro, independente do campo" e não "erro sistemático por campo".
 
 ## 7. Por quê: o placar das hipóteses
 
@@ -268,13 +268,13 @@ Todos estão na §15 do [`docs/PRE_REGISTRO.md`](docs/PRE_REGISTRO.md), com data
 ## O que explica
 
 - **Concentração do voto no PL**, **eficiência do sistema** (a direita tem hoje {sg(float(d6[(d6.ano==2026)&(d6.campo=='direita')].cadeiras_menos_votos_pp.iloc[0]))} ponto de cadeiras acima dos votos, era {sg(float(d6[(d6.ano==2018)&(d6.campo=='direita')].cadeiras_menos_votos_pp.iloc[0]))} em 2018) e **puxadores**.
-- O voto no candidato do PL à Presidência anda junto com o voto de direita nos outros cargos, e essa ligação **cresceu** (Senado: {f2(float(ar[(ar.ano==2018)&(ar.cargo=='senador')].correlacao_media_ponderada_por_uf.iloc[0]))} → {f2(float(ar[(ar.ano==2026)&(ar.cargo=='senador')].correlacao_media_ponderada_por_uf.iloc[0]))}).
+- O voto em Bolsonaro para presidente (Jair pelo PSL em 2018 e pelo PL em 2022, Flávio pelo PL em 2026) anda junto com o voto de direita nos outros cargos, e essa ligação **cresceu** (Senado: {f2(float(ar[(ar.ano==2018)&(ar.cargo=='senador')].correlacao_media_ponderada_por_uf.iloc[0]))} → {f2(float(ar[(ar.ano==2026)&(ar.cargo=='senador')].correlacao_media_ponderada_por_uf.iloc[0]))}).
 - **Não explicam bem:** perfil do município (religião, renda, cor, idade, Bolsa Família somam {f1(100*R['b2']['r2_modelo_deputado_federal']['ganho_do_perfil'])} ponto de explicação) e abstenção (estável em {f1(abst[abst.ano==2026].abstencao_pct.iloc[0])}%).
 - **Não deu para testar:** efeito dos casos (Master, STF, INSS, condenação de Bolsonaro) e das emendas.
 
 ## As pesquisas
 
-- Datafolha e Quaest mostraram o vencedor **abaixo** do que ele teve em {R['c4']['vencedor_subestimado']['com_vencedor_abaixo_da_urna']} de {c2['pesquisas_analisadas']} pesquisas de governador. O erro **não** tem direção por campo nos testes feitos, mas o poder deles é baixo (6 a 13 disputas).
+- Datafolha e Quaest mostraram o primeiro colocado **abaixo** do que ele teve em {R['c4']['vencedor_subestimado']['com_vencedor_abaixo_da_urna']} de {c2['pesquisas_analisadas']} pesquisas de governador. O erro **não** tem direção por campo nos testes feitos, mas o poder deles é baixo (6 a 13 disputas).
 
 ## O que o projeto não diz
 

@@ -67,7 +67,9 @@ Apoio declarado dos governadores eleitos na eleição presidencial (CNN Brasil) 
 | disputou deputado federal em 2022 e não se elegeu | 11 | 761057 |
 | eleito em 2022 pelo PL | 50 | 10172534 |
 | eleito em 2022 por outro partido e foi para o PL | 12 | 1596409 |
-| primeira disputa para deputado federal (desde 2022) | 47 | 7931624 |
+| não disputou a Câmara em 2022: já tinha disputado deputado federal antes | 9 | 797684 |
+| não disputou a Câmara em 2022: já tinha disputado outro cargo estadual ou federal | 6 | 595811 |
+| não disputou a Câmara em 2022: nenhuma candidatura estadual ou federal de 2006 a 2018 | 32 | 6538129 |
 
 Os 98 deputados do PL na véspera: disputou deputado e não se elegeu 14, disputou deputado estadual: eleito 3, disputou governador: eleito 1, disputou senador: eleito 10, disputou senador: não eleito 5, não disputou nenhum cargo em 2026 2, reeleito deputado pelo PL 63.
 

@@ -327,16 +327,17 @@ def grafico_escada(nome, casa, tab, limiares, total, rodape):
 def grafico_pl():
     o = pd.read_csv(RES / "e5_pl_121_resumo.csv")
     ordem = ["eleito em 2022 pelo PL", "eleito em 2022 por outro partido e foi para o PL", "assumiu o mandato depois de 2022 (suplente) e se elegeu pelo PL",
-             "disputou deputado federal em 2022 e não se elegeu", "primeira disputa para deputado federal (desde 2022)"]
-    rot = ["já eram do PL\n(eleitos em 2022)", "vieram de outro\npartido", "suplente que\nassumiu", "perderam em 2022\ne voltaram", "primeira disputa"]
+             "disputou deputado federal em 2022 e não se elegeu", "não disputou a Câmara em 2022: já tinha disputado deputado federal antes", "não disputou a Câmara em 2022: já tinha disputado outro cargo estadual ou federal", "não disputou a Câmara em 2022: nenhuma candidatura estadual ou federal de 2006 a 2018"]
+    rot = ["já eram do PL\n(eleitos\nem 2022)", "vieram de\noutro\npartido", "suplente\nque\nassumiu", "perderam\nem 2022\ne voltaram", "fora em 2022,\njá tinham\ndisputado a\nCâmara antes", "fora em 2022,\ntinham\ndisputado\noutro cargo", "nenhuma\ncandidatura\nestadual ou\nfederal antes"]
     v = [int(o.set_index("origem").cadeiras.get(k, 0)) for k in ordem]
-    fig, ax = figura_barras("25", "De onde vieram os 121 deputados do PL", "Eleitos em 2026, pela história de cada um em 2022",
-                            "Fonte: TSE (candidaturas de 2022 e 2026, mesma pessoa por nome e data de nascimento) e Câmara (bancada na véspera).")
-    bars = ax.bar(range(len(v)), v, color=[PL_COR, "#3949AB", "#5C6BC0", "#7986CB", "#9FA8DA"])
+    fig, ax = figura_barras("25", "De onde vieram os 121 deputados do PL", "Eleitos em 2026, pela história de cada um (2022 e, para quem não disputou em 2022, 2006 a 2018)",
+                            "Fonte: TSE (candidaturas de 2006 a 2026, mesma pessoa por nome e data de nascimento; eleição municipal não está nos dados) e Câmara (bancada na véspera).")
+    bars = ax.bar(range(len(v)), v, color=[PL_COR, "#3949AB", "#5C6BC0", "#7986CB", "#9FA8DA", "#9FA8DA", "#C5CAE9"])
     for b, n in zip(bars, v):
         ax.text(b.get_x() + b.get_width() / 2, n + 1, str(n), ha="center", fontsize=24, fontweight="bold")
     ax.set_xticks(range(len(v)))
-    ax.set_xticklabels(rot, fontsize=18)
+    ax.set_xticklabels(rot, fontsize=15)
+    fig.subplots_adjust(bottom=0.24)
     fig.savefig(OUT / "25_pl_de_onde_vieram_os_121.png")
     plt.close(fig)
 

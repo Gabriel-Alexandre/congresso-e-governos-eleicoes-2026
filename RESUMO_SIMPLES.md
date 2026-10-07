@@ -6,7 +6,7 @@
 
 - **Câmara:** a direita declarada (PL, Novo, Missão) foi de 101 para **132** deputados; a centro-direita (PP, Republicanos, União, PRD) de 149 para 133; o centro de 135 para 124; esquerda e centro-esquerda somadas de 128 para 124. Direita e centro-direita juntas: **265**, acima da maioria absoluta (257).
 - **Senado em 2027:** direita declarada **31** (hoje 15); com a centro-direita, **48** (49 na conta por senador do Poder360): no limite da PEC (49) e a 5 ou 6 votos da condenação de ministro do STF num impeachment (54).
-- **PL:** 50 dos 121 já eram do PL em 2022, 12 vieram de outros partidos e 47 estrearam; 10 deputados do PL viraram senadores.
+- **PL:** 50 dos 121 já eram do PL em 2022, 12 vieram de outros partidos e 47 não tinham disputado a Câmara em 2022; 10 deputados do PL viraram senadores.
 
 ## O que mudou na Câmara
 

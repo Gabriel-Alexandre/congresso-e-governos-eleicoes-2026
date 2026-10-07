@@ -300,6 +300,24 @@ def main() -> None:
         orig.append({"nome": r.nome, "uf": r.uf, "votos_2026": int(r.votos), "origem": o,
                      "partido_2022": h["sig_2022"] if h else "", "votos_2022": h["votos_2022"] if h else np.nan, "partido_vespera": v or ""})
     o = pd.DataFrame(orig)
+    # quem não disputou a Câmara em 2022: o histórico de 2006 a 2018 (só eleições gerais; eleição municipal não está nos dados)
+    antigos = {ano: indice_pessoas(candidaturas(ano)) for ano in (2006, 2010, 2014, 2018)}
+    sq_por_nome = {(r.nome, r.uf): r.sq for r in el_pl26.itertuples()}
+    hist_txt = []
+    for r in o.itertuples():
+        if r.origem != "primeira disputa para deputado federal (desde 2022)":
+            hist_txt.append("")
+            continue
+        nasc, nomes = pessoa26(sq_por_nome[(r.nome, r.uf)])
+        hist = [(ano, x.DS_CARGO.title(), str(x.DS_SIT_TOT_TURNO)) for ano, idx in antigos.items() for x in achar(idx, nasc, nomes)]
+        if any(h[1].upper().startswith("DEPUTADO FEDERAL") for h in hist):
+            o.loc[r.Index, "origem"] = "não disputou a Câmara em 2022: já tinha disputado deputado federal antes"
+        elif hist:
+            o.loc[r.Index, "origem"] = "não disputou a Câmara em 2022: já tinha disputado outro cargo estadual ou federal"
+        else:
+            o.loc[r.Index, "origem"] = "não disputou a Câmara em 2022: nenhuma candidatura estadual ou federal de 2006 a 2018"
+        hist_txt.append("; ".join(f"{a} {c} ({s})" for a, c, s in hist))
+    o["candidaturas_2006_2018"] = hist_txt
     tabela("e5_pl_121_de_onde_veio_cada_um", o.sort_values(["origem", "votos_2026"], ascending=[True, False]))
     resumo_o = o.groupby("origem").agg(cadeiras=("nome", "size"), votos_2026=("votos_2026", "sum")).reset_index()
     tabela("e5_pl_121_resumo", resumo_o)

@@ -111,3 +111,13 @@ A coleta foi feita no mesmo dia: o que foi baixado, com hash, está em `dados/MA
 | Reaproveitado do projeto irmão | `apoios_declarados.csv`, `senado_apoio_flavio.csv` (commit `740fe519`) | `dados/` |
 
 **Ressalvas medidas na coleta:** o `votacao_candidato_munzona_2026.zip` cresceu de 316 MB para 454 MB entre 05 e 07/out (o manifesto guarda o hash da versão usada) · o SIDRA devolve "..." para o valor adicionado setorial de 2022 e 2023 · duas capturas de imprensa (Metrópoles: Janones e pesquisas de presidente) não trouxeram o trecho esperado e não foram usadas.
+
+## Parâmetro principal e conferência externa (emenda 21, 07/out)
+
+| Assunto | Fonte (captura) |
+|---|---|
+| Como cada partido se declara | Valor Econômico (ago/2026), pela reprodução em [outroladodahistoria.com](https://outroladodahistoria.com/partidos-esquerda-direita-brasil/) (`outroladodahistoria-autodeclaracao`) |
+| GPS Partidário | Folha de S.Paulo (07/09/2026), via [Jornal de Brasília](https://jornaldebrasilia.com.br/noticias/politica-e-poder/novo-e-pl-sao-as-siglas-mais-a-direita-pstu-e-up-as-mais-a-esquerda-mostra-gps-partidario-2026/) (`jbr-gps-partidario`) |
+| Câmara por campo, lista de partidos | [Poder360, 05/out](https://www.poder360.com.br/poder-eleicoes-2026/partidos-mais-a-direita-terao-276-deputados-na-camara/) (`poder360-276-direita`) |
+| Senado por senador | [Poder360, 04/out](https://www.poder360.com.br/poder-eleicoes-2026/senado-sera-dominado-pela-direita-a-partir-de-2027/) (`poder360-senado-dominado-direita`) · [Poder360](https://www.poder360.com.br/poder-eleicoes-2026/49-dos-81-senadores-sao-alinhados-a-partidos-de-direita/) (`poder360-49-senadores-direita`) |
+| Composição do Senado em 2027 | [Gazeta do Povo](https://www.gazetadopovo.com.br/eleicoes/2026/como-fica-composicao-senado-a-partir-de-2027-apos-recorde-pl/) (`gazeta-composicao-senado-2027`) |

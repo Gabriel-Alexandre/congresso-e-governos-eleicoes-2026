@@ -140,6 +140,8 @@ Cada partido no grupo em que ele mesmo se declara (Valor Econômico, ago/2026): 
 
 {md(e3t)}
 
+**Conferência com o Poder360** (`e7` no RESUMO.json): a lista de partidos do Poder360 (05/out) aplicada às nossas cadeiras dá {R['e7']['camara_pela_lista_do_poder360']['nossa_conta']['2026']['direita']} / {R['e7']['camara_pela_lista_do_poder360']['nossa_conta']['2026']['centro']} / {R['e7']['camara_pela_lista_do_poder360']['nossa_conta']['2026']['esquerda']} na Câmara de 2026, igual ao publicado; no Senado, o Poder360 classificou cada senador (49 / 27 / 5), o que este projeto não refaz.
+
 **Governos** ([`e4_governos_por_grupo.csv`](resultados/e4_governos_por_grupo.csv)):
 
 {md(csv('e4_governos_por_grupo'))}
@@ -294,7 +296,7 @@ Todos estão na §15 do [`docs/PRE_REGISTRO.md`](docs/PRE_REGISTRO.md), com data
 ## O PL no centro (cada partido onde ele mesmo se declara)
 
 - **Câmara:** a direita declarada (PL, Novo, Missão) foi de {R['e1']['camara_cadeiras']['2022']['direita']} para **{R['e1']['camara_cadeiras']['2026']['direita']}** deputados; a centro-direita (PP, Republicanos, União, PRD) de {R['e1']['camara_cadeiras']['2022']['centro-direita']} para {R['e1']['camara_cadeiras']['2026']['centro-direita']}; o centro de {R['e1']['camara_cadeiras']['2022']['centro']} para {R['e1']['camara_cadeiras']['2026']['centro']}; esquerda e centro-esquerda somadas de {R['e1']['camara_cadeiras']['2022']['esquerda'] + R['e1']['camara_cadeiras']['2022']['centro-esquerda']} para {R['e1']['camara_cadeiras']['2026']['esquerda'] + R['e1']['camara_cadeiras']['2026']['centro-esquerda']}. Direita e centro-direita juntas: **{R['e2']['camara_2026'][2]['direita_mais_centro_direita']}**, acima da maioria absoluta (257).
-- **Senado em 2027:** direita declarada **{E3['senado_2027_partido_atual']['direita']}** (hoje {E3['senado_em_exercicio_out2026']['direita']}); com a centro-direita, **{E3['senado_limiares_2027'][3]['direita_mais_centro_direita']}**: a 1 voto da PEC (49) e a 6 da condenação de ministro do STF num impeachment (54).
+- **Senado em 2027:** direita declarada **{E3['senado_2027_partido_atual']['direita']}** (hoje {E3['senado_em_exercicio_out2026']['direita']}); com a centro-direita, **{E3['senado_limiares_2027'][3]['direita_mais_centro_direita']}** (49 na conta por senador do Poder360): no limite da PEC (49) e a 5 ou 6 votos da condenação de ministro do STF num impeachment (54).
 - **PL:** 50 dos 121 já eram do PL em 2022, 12 vieram de outros partidos e 47 estrearam; 10 deputados do PL viraram senadores.
 
 ## O que mudou na Câmara

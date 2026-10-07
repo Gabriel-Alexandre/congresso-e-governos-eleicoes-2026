@@ -370,6 +370,24 @@ def main() -> None:
     c5["eleito"] = eleito(c5["sit"])
     s_fora = c5[~c5.eleito & c5.grupo.isin(["esquerda", "centro-esquerda"])].sort_values("votos", ascending=False).head(15)
     tabela("e6_senado_esquerda_mais_votados_nao_eleitos", s_fora[["uf", "nome", "partido", "votos"]])
+    # ---------------- E7: conferência externa com o Poder360 (05/out e 04/out) ----------------
+    # Câmara: a lista de partidos do Poder360 (capturada em poder360-276-direita) aplicada às nossas cadeiras
+    P360 = {
+        "direita": {"DEM", "MISSAO", "NOVO", "PATRIOTA", "PEN", "PRN", "PFL", "PL", "PP", "PPB", "PR", "PRB", "PRONA", "PROS", "PRTB", "PSC", "PSDB", "PSL", "PST", "REPUBLICANOS", "UNIAO", "PRD"},
+        "centro": {"AVANTE", "CIDADANIA", "DC", "MDB", "PAN", "PHS", "PMDB", "PMN", "MOBILIZA", "PODE", "PPL", "PPS", "PRP", "PSD", "PSDC", "PTB", "PTC", "AGIR", "PTN", "SOLIDARIEDADE"},
+        "esquerda": {"PCDOB", "PDT", "PSB", "PSOL", "PT", "PV", "REDE"},
+    }
+    cad_ = pd.read_csv(RES / "a1_cadeiras_por_partido_e_ano.csv").set_index("sig")
+    p360 = {}
+    for ano in ("2022", "2026"):
+        p360[ano] = {g: int(cad_.loc[cad_.index.isin(s), ano].sum()) for g, s in P360.items()}
+        p360[ano]["sem_grupo"] = int(cad_[ano].sum()) - sum(p360[ano].values())
+    registrar("e7.camara_pela_lista_do_poder360", {"nossa_conta": p360, "poder360_publicou": {"2022": {"direita": 275, "centro": 113, "esquerda": 125}, "2026": {"direita": 276, "centro": 113, "esquerda": 124}},
+                                                  "fonte": "captura poder360-276-direita (05/out/2026)"})
+    # Senado: o Poder360 classificou cada senador pela orientação individual (captura poder360-senado-dominado-direita), não pelo partido
+    registrar("e7.senado_poder360_por_senador", {"eleitos_2026": {"direita": 33, "esquerda": 19, "centro": 2}, "ficam_ate_2031": {"direita": 16, "esquerda": 8, "centro": 3},
+                                                 "fev_2027": {"direita": 49, "esquerda": 27, "centro": 5},
+                                                 "fonte": "captura poder360-senado-dominado-direita (04/out/2026): 'considerando a orientação ideológica de cada político, separadamente'"})
     print("ok E")
 
 

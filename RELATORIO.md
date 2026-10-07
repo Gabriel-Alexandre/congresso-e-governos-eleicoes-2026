@@ -47,6 +47,8 @@ Cada partido no grupo em que ele mesmo se declara (Valor Econômico, ago/2026): 
 | 3/5: aprovar PEC (art. 60 §2º) | 49 | 31 | 48 | 1 | 15 |
 | 2/3: condenar no impeachment, de Presidente ou de ministro do STF (art. 52, parágrafo único) | 54 | 31 | 48 | 6 | 15 |
 
+**Conferência com o Poder360** (`e7` no RESUMO.json): a lista de partidos do Poder360 (05/out) aplicada às nossas cadeiras dá 276 / 113 / 124 na Câmara de 2026, igual ao publicado; no Senado, o Poder360 classificou cada senador (49 / 27 / 5), o que este projeto não refaz.
+
 **Governos** ([`e4_governos_por_grupo.csv`](resultados/e4_governos_por_grupo.csv)):
 
 | ano | direita | centro-direita | centro | centro-esquerda | esquerda | em 2o turno |

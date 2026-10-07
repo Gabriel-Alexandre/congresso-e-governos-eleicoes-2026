@@ -3007,5 +3007,54 @@
     "não eleito": 26
    }
   }
+ },
+ "e7": {
+  "camara_pela_lista_do_poder360": {
+   "fonte": "captura poder360-276-direita (05/out/2026)",
+   "nossa_conta": {
+    "2022": {
+     "centro": 114,
+     "direita": 271,
+     "esquerda": 128,
+     "sem_grupo": 0
+    },
+    "2026": {
+     "centro": 113,
+     "direita": 276,
+     "esquerda": 124,
+     "sem_grupo": 0
+    }
+   },
+   "poder360_publicou": {
+    "2022": {
+     "centro": 113,
+     "direita": 275,
+     "esquerda": 125
+    },
+    "2026": {
+     "centro": 113,
+     "direita": 276,
+     "esquerda": 124
+    }
+   }
+  },
+  "senado_poder360_por_senador": {
+   "eleitos_2026": {
+    "centro": 2,
+    "direita": 33,
+    "esquerda": 19
+   },
+   "fev_2027": {
+    "centro": 5,
+    "direita": 49,
+    "esquerda": 27
+   },
+   "ficam_ate_2031": {
+    "centro": 3,
+    "direita": 16,
+    "esquerda": 8
+   },
+   "fonte": "captura poder360-senado-dominado-direita (04/out/2026): 'considerando a orientação ideológica de cada político, separadamente'"
+  }
  }
 }

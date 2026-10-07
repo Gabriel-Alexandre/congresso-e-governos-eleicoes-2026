@@ -21,7 +21,7 @@ python ferramentas/analise-6-plenario-e-eleicao.py  # D3
 python ferramentas/analise-11-pl-e-blocos.py     # E: autodeclaração dos partidos, limiares, anatomia do PL (emenda 21)
 python ferramentas/analise-8-veredito.py        # placar e docs/LEITURA_DA_IA.md
 python ferramentas/analise-7-graficos.py        # resultados/figuras/video
-python ferramentas/analise-10-animacao.py       # animações (resultados/animacao) e gráficos 15 a 26
+python ferramentas/analise-10-animacao.py       # animações (resultados/animacao) e gráficos 15 a 27
 python ferramentas/revisao-adversarial.py       # checagens independentes
 python ferramentas/analise-9-relatorio.py       # RELATORIO.md e RESUMO_SIMPLES.md
 

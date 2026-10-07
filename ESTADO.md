@@ -4,7 +4,7 @@
 
 ## Em uma frase
 
-A execução de ponta a ponta está feita: coleta com hash, validação (513 de 513 cadeiras reproduzidas), blocos A, B, C e D (com as limitações declaradas), três passadas de revisão adversarial, relatório, resumo, 26 gráficos 1920×1080 (mais 7 versões borradas), os dados das animações de cadeira e de mapa e a leitura da IA. 🆕 Emenda 21 (07/out, depois de ver os resultados, a pedido do autor): o parâmetro principal de campo é a autodeclaração dos partidos, com o PL no centro (`ferramentas/analise-11-pl-e-blocos.py`). O repositório é **público** (decisão do autor). Falta o que é dele: gravar e publicar o vídeo.
+A execução de ponta a ponta está feita: coleta com hash, validação (513 de 513 cadeiras reproduzidas), blocos A, B, C e D (com as limitações declaradas), três passadas de revisão adversarial, relatório, resumo, 27 gráficos 1920×1080 (mais 7 versões borradas), os dados das animações de cadeira e de mapa e a leitura da IA. 🆕 Emenda 21 (07/out, depois de ver os resultados, a pedido do autor): o parâmetro principal de campo é a autodeclaração dos partidos, com o PL no centro (`ferramentas/analise-11-pl-e-blocos.py`). O repositório é **público** (decisão do autor). Falta o que é dele: gravar e publicar o vídeo.
 
 ## O que está pronto
 
@@ -16,7 +16,7 @@ A execução de ponta a ponta está feita: coleta com hash, validação (513 de 
 | Relatório e resumo | ✅ `RELATORIO.md`, `RESUMO_SIMPLES.md`, gerados de `resultados/RESUMO.json` |
 | Leitura e veredito da IA | ✅ `docs/LEITURA_DA_IA.md` |
 | Revisão adversarial (3 passadas) | ✅ `docs/REVISAO_ADVERSARIAL.md` (15 de 15 checagens programáticas) |
-| Gráficos do vídeo | ✅ `resultados/figuras/video/` (26 gráficos e 7 versões borradas, `ferramentas/analise-7-graficos.py` e `analise-10-animacao.py`) |
+| Gráficos do vídeo | ✅ `resultados/figuras/video/` (27 gráficos e 7 versões borradas, `ferramentas/analise-7-graficos.py` e `analise-10-animacao.py`) |
 | Parâmetro principal (autodeclaração) | ✅ `ferramentas/analise-11-pl-e-blocos.py`, tabelas `resultados/e*_*.csv`, chaves `e0` a `e6` |
 | Dados das animações | ✅ `resultados/animacao/` (hemiciclo da Câmara 2022 e 2026, Senado 2027, governos 2022 e 2026, Senado por UF), gerados por `ferramentas/analise-10-animacao.py` |
 | Testes | ✅ `python -m pytest -q` (10) |

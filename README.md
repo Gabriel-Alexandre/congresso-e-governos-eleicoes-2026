@@ -9,7 +9,7 @@ O projeto mede o que mudou, testa explicações concorrentes contra o dado, mede
 ## Como ler os resultados (do mais curto ao mais completo)
 
 1. [`RESUMO_SIMPLES.md`](RESUMO_SIMPLES.md): uma página.
-2. [`resultados/figuras/video/`](resultados/figuras/video): 26 gráficos 1920×1080, entre eles os do parâmetro principal (a Câmara e o Senado por grupo, a conta do que cada grupo alcança, de onde vieram os 121 do PL e o destino dos 98 da véspera), os hemiciclos e os mapas; os dados das animações ficam em [`resultados/animacao/`](resultados/animacao).
+2. [`resultados/figuras/video/`](resultados/figuras/video): 27 gráficos 1920×1080, entre eles os do parâmetro principal (a Câmara e o Senado por grupo, a conta do que cada grupo alcança, de onde vieram os 121 do PL e o destino dos 98 da véspera), os hemiciclos e os mapas; os dados das animações ficam em [`resultados/animacao/`](resultados/animacao).
 3. [`docs/LEITURA_DA_IA.md`](docs/LEITURA_DA_IA.md): a leitura e o veredito da IA, arena por arena, com o grau de confiança.
 4. [`RELATORIO.md`](RELATORIO.md): tudo, com o que o projeto **não** consegue dizer no topo.
 5. [`resultados/RESUMO.json`](resultados/RESUMO.json) e os CSV de [`resultados/`](resultados): todo número do relatório.

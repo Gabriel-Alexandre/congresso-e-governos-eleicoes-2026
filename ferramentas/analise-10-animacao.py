@@ -300,6 +300,38 @@ def grafico_grupos_camara():
     plt.close(fig)
 
 
+def grafico_tres_grupos():
+    """Câmara eleita em 2022 x a que toma posse em 2027: direita, centro (com a fatia de centro-direita) e esquerda (com a centro-esquerda)."""
+    c = {int(a): v for a, v in R["e1"]["camara_cadeiras"].items()}
+    fig, ax = figura_barras("27", "Câmara: a eleita em 2022 e a que toma posse em 2027", "Direita, centro e esquerda pelo jeito que cada partido se declara · 513 cadeiras",
+                            "Fonte: TSE. Centro inclui quem se declara de centro-direita; esquerda inclui quem se declara de centro-esquerda (Valor Econômico, ago/2026).")
+    grupos = [("direita", ["direita"], [COR_GRUPO["direita"]]), ("centro", ["centro-direita", "centro"], [COR_GRUPO["centro-direita"], COR_GRUPO["centro"]]),
+              ("esquerda", ["centro-esquerda", "esquerda"], [COR_GRUPO["centro-esquerda"], COR_GRUPO["esquerda"]])]
+    w = 0.36
+    for gi, (nome, partes, cores) in enumerate(grupos):
+        for ai, (ano, rot) in enumerate(((2022, "2022"), (2026, "2027"))):
+            x = gi + (ai - 0.5) * w * 1.1
+            base = 0
+            for parte, cor in zip(partes, cores):
+                n = c[ano][parte]
+                ax.bar(x, n, w, bottom=base, color=cor, alpha=0.55 if ai == 0 else 1.0, edgecolor="white")
+                if nome == "centro" and parte == "centro-direita":
+                    ax.text(x, base + n / 2, f"centro-\ndireita\n{n}", ha="center", va="center", fontsize=13, color="#0B2C6B")
+                base += n
+            tot = base
+            ax.text(x, tot + 6, str(tot), ha="center", fontsize=26, fontweight="bold")
+            ax.text(x, -22, rot, ha="center", fontsize=18, color="#444")
+    ax.set_xticks(range(3))
+    ax.set_xticklabels(["direita", "centro", "esquerda"], fontsize=24)
+    ax.tick_params(axis="x", pad=48)
+    fig.subplots_adjust(bottom=0.2)
+    ax.set_ylim(0, 320)
+    ax.set_yticks([])
+    ax.spines["left"].set_visible(False)
+    fig.savefig(OUT / "27_camara_tres_grupos_2022_2027.png")
+    plt.close(fig)
+
+
 def grafico_escada(nome, casa, tab, limiares, total, rodape):
     t = pd.read_csv(RES / tab).iloc[0]
     d, dc, dcc = int(t.direita_sozinha), int(t.direita_mais_centro_direita), int(t.direita_centro_direita_e_centro)
@@ -381,7 +413,7 @@ def borrar():
 
 if __name__ == "__main__":
     camara(); senado(); governos(); senado_por_uf()
-    grafico_grupos_camara()
+    grafico_grupos_camara(); grafico_tres_grupos()
     grafico_escada("23_camara_limiares_2026", "Câmara 2026", "e2_camara_limiares_2026.csv",
                    [("CPI", 171), ("bloqueia PEC", 206), ("maioria\nabsoluta", 257), ("PEC", 308), ("autoriza\nimpeachment", 342)], 513,
                    "Fonte: TSE; Constituição, arts. 51, 58, 60 e 69. Campo não é bloco de votação: é o teto de cada grupo votando unido.")

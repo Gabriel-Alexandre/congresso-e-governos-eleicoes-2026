@@ -1785,6 +1785,90 @@
    }
   ]
  },
+ "b5": {
+  "arrasto_tres_grupos": [
+   {
+    "ano": 2018,
+    "cargo": "deputado federal",
+    "correlacao_media_ponderada_por_uf": 0.213,
+    "ufs": 26
+   },
+   {
+    "ano": 2018,
+    "cargo": "governador",
+    "correlacao_media_ponderada_por_uf": 0.393,
+    "ufs": 22
+   },
+   {
+    "ano": 2018,
+    "cargo": "senador",
+    "correlacao_media_ponderada_por_uf": 0.534,
+    "ufs": 25
+   },
+   {
+    "ano": 2022,
+    "cargo": "deputado federal",
+    "correlacao_media_ponderada_por_uf": 0.261,
+    "ufs": 26
+   },
+   {
+    "ano": 2022,
+    "cargo": "governador",
+    "correlacao_media_ponderada_por_uf": 0.707,
+    "ufs": 21
+   },
+   {
+    "ano": 2026,
+    "cargo": "deputado federal",
+    "correlacao_media_ponderada_por_uf": 0.334,
+    "ufs": 26
+   },
+   {
+    "ano": 2026,
+    "cargo": "governador",
+    "correlacao_media_ponderada_por_uf": 0.709,
+    "ufs": 24
+   },
+   {
+    "ano": 2026,
+    "cargo": "senador",
+    "correlacao_media_ponderada_por_uf": 0.759,
+    "ufs": 26
+   }
+  ],
+  "contrafactual_comparecimento_2022_tres_grupos": {
+   "diferenca_pp": 0.03,
+   "direita_pct_com_comparecimento_de_2022": 48.01,
+   "direita_pct_real_2026": 47.97,
+   "municipios": 5570
+  },
+  "pl_deputado_x_pl_presidente": [
+   {
+    "ano": 2018,
+    "correlacao_media_ponderada_por_uf": 0.551,
+    "partido": "PSL",
+    "ufs": 26
+   },
+   {
+    "ano": 2022,
+    "correlacao_media_ponderada_por_uf": 0.302,
+    "partido": "PL",
+    "ufs": 24
+   },
+   {
+    "ano": 2026,
+    "correlacao_media_ponderada_por_uf": 0.392,
+    "partido": "PL",
+    "ufs": 26
+   }
+  ],
+  "r2_modelo_deputado_federal_tres_grupos": {
+   "ganho_do_perfil": 0.016,
+   "municipios": 5492,
+   "so_uf": 0.285,
+   "uf_mais_perfil": 0.301
+  }
+ },
  "c1": {
   "opovo_linhas": 85,
   "pesquisas_com_registro_no_tse": {

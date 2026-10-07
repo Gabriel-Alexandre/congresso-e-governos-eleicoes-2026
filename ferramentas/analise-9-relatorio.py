@@ -270,6 +270,14 @@ Contrafactual com o comparecimento de 2022: diferença de {sg(cf['diferenca_pp']
 
 Mapa: [`resultados/figuras/video/08_mapa_variacao_voto_direita_deputado_federal.png`](resultados/figuras/video/08_mapa_variacao_voto_direita_deputado_federal.png).
 
+### 5.1 O bloco B pela regra dos três grupos (emenda 24)
+
+Direita = direita + centro-direita, pela autodeclaração (a regra do vídeo; `ferramentas/analise-13-geografia-tres-grupos.py`). **Arrasto:**
+
+{md(pd.DataFrame(R['b5']['arrasto_tres_grupos']))}
+
+A UF explica {f1(100*R['b5']['r2_modelo_deputado_federal_tres_grupos']['so_uf'])}% da variação do swing da direita para deputado federal; o perfil acrescenta {f1(100*R['b5']['r2_modelo_deputado_federal_tres_grupos']['ganho_do_perfil'])} ponto. Com o comparecimento de 2022, a direita teria {f1(R['b5']['contrafactual_comparecimento_2022_tres_grupos']['direita_pct_com_comparecimento_de_2022'])}% dos votos para deputado; teve {f1(R['b5']['contrafactual_comparecimento_2022_tres_grupos']['direita_pct_real_2026'])}%. Gráficos: [`29_mapa_variacao_voto_direita_tres_grupos.png`](resultados/figuras/video/29_mapa_variacao_voto_direita_tres_grupos.png) e [`30_arrasto_presidenciavel_tres_grupos.png`](resultados/figuras/video/30_arrasto_presidenciavel_tres_grupos.png).
+
 ## 6. As pesquisas (bloco C)
 
 {c2['pesquisas_analisadas']} pesquisas (Datafolha {R['c2']['por_instituto'][0]['n']}, Quaest {R['c2']['por_instituto'][1]['n']}) em {c4['margem_subestimada']['disputas']} disputas; {R['c1']['pesquisas_com_registro_no_tse']['com_registro']} com registro no TSE na janela de 26/set a 03/out. Erro do primeiro colocado (o eleito ou, nos 7 estados com 2º turno, o primeiro do 1º turno), contra o percentual oficial do TSE (que inclui candidaturas anuladas sub judice, como fazem as pesquisas): média com sinal {sg(c2['erro_medio_com_sinal_vencedor_pp'])} ponto; em valor absoluto {f1(c2['erro_medio_abs_vencedor_pp'])}; erro da margem em valor absoluto {f1(c2['erro_medio_abs_margem_pp'])}. Fora da margem declarada (2 pontos quando o plano amostral não informa): proporção {c2['fora_da_margem']['proporcao']} de {c2['fora_da_margem']['total']}, diferença entre os dois primeiros {c2['fora_da_margem']['diferenca']} de {c2['fora_da_margem']['total']}.

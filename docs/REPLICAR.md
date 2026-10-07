@@ -21,6 +21,7 @@ python ferramentas/analise-12-pesquisas-2018-2022.py # C contra 2018 e 2022 (eme
 python ferramentas/analise-5-geografia.py       # B (demora alguns minutos: lê o Bolsa Família)
 python ferramentas/analise-6-plenario-e-eleicao.py  # D3
 python ferramentas/analise-11-pl-e-blocos.py     # E: autodeclaração dos partidos, limiares, anatomia do PL (emenda 21)
+python ferramentas/analise-13-geografia-tres-grupos.py  # bloco B pela regra dos três grupos (emenda 24)
 python ferramentas/analise-8-veredito.py        # placar e docs/LEITURA_DA_IA.md
 python ferramentas/analise-7-graficos.py        # resultados/figuras/video
 python ferramentas/analise-10-animacao.py       # animações (resultados/animacao) e gráficos 15 a 27

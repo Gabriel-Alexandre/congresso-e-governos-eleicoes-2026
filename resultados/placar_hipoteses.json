@@ -32,7 +32,7 @@
   "nome": "Estrutura e eficiência (listas, federações, puxadores)",
   "status": "consistente",
   "confianca": "alta",
-  "onde": "bônus de cadeiras da direita: −0,1 → +2,1 → +3,3 pp; puxadores"
+  "onde": "bônus de cadeiras da direita pela R1: −0,1 → +2,1 → +3,3 pp (com a centro-direita: +1,0 → +4,4 → +3,7); puxadores"
  },
  {
   "id": "H5",
@@ -53,13 +53,13 @@
   "nome": "Composição do eleitorado (perfil e abstenção)",
   "status": "inconsistente",
   "confianca": "média",
-  "onde": "perfil soma 1,4 ponto de R² além da UF; abstenção 20,8% → 20,9%"
+  "onde": "perfil soma 1,6 ponto de R² além da UF; abstenção 20,8% → 20,9%"
  },
  {
   "id": "H8",
   "nome": "Arrasto do candidato à Presidência",
   "status": "consistente",
   "confianca": "alta",
-  "onde": "correlação com o voto de direita: senador 0,53 → 0,70, deputado 0,31 → 0,39"
+  "onde": "correlação com o voto na direita (com a centro-direita): senador 0,53 → 0,76, deputado 0,26 → 0,33"
  }
 ]

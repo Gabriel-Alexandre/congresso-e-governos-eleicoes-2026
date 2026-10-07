@@ -17,6 +17,7 @@ import numpy as np
 import pandas as pd
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon
+from matplotlib.ticker import FuncFormatter, ScalarFormatter
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from congresso.comum import RAIZ, RES  # noqa: E402
@@ -38,7 +39,22 @@ def novo(titulo, sub=None):
     return fig, ax
 
 
+def br(x, d=1):
+    """Número com vírgula decimal (o vídeo é em português)."""
+    return f"{x:.{d}f}".replace(".", ",").replace("-", "−")
+
+
+def _tick_br(v, _pos):
+    s = f"{v:g}"
+    return s.replace(".", ",").replace("-", "−")
+
+
 def fecha(fig, nome, nota=FONTE):
+    # eixos numéricos com vírgula decimal (os de categoria têm outro formatador e ficam como estão)
+    for a in fig.axes:
+        for eixo in (a.xaxis, a.yaxis):
+            if isinstance(eixo.get_major_formatter(), ScalarFormatter):
+                eixo.set_major_formatter(FuncFormatter(_tick_br))
     fig.text(0.08, 0.012, textwrap.fill(nota, 175), fontsize=14, color="#555", va="bottom")
     fig.savefig(OUT / f"{nome}.png")
     plt.close(fig)
@@ -51,7 +67,7 @@ def g01_camara_campos():
     base = np.zeros(3)
     for k in ("esquerda", "centro", "direita", "sem classificacao"):
         v = np.array([t[(t.ano == a) & (t.campo == k)].cadeiras.iloc[0] for a in anos])
-        ax.bar([str(a) for a in anos], v, bottom=base, color=COR[k], width=0.55, label=k)
+        ax.bar([str(a) for a in anos], v, bottom=base, color=COR[k], width=0.55, label={"sem classificacao": "sem classificação"}.get(k, k))
         for i, x in enumerate(v):
             if x > 15:
                 ax.text(i, base[i] + x / 2, str(x), ha="center", va="center", color="white", fontsize=26, fontweight="bold")
@@ -83,7 +99,7 @@ def g03_origem():
     novo_ = t[[c for c in cols if c.startswith("entrante")]].sum(axis=1)
     fig, ax = novo("As cadeiras de 2026: quem voltou e quem entrou", "Origem das cadeiras de cada partido na Câmara eleita em 2026")
     fig.subplots_adjust(left=0.17)
-    ax.barh(t.index[::-1], reeleito[::-1], color="#5B7DB1", label="já era deputado (vespera ou eleito em 2022)")
+    ax.barh(t.index[::-1], reeleito[::-1], color="#5B7DB1", label="já era deputado (véspera ou eleito em 2022)")
     ax.barh(t.index[::-1], novo_[::-1], left=reeleito[::-1], color="#F2A93B", label="entrou: não estava na Câmara na véspera")
     for i, (a, b) in enumerate(zip(reeleito[::-1], novo_[::-1])):
         ax.text(a / 2, i, str(int(a)), ha="center", va="center", color="white", fontsize=22, fontweight="bold")
@@ -102,8 +118,9 @@ def g04_votos_cadeiras():
         v = [t[(t.ano == a) & (t.campo == k)].cadeiras_menos_votos_pp.iloc[0] for a in anos]
         b = ax.bar(np.arange(3) + (j - 0.5) * w, v, w, color=COR[k], label=k)
         for x, y in zip(np.arange(3) + (j - 0.5) * w, v):
-            ax.text(x, y + (0.1 if y >= 0 else -0.25), f"{y:+.1f}", ha="center", fontsize=22, fontweight="bold")
+            ax.text(x, y + (0.1 if y >= 0 else -0.08), ("+" if y >= 0 else "") + br(y), ha="center", va="bottom" if y >= 0 else "top", fontsize=22, fontweight="bold")
     ax.set_xticks(range(3)); ax.set_xticklabels([str(a) for a in anos]); ax.axhline(0, color="#333"); ax.legend(frameon=False, fontsize=20)
+    lo, hi = ax.get_ylim(); ax.set_ylim(lo - 0.5, hi + 0.3)
     fecha(fig, "04_camara_bonus_de_cadeiras_por_campo")
 
 
@@ -114,9 +131,9 @@ def g05_puxadores():
     nomes = [f"{n.title()} ({p}-{u})" for n, p, u in zip(t.candidato, t.partido, t.uf)]
     ax.barh(nomes, t.cadeiras_a_mais_pelo_candidato, color="#F2A93B")
     for i, (v, vv) in enumerate(zip(t.cadeiras_a_mais_pelo_candidato, t.votos)):
-        ax.text(v + 0.1, i, f"{int(v)}  ({vv/1e6:.2f} mi de votos)", va="center", fontsize=21)
+        ax.text(v + 0.1, i, f"{int(v)}  ({br(vv/1e6, 2)} mi de votos)", va="center", fontsize=21)
     ax.set_xlabel("cadeiras"); ax.set_xlim(0, t.cadeiras_a_mais_pelo_candidato.max() * 1.45)
-    fecha(fig, "05_puxadores_cadeiras_garantidas", FONTE + " Redistribuição refeita com a regra que reproduz as 513 cadeiras.")
+    fecha(fig, "05_puxadores_cadeiras_garantidas", "Fonte: TSE (resultado oficial e dados abertos, 07/out/2026). Redistribuição refeita com a regra que reproduz as 513 cadeiras.")
 
 
 def g06_senado():
@@ -147,7 +164,7 @@ def g07_governos():
     fecha(fig, "07_governos_por_partido_2026")
 
 
-def mapa(df, col, titulo, sub, nome, cmap="RdBu", vmax=10, rotulo="pontos percentuais"):
+def mapa(df, col, titulo, sub, nome, cmap="RdBu", vmax=10, rotulo="pontos percentuais", nota=None):
     gj = json.loads((RAIZ / "dados/brutos/ibge/malha_municipios_minima.json").read_text(encoding="utf-8"))
     val = dict(zip(df.ibge.astype(str), df[col]))
     patches, vals = [], []
@@ -168,7 +185,7 @@ def mapa(df, col, titulo, sub, nome, cmap="RdBu", vmax=10, rotulo="pontos percen
     pc.set_array(np.clip(np.array(vals), -vmax, vmax)); pc.set_clim(-vmax, vmax)
     ax.add_collection(pc); ax.set_xlim(-74.5, -34); ax.set_ylim(-34, 5.5); ax.set_aspect("equal"); ax.axis("off")
     cax = fig.add_axes([0.78, 0.25, 0.015, 0.45]); cb = fig.colorbar(pc, cax=cax); cb.set_label(rotulo + " (azul = mais voto de direita)", fontsize=18); cb.ax.tick_params(labelsize=18)
-    fecha(fig, nome, "Fonte: TSE e IBGE (malha). R1: escala de especialistas. Cor limitada a ±" + str(vmax) + " pp; municípios pequenos oscilam muito.")
+    fecha(fig, nome, nota or ("Fonte: TSE e IBGE (malha). R1: escala de especialistas. Cor limitada a ±" + str(vmax) + " pp; municípios pequenos oscilam muito."))
 
 
 def g08_mapa():
@@ -180,18 +197,18 @@ def g09_perfil():
     t = pd.DataFrame(R["b2"]["perfil_x_swing"]).query("cargo=='deputado federal'")
     nomes = {"pct_urbana": "% urbana", "pct_pretos_pardos": "% pretos e pardos", "pct_60mais": "% com 60 anos ou mais", "pct_superior": "% com superior completo", "pct_evangelicos": "% evangélicos", "pct_catolicos": "% católicos", "log_pib_pc": "PIB per capita (log)", "agro_share": "% agropecuária no valor adicionado", "bf_por_100hab": "Bolsa Família por 100 hab."}
     t = t.iloc[::-1]
-    fig, ax = novo("O perfil do município quase não explica a variação do voto", "Efeito em 2026 menos o de 2018→2022 (pp por desvio-padrão, IC 95%). A UF sozinha explica 20% da variação; o perfil soma só 1,4 ponto")
-    fig.subplots_adjust(left=0.31)
+    fig, ax = novo("O perfil do município quase não explica a variação do voto", "2026 contra 2018→2022, pp por desvio-padrão (IC 95%), direita pela escala R1 · a UF explica 20%; o perfil, 1,4 ponto")
+    fig.subplots_adjust(left=0.31, bottom=0.15)
     y = np.arange(len(t))
     ax.errorbar(t.coef_2026_menos_placebo_pp, y, xerr=[t.coef_2026_menos_placebo_pp - t.ic95_diferenca_baixo, t.ic95_diferenca_alto - t.coef_2026_menos_placebo_pp], fmt="o", color="#1F4E9C", ecolor="#7A8CB8", capsize=6, ms=11, lw=2.5)
     ax.set_yticks(y); ax.set_yticklabels([nomes[v] for v in t.variavel]); ax.axvline(0, color="#333")
-    ax.set_xlabel("pp por desvio-padrão (positivo = mais voto de direita em 2026 que no padrão anterior)")
+    ax.set_xlabel("pp por desvio-padrão (positivo = mais voto de direita em 2026 que antes)", fontsize=20)
     fecha(fig, "09_perfil_do_municipio_x_variacao", FONTE + " Relação entre municípios, não entre pessoas (falácia ecológica).")
 
 
 def g10_pesquisas():
     t = pd.read_csv(RES / "c2_erro_por_pesquisa.csv").sort_values("erro_vencedor_pp")
-    fig, ax = novo("Pesquisas: o primeiro colocado teve mais voto do que a pesquisa mostrou", "Erro no % do primeiro colocado (pesquisa menos urna, % oficial do TSE), pontos, 32 pesquisas de Datafolha e Quaest da véspera")
+    fig, ax = novo("Pesquisas: o primeiro colocado teve mais voto do que a pesquisa", "Pesquisa menos urna no % do primeiro colocado, em pontos · 32 pesquisas de Datafolha e Quaest da véspera")
     cores = ["#1F4E9C" if i == "Quaest" else "#C0392B" for i in t.instituto]
     ax.barh([f"{u} {i[:1]}" for u, i in zip(t.uf, t.instituto)], t.erro_vencedor_pp, color=cores)
     ax.axvline(0, color="#333")
@@ -226,9 +243,31 @@ def g12_arrasto():
         ax.bar(np.arange(3) + (j - 1) * w, v, w, label=str(a), color=["#B8C2D1", "#7A8CB8", "#1F4E9C"][j])
         for x, y in zip(np.arange(3) + (j - 1) * w, v):
             if not np.isnan(y):
-                ax.text(x, y + 0.01, f"{y:.2f}", ha="center", fontsize=20, fontweight="bold")
+                ax.text(x, y + 0.01, br(y, 2), ha="center", fontsize=20, fontweight="bold")
     ax.set_xticks(range(3)); ax.set_xticklabels(cargos); ax.legend(frameon=False, fontsize=20)
     fecha(fig, "12_arrasto_presidenciavel", "Fonte: TSE. Presidente: Jair Bolsonaro (PSL) em 2018 e (PL) em 2022, Flávio Bolsonaro (PL) em 2026. Senado 2022 não entra (1 vaga por UF).")
+
+
+def g30_arrasto_tres_grupos():
+    t = pd.DataFrame(R["b5"]["arrasto_tres_grupos"])
+    fig, ax = novo("Voto em Bolsonaro para presidente × voto na direita nos outros cargos", "Correlação entre municípios (não é causa), média por UF ponderada pelo eleitorado · direita = direita + centro-direita")
+    cargos = ["deputado federal", "governador", "senador"]
+    w = 0.26
+    for j, a in enumerate((2018, 2022, 2026)):
+        v = [t[(t.ano == a) & (t.cargo == c)].correlacao_media_ponderada_por_uf.tolist() for c in cargos]
+        v = [x[0] if x else np.nan for x in v]
+        ax.bar(np.arange(3) + (j - 1) * w, v, w, label=str(a), color=["#B8C2D1", "#7A8CB8", "#1F4E9C"][j])
+        for x, y in zip(np.arange(3) + (j - 1) * w, v):
+            if not np.isnan(y):
+                ax.text(x, y + 0.01, br(y, 2), ha="center", fontsize=20, fontweight="bold")
+    ax.set_xticks(range(3)); ax.set_xticklabels(cargos); ax.legend(frameon=False, fontsize=20)
+    fecha(fig, "30_arrasto_presidenciavel_tres_grupos", "Fonte: TSE. Presidente: Jair Bolsonaro (PSL) em 2018 e (PL) em 2022, Flávio Bolsonaro (PL) em 2026. Senado 2022 não entra (1 vaga por UF). Direita pela autodeclaração dos partidos (Valor Econômico, ago/2026).")
+
+
+def g29_mapa_tres_grupos():
+    s = pd.read_csv(RES / "b5_swing_municipal_deputado_federal_tres_grupos.csv")
+    mapa(s, "swing_dir", "Onde o voto na direita subiu e desceu", "Deputado federal, de 2022 para 2026, % dos votos válidos em partidos de direita ou centro-direita, por município", "29_mapa_variacao_voto_direita_tres_grupos",
+         nota="Fonte: TSE e IBGE (malha). Direita = partidos que se declaram de direita ou de centro-direita (Valor Econômico, ago/2026). Cor limitada a ±10 pp; municípios pequenos oscilam muito.")
 
 
 def g13_abstencao():
@@ -236,11 +275,11 @@ def g13_abstencao():
     fig, ax = novo("Abstenção: estável entre 2022 e 2026", "% de eleitores aptos que não compareceram, eleição para deputado federal")
     ax.plot(t.ano, t.abstencao_pct, marker="o", color="#1F4E9C", lw=4, ms=14)
     for x, y in zip(t.ano, t.abstencao_pct):
-        ax.text(x, y + 0.4, f"{y:.1f}%", ha="center", fontsize=22, fontweight="bold")
-    cf = R["b3"]["contrafactual_comparecimento_2022"]
-    ax.text(0.02, 0.9, f"Com o comparecimento de 2022, o voto de direita seria {cf['direita_pct_com_comparecimento_de_2022']:.2f}% (real: {cf['direita_pct_real_2026']:.2f}%).", transform=ax.transAxes, fontsize=21)
+        ax.text(x, y + 0.4, f"{br(y)}%", ha="center", fontsize=22, fontweight="bold")
+    cf = R["b5"]["contrafactual_comparecimento_2022_tres_grupos"]
+    ax.text(0.02, 0.9, f"Com o comparecimento de 2022, a direita (com a centro-direita) teria {br(cf['direita_pct_com_comparecimento_de_2022'], 2)}% dos votos para deputado; teve {br(cf['direita_pct_real_2026'], 2)}%.", transform=ax.transAxes, fontsize=20)
     ax.set_ylim(14, 24); ax.set_xticks(t.ano)
-    fecha(fig, "13_abstencao_nacional")
+    fecha(fig, "13_abstencao_nacional", "Fonte: TSE (resultado oficial e dados abertos, 07/out/2026). Direita = partidos que se declaram de direita ou de centro-direita (Valor Econômico, ago/2026).")
 
 
 def g14_placar():
@@ -262,6 +301,6 @@ def g14_placar():
 
 
 if __name__ == "__main__":
-    for f in (g01_camara_campos, g02_ganhos_perdas, g03_origem, g04_votos_cadeiras, g05_puxadores, g06_senado, g07_governos, g08_mapa, g09_perfil, g10_pesquisas, g11_reeleicao, g12_arrasto, g13_abstencao, g14_placar):
+    for f in (g01_camara_campos, g02_ganhos_perdas, g03_origem, g04_votos_cadeiras, g05_puxadores, g06_senado, g07_governos, g08_mapa, g09_perfil, g10_pesquisas, g11_reeleicao, g12_arrasto, g13_abstencao, g14_placar, g29_mapa_tres_grupos, g30_arrasto_tres_grupos):
         f()
         print(f.__name__, "ok", flush=True)

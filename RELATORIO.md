@@ -288,6 +288,23 @@ Contrafactual com o comparecimento de 2022: diferença de −0,09 ponto. Variaç
 
 Mapa: [`resultados/figuras/video/08_mapa_variacao_voto_direita_deputado_federal.png`](resultados/figuras/video/08_mapa_variacao_voto_direita_deputado_federal.png).
 
+### 5.1 O bloco B pela regra dos três grupos (emenda 24)
+
+Direita = direita + centro-direita, pela autodeclaração (a regra do vídeo; `ferramentas/analise-13-geografia-tres-grupos.py`). **Arrasto:**
+
+| ano | cargo | correlacao_media_ponderada_por_uf | ufs |
+|---|---|---|---|
+| 2018 | deputado federal | 0,21 | 26 |
+| 2018 | governador | 0,39 | 22 |
+| 2018 | senador | 0,53 | 25 |
+| 2022 | deputado federal | 0,26 | 26 |
+| 2022 | governador | 0,71 | 21 |
+| 2026 | deputado federal | 0,33 | 26 |
+| 2026 | governador | 0,71 | 24 |
+| 2026 | senador | 0,76 | 26 |
+
+A UF explica 28,5% da variação do swing da direita para deputado federal; o perfil acrescenta 1,6 ponto. Com o comparecimento de 2022, a direita teria 48,0% dos votos para deputado; teve 48,0%. Gráficos: [`29_mapa_variacao_voto_direita_tres_grupos.png`](resultados/figuras/video/29_mapa_variacao_voto_direita_tres_grupos.png) e [`30_arrasto_presidenciavel_tres_grupos.png`](resultados/figuras/video/30_arrasto_presidenciavel_tres_grupos.png).
+
 ## 6. As pesquisas (bloco C)
 
 32 pesquisas (Datafolha 6, Quaest 26) em 27 disputas; 30 com registro no TSE na janela de 26/set a 03/out. Erro do primeiro colocado (o eleito ou, nos 7 estados com 2º turno, o primeiro do 1º turno), contra o percentual oficial do TSE (que inclui candidaturas anuladas sub judice, como fazem as pesquisas): média com sinal −3,0 ponto; em valor absoluto 4,1; erro da margem em valor absoluto 7,1. Fora da margem declarada (2 pontos quando o plano amostral não informa): proporção 25 de 32, diferença entre os dois primeiros 21 de 32.
@@ -339,11 +356,11 @@ Mesmo cálculo, mesma janela (a última pesquisa de cada instituto na semana ant
 | H9 | Do centro para a direita, e dentro da direita para o PL | consistente | alta | direita (com a centro-direita) 44,3% → 48,0% dos votos e 250 → 265 deputados; centro 29,1% → 25,7%; PL 16,6% → 22,7% |
 | H2 | Referendo sobre o governo | não testável | baixa | só há uma aprovação capturada (Quaest, jul/2026, 48 × 47); sem série |
 | H3 | Anti-incumbência (cansaço de quem está no cargo) | inconsistente | média | deputados reeleitos: 57,5% contra 55,6% em 2022 |
-| H4 | Estrutura e eficiência (listas, federações, puxadores) | consistente | alta | bônus de cadeiras da direita: −0,1 → +2,1 → +3,3 pp; puxadores |
+| H4 | Estrutura e eficiência (listas, federações, puxadores) | consistente | alta | bônus de cadeiras da direita pela R1: −0,1 → +2,1 → +3,3 pp (com a centro-direita: +1,0 → +4,4 → +3,7); puxadores |
 | H5 | Máquina (emendas, fundo, mandato) | não testável | baixa | emendas não foram analisadas nesta rodada |
 | H6 | Casos e escândalos (Master, STF, INSS, condenação) | não testável | baixa | voto na PEC da Blindagem sem relação com a eleição (−5,2 pp); séries de opinião insuficientes |
-| H7 | Composição do eleitorado (perfil e abstenção) | inconsistente | média | perfil soma 1,4 ponto de R² além da UF; abstenção 20,8% → 20,9% |
-| H8 | Arrasto do candidato à Presidência | consistente | alta | correlação com o voto de direita: senador 0,53 → 0,70, deputado 0,31 → 0,39 |
+| H7 | Composição do eleitorado (perfil e abstenção) | inconsistente | média | perfil soma 1,6 ponto de R² além da UF; abstenção 20,8% → 20,9% |
+| H8 | Arrasto do candidato à Presidência | consistente | alta | correlação com o voto na direita (com a centro-direita): senador 0,53 → 0,76, deputado 0,26 → 0,33 |
 
 Voto no plenário × desempenho (D3):
 

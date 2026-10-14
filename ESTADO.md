@@ -1,5 +1,7 @@
 # ESTADO: onde o trabalho parou
 
+🧹 **14/out/2026: as bases pesadas baixadas do TSE e afins foram apagadas do disco** (pedido do autor, depois do vídeo longo 8 pronto). Resultados, relatório, código e manifestos seguem no git; as capturas de páginas e os derivados leves ficaram no disco. O que saiu, o tamanho e o comando de cada download: `docs/DADOS_LOCAIS.md`.
+
 **Atualizado em:** 07/out/2026.
 
 ## Em uma frase
